@@ -1,0 +1,10 @@
+{
+  "version": "1.3.0",
+  "channel": "stable",
+  "dependencies": [],
+  "artifact": {
+    "type": "local",
+    "location": "examples/artifacts/codex-1.3.0.txt",
+    "sha256": "e47266ca5c68dafc923cb3d4c4bfdd38e6bbe569c4df7bb441f10ca86cd89799"
+  }
+}

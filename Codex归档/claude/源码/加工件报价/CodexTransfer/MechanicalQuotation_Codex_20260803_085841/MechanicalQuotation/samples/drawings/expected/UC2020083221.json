@@ -1,0 +1,26 @@
+{
+  "bom_item": "UC2020083221",
+  "bounding_box": {
+    "length_min": 36.0,
+    "length_max": 44.0,
+    "width_min": 36.0,
+    "width_max": 44.0,
+    "height_min": 0,
+    "height_max": 0
+  },
+  "material": {
+    "text_contains": [],
+    "source": "DRAWING_TEXT",
+    "confidence_min": 0.5
+  },
+  "surface_treatment": {
+    "present": true,
+    "source": "DRAWING_TEXT"
+  },
+  "holes": {
+    "count_min": 0
+  },
+  "threads": {
+    "present": false
+  }
+}

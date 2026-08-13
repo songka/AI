@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.1",
+  "config_version": 5,
+  "mode": "DISTRIBUTED",
+  "skills": [
+    {
+      "skill_id": "part.cost.estimator",
+      "name_zh": "LFAF机械零件报价分析 Skill",
+      "endpoint": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\10-自動報價系統\\data\\data\\external-skills\\part.cost.estimator\\3.0.0",
+      "source_type": "FOLDER",
+      "skill_version": "3.0.0",
+      "protocol_version": "1.0",
+      "supported_steps": [
+        "DOCUMENT_UNDERSTANDING",
+        "FEATURE_EXTRACTION",
+        "MATERIAL_CLASSIFICATION",
+        "PROCESS_PLANNING",
+        "TIME_ESTIMATION",
+        "LINE_ITEM_PRICING",
+        "UNKNOWN_ESTIMATION",
+        "PRICE_AUDIT",
+        "REVIEW_RECOMMENDATION",
+        "QUOTE_ASSEMBLY"
+      ],
+      "supports_full_quotation": false,
+      "supports_excel_export": false,
+      "excel_export_command": [],
+      "excel_export_timeout_seconds": 60,
+      "execution_requirements": [],
+      "enabled": true
+    }
+  ],
+  "full_skill_id": null,
+  "step_routes": {
+    "DOCUMENT_UNDERSTANDING": {
+      "provider": "builtin"
+    },
+    "PART_CLASSIFICATION": {
+      "provider": "builtin"
+    },
+    "FEATURE_EXTRACTION": {
+      "provider": "builtin"
+    },
+    "MATERIAL_CLASSIFICATION": {
+      "provider": "builtin"
+    },
+    "PROCESS_PLANNING": {
+      "provider": "builtin"
+    },
+    "TIME_ESTIMATION": {
+      "provider": "builtin"
+    },
+    "LINE_ITEM_PRICING": {
+      "provider": "builtin"
+    },
+    "UNKNOWN_ESTIMATION": {
+      "provider": "builtin"
+    },
+    "QUOTE_ASSEMBLY": {
+      "provider": "builtin"
+    },
+    "PRICE_AUDIT": {
+      "provider": "builtin"
+    },
+    "REVIEW_RECOMMENDATION": {
+      "provider": "builtin"
+    }
+  },
+  "category_routes": {},
+  "debug_mode": false,
+  "excel_export_skill_id": null,
+  "updated_at": "2026-08-07T05:34:50.546443+00:00",
+  "updated_by": "5b8887d7-5fe0-4293-b9b8-0e670fbdfc37"
+}

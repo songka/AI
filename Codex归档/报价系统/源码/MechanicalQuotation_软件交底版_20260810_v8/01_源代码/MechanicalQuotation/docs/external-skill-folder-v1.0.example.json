@@ -1,0 +1,33 @@
+{
+  "skill_id": "company.quotation.skill",
+  "skill_name_zh": "公司报价智能体",
+  "skill_version": "1.0.0",
+  "protocol_version": "1.0",
+  "supported_steps": [
+    "DOCUMENT_UNDERSTANDING",
+    "PROCESS_PLANNING",
+    "PRICE_AUDIT"
+  ],
+  "supports_full_quotation": false,
+  "instruction_file": "SKILL.md",
+  "reference_files": [
+    "公司工艺规则.md",
+    "审核注意事项.yaml"
+  ],
+  "commands": [
+    {
+      "command_id": "excel.modify",
+      "name_zh": "报价工作簿读写修改",
+      "kind": "PYTHON",
+      "task_types": ["EXCEL_READ", "EXCEL_WRITE", "EXCEL_MODIFY", "EXCEL_EXPORT"],
+      "command": [
+        "python", "scripts/workbook_tool.py",
+        "--input-json", "{input_json}", "--output-json", "{output_json}",
+        "--input-excel", "{input_excel}", "--output-excel", "{output_excel}"
+      ],
+      "supported_steps": [],
+      "timeout_seconds": 90,
+      "requirements": ["python", "excel-read-write"]
+    }
+  ]
+}

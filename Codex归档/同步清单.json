@@ -1,0 +1,125 @@
+{
+  "synced_at": "2026-08-13T07:24:59.184423+00:00",
+  "projects": [
+    {
+      "project": "加工件报价",
+      "session_count": 4,
+      "source_files": 1057
+    },
+    {
+      "project": "自动签核",
+      "session_count": 2,
+      "source_files": 53
+    },
+    {
+      "project": "claude",
+      "session_count": 3,
+      "source_files": 1138
+    },
+    {
+      "project": "測試",
+      "session_count": 26,
+      "source_files": 2
+    },
+    {
+      "project": "ce",
+      "session_count": 1,
+      "source_files": 0
+    },
+    {
+      "project": "飞书自动签核",
+      "session_count": 18,
+      "source_files": 64
+    },
+    {
+      "project": "象棋",
+      "session_count": 3,
+      "source_files": 33
+    },
+    {
+      "project": "翻译工作",
+      "session_count": 7,
+      "source_files": 66
+    },
+    {
+      "project": "测试",
+      "session_count": 18,
+      "source_files": 383
+    },
+    {
+      "project": "时序图",
+      "session_count": 13,
+      "source_files": 87
+    },
+    {
+      "project": "料号检测系统",
+      "session_count": 11,
+      "source_files": 546
+    },
+    {
+      "project": "料号查找",
+      "session_count": 29,
+      "source_files": 121
+    },
+    {
+      "project": "报告编写",
+      "session_count": 28,
+      "source_files": 562
+    },
+    {
+      "project": "报价系统",
+      "session_count": 14,
+      "source_files": 7630
+    },
+    {
+      "project": "meili-2",
+      "session_count": 3,
+      "source_files": 27
+    },
+    {
+      "project": "meili",
+      "session_count": 4,
+      "source_files": 3
+    },
+    {
+      "project": "PLC-Programming(PLC编程开发综合)",
+      "session_count": 4,
+      "source_files": 86
+    },
+    {
+      "project": "wo",
+      "session_count": 1,
+      "source_files": 0
+    },
+    {
+      "project": "jia",
+      "session_count": 1,
+      "source_files": 0
+    },
+    {
+      "project": "sites-plugin-sites-openai-bundled",
+      "session_count": 2,
+      "source_files": 25
+    },
+    {
+      "project": "ce",
+      "session_count": 1,
+      "source_files": 0
+    },
+    {
+      "project": "AI管理",
+      "session_count": 4,
+      "source_files": 162
+    },
+    {
+      "project": "AI 编程助手会话迁移与归档工具",
+      "session_count": 12,
+      "source_files": 328
+    },
+    {
+      "project": "NewAPI 三客户端自动配置工具",
+      "session_count": 6,
+      "source_files": 21
+    }
+  ]
+}

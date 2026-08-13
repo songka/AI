@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h2>配置文件</h2>
+    {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+    {% if message %}<div class="alert alert-info">{{ message }}</div>{% endif %}
+    {% if account_warning %}<div class="alert alert-warning">{{ account_warning }} 当前 Web 账号库固定为 {{ local_account_path }}，点击下方按钮可复制 SMB 账号库到本地；若网络配置可写，会同步切换配置。</div>{% endif %}
+    <div class="alert alert-warning">修改配置前请确认相关 Excel、JSON、TXT 文件已备份，且当前电脑具备共享路径访问权限。</div>
+    <form method="post" class="form-grid">
+        <label>失效料号数据库路径
+            <input type="text" name="invalid_part_db" value="{{ config.invalid_part_db }}" required>
+        </label>
+        <label>绑定料号库路径
+            <input type="text" name="binding_library" value="{{ config.binding_library }}" required>
+        </label>
+        <label>重要物料列表路径
+            <input type="text" name="important_materials" value="{{ config.important_materials }}" required>
+        </label>
+        <label>屏蔽申请人列表路径
+            <input type="text" name="blocked_applicants" value="{{ config.blocked_applicants }}" required>
+        </label>
+        <label>系统料号库路径
+            <input type="text" name="system_part_db" value="{{ config.system_part_db }}" required>
+        </label>
+        <label>料号资源目录
+            <input type="text" name="part_asset_dir" value="{{ config.part_asset_dir }}" required>
+        </label>
+        <label>资源 UNC 前缀（用于显示/转换）
+            <input type="text" name="asset_unc_prefix" value="{{ config.asset_unc_prefix }}">
+        </label>
+        <label>资源本地前缀（用于显示/转换）
+            <input type="text" name="asset_local_prefix" value="{{ config.asset_local_prefix }}">
+        </label>
+        <div class="alert alert-info">
+            公共槽账号库（配置文件保存时保持原值）：<code>{{ config.account_store }}</code><br>
+            Web 运行时使用本地账号库：<code>{{ local_account_path }}</code>
+        </div>
+        <input type="hidden" name="account_store" value="{{ config.account_store }}">
+        <label>UA 成品资料目录
+            <input type="text" name="ua_lookup_dir" value="{{ config.ua_lookup_dir }}">
+        </label>
+        <button type="submit" onclick="return confirm('确认保存配置文件路径？保存后将影响后续检测和资料维护。');">保存</button>
+    </form>
+    <form method="post" action="/admin/config/use-local" style="margin-top:1rem;">
+        <button type="submit" onclick="return confirm('确认复制 SMB 账号库到 Web 本地账号库？');">一键复制 SMB 账号库到本地</button>
+    </form>
+</div>
+{% endblock %}

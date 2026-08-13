@@ -1,0 +1,4 @@
+interface:
+  display_name: "报价 Skill / Agent 引导式设计工具"
+  short_description: "Guided builder for quotation Skills, Agents, and routes"
+  default_prompt: "Use $external-quotation-skill-refactor to guide me one decision at a time while analyzing or creating import-ready quotation Skills and Agents."

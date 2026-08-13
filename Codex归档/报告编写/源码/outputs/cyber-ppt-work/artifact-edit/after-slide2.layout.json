@@ -1,0 +1,1735 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/hwbqtkby",
+    "id": "hwbqtkby",
+    "slide": 2,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Microsoft JhengHei"
+      },
+      "minorFont": {
+        "latinTypeface": "Microsoft JhengHei"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Microsoft JhengHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9072xkry",
+      "id": "2",
+      "name": "Text 0",
+      "bbox": [
+        69.12,
+        25.92,
+        1118.4,
+        52.8
+      ],
+      "geometry": "rect",
+      "text": "目录｜从系统逻辑到量产应用，再到自主化计划",
+      "textPreview": "目录｜从系统逻辑到量产应用，再到自主化计划",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft JhengHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "目录｜从系统逻辑到量产应用，再到自主化计划"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "目录｜从系统逻辑到量产应用，再到自主化计划",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "目录｜从系统逻辑到量产应用，再到自主化计划",
+              "fontSize": 34.67,
+              "typeface": "Microsoft JhengHei",
+              "color": "#00457A",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ozy1ofad",
+      "id": "3",
+      "name": "Shape 1",
+      "bbox": [
+        69.12,
+        94.08,
+        1046.4,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#00457A",
+      "lineWidth": 1.47
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b29kza94",
+      "id": "4",
+      "name": "Shape 2",
+      "bbox": [
+        0,
+        654.72,
+        1279.97,
+        65.28
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D9",
+      "lineColor": "rgba(209, 209, 209, 0)",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a10jqpsj",
+      "id": "5",
+      "name": "Text 3",
+      "bbox": [
+        36.48,
+        679.68,
+        26.88,
+        16.32
+      ],
+      "geometry": "rect",
+      "text": "2",
+      "textPreview": "2",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft JhengHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2",
+              "fontSize": 10,
+              "typeface": "Microsoft JhengHei",
+              "color": "#00457A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4r21kru",
+      "id": "6",
+      "name": "Text 4",
+      "bbox": [
+        96,
+        676.8,
+        700.8,
+        19.2
+      ],
+      "geometry": "rect",
+      "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+      "textPreview": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft JhengHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+              "fontSize": 8.93,
+              "typeface": "Arial",
+              "color": "#00457A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/kvil07y9",
+      "id": "75",
+      "name": "Image 0",
+      "bbox": [
+        1184.64,
+        668.16,
+        63.36,
+        40.32
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 2109
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 2109
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cv2xgzet",
+      "id": "76",
+      "name": "directory-lead",
+      "bbox": [
+        52,
+        112,
+        120,
+        25
+      ],
+      "geometry": "rect",
+      "text": "汇报路径",
+      "textPreview": "汇报路径",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Microsoft JhengHei",
+        "color": "#0B5B92",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "汇报路径"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "汇报路径",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft JhengHei",
+            "color": "#0B5B92",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "汇报路径",
+              "fontSize": 14,
+              "typeface": "Microsoft JhengHei",
+              "color": "#0B5B92",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dwbe94fe",
+      "id": "77",
+      "name": "directory-summary",
+      "bbox": [
+        170,
+        110,
+        875,
+        28
+      ],
+      "geometry": "rect",
+      "text": "通用视觉逻辑已在4类量产方案复用；汇报最后聚焦自制蜘蛛手的成本、排程与验证。",
+      "textPreview": "通用视觉逻辑已在4类量产方案复用；汇报最后聚焦自制蜘蛛手的成本、排程与验证。",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Microsoft JhengHei",
+        "color": "#5E6872",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "通用视觉逻辑已在4类量产方案复用；汇报最后聚焦自制蜘蛛手的成本、排程与验证。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "通用视觉逻辑已在4类量产方案复用；汇报最后聚焦自制蜘蛛手的成本、排程与验证。",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft JhengHei",
+            "color": "#5E6872",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "通用视觉逻辑已在4类量产方案复用；汇报最后聚焦自制蜘蛛手的成本、排程与验证。",
+              "fontSize": 14,
+              "typeface": "Microsoft JhengHei",
+              "color": "#5E6872",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p0fapwr",
+      "id": "78",
+      "name": "directory-row-1",
+      "bbox": [
+        48,
+        146,
+        1165,
+        103
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#B7CAD8",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3q9w3uxc",
+      "id": "79",
+      "name": "directory-num-bg-1",
+      "bbox": [
+        48,
+        146,
+        82,
+        103
+      ],
+      "geometry": "rect",
+      "fillColor": "#00457A",
+      "lineColor": "#00457A",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ret8r2dk",
+      "id": "80",
+      "name": "directory-num-1",
+      "bbox": [
+        48,
+        173,
+        82,
+        40
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Microsoft JhengHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Microsoft JhengHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 28,
+              "typeface": "Microsoft JhengHei",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tk7yxcz",
+      "id": "81",
+      "name": "directory-title-1",
+      "bbox": [
+        158,
+        162,
+        455,
+        33
+      ],
+      "geometry": "rect",
+      "text": "系统架构与视觉流程",
+      "textPreview": "系统架构与视觉流程",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "Microsoft JhengHei",
+        "color": "#00457A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "系统架构与视觉流程"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "系统架构与视觉流程",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Microsoft JhengHei",
+            "color": "#00457A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "系统架构与视觉流程",
+              "fontSize": 21,
+              "typeface": "Microsoft JhengHei",
+              "color": "#00457A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tgvqtcva",
+      "id": "82",
+      "name": "directory-desc-1",
+      "bbox": [
+        158,
+        201,
+        665,
+        28
+      ],
+      "geometry": "rect",
+      "text": "两条控制路径｜拍照、补料、匹配、叠料判断与补偿闭环",
+      "textPreview": "两条控制路径｜拍照、补料、匹配、叠料判断与补偿闭环",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Microsoft JhengHei",
+        "color": "#5E6872",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "两条控制路径｜拍照、补料、匹配、叠料判断与补偿闭环"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "两条控制路径｜拍照、补料、匹配、叠料判断与补偿闭环",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft JhengHei",
+            "color": "#5E6872",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "两条控制路径｜拍照、补料、匹配、叠料判断与补偿闭环",
+              "fontSize": 14,
+              "typeface": "Microsoft JhengHei",
+              "color": "#5E6872",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sf2p07up",
+      "id": "83",
+      "name": "directory-pages-1",
+      "bbox": [
+        818,
+        183,
+        118,
+        28
+      ],
+      "geometry": "rect",
+      "text": "P03–04",
+      "textPreview": "P03–04",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Microsoft JhengHei",
+        "color": "#0B5B92",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "P03–04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "P03–04",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft JhengHei",
+            "color": "#0B5B92",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "P03–04",
+              "fontSize": 16,
+              "typeface": "Microsoft JhengHei",
+              "color": "#0B5B92",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/cbups3ah",
+      "id": "84",
+      "bbox": [
+        952,
+        156,
+        249,
+        83
+      ],
+      "geometry": "rect",
+      "alt": "目录章节1真实设备照片",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "3b384715-1048-4137-855f-e9163f9bc1a6",
+        "contentType": "image/jpeg",
+        "byteLength": 13279572
+      }
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ipk7udcn",
+      "id": "85",
+      "name": "directory-row-2",
+      "bbox": [
+        48,
+        267,
+        1165,
+        103
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#B7CAD8",
+      "lineWidth": 1
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5sbqpsve",
+      "id": "86",
+      "name": "directory-num-bg-2",
+      "bbox": [
+        48,
+        267,
+        82,
+        103
+      ],
+      "geometry": "rect",
+      "fillColor": "#00457A",
+      "lineColor": "#00457A",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r2pwnut",
+      "id": "87",
+      "name": "directory-num-2",
+      "bbox": [
+        48,
+        294,
+        82,
+        40
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Microsoft JhengHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Microsoft JhengHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 28,
+              "typeface": "Microsoft JhengHei",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3md8zmtc",
+      "id": "88",
+      "name": "directory-title-2",
+      "bbox": [
+        158,
+        283,
+        455,
+        33
+      ],
+      "geometry": "rect",
+      "text": "四类量产应用",
+      "textPreview": "四类量产应用",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "Microsoft JhengHei",
+        "color": "#00457A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "四类量产应用"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "四类量产应用",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Microsoft JhengHei",
+            "color": "#00457A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "四类量产应用",
+              "fontSize": 21,
+              "typeface": "Microsoft JhengHei",
+              "color": "#00457A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2l4r6hc7",
+      "id": "89",
+      "name": "directory-desc-2",
+      "bbox": [
+        158,
+        322,
+        665,
+        28
+      ],
+      "geometry": "rect",
+      "text": "K7自建轴｜K21四轴｜K41并联机械手｜四轴随线取放",
+      "textPreview": "K7自建轴｜K21四轴｜K41并联机械手｜四轴随线取放",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Microsoft JhengHei",
+        "color": "#5E6872",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "K7自建轴｜K21四轴｜K41并联机械手｜四轴随线取放"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "K7自建轴｜K21四轴｜K41并联机械手｜四轴随线取放",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft JhengHei",
+            "color": "#5E6872",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "K7自建轴｜K21四轴｜K41并联机械手｜四轴随线取放",
+              "fontSize": 14,
+              "typeface": "Microsoft JhengHei",
+              "color": "#5E6872",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kry50jap",
+      "id": "90",
+      "name": "directory-pages-2",
+      "bbox": [
+        818,
+        304,
+        118,
+        28
+      ],
+      "geometry": "rect",
+      "text": "P05–08",
+      "textPreview": "P05–08",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Microsoft JhengHei",
+        "color": "#0B5B92",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "P05–08"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "P05–08",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft JhengHei",
+            "color": "#0B5B92",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "P05–08",
+              "fontSize": 16,
+              "typeface": "Microsoft JhengHei",
+              "color": "#0B5B92",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/utgbmhcv",
+      "id": "91",
+      "bbox": [
+        952,
+        277,
+        249,
+        83
+      ],
+      "geometry": "rect",
+      "alt": "目录章节2真实设备照片",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "8d9da74e-29c9-4734-9a92-09ceb9d09a84",
+        "contentType": "image/png",
+        "byteLength": 1298493
+      }
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ypgny9sj",
+      "id": "92",
+      "name": "directory-row-3",
+      "bbox": [
+        48,
+        388,
+        1165,
+        103
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#B7CAD8",
+      "lineWidth": 1
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zqp4ret4",
+      "id": "93",
+      "name": "directory-num-bg-3",
+      "bbox": [
+        48,
+        388,
+        82,
+        103
+      ],
+      "geometry": "rect",
+      "fillColor": "#00457A",
+      "lineColor": "#00457A",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8vy54jal",
+      "id": "94",
+      "name": "directory-num-3",
+      "bbox": [
+        48,
+        415,
+        82,
+        40
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Microsoft JhengHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Microsoft JhengHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 28,
+              "typeface": "Microsoft JhengHei",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9w76xob6",
+      "id": "95",
+      "name": "directory-title-3",
+      "bbox": [
+        158,
+        404,
+        455,
+        33
+      ],
+      "geometry": "rect",
+      "text": "方案选型与成本对比",
+      "textPreview": "方案选型与成本对比",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "Microsoft JhengHei",
+        "color": "#00457A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "方案选型与成本对比"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "方案选型与成本对比",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Microsoft JhengHei",
+            "color": "#00457A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "方案选型与成本对比",
+              "fontSize": 21,
+              "typeface": "Microsoft JhengHei",
+              "color": "#00457A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtgn29sf",
+      "id": "96",
+      "name": "directory-desc-3",
+      "bbox": [
+        158,
+        443,
+        665,
+        28
+      ],
+      "geometry": "rect",
+      "text": "按节拍、精度、行程与材料成本选择适合的平台",
+      "textPreview": "按节拍、精度、行程与材料成本选择适合的平台",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Microsoft JhengHei",
+        "color": "#5E6872",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "按节拍、精度、行程与材料成本选择适合的平台"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "按节拍、精度、行程与材料成本选择适合的平台",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft JhengHei",
+            "color": "#5E6872",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "按节拍、精度、行程与材料成本选择适合的平台",
+              "fontSize": 14,
+              "typeface": "Microsoft JhengHei",
+              "color": "#5E6872",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7up4vet0",
+      "id": "97",
+      "name": "directory-pages-3",
+      "bbox": [
+        818,
+        425,
+        118,
+        28
+      ],
+      "geometry": "rect",
+      "text": "P09",
+      "textPreview": "P09",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Microsoft JhengHei",
+        "color": "#0B5B92",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "P09"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "P09",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft JhengHei",
+            "color": "#0B5B92",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "P09",
+              "fontSize": 16,
+              "typeface": "Microsoft JhengHei",
+              "color": "#0B5B92",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/r29cn6to",
+      "id": "98",
+      "bbox": [
+        952,
+        398,
+        249,
+        83
+      ],
+      "geometry": "rect",
+      "alt": "目录章节3真实设备照片",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "5906e574-75a6-44ef-a7c6-80a021e0c7e0",
+        "contentType": "image/png",
+        "byteLength": 1848614
+      }
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hkr618b2",
+      "id": "99",
+      "name": "directory-row-4",
+      "bbox": [
+        48,
+        509,
+        1165,
+        103
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#B7CAD8",
+      "lineWidth": 1
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxwf6xgz",
+      "id": "100",
+      "name": "directory-num-bg-4",
+      "bbox": [
+        48,
+        509,
+        82,
+        103
+      ],
+      "geometry": "rect",
+      "fillColor": "#ED7D31",
+      "lineColor": "#ED7D31",
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fi5gz2hk",
+      "id": "101",
+      "name": "directory-num-4",
+      "bbox": [
+        48,
+        536,
+        82,
+        40
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Microsoft JhengHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Microsoft JhengHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 28,
+              "typeface": "Microsoft JhengHei",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gjyx87y5",
+      "id": "102",
+      "name": "directory-title-4",
+      "bbox": [
+        158,
+        525,
+        455,
+        33
+      ],
+      "geometry": "rect",
+      "text": "自制蜘蛛手推进计划",
+      "textPreview": "自制蜘蛛手推进计划",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "Microsoft JhengHei",
+        "color": "#00457A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "自制蜘蛛手推进计划"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "自制蜘蛛手推进计划",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Microsoft JhengHei",
+            "color": "#00457A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "自制蜘蛛手推进计划",
+              "fontSize": 21,
+              "typeface": "Microsoft JhengHei",
+              "color": "#00457A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk7y1czq",
+      "id": "103",
+      "name": "directory-desc-4",
+      "bbox": [
+        158,
+        564,
+        665,
+        28
+      ],
+      "geometry": "rect",
+      "text": "首台预计材料 ¥33,862｜10月底完成调试与量产验证",
+      "textPreview": "首台预计材料 ¥33,862｜10月底完成调试与量产验证",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Microsoft JhengHei",
+        "color": "#5E6872",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "首台预计材料 ¥33,862｜10月底完成调试与量产验证"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "首台预计材料 ¥33,862｜10月底完成调试与量产验证",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft JhengHei",
+            "color": "#5E6872",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "首台预计材料 ¥33,862｜10月底完成调试与量产验证",
+              "fontSize": 14,
+              "typeface": "Microsoft JhengHei",
+              "color": "#5E6872",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lgfahgb",
+      "id": "104",
+      "name": "directory-pages-4",
+      "bbox": [
+        818,
+        546,
+        118,
+        28
+      ],
+      "geometry": "rect",
+      "text": "P10",
+      "textPreview": "P10",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Microsoft JhengHei",
+        "color": "#ED7D31",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "P10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "P10",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft JhengHei",
+            "color": "#ED7D31",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "P10",
+              "fontSize": 16,
+              "typeface": "Microsoft JhengHei",
+              "color": "#ED7D31",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 36,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/i18f294j",
+      "id": "105",
+      "bbox": [
+        952,
+        519,
+        249,
+        83
+      ],
+      "geometry": "rect",
+      "alt": "目录章节4真实设备照片",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "86807017-ccdf-46c6-8b3b-566d492c2dab",
+        "contentType": "image/png",
+        "byteLength": 2340270
+      }
+    }
+  ],
+  "composeRuns": []
+}

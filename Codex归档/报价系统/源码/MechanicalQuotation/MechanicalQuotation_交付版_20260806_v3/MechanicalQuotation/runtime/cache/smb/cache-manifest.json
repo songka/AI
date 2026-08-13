@@ -1,0 +1,39 @@
+{
+  "cache_version": 15,
+  "source_root": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\10-自動報價系統\\data",
+  "last_sync": "2026-08-06T04:01:55.760968+00:00",
+  "files": {
+    "data/users.json": {
+      "sha256": "b7bb2d9366b17fe39d2eb315c2ff6743bd4df585864c7f422f58a5d2bc186714",
+      "cached_at": "2026-08-06T03:50:48.664509+00:00"
+    },
+    "rules/published/quotation-rules.yaml": {
+      "sha256": "14f15df0b95d68268749f2bbac0551a48c92b61a8c4cbe4c0ee086898da27a93",
+      "cached_at": "2026-08-06T01:27:06.731722+00:00"
+    },
+    "prices/published/company-pricebook-r01-v1.1-snapshot.json": {
+      "sha256": "09caadf8554e9ac6855bd736ed5b4a007954f5779ca6c9559957eb55878b5991",
+      "cached_at": "2026-08-06T01:27:06.731722+00:00"
+    },
+    "prices/published/current-version-pointer.json": {
+      "sha256": "6ec24cdb3f57d5d3e595ee58c2d31e3e6a8c4877964603ed8bd963b29367969e",
+      "cached_at": "2026-08-06T01:27:06.731722+00:00"
+    },
+    "prices/published/feature-price-calibration-gcs-v1.0.json": {
+      "sha256": "dbaee7934c039b033bfa74e4f086343c60ef9d1128eafa555065b62cc0b8724b",
+      "cached_at": "2026-08-06T01:27:06.731722+00:00"
+    },
+    "prices/published/pricing-source-records-r01-v1.0.json": {
+      "sha256": "d4b6943a5c9f8329d45154035573a531ef0c08effcde003eed273cd2ce0b2bf8",
+      "cached_at": "2026-08-06T01:27:06.731722+00:00"
+    },
+    "prices/published/version.txt": {
+      "sha256": "32bf3a6955a3f840e09a83de249cf90a7e0f4f3b8206bf51aa02ce600c0ecb35",
+      "cached_at": "2026-08-06T01:27:06.731722+00:00"
+    },
+    "suppliers/suppliers.json": {
+      "sha256": "6068a58d364fff32e2714e8f81b51304f9b3309f7e1228ddebfec9decd640567",
+      "cached_at": "2026-08-06T01:27:06.731722+00:00"
+    }
+  }
+}

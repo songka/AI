@@ -1,0 +1,507 @@
+from __future__ import annotations
+
+import csv
+from collections import defaultdict
+import json
+import re
+import time
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Callable, Dict, Iterable, List, Optional
+from urllib.parse import urlparse
+
+import requests
+import portalocker
+from bs4 import BeautifulSoup
+from openpyxl import load_workbook
+
+from .excel_processor import normalize_part_no
+from .part_assets import PartAsset, PartAssetStore
+
+
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
+)
+
+
+@dataclass
+class CrawlStatus:
+    part_no: str
+    status: str = "pending"  # pending | running | done | failed
+    message: str = ""
+
+    def to_dict(self) -> Dict:
+        return {
+            "part_no": self.part_no,
+            "status": self.status,
+            "message": self.message,
+        }
+
+    @classmethod
+    def from_dict(cls, data: Dict) -> "CrawlStatus":
+        return cls(
+            part_no=data.get("part_no", ""),
+            status=data.get("status", "pending"),
+            message=data.get("message", ""),
+        )
+
+
+class AssetCrawler:
+    def __init__(
+        self,
+        asset_root: Path,
+        progress_path: Optional[Path] = None,
+        delay_seconds: float = 1.0,
+        description_lookup: Optional[Callable[[str], str]] = None,
+        ua_lookup_dir: Optional[Path] = None,
+    ) -> None:
+        self.store = PartAssetStore(asset_root)
+        self.progress_path = progress_path or (asset_root / "crawl_progress.json")
+        self.delay_seconds = delay_seconds
+        self._description_lookup = description_lookup
+        self._ua_lookup_dir = ua_lookup_dir if ua_lookup_dir and ua_lookup_dir.exists() else None
+        self._ua_sources: list[Path] = []
+        self._ua_index: dict[str, list[str]] = {}
+        self._ua_rows: list[tuple[str, list[str]]] = []
+        self._tasks: Dict[str, CrawlStatus] = {}
+        if self._ua_lookup_dir:
+            self._ua_sources = self._collect_ua_sources(self._ua_lookup_dir)
+            self._ua_index, self._ua_rows = self._build_ua_index(self._ua_sources)
+        self._load_progress()
+
+    def _load_progress(self) -> None:
+        if not self.progress_path.exists():
+            return
+        try:
+            raw = json.loads(self.progress_path.read_text(encoding="utf-8"))
+            for item in raw:
+                status = CrawlStatus.from_dict(item)
+                if status.part_no:
+                    self._tasks[status.part_no] = status
+        except json.JSONDecodeError:
+            # 如果进度文件损坏，则忽略并重新开始
+            self._tasks = {}
+
+    def _save_progress(self) -> None:
+        payload = [task.to_dict() for task in self._tasks.values()]
+        self.progress_path.parent.mkdir(parents=True, exist_ok=True)
+        lock_path = self.progress_path.with_suffix(self.progress_path.suffix + ".lock")
+        tmp_path = self.progress_path.with_suffix(self.progress_path.suffix + ".tmp")
+        content = json.dumps(payload, ensure_ascii=False, indent=2)
+        with portalocker.Lock(str(lock_path), timeout=10):
+            tmp_path.write_text(content, encoding="utf-8")
+            tmp_path.replace(self.progress_path)
+
+    def add_tasks(self, part_numbers: Iterable[str]) -> None:
+        changed = False
+        for part in part_numbers:
+            normalized = normalize_part_no(part)
+            if not normalized:
+                continue
+            existing = self._tasks.get(normalized)
+            if existing:
+                if existing.status in {"done", "failed"}:
+                    existing.status = "pending"
+                    existing.message = ""
+                    changed = True
+                continue
+            self._tasks[normalized] = CrawlStatus(part_no=normalized)
+            changed = True
+        if changed:
+            self._save_progress()
+
+    def remove_tasks(self, part_numbers: Iterable[str]) -> None:
+        removed = False
+        for part in part_numbers:
+            normalized = normalize_part_no(part)
+            if normalized and normalized in self._tasks:
+                del self._tasks[normalized]
+                removed = True
+        if removed:
+            self._save_progress()
+
+    def clear(self) -> None:
+        if not self._tasks:
+            return
+        self._tasks = {}
+        self._save_progress()
+
+    def pending(self) -> List[str]:
+        return [p for p, task in self._tasks.items() if task.status != "done"]
+
+    def run(self, limit: Optional[int] = None, should_cancel=None) -> bool:
+        processed = 0
+        cancelled = False
+        for part_no in list(self.pending()):
+            if should_cancel and should_cancel():
+                cancelled = True
+                break
+            if limit is not None and processed >= limit:
+                break
+            status = self._tasks[part_no]
+            try:
+                self._set_task_state(part_no, "running", "开始处理")
+                message = self._process_part(part_no)
+                status.status = "done"
+                status.message = message
+            except Exception as exc:  # noqa: BLE001
+                status.status = "failed"
+                status.message = f"失败：{exc}"
+            self._tasks[part_no] = status
+            self._save_progress()
+            processed += 1
+            if self.delay_seconds and self._sleep_with_cancel(self.delay_seconds, should_cancel):
+                cancelled = True
+                break
+        return cancelled
+
+    def _sleep_with_cancel(self, seconds: float, should_cancel=None) -> bool:
+        end_time = time.monotonic() + seconds
+        while time.monotonic() < end_time:
+            if should_cancel and should_cancel():
+                return True
+            time.sleep(min(0.2, max(0, end_time - time.monotonic())))
+        return False
+
+    def statuses(self) -> List[CrawlStatus]:
+        return sorted(self._tasks.values(), key=lambda item: item.part_no)
+
+    def summary(self) -> tuple[int, int]:
+        total = len(self._tasks)
+        done = len([t for t in self._tasks.values() if t.status == "done"])
+        return done, total
+
+    def running_part(self) -> Optional[str]:
+        for part_no, task in self._tasks.items():
+            if task.status == "running":
+                return part_no
+        return None
+
+    def _set_task_state(self, part_no: str, status: str, message: str) -> None:
+        task = self._tasks.get(part_no) or CrawlStatus(part_no=part_no)
+        task.status = status
+        task.message = message
+        self._tasks[part_no] = task
+        self._save_progress()
+
+    def _process_part(self, part_no: str) -> str:
+        normalized = normalize_part_no(part_no) or part_no
+        if normalized.startswith("UB"):
+            return "UB 料号无需自动生成，已跳过"
+
+        updates: list[str] = []
+        existing_asset = self.store.get(part_no)
+        should_overwrite_uc = normalized.startswith("UC") and existing_asset is not None
+
+        self._set_task_state(part_no, "running", "读取系统描述")
+        description = self._lookup_description(part_no)
+        brand, model = _extract_brand_model(description)
+        search_terms = _build_search_terms(part_no, description, brand, model)
+
+        if normalized.startswith("UA"):
+            self._set_task_state(part_no, "running", "查找 UA 本地资料")
+            updates.extend(self._update_from_ua_sources(normalized))
+        else:
+            primary_keyword = " ".join(filter(None, (brand, model))) or part_no
+            self._set_task_state(part_no, "running", f"搜索官网：{primary_keyword}")
+            official = self._search_official_site(primary_keyword)
+            if official:
+                asset = existing_asset or PartAsset(part_no=part_no)
+                if should_overwrite_uc:
+                    updated_links = [official]
+                else:
+                    updated_links = list(asset.remote_links)
+                    if official not in updated_links:
+                        updated_links.append(official)
+                if updated_links != asset.remote_links:
+                    self.store.set_remote_links(part_no, updated_links)
+                    updates.append("官网链接")
+
+        if not (existing_asset.images if existing_asset else []):
+            for index, keyword in enumerate(search_terms, start=1):
+                self._set_task_state(part_no, "running", f"搜索图片 {index}/{len(search_terms)}：{keyword[:40]}")
+                image_path = self.store.download_first_image_from_search(part_no, keyword)
+                if image_path:
+                    updates.append("图片")
+                    break
+
+        elif should_overwrite_uc:
+            for index, keyword in enumerate(search_terms, start=1):
+                self._set_task_state(part_no, "running", f"更新图片 {index}/{len(search_terms)}：{keyword[:40]}")
+                image_path = self.store.download_first_image_from_search(part_no, keyword)
+                if image_path:
+                    asset = self.store.get(part_no)
+                    if asset:
+                        asset.images = [image_path]
+                        self.store.upsert(asset)
+                    updates.append("图片")
+                    break
+
+        if not updates:
+            if existing_asset:
+                return "已存在资源，未更新"
+            return "未找到可保存的资源"
+        return f"已更新 {', '.join(updates)}"
+
+    def _lookup_description(self, part_no: str) -> str:
+        if not self._description_lookup:
+            return ""
+        try:
+            return self._description_lookup(part_no) or ""
+        except Exception:
+            return ""
+
+    def _search_official_site(self, keyword: str) -> Optional[str]:
+        response = requests.get(
+            "https://www.bing.com/search",
+            params={"q": f"{keyword} 官网", "setlang": "zh-cn"},
+            headers={"User-Agent": USER_AGENT},
+            timeout=(3, 8),
+        )
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+        normalized = (normalize_part_no(keyword) or keyword).lower()
+        fallback: Optional[str] = None
+        for link in soup.select("li.b_algo h2 a, ol#b_results h2 a"):
+            href = link.get("href")
+            if not href or not self._is_http_url(href):
+                continue
+            if normalized in href.lower():
+                return href
+            if fallback is None:
+                fallback = href
+        return fallback
+
+    def _is_http_url(self, url: str) -> bool:
+        parsed = urlparse(url)
+        return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
+
+    def _update_from_ua_sources(self, part_no: str) -> list[str]:
+        if not self._ua_sources:
+            return []
+
+        found_local: list[str] = []
+        normalized = normalize_part_no(part_no) or part_no
+        direct_hits = self._ua_index.get(normalized)
+        if direct_hits:
+            found_local.extend(direct_hits)
+        if not found_local:
+            lower_part = normalized.lower()
+            for row_text, paths in self._ua_rows:
+                if lower_part in row_text:
+                    found_local.extend(paths)
+
+        updates: list[str] = []
+        found_local = list(dict.fromkeys(found_local))
+
+        if found_local:
+            asset = self.store.get(part_no) or PartAsset(part_no=part_no)
+            existing_local = set(asset.local_paths)
+            merged_local = list(existing_local)
+            for path in found_local:
+                if path not in existing_local:
+                    merged_local.append(path)
+            if merged_local != list(existing_local):
+                self.store.set_local_paths(part_no, merged_local)
+                updates.append("UA档案")
+
+        return updates
+
+    def _search_in_excel(self, path: Path, part_no: str) -> list[str]:
+        local: list[str] = []
+        normalized = normalize_part_no(part_no) or part_no
+        try:
+            workbook = load_workbook(path, data_only=True, read_only=True)
+        except Exception:
+            return local
+
+        try:
+            for sheet in workbook.worksheets:
+                for row in sheet.iter_rows(values_only=True):
+                    if not row:
+                        continue
+                    if any(self._cell_contains_part(cell, normalized) for cell in row):
+                        local.extend(self._extract_local_paths_from_row(row))
+        finally:
+            workbook.close()
+
+        return local
+
+    def _search_in_csv(self, path: Path, part_no: str) -> list[str]:
+        local: list[str] = []
+        normalized = normalize_part_no(part_no) or part_no
+        try:
+            with path.open("r", encoding="utf-8", errors="ignore") as handle:
+                reader = csv.reader(handle)
+                for row in reader:
+                    if not row:
+                        continue
+                    if any(self._cell_contains_part(cell, normalized) for cell in row):
+                        local.extend(self._extract_local_paths_from_row(row))
+        except Exception:
+            return local
+
+        return local
+
+    def _build_ua_index(
+        self, sources: list[Path]
+    ) -> tuple[dict[str, list[str]], list[tuple[str, list[str]]]]:
+        index: dict[str, set[str]] = defaultdict(set)
+        rows: list[tuple[str, list[str]]] = []
+        for path in sources:
+            suffix = path.suffix.lower()
+            if suffix in {".xlsx", ".xlsm", ".xls"}:
+                rows.extend(self._collect_rows_from_excel(path, index))
+            elif suffix in {".csv", ".txt"}:
+                rows.extend(self._collect_rows_from_csv(path, index))
+        finalized_index = {key: sorted(values) for key, values in index.items()}
+        return finalized_index, rows
+
+    def _collect_rows_from_excel(
+        self, path: Path, index: dict[str, set[str]]
+    ) -> list[tuple[str, list[str]]]:
+        rows: list[tuple[str, list[str]]] = []
+        try:
+            workbook = load_workbook(path, data_only=True, read_only=True)
+        except Exception:
+            return rows
+
+        try:
+            for sheet in workbook.worksheets:
+                for row in sheet.iter_rows(values_only=True):
+                    cached = self._process_ua_row(row, index)
+                    if cached:
+                        rows.append(cached)
+        finally:
+            workbook.close()
+        return rows
+
+    def _collect_rows_from_csv(
+        self, path: Path, index: dict[str, set[str]]
+    ) -> list[tuple[str, list[str]]]:
+        rows: list[tuple[str, list[str]]] = []
+        try:
+            with path.open("r", encoding="utf-8", errors="ignore") as handle:
+                reader = csv.reader(handle)
+                for row in reader:
+                    cached = self._process_ua_row(row, index)
+                    if cached:
+                        rows.append(cached)
+        except Exception:
+            return rows
+        return rows
+
+    def _process_ua_row(
+        self, values: Iterable, index: dict[str, set[str]]
+    ) -> tuple[str, list[str]] | None:
+        if not values:
+            return None
+        local_paths = self._extract_local_paths_from_row(values)
+        if not local_paths:
+            return None
+        combined_text = " ".join(str(value).strip() for value in values if value)
+        for value in values:
+            if value is None:
+                continue
+            normalized_value = normalize_part_no(str(value))
+            if normalized_value:
+                index[normalized_value].update(local_paths)
+        return combined_text.lower(), local_paths
+
+    def _collect_ua_sources(self, root: Path) -> list[Path]:
+        sources: list[Path] = []
+        supported = {".xlsx", ".xlsm", ".xls", ".csv", ".txt"}
+        for path in root.rglob("*"):
+            if not path.is_file():
+                continue
+            if path.suffix.lower() not in supported:
+                continue
+            if path.name.startswith("~$"):
+                continue
+            sources.append(path)
+        sources.sort()
+        return sources
+
+    def _cell_contains_part(self, value, normalized_part: str) -> bool:
+        if value is None:
+            return False
+        text = str(value).strip()
+        normalized_value = normalize_part_no(text) or text
+        lower_value = normalized_value.lower()
+        lower_part = normalized_part.lower()
+        return lower_part == lower_value or lower_part in lower_value
+
+    def _extract_local_paths_from_row(self, values: Iterable) -> list[str]:
+        paths: list[str] = []
+        for value in values:
+            if value is None:
+                continue
+            text = str(value).strip()
+            if not text or self._is_http_url(text):
+                continue
+            if "\\" in text or "/" in text:
+                cleaned = text
+                if cleaned.startswith("\\") and not cleaned.startswith("\\\\"):
+                    cleaned = "\\" + cleaned
+                cleaned = cleaned.strip()
+                if cleaned and cleaned not in paths:
+                    paths.append(cleaned)
+        return paths
+
+    def _extract_http_links(self, values: Iterable) -> list[str]:
+        links: list[str] = []
+        for value in values:
+            if value is None:
+                continue
+            for match in re.findall(r"https?://[^\s]+", str(value)):
+                cleaned = match.strip().rstrip(",.;)\"]")
+                if cleaned and cleaned not in links:
+                    links.append(cleaned)
+        return links
+
+
+def _extract_brand_model(description: str) -> tuple[str | None, str | None]:
+    brand = _extract_labeled_value(description, ("品牌", "牌子", "厂家", "厂商"))
+    model = _extract_labeled_value(description, ("型号", "规格型号", "机型"))
+
+    tokens = [token for token in re.split(r"[\s,;，；/、]+", description or "") if token]
+    if not brand and tokens:
+        brand = tokens[0]
+    if not model and len(tokens) > 1:
+        model = tokens[1]
+
+    return brand, model
+
+
+def _extract_labeled_value(description: str, labels: tuple[str, ...]) -> str | None:
+    for label in labels:
+        match = re.search(rf"{label}\s*[:：]?\s*([^,;；，/\s]+)", description or "")
+        if match:
+            value = match.group(1).strip()
+            if value:
+                return value
+    return None
+
+
+def _build_search_terms(
+    part_no: str, description: str, brand: str | None, model: str | None
+) -> list[str]:
+    terms: list[str] = []
+    base_pairs = [" ".join(filter(None, (brand, model))), model, description]
+    for phrase in base_pairs:
+        if not phrase:
+            continue
+        for suffix in (" 产品 图片", " 图片", ""):
+            keyword = f"{phrase}{suffix}".strip()
+            if keyword and keyword not in terms:
+                terms.append(keyword)
+
+    for keyword in (f"{part_no} 产品 图片", part_no):
+        if keyword not in terms:
+            terms.append(keyword)
+
+    return terms[:5]
+
+
+__all__ = ["AssetCrawler", "CrawlStatus"]

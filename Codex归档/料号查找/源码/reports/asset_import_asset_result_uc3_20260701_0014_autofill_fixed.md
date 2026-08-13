@@ -1,0 +1,85 @@
+# 官网图片结果导入报告
+
+- 输入文件：handoff\chatgpt\asset_result\asset_result_uc3_20260701_0014_autofill_fixed.csv
+- 导入行数：36
+- 覆盖料号数：36
+- 直接图片链接数：0
+- 校验结果：存在问题
+
+## 每料号图片行数
+
+- UC3020080001: 1
+- UC3020080003: 1
+- UC3020080004: 1
+- UC3020080008: 1
+- UC3020080009: 1
+- UC3020080010: 1
+- UC3020080011: 1
+- UC3020080012: 1
+- UC3020080013: 1
+- UC3020080014: 1
+- UC3020080015: 1
+- UC3020080016: 1
+- UC3020080017: 1
+- UC3020080018: 1
+- UC3020080019: 1
+- UC3020080038: 1
+- UC3020080039: 1
+- UC3020080040: 1
+- UC3020080041: 1
+- UC3020080049: 1
+- UC3020080050: 1
+- UC3020080051: 1
+- UC3020080052: 1
+- UC3020080053: 1
+- UC3020080054: 1
+- UC3020080055: 1
+- UC3020080056: 1
+- UC3020081002: 1
+- UC3020090001: 1
+- UC3020100002: 1
+- UC3020100003: 1
+- UC3020100005: 1
+- UC3020100006: 1
+- UC3020100008: 1
+- UC3020100009: 1
+- UC3030000007: 1
+
+## 问题
+
+- UC3020080001 image_source 非法：official_site
+- UC3020080003 image_source 非法：official_site
+- UC3020080004 image_source 非法：official_site
+- UC3020080008 image_source 非法：official_site
+- UC3020080009 image_source 非法：official_site
+- UC3020080010 image_source 非法：official_site
+- UC3020080011 image_source 非法：official_site
+- UC3020080012 image_source 非法：official_site
+- UC3020080013 image_source 非法：official_site
+- UC3020080014 image_source 非法：official_site
+- UC3020080015 image_source 非法：official_site
+- UC3020080016 image_source 非法：official_site
+- UC3020080017 image_source 非法：official_site
+- UC3020080018 image_source 非法：official_site
+- UC3020080019 image_source 非法：official_site
+- UC3020080038 image_source 非法：official_site
+- UC3020080039 image_source 非法：official_site
+- UC3020080040 image_source 非法：official_site
+- UC3020080041 image_source 非法：official_site
+- UC3020080049 image_source 非法：official_site
+- UC3020080050 image_source 非法：official_site
+- UC3020080051 image_source 非法：official_site
+- UC3020080052 image_source 非法：official_site
+- UC3020080053 image_source 非法：official_site
+- UC3020080054 image_source 非法：official_site
+- UC3020080055 image_source 非法：official_site
+- UC3020080056 image_source 非法：official_site
+- UC3020081002 image_source 非法：official_site
+- UC3020090001 image_source 非法：official_site
+- UC3020100002 image_source 非法：official_site
+- UC3020100003 image_source 非法：official_site
+- UC3020100005 image_source 非法：official_site
+- UC3020100006 image_source 非法：official_site
+- UC3020100008 image_source 非法：official_site
+- UC3020100009 image_source 非法：official_site
+- UC3030000007 image_source 非法：official_site

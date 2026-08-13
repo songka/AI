@@ -1,0 +1,29 @@
+{
+  "bom_item": "UC1000005856",
+  "bounding_box": {
+    "length_min": 718.2,
+    "length_max": 877.8000000000001,
+    "width_min": 477.0,
+    "width_max": 583.0,
+    "height_min": 13.5,
+    "height_max": 16.5
+  },
+  "material": {
+    "text_contains": [
+      "S50C"
+    ],
+    "source": "DRAWING_TEXT",
+    "confidence_min": 0.5
+  },
+  "surface_treatment": {
+    "present": true,
+    "source": "DRAWING_TEXT"
+  },
+  "holes": {
+    "count_min": 4
+  },
+  "threads": {
+    "present": true,
+    "spec_contains": "M8"
+  }
+}

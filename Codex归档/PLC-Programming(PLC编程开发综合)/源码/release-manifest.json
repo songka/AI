@@ -1,0 +1,45 @@
+{
+  "skill": "delta-as228t-plc",
+  "scope": "Delta AS228T-A with ISPSoft 3.19+ and ST only",
+  "currentVersion": "3.0.0",
+  "currentPackage": "package.zip",
+  "releasedAt": "2026-07-23T10:23:14+08:00",
+  "sourceManualBaseline": {
+    "asHardwareAndOperation": "2024-10-25",
+    "asProgramming": "2024-09-20",
+    "ispsoftUserManual": "2020-03-12",
+    "asModuleManual": "2024-04-30"
+  },
+  "releases": [
+    {
+      "version": "3.0.0",
+      "file": "releases/delta-as228t-plc-3.0.0.zip",
+      "sha256": "faa76a40ff740ab9b87d884317ce826965e5f99380ad6ce5e181af8a22747b8e",
+      "status": "current"
+    },
+    {
+      "version": "2.3.0",
+      "file": "releases/delta-as228t-plc-2.3.0.zip",
+      "sha256": "0a539d3e721d5e389eba6c58d238d3492e913c6ec27f8a21abbd17ee98d16147",
+      "status": "rollback"
+    },
+    {
+      "version": "2.2.0",
+      "file": "releases/delta-as228t-plc-2.2.0.zip",
+      "sha256": "1ba0f8a3e57dba25f84aa4f85b591923574e502107d074124fce635822115f76",
+      "status": "archived"
+    },
+    {
+      "version": "2.1.1",
+      "file": "releases/delta-as228t-plc-2.1.1.zip",
+      "sha256": "2ca4976678846af35700e0d6317e19c430a486e278a79d450630f416d69f450b",
+      "status": "archived"
+    },
+    {
+      "version": "2.1.0",
+      "file": "releases/delta-as228t-plc-2.1.0.zip",
+      "sha256": "34d0ac919d399d54106345478db4140a997c8e18930d3421c3f297335d35f62a",
+      "status": "archived"
+    }
+  ]
+}

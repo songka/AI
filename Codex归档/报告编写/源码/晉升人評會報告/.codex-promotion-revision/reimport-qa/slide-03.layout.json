@@ -1,0 +1,1444 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ofy9wn61",
+    "id": "ofy9wn61",
+    "slide": 3,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#5B9BD5",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#4472C4",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Calibri",
+      "Calibri Light",
+      "Helvetica",
+      "Microsoft JhengHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            62.03
+          ],
+          "geometry": "rect",
+          "text": "Click To Edit Master Title",
+          "textPreview": "Click To Edit Master Title",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click To Edit Master Title",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click To Edit Master Title"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Content Placeholder 2",
+          "bbox": [
+            88,
+            114.87,
+            1104,
+            515.99
+          ],
+          "geometry": "rect",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level\n\n\n",
+          "textPreview": "Edit Master text styles | Second level | Third level | Fourth level | Fifth level |  |  |",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Slide Number Placeholder 6",
+          "bbox": [
+            28.76,
+            675.12,
+            59.24,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/6",
+          "id": "6",
+          "name": "Straight Connector 5",
+          "bbox": [
+            0,
+            100.36,
+            1004.51,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "#00467E",
+          "lineWidth": 0.67
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            139.17
+          ],
+          "geometry": "rect",
+          "text": "Click To Edit Master Title Style",
+          "textPreview": "Click To Edit Master Title Style",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click To Edit Master Title Style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click To Edit Master Title Style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            88,
+            191.67,
+            1104,
+            456.83
+          ],
+          "geometry": "rect",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/7",
+          "id": "7",
+          "name": "Rectangle 6",
+          "bbox": [
+            0,
+            654.7,
+            1280,
+            65.3
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/10",
+          "id": "10",
+          "name": "TextBox 9",
+          "bbox": [
+            88,
+            674.43,
+            831,
+            25.85
+          ],
+          "geometry": "rect",
+          "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "textPreview": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "resolvedTextStyle": {
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved.",
+                  "fontSize": 13.33,
+                  "typeface": "Helvetica",
+                  "color": "#021D36"
+                },
+                {
+                  "index": 2,
+                  "text": " CONFIDENTIAL.",
+                  "fontSize": 13.33,
+                  "typeface": "Helvetica",
+                  "color": "#021D36"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/11",
+          "id": "11",
+          "name": "Picture 7",
+          "bbox": [
+            1189.03,
+            666.82,
+            67.28,
+            43.66
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image.png",
+            "contentType": "image/png",
+            "byteLength": 2109
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image.png",
+            "contentType": "image/png",
+            "byteLength": 2109
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cza94vmx",
+      "id": "2",
+      "name": "Title 1",
+      "bbox": [
+        88,
+        38.33,
+        1104,
+        62.03
+      ],
+      "text": "个人简介｜从现场、技术到管理",
+      "textPreview": "个人简介｜从现场、技术到管理",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 48,
+        "typeface": "Helvetica",
+        "color": "#00457A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "个人简介｜从现场、技术到管理"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "个人简介｜从现场、技术到管理",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "Microsoft JhengHei",
+            "color": "#004B7A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "个人简介｜从现场、技术到管理",
+              "fontSize": 48,
+              "typeface": "Microsoft JhengHei",
+              "color": "#004B7A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0jax03i",
+      "id": "3",
+      "name": "Content Placeholder 2",
+      "bbox": [
+        88,
+        176,
+        390,
+        260
+      ],
+      "text": "现职：工程师／电控课代理课长\n本次晋升：课长\n学历：本科，电气工程及其自动化\n毕业院校：华中科技大学武昌分校",
+      "textPreview": "现职：工程师／电控课代理课长 | 本次晋升：课长 | 学历：本科，电气工程及其自动化 | 毕业院校：华中科技大学武昌分校",
+      "resolvedFontSize": 37.33,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 37.33,
+        "typeface": "Arial",
+        "color": {
+          "type": "theme",
+          "value": "tx1",
+          "transform": {
+            "lighten": 0.25
+          }
+        },
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•现职：工程师／电控课代理课长"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "•本次晋升：课长"
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "•学历：本科，电气工程及其自动化"
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "•毕业院校：华中科技大学武昌分校"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "现职：工程师／电控课代理课长",
+          "lineSpacingPercent": 120000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft JhengHei",
+            "color": "#303030"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "现职：工程师／电控课代理课长",
+              "fontSize": 20,
+              "typeface": "Microsoft JhengHei",
+              "color": "#303030"
+            }
+          ],
+          "marginLeft": 457200,
+          "indent": -457200
+        },
+        {
+          "index": 2,
+          "text": "本次晋升：课长",
+          "lineSpacingPercent": 120000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft JhengHei",
+            "color": "#303030"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "本次晋升：课长",
+              "fontSize": 20,
+              "typeface": "Microsoft JhengHei",
+              "color": "#303030"
+            }
+          ],
+          "marginLeft": 457200,
+          "indent": -457200
+        },
+        {
+          "index": 3,
+          "text": "学历：本科，电气工程及其自动化",
+          "lineSpacingPercent": 120000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft JhengHei",
+            "color": "#303030"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "学历：本科，电气工程及其自动化",
+              "fontSize": 20,
+              "typeface": "Microsoft JhengHei",
+              "color": "#303030"
+            }
+          ],
+          "marginLeft": 457200,
+          "indent": -457200
+        },
+        {
+          "index": 4,
+          "text": "毕业院校：华中科技大学武昌分校",
+          "lineSpacingPercent": 120000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft JhengHei",
+            "color": "#303030"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "毕业院校：华中科技大学武昌分校",
+              "fontSize": 20,
+              "typeface": "Microsoft JhengHei",
+              "color": "#303030"
+            }
+          ],
+          "marginLeft": 457200,
+          "indent": -457200
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/298ryl4v",
+      "id": "4",
+      "name": "Slide Number Placeholder 3",
+      "bbox": [
+        28.76,
+        675.12,
+        59.24,
+        38.33
+      ],
+      "text": "3",
+      "textPreview": "3",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "fontSize": 13.33,
+        "typeface": "Helvetica",
+        "color": "#021D36",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3",
+          "runs": [
+            {
+              "index": 1,
+              "text": "3"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ah8rqlg",
+      "id": "5",
+      "name": "career-line",
+      "bbox": [
+        98,
+        492,
+        985,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#2FA9D6",
+      "lineWidth": 4
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obq90bml",
+      "id": "6",
+      "name": "career-node-1",
+      "bbox": [
+        100,
+        472,
+        40,
+        40
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#004B7A",
+      "lineColor": "#FFFFFF",
+      "lineWidth": 2
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pcjqtg36",
+      "id": "7",
+      "name": "career-year-1",
+      "bbox": [
+        72,
+        435,
+        96,
+        32
+      ],
+      "geometry": "rect",
+      "text": "2011",
+      "textPreview": "2011",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2011"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2011",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft JhengHei",
+            "color": "#004B7A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2011",
+              "fontSize": 18,
+              "typeface": "Microsoft JhengHei",
+              "color": "#004B7A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m5cra54z",
+      "id": "8",
+      "name": "career-label-1",
+      "bbox": [
+        42,
+        515,
+        160,
+        60
+      ],
+      "geometry": "rect",
+      "text": "毕业后从事\n现场设备维修",
+      "textPreview": "毕业后从事 | 现场设备维修",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "毕业后从事"
+          },
+          {
+            "index": 2,
+            "text": "现场设备维修"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "毕业后从事",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft JhengHei",
+            "color": "#303030",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "毕业后从事",
+              "fontSize": 16,
+              "typeface": "Microsoft JhengHei",
+              "color": "#303030"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "现场设备维修",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft JhengHei",
+            "color": "#303030",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "现场设备维修",
+              "fontSize": 16,
+              "typeface": "Microsoft JhengHei",
+              "color": "#303030"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n6ls3alk",
+      "id": "9",
+      "name": "career-node-2",
+      "bbox": [
+        410,
+        472,
+        40,
+        40
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#004B7A",
+      "lineColor": "#FFFFFF",
+      "lineWidth": 2
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n2l4fq98",
+      "id": "10",
+      "name": "career-year-2",
+      "bbox": [
+        382,
+        435,
+        96,
+        32
+      ],
+      "geometry": "rect",
+      "text": "2015",
+      "textPreview": "2015",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2015"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2015",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft JhengHei",
+            "color": "#004B7A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2015",
+              "fontSize": 18,
+              "typeface": "Microsoft JhengHei",
+              "color": "#004B7A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m1c3mlsn",
+      "id": "11",
+      "name": "career-label-2",
+      "bbox": [
+        352,
+        515,
+        160,
+        60
+      ],
+      "geometry": "rect",
+      "text": "加入LFAF\n从事电控",
+      "textPreview": "加入LFAF | 从事电控",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "加入LFAF"
+          },
+          {
+            "index": 2,
+            "text": "从事电控"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "加入LFAF",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft JhengHei",
+            "color": "#303030",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "加入LFAF",
+              "fontSize": 16,
+              "typeface": "Microsoft JhengHei",
+              "color": "#303030"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "从事电控",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft JhengHei",
+            "color": "#303030",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "从事电控",
+              "fontSize": 16,
+              "typeface": "Microsoft JhengHei",
+              "color": "#303030"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/943mhgre",
+      "id": "12",
+      "name": "career-node-3",
+      "bbox": [
+        720,
+        472,
+        40,
+        40
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#004B7A",
+      "lineColor": "#FFFFFF",
+      "lineWidth": 2
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83ulovat",
+      "id": "13",
+      "name": "career-year-3",
+      "bbox": [
+        692,
+        435,
+        96,
+        32
+      ],
+      "geometry": "rect",
+      "text": "2021",
+      "textPreview": "2021",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2021"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2021",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft JhengHei",
+            "color": "#004B7A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2021",
+              "fontSize": 18,
+              "typeface": "Microsoft JhengHei",
+              "color": "#004B7A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6l4jq94",
+      "id": "14",
+      "name": "career-label-3",
+      "bbox": [
+        662,
+        515,
+        160,
+        60
+      ],
+      "geometry": "rect",
+      "text": "担任电控课\n代理课长",
+      "textPreview": "担任电控课 | 代理课长",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "担任电控课"
+          },
+          {
+            "index": 2,
+            "text": "代理课长"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "担任电控课",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft JhengHei",
+            "color": "#303030",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "担任电控课",
+              "fontSize": 16,
+              "typeface": "Microsoft JhengHei",
+              "color": "#303030"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "代理课长",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft JhengHei",
+            "color": "#303030",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "代理课长",
+              "fontSize": 16,
+              "typeface": "Microsoft JhengHei",
+              "color": "#303030"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5c3ql8z",
+      "id": "15",
+      "name": "career-node-4",
+      "bbox": [
+        1030,
+        472,
+        40,
+        40
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#F28C28",
+      "lineColor": "#FFFFFF",
+      "lineWidth": 2
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x8nml0ra",
+      "id": "16",
+      "name": "career-year-4",
+      "bbox": [
+        1002,
+        435,
+        96,
+        32
+      ],
+      "geometry": "rect",
+      "text": "现在",
+      "textPreview": "现在",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "现在"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "现在",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft JhengHei",
+            "color": "#F28C28",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "现在",
+              "fontSize": 18,
+              "typeface": "Microsoft JhengHei",
+              "color": "#F28C28",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7ulsvqp",
+      "id": "17",
+      "name": "career-label-4",
+      "bbox": [
+        972,
+        515,
+        160,
+        60
+      ],
+      "geometry": "rect",
+      "text": "管理19人团队\n推动标准化交付",
+      "textPreview": "管理19人团队 | 推动标准化交付",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 5,
+          "right": 8,
+          "bottom": 5,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "管理19人团队"
+          },
+          {
+            "index": 2,
+            "text": "推动标准化交付"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "管理19人团队",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft JhengHei",
+            "color": "#303030",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "管理19人团队",
+              "fontSize": 16,
+              "typeface": "Microsoft JhengHei",
+              "color": "#303030"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "推动标准化交付",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft JhengHei",
+            "color": "#303030",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "推动标准化交付",
+              "fontSize": 16,
+              "typeface": "Microsoft JhengHei",
+              "color": "#303030"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/3axkfi94",
+      "id": "18",
+      "name": "Chart",
+      "bbox": [
+        520,
+        172,
+        620,
+        245
+      ],
+      "chartType": "bar"
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,1 @@
+{"skill_id": "folder.quote", "skill_name_zh": "公共槽报价 Skill", "skill_version": "1.2.0", "protocol_version": "1.0", "supported_steps": ["PROCESS_PLANNING", "PRICE_AUDIT"], "supports_full_quotation": false, "entrypoint": "skill_runner.exe"}

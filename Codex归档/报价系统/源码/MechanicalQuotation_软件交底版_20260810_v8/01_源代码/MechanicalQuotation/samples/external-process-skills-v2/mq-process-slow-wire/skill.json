@@ -1,0 +1,1 @@
+{"skill_id":"sample.process.slow-wire","skill_name_zh":"示例-慢丝加工报价","skill_version":"1.0.0","protocol_version":"1.0","supported_steps":["TIME_ESTIMATION","LINE_ITEM_PRICING","PRICE_AUDIT","REVIEW_RECOMMENDATION"],"supported_processes":["SLOW_WIRE"],"supports_full_quotation":false,"instruction_file":"SKILL.md","reference_files":[],"commands":[]}

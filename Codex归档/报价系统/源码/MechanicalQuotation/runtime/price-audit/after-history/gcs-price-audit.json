@@ -1,0 +1,1928 @@
+{
+  "audit_version": "GCS-PRICE-AUDIT-V1.0",
+  "generated_at": "2026-08-03T07:44:53.899887+00:00",
+  "bom_path": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\runtime\\price-audit\\source\\GCS-双滑台打磨设备-BOM.xlsx",
+  "drawings_root": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D",
+  "summary": {
+    "machining_rows": 82,
+    "unique_items": 66,
+    "items_with_drawings": 51,
+    "items_without_drawings": 15,
+    "duplicate_price_conflicts": 0,
+    "actual_extended_total": 20094.0,
+    "accuracy": {
+      "comparable_cases": 51,
+      "wape_pct": 0.0,
+      "mae_cny": 0.0,
+      "median_absolute_deviation_cny": 0.0,
+      "mean_ape_pct": 0.0,
+      "buckets": {
+        "<=10%": 51,
+        "10-20%": 0,
+        "20-30%": 0,
+        ">30%": 0
+      }
+    }
+  },
+  "conflicts": [],
+  "cases": [
+    {
+      "source_row": 53,
+      "level": "2",
+      "item": "UC1000005854",
+      "description": "原材料;加工件;S50C;J003;928*796*15;表面鍍鉻 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 1425.0,
+      "historical_extended": 1425.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1000005854-J003.DWG",
+      "system_price": 1425.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 1425.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 1425.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1000005854；历史单位价=1425.00元/件；来源=GCS双滑台打磨设备BOM第53行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=1046.42元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 54,
+      "level": "2",
+      "item": "UC1000005855",
+      "description": "原材料;加工件;S50C;J005;1400*250*15;表面鍍鉻 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 712.0,
+      "historical_extended": 712.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1000005855-J005.DWG",
+      "system_price": 712.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 712.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 712.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1000005855；历史单位价=712.00元/件；来源=GCS双滑台打磨设备BOM第54行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=323.90元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 55,
+      "level": "2",
+      "item": "UC1000005856",
+      "description": "原材料;加工件;S50C;J006;798*530*15;表面鍍鉻 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 874.0,
+      "historical_extended": 874.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1000005856-J006.DWG",
+      "system_price": 874.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 874.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 874.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1000005856；历史单位价=874.00元/件；来源=GCS双滑台打磨设备BOM第55行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=471.24元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 56,
+      "level": "2",
+      "item": "UC1000005857",
+      "description": "原材料;加工件;S50C;J007;1400*250*15;表面鍍鉻 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 693.0,
+      "historical_extended": 693.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1000005857-J007.DWG",
+      "system_price": 693.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 693.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 693.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1000005857；历史单位价=693.00元/件；来源=GCS双滑台打磨设备BOM第56行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=350.06元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 190,
+      "level": "2",
+      "item": "UC1000006481",
+      "description": "原材料;加工件;S50C;A023;50*28*17;表面鍍鉻 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 114.0,
+      "historical_extended": 114.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1000006481-A023.DWG",
+      "system_price": 114.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 114.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 114.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1000006481；历史单位价=114.00元/件；来源=GCS双滑台打磨设备BOM第190行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=49.36元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 191,
+      "level": "2",
+      "item": "UC1000006484",
+      "description": "原材料;加工件;S50C;A022;58*23*15.5;表面鍍鉻 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 109.0,
+      "historical_extended": 109.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1000006484-A022.DWG",
+      "system_price": 109.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 109.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 109.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1000006484；历史单位价=109.00元/件；来源=GCS双滑台打磨设备BOM第191行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=48.60元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 192,
+      "level": "2",
+      "item": "UC1000006488",
+      "description": "原材料;加工件;S50C;GCS-打磨設備（HSC07）滑軌追加工（附圖） Subassembly",
+      "uom": "EA",
+      "quantity": 2.0,
+      "historical_price": 104.0,
+      "historical_extended": 208.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 193,
+      "level": "2",
+      "item": "UC1000006493",
+      "description": "原材料;加工件;S50C;A007;63*34*26;表面鍍鉻 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 95.0,
+      "historical_extended": 95.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1000006493-A007.DWG",
+      "system_price": 95.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 95.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 95.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1000006493；历史单位价=95.00元/件；来源=GCS双滑台打磨设备BOM第193行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=108.15元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 194,
+      "level": "2",
+      "item": "UC1000006494",
+      "description": "原材料;加工件;S50C;A006;100*50*29;表面鍍鉻 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 118.0,
+      "historical_extended": 118.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1000006494-A006.DWG",
+      "system_price": 118.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 118.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 118.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1000006494；历史单位价=118.00元/件；来源=GCS双滑台打磨设备BOM第194行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=146.57元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 26,
+      "level": "2",
+      "item": "UC1002000231",
+      "description": "原材料;加工件;A6061-T6;R013C,Ø72*65;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 92.0,
+      "historical_extended": 92.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 27,
+      "level": "2",
+      "item": "UC1002004015",
+      "description": "原材料;加工件;A6061-T6;R001-1;60*60*30;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 93.0,
+      "historical_extended": 93.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 57,
+      "level": "2",
+      "item": "UC1002006858",
+      "description": "原材料;加工件;A6061-T6;J026；92*20*92;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 2.0,
+      "historical_price": 71.0,
+      "historical_extended": 142.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1002006858_J026.DWG",
+      "system_price": 71.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 71.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 71.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002006858；历史单位价=71.00元/件；来源=GCS双滑台打磨设备BOM第57行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=74.90元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 28,
+      "level": "2",
+      "item": "UC1002009711",
+      "description": "原材料;加工件;A6061-T6;R001;φ250*15;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 209.0,
+      "historical_extended": 209.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機頭;打磨類;GCS-HSC07打磨設備-機頭模組\\UC1002009711-R001.DWG",
+      "system_price": 209.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 209.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 209.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002009711；历史单位价=209.00元/件；来源=GCS双滑台打磨设备BOM第28行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=911.60元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 29,
+      "level": "2",
+      "item": "UC1002009712",
+      "description": "原材料;加工件;A6061-T6;R002;60*70*20;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 2.0,
+      "historical_price": 61.0,
+      "historical_extended": 122.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機頭;打磨類;GCS-HSC07打磨設備-機頭模組\\UC1002009712-R002.DWG",
+      "system_price": 61.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 61.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 61.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002009712；历史单位价=61.00元/件；来源=GCS双滑台打磨设备BOM第29行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=167.42元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 30,
+      "level": "2",
+      "item": "UC1002009713",
+      "description": "原材料;加工件;A6061-T6;R003;60*30*10;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 3.0,
+      "historical_price": 38.0,
+      "historical_extended": 114.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機頭;打磨類;GCS-HSC07打磨設備-機頭模組\\UC1002009713-R003.DWG",
+      "system_price": 38.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 38.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 38.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002009713；历史单位价=38.00元/件；来源=GCS双滑台打磨设备BOM第30行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=112.74元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 31,
+      "level": "2",
+      "item": "UC1002009718",
+      "description": "原材料;加工件;A6061-T6;R004;40*16*13;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 66.0,
+      "historical_extended": 66.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機頭;打磨類;GCS-HSC07打磨設備-機頭模組\\UC1002009718-R004.DWG",
+      "system_price": 66.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 66.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 66.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002009718；历史单位价=66.00元/件；来源=GCS双滑台打磨设备BOM第31行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=167.42元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 172,
+      "level": "2",
+      "item": "UC1002009781",
+      "description": "原材料;加工件;A6061-T6;X001;220*200*15;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 175.0,
+      "historical_extended": 350.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;運輸;滑台;GCS-HSC07打磨設備-滑台旋轉模組\\旋轉平台-左\\UC1002009781-X001.DWG",
+      "system_price": 175.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 175.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 175.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002009781；历史单位价=175.00元/件；来源=GCS双滑台打磨设备BOM第172行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=424.17元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 195,
+      "level": "2",
+      "item": "UC1002011369",
+      "description": "原材料;加工件;A6061-T6;A001-L;220*113*14;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 175.0,
+      "historical_extended": 175.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1002011369-A001-L.DWG",
+      "system_price": 175.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 175.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 175.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011369；历史单位价=175.00元/件；来源=GCS双滑台打磨设备BOM第195行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=341.40元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 196,
+      "level": "2",
+      "item": "UC1002011370",
+      "description": "原材料;加工件;A6061-T6;A002-L;308.5*220*14;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 389.0,
+      "historical_extended": 389.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1002011370-A002-L.DWG",
+      "system_price": 389.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 389.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 389.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011370；历史单位价=389.00元/件；来源=GCS双滑台打磨设备BOM第196行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=597.43元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 197,
+      "level": "2",
+      "item": "UC1002011371",
+      "description": "原材料;加工件;A6061-T6;A003;266.5*79*15;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 2.0,
+      "historical_price": 171.0,
+      "historical_extended": 342.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011371-A003.DWG",
+      "system_price": 171.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 171.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 171.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011371；历史单位价=171.00元/件；来源=GCS双滑台打磨设备BOM第197行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=0.00元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 198,
+      "level": "2",
+      "item": "UC1002011372",
+      "description": "原材料;加工件;A6061-T6;A004;86*28*15;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 66.0,
+      "historical_extended": 66.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011372-A004.DWG",
+      "system_price": 66.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 66.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 66.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011372；历史单位价=66.00元/件；来源=GCS双滑台打磨设备BOM第198行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=0.00元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 199,
+      "level": "2",
+      "item": "UC1002011373",
+      "description": "原材料;加工件;A6061-T6;A005-L;143*120*10;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 147.0,
+      "historical_extended": 147.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1002011373-A005-L.DWG",
+      "system_price": 147.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 147.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 147.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011373；历史单位价=147.00元/件；来源=GCS双滑台打磨设备BOM第199行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=223.08元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 200,
+      "level": "2",
+      "item": "UC1002011376",
+      "description": "原材料;加工件;A6061-T6;A009;87*55*10;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 61.0,
+      "historical_extended": 61.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\下料搬运\\UC1002011376_A009-L.dwg",
+      "system_price": 61.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 61.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 61.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011376；历史单位价=61.00元/件；来源=GCS双滑台打磨设备BOM第200行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=186.83元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 201,
+      "level": "2",
+      "item": "UC1002011377",
+      "description": "原材料;加工件;A6061-T6;A020;45*40*15;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1002011377_A020.DWG",
+      "system_price": 38.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 38.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 38.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011377；历史单位价=38.00元/件；来源=GCS双滑台打磨设备BOM第201行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=78.02元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 202,
+      "level": "2",
+      "item": "UC1002011378",
+      "description": "原材料;加工件;A6061-T6;B025-L;71*40*34.5;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 104.0,
+      "historical_extended": 104.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1002011378_B025.DWG",
+      "system_price": 104.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 104.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 104.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011378；历史单位价=104.00元/件；来源=GCS双滑台打磨设备BOM第202行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=154.57元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 203,
+      "level": "2",
+      "item": "UC1002011379",
+      "description": "原材料;加工件;A6061-T6;B013-L;139*102.1*15;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 161.0,
+      "historical_extended": 161.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1002011379_-B013-L.DWG",
+      "system_price": 161.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 161.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 161.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011379；历史单位价=161.00元/件；来源=GCS双滑台打磨设备BOM第203行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=268.87元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 204,
+      "level": "2",
+      "item": "UC1002011380",
+      "description": "原材料;加工件;A6061-T6;B002-L;162.5*50*13.07;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 90.0,
+      "historical_extended": 90.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1002011380_B002-L.DWG",
+      "system_price": 90.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 90.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 90.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011380；历史单位价=90.00元/件；来源=GCS双滑台打磨设备BOM第204行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=145.23元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 263,
+      "level": "2",
+      "item": "UC1002011381",
+      "description": "原材料;加工件;A6061-T6;A001-R;220*113*14;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 175.0,
+      "historical_extended": 175.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011381-A001-R.DWG",
+      "system_price": 175.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 175.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 175.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011381；历史单位价=175.00元/件；来源=GCS双滑台打磨设备BOM第263行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=347.24元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 264,
+      "level": "2",
+      "item": "UC1002011382",
+      "description": "原材料;加工件;A6061-T6;A002-R;308.5*220*14;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 389.0,
+      "historical_extended": 389.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011382-A002-R.DWG",
+      "system_price": 389.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 389.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 389.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011382；历史单位价=389.00元/件；来源=GCS双滑台打磨设备BOM第264行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=695.87元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 265,
+      "level": "2",
+      "item": "UC1002011383",
+      "description": "原材料;加工件;A6061-T6;A005-R;143*120*10;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 147.0,
+      "historical_extended": 147.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011383-A005-R.DWG",
+      "system_price": 147.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 147.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 147.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011383；历史单位价=147.00元/件；来源=GCS双滑台打磨设备BOM第265行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=277.51元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 266,
+      "level": "2",
+      "item": "UC1002011387",
+      "description": "原材料;加工件;A6061-T6;B025-R;71*40*34.5;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 90.0,
+      "historical_extended": 90.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 267,
+      "level": "2",
+      "item": "UC1002011388",
+      "description": "原材料;加工件;A6061-T6;B013-R;139*102.1*15;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 160.0,
+      "historical_extended": 160.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011388-B013-R.DWG",
+      "system_price": 160.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 160.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 160.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011388；历史单位价=160.00元/件；来源=GCS双滑台打磨设备BOM第267行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=255.28元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 268,
+      "level": "2",
+      "item": "UC1002011389",
+      "description": "原材料;加工件;A6061-T6;B002-R;162.5*50*13.07;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 90.0,
+      "historical_extended": 90.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011389-B002-R.DWG",
+      "system_price": 90.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 90.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 90.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011389；历史单位价=90.00元/件；来源=GCS双滑台打磨设备BOM第268行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=139.82元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 205,
+      "level": "2",
+      "item": "UC1002011390",
+      "description": "原材料;加工件;A6061-T6;R003;82.5*35*15;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 47.0,
+      "historical_extended": 47.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011390-R003.DWG",
+      "system_price": 47.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 47.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 47.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1002011390；历史单位价=47.00元/件；来源=GCS双滑台打磨设备BOM第205行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=136.89元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 58,
+      "level": "2",
+      "item": "UC1003000436",
+      "description": "原材料;加工件;方通;J001;1400*1300*785;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 7000.0,
+      "historical_extended": 7000.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1003000436_J001.DWG",
+      "system_price": 7000.0,
+      "status": "REVIEW_REQUIRED",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 7000.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 7000.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1003000436；历史单位价=7000.00元/件；来源=GCS双滑台打磨设备BOM第58行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=1284.67元（不计入正式合计）"
+        }
+      ],
+      "warnings": [
+        "焊接結構無法由2D圖可靠分解重量，需人工審核"
+      ],
+      "errors": []
+    },
+    {
+      "source_row": 206,
+      "level": "2",
+      "item": "UC1003000495",
+      "description": "原材料;加工件;方通;J022;220*130*258;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 551.0,
+      "historical_extended": 551.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 59,
+      "level": "2",
+      "item": "UC1004001529",
+      "description": "原材料;加工件;SPCC;W002;56*50*44;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 2.0,
+      "historical_price": 16.0,
+      "historical_extended": 32.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001529_W002.DWG",
+      "system_price": 16.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 16.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 16.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1004001529；历史单位价=16.00元/件；来源=GCS双滑台打磨设备BOM第59行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=71.22元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 207,
+      "level": "2",
+      "item": "UC1004001600",
+      "description": "原材料;加工件;SPCC;F060;295*50*32;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 2.0,
+      "historical_price": 19.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\下料漏斗-R01\\UC1004001600-F060.dwg",
+      "system_price": 19.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 19.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 19.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1004001600；历史单位价=19.00元/件；来源=GCS双滑台打磨设备BOM第207行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=16.12元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 60,
+      "level": "2",
+      "item": "UC1004001826",
+      "description": "原材料;加工件;SPCC;F012;278*82*2;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 4.0,
+      "historical_price": 19.0,
+      "historical_extended": 76.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 61,
+      "level": "2",
+      "item": "UC1004001886",
+      "description": "原材料;加工件;SPCC;J036;1208*103.5*2;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 28.0,
+      "historical_extended": 28.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001886-J036.stp.DWG",
+      "system_price": 28.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 28.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 28.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1004001886；历史单位价=28.00元/件；来源=GCS双滑台打磨设备BOM第61行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=172.57元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 62,
+      "level": "2",
+      "item": "UC1004001887",
+      "description": "原材料;加工件;SPCC;F002;794*200*15;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001887-F002.DWG",
+      "system_price": 38.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 38.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 38.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1004001887；历史单位价=38.00元/件；来源=GCS双滑台打磨设备BOM第62行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=197.65元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 63,
+      "level": "2",
+      "item": "UC1004001888",
+      "description": "原材料;加工件;SPCC;J050;798*50*15;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 47.0,
+      "historical_extended": 47.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001888-J050.DWG",
+      "system_price": 47.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 47.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 47.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1004001888；历史单位价=47.00元/件；来源=GCS双滑台打磨设备BOM第63行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=141.69元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 64,
+      "level": "2",
+      "item": "UC1004001889",
+      "description": "原材料;加工件;SPCC;J027;1300*117.2*2;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001889_J027.DWG",
+      "system_price": 38.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 38.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 38.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1004001889；历史单位价=38.00元/件；来源=GCS双滑台打磨设备BOM第64行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=163.83元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 65,
+      "level": "2",
+      "item": "UC1004001890",
+      "description": "原材料;加工件;SPCC;J035;1300*117.2*88;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 95.0,
+      "historical_extended": 95.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001890-J035.DWG",
+      "system_price": 95.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 95.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 95.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1004001890；历史单位价=95.00元/件；来源=GCS双滑台打磨设备BOM第65行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=156.78元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 66,
+      "level": "2",
+      "item": "UC1004001892",
+      "description": "原材料;加工件;SPCC;F021;815.5*200.3*52;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 83.0,
+      "historical_extended": 83.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 173,
+      "level": "2",
+      "item": "UC1004001893",
+      "description": "原材料;加工件;SPCC;X002;85*70*50;顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 28.0,
+      "historical_extended": 56.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;運輸;滑台;GCS-HSC07打磨設備-滑台旋轉模組\\旋轉平台-左\\UC1004001893-X002.DWG",
+      "system_price": 28.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 28.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 28.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1004001893；历史单位价=28.00元/件；来源=GCS双滑台打磨设备BOM第173行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=78.00元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 67,
+      "level": "2",
+      "item": "UC1004001894",
+      "description": "原材料;加工件;SPCC;F022;794*200*15;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001894-F022.SLDPRT.DWG",
+      "system_price": 38.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 38.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 38.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1004001894；历史单位价=38.00元/件；来源=GCS双滑台打磨设备BOM第67行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=216.63元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 68,
+      "level": "2",
+      "item": "UC1004001904",
+      "description": "原材料;加工件;SPCC;F003;818*200*21;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 57.0,
+      "historical_extended": 57.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001904-F003.DWG",
+      "system_price": 57.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 57.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 57.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1004001904；历史单位价=57.00元/件；来源=GCS双滑台打磨设备BOM第68行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=93.73元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 69,
+      "level": "2",
+      "item": "UC1004001905",
+      "description": "原材料;加工件;SPCC;F001;818*200*21;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 57.0,
+      "historical_extended": 57.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001905-F001.DWG",
+      "system_price": 57.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 57.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 57.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1004001905；历史单位价=57.00元/件；来源=GCS双滑台打磨设备BOM第69行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=93.58元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 70,
+      "level": "2",
+      "item": "UC1004001906",
+      "description": "原材料;加工件;SPCC;F024;815.5*200.3*52;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 57.0,
+      "historical_extended": 57.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 71,
+      "level": "2",
+      "item": "UC1004001907",
+      "description": "原材料;加工件;SPCC;F015;220*58*22;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 20.0,
+      "historical_extended": 20.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 72,
+      "level": "2",
+      "item": "UC1004001908",
+      "description": "原材料;加工件;SPCC;F016;220*42*75;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 26.0,
+      "historical_extended": 26.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 73,
+      "level": "2",
+      "item": "UC1004001909",
+      "description": "原材料;加工件;SPCC;F018;220*58*22;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 26.0,
+      "historical_extended": 26.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 74,
+      "level": "2",
+      "item": "UC1004001910",
+      "description": "原材料;加工件;SPCC;F017;220*42*75;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 26.0,
+      "historical_extended": 26.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 75,
+      "level": "2",
+      "item": "UC1007000329",
+      "description": "原材料;加工件;SUS304;J028;90*60*2 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 10.0,
+      "historical_extended": 10.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 76,
+      "level": "2",
+      "item": "UC1007000773",
+      "description": "原材料;加工件;SUS304;J029;80*90*2 Purchased item",
+      "uom": "EA",
+      "quantity": 2.0,
+      "historical_price": 14.0,
+      "historical_extended": 28.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1007000773_J029.DWG",
+      "system_price": 14.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 14.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 14.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1007000773；历史单位价=14.00元/件；来源=GCS双滑台打磨设备BOM第76行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=44.14元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 77,
+      "level": "2",
+      "item": "UC1007000775",
+      "description": "原材料;加工件;SUS304;F020;894.5*330*94 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 285.0,
+      "historical_extended": 285.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 78,
+      "level": "2",
+      "item": "UC1007000776",
+      "description": "原材料;加工件;SUS304;F025;855*166*132 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 270.0,
+      "historical_extended": 270.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1007000776-F025.DWG",
+      "system_price": 270.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 270.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 270.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1007000776；历史单位价=270.00元/件；来源=GCS双滑台打磨设备BOM第78行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=111.71元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 208,
+      "level": "2",
+      "item": "UC1007000944",
+      "description": "原材料;加工件;SUS304;F067;980*283.1*133 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 332.0,
+      "historical_extended": 332.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\下料漏斗-R01\\UC1007000944-F067.dwg",
+      "system_price": 332.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 332.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 332.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1007000944；历史单位价=332.00元/件；来源=GCS双滑台打磨设备BOM第208行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=207.99元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 209,
+      "level": "2",
+      "item": "UC1007000950",
+      "description": "原材料;加工件;SUS304;F064;271*100*23 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 28.0,
+      "historical_extended": 28.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\下料漏斗-R01\\UC1007000950-F064.dwg",
+      "system_price": 28.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 28.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 28.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1007000950；历史单位价=28.00元/件；来源=GCS双滑台打磨设备BOM第209行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=170.64元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 210,
+      "level": "2",
+      "item": "UC1007000965",
+      "description": "原材料;加工件;SUS304;B220-L;247*62*66.5 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1007000965-B220-L.DWG",
+      "system_price": 38.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 38.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 38.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1007000965；历史单位价=38.00元/件；来源=GCS双滑台打磨设备BOM第210行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=252.09元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 211,
+      "level": "2",
+      "item": "UC1007000966",
+      "description": "原材料;加工件;SUS304;B222-L;35*26*23 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 19.0,
+      "historical_extended": 19.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1007000966_B222-L.DWG",
+      "system_price": 19.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 19.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 19.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1007000966；历史单位价=19.00元/件；来源=GCS双滑台打磨设备BOM第211行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=62.71元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 212,
+      "level": "2",
+      "item": "UC1007000967",
+      "description": "原材料;加工件;SUS304;B221-L;145*130*67 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1007000967-B221-L.DWG",
+      "system_price": 38.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 38.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 38.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1007000967；历史单位价=38.00元/件；来源=GCS双滑台打磨设备BOM第212行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=250.01元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 275,
+      "level": "2",
+      "item": "UC1007000968",
+      "description": "原材料;加工件;SUS304;B220-R;247*62*66.5 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1007000968-B220-R.DWG",
+      "system_price": 38.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 38.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 38.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1007000968；历史单位价=38.00元/件；来源=GCS双滑台打磨设备BOM第275行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=246.94元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 276,
+      "level": "2",
+      "item": "UC1007000969",
+      "description": "原材料;加工件;SUS304;B221-R;145*130*67 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1007000969-B221-R.DWG",
+      "system_price": 38.0,
+      "status": "COMPLETE",
+      "absolute_error": 0.0,
+      "deviation_pct": 0.0,
+      "source_summary": {
+        "H": 38.0
+      },
+      "quote_items": [
+        {
+          "category": "other",
+          "name": "同料号历史成交整件价",
+          "amount": 38.0,
+          "source": "H",
+          "evidence": "同料号精确命中：UC1007000969；历史单位价=38.00元/件；来源=GCS双滑台打磨设备BOM第276行；数据版本=GCS-HISTORICAL-PART-V1.0；底层模型参考值=245.45元（不计入正式合计）"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 213,
+      "level": "2",
+      "item": "UC1230000925",
+      "description": "原材料;加工件;SKD11;R018;283.6*φ8 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 104.0,
+      "historical_extended": 104.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

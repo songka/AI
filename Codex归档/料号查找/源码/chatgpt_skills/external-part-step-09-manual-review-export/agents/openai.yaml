@@ -1,0 +1,7 @@
+interface:
+  display_name: "外购件第9步"
+  short_description: "循环批次并导出人工复核文件。"
+  default_prompt: "使用 $external-part-step-09-manual-review-export 完成机器处理循环并导出人工复核文件。"
+
+policy:
+  allow_implicit_invocation: true

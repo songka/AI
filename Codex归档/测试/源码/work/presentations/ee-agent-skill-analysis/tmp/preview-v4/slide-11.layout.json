@@ -1,0 +1,1040 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/fi2mwf",
+    "id": "fi2mwf",
+    "slide": 11,
+    "layoutId": "e6069b42-abd9-400c-b432-952790896c08",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "16aea525-ccb4-4b2b-9c2b-7ab79510def0",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "e6069b42-abd9-400c-b432-952790896c08",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "16aea525-ccb4-4b2b-9c2b-7ab79510def0",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "16aea525-ccb4-4b2b-9c2b-7ab79510def0",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wjudg7a",
+      "id": "1",
+      "bbox": [
+        48,
+        32,
+        760,
+        28
+      ],
+      "geometry": "rect",
+      "text": "要素 7-8：交付格式和安装评测",
+      "textPreview": "要素 7-8：交付格式和安装评测",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#5F6368",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "要素 7-8：交付格式和安装评测"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "要素 7-8：交付格式和安装评测",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "要素 7-8：交付格式和安装评测",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y90je9cv",
+      "id": "2",
+      "bbox": [
+        48,
+        74,
+        1050,
+        88
+      ],
+      "geometry": "rect",
+      "text": "交付格式决定别人能不能用，安装评测决定 skill 能不能长期用",
+      "textPreview": "交付格式决定别人能不能用，安装评测决定 skill 能不能长期用",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "fontSize": 39,
+        "typeface": "Microsoft YaHei",
+        "color": "#121212",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "交付格式决定别人能不能用，安装评测决定 skill"
+          },
+          {
+            "index": 2,
+            "text": "能不能长期用"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "交付格式决定别人能不能用，安装评测决定 skill 能不能长期用",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "typeface": "Microsoft YaHei",
+            "color": "#121212",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "交付格式决定别人能不能用，安装评测决定 skill 能不能长期用",
+              "fontSize": 39,
+              "typeface": "Microsoft YaHei",
+              "color": "#121212",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nuxc3ylc",
+      "id": "3",
+      "bbox": [
+        48,
+        218,
+        1184,
+        1.5
+      ],
+      "geometry": "rect",
+      "fillColor": "#C8CDD4",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gn29gr2p",
+      "id": "4",
+      "bbox": [
+        64,
+        252,
+        520,
+        310
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7F8FA",
+      "lineColor": "#C8CDD4",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58z25kb6",
+      "id": "5",
+      "bbox": [
+        80,
+        264,
+        488,
+        28
+      ],
+      "geometry": "rect",
+      "text": "7. 交付格式\n位置：SKILL.md + templates/",
+      "textPreview": "7. 交付格式 | 位置：SKILL.md + templates/",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#1F6FEB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "7. 交付格式"
+          },
+          {
+            "index": 2,
+            "text": "位置：SKILL.md + templates/"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "7. 交付格式",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#1F6FEB",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "7. 交付格式",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#1F6FEB",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "位置：SKILL.md + templates/",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#1F6FEB",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "位置：SKILL.md + templates/",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#1F6FEB",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhgn29gr",
+      "id": "6",
+      "bbox": [
+        80,
+        300,
+        488,
+        254
+      ],
+      "geometry": "rect",
+      "text": "要写清楚：\n- 输出是报告、表格、代码还是清单\n- 字段顺序\n- 必须说明的假设\n- 哪些结论要标注风险\n\n例子：输出“问题、风险等级、依据、建议动作、人工复核点”。",
+      "textPreview": "要写清楚： | - 输出是报告、表格、代码还是清单 | - 字段顺序 | - 必须说明的假设 | - 哪些结论要标注风险 |  | 例子：输出“问题、风险等级、依据、建议动作、人工复核点”。",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#5F6368",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "要写清楚："
+          },
+          {
+            "index": 2,
+            "text": "- 输出是报告、表格、代码还是清单"
+          },
+          {
+            "index": 3,
+            "text": "- 字段顺序"
+          },
+          {
+            "index": 4,
+            "text": "- 必须说明的假设"
+          },
+          {
+            "index": 5,
+            "text": "- 哪些结论要标注风险"
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "例子：输出“问题、风险等级、依据、建议动作、人工复核"
+          },
+          {
+            "index": 8,
+            "text": "点”。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "要写清楚：",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "要写清楚：",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "- 输出是报告、表格、代码还是清单",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 输出是报告、表格、代码还是清单",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "- 字段顺序",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 字段顺序",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "- 必须说明的假设",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 必须说明的假设",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "- 哪些结论要标注风险",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 哪些结论要标注风险",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "例子：输出“问题、风险等级、依据、建议动作、人工复核点”。",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "例子：输出“问题、风险等级、依据、建议动作、人工复核点”。",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n29gr2p8",
+      "id": "7",
+      "bbox": [
+        676,
+        252,
+        520,
+        310
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7F8FA",
+      "lineColor": "#C8CDD4",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/czed8v6p",
+      "id": "8",
+      "bbox": [
+        692,
+        264,
+        488,
+        28
+      ],
+      "geometry": "rect",
+      "text": "8. 安装说明与评测案例\n位置：README/INSTALL、_meta.json、evals/",
+      "textPreview": "8. 安装说明与评测案例 | 位置：README/INSTALL、_meta.json、evals/",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#6F42C1",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "8. 安装说明与评测案例"
+          },
+          {
+            "index": 2,
+            "text": "位置：README/INSTALL、_meta.json、evals/"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "8. 安装说明与评测案例",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#6F42C1",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "8. 安装说明与评测案例",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#6F42C1",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "位置：README/INSTALL、_meta.json、evals/",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#6F42C1",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "位置：README/INSTALL、_meta.json、evals/",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#6F42C1",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5kb6xkf6",
+      "id": "9",
+      "bbox": [
+        692,
+        300,
+        488,
+        254
+      ],
+      "geometry": "rect",
+      "text": "要写清楚：\n- 如何安装或导入\n- 版本信息\n- 正确触发案例\n- 不该触发案例\n- 输入不完整案例\n\n例子：放“应该触发 PLC skill”和“不应该触发 PLC skill”的案例。",
+      "textPreview": "要写清楚： | - 如何安装或导入 | - 版本信息 | - 正确触发案例 | - 不该触发案例 | - 输入不完整案例 |  | 例子：放“应该触发 PLC skill”和“不应该触发 PLC skill”的案例。",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#5F6368",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 9,
+        "lines": [
+          {
+            "index": 1,
+            "text": "要写清楚："
+          },
+          {
+            "index": 2,
+            "text": "- 如何安装或导入"
+          },
+          {
+            "index": 3,
+            "text": "- 版本信息"
+          },
+          {
+            "index": 4,
+            "text": "- 正确触发案例"
+          },
+          {
+            "index": 5,
+            "text": "- 不该触发案例"
+          },
+          {
+            "index": 6,
+            "text": "- 输入不完整案例"
+          },
+          {
+            "index": 7,
+            "text": ""
+          },
+          {
+            "index": 8,
+            "text": "例子：放“应该触发 PLC skill”和“不应该触发 PLC"
+          },
+          {
+            "index": 9,
+            "text": "skill”的案例。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "要写清楚：",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "要写清楚：",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "- 如何安装或导入",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 如何安装或导入",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "- 版本信息",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 版本信息",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "- 正确触发案例",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 正确触发案例",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "- 不该触发案例",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 不该触发案例",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "- 输入不完整案例",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 输入不完整案例",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "例子：放“应该触发 PLC skill”和“不应该触发 PLC skill”的案例。",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "例子：放“应该触发 PLC skill”和“不应该触发 PLC skill”的案例。",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4nap4r6",
+      "id": "10",
+      "bbox": [
+        94,
+        604,
+        1010,
+        34
+      ],
+      "geometry": "rect",
+      "text": "通俗理解：交付格式像验收报告；安装评测像出厂测试记录。",
+      "textPreview": "通俗理解：交付格式像验收报告；安装评测像出厂测试记录。",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#E85D2A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "通俗理解：交付格式像验收报告；安装评测像出厂测试记录。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "通俗理解：交付格式像验收报告；安装评测像出厂测试记录。",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#E85D2A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "通俗理解：交付格式像验收报告；安装评测像出厂测试记录。",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#E85D2A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqh0fep",
+      "id": "11",
+      "bbox": [
+        48,
+        666,
+        620,
+        24
+      ],
+      "geometry": "rect",
+      "text": "电气工程师 Agent Skill 分析与提问方法",
+      "textPreview": "电气工程师 Agent Skill 分析与提问方法",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Microsoft YaHei",
+        "color": "#5F6368",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "电气工程师 Agent Skill 分析与提问方法"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "电气工程师 Agent Skill 分析与提问方法",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "电气工程师 Agent Skill 分析与提问方法",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fyxobm58",
+      "id": "12",
+      "bbox": [
+        1180,
+        660,
+        58,
+        26
+      ],
+      "geometry": "rect",
+      "text": "11",
+      "textPreview": "11",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#5F6368",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "11"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "11",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "11",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

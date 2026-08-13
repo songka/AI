@@ -1,0 +1,21 @@
+{
+  "webhook_url": "",
+  "app_id": "cli_xxx",
+  "app_secret": "",
+  "receive_id": "oc_xxx",
+  "private_id": "ou_xxx",
+  "kpi_admin_open_ids": [],
+  "allowed_open_ids": [],
+  "debug_logging": false,
+  "bot_open_id": "ou_xxx",
+  "verification_token": "",
+  "title": "签核待办提醒",
+  "ai_endpoint": "",
+  "ai_key": "",
+  "ai_model": "deepseek-v4-flash",
+  "ai_max_tokens": 2048,
+  "ai_timeout": 60,
+  "dashboard_base_url": "https://example.com",
+  "oauth_redirect_uri": "https://example.com/stats/oauth/callback",
+  "dashboard_secret": ""
+}

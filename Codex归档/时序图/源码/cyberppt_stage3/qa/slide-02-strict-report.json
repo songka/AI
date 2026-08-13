@@ -1,0 +1,56 @@
+{
+  "file": "cyberppt_stage3\\pages\\slide-02.pptx",
+  "summary": {
+    "slide_count": 1,
+    "width_emu": 12192000,
+    "height_emu": 6858000,
+    "aspect_ratio": 1.7778,
+    "native_text_shapes": 55,
+    "native_graphic_shapes": 342,
+    "pictures": 0,
+    "charts": 0,
+    "tables": 0
+  },
+  "errors": [
+    {
+      "code": "MANIFEST_PAGE_APPROVAL_MISSING",
+      "message": "A page must be approved by the user before the next page is made or final merge begins.",
+      "slide": 1,
+      "strict_failure": true
+    }
+  ],
+  "warnings": [
+    {
+      "code": "MANIFEST_PAGE_APPROVAL_MISSING",
+      "message": "A page must be approved by the user before the next page is made or final merge begins.",
+      "slide": 1
+    }
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "native_text_shapes": 55,
+      "native_graphic_shapes": 342,
+      "pictures": 0,
+      "charts": 0,
+      "tables": 0,
+      "element_count": 342,
+      "coverage_ratio": 0.9327,
+      "picture_area_ratio": 0,
+      "max_picture_area_ratio": 0.0,
+      "min_font_size_pt": 6.75,
+      "max_font_size_pt": 22.5,
+      "text_characters": 711
+    }
+  ],
+  "manifest": {
+    "file": "cyberppt_stage3\\slide-02-manifest.json",
+    "loaded": true,
+    "slide_entries": 1
+  },
+  "visual_qa": {
+    "file": "cyberppt_stage3\\slide-02-visual-qa-gate.json",
+    "loaded": true,
+    "slide_entries": 1
+  }
+}

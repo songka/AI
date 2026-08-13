@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOMCheck Web</title>
+    <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+    <div class="app-shell">
+        <aside class="sidebar">
+            <a class="brand" href="/">
+                <span class="brand-mark">B</span>
+                <span>
+                    <strong>BOMCheck</strong>
+                    <small>料号检测系统</small>
+                </span>
+            </a>
+
+            <nav class="side-nav">
+                <span class="nav-label">工作区</span>
+                <a class="{{ 'active' if request.url.path == '/' else '' }}" href="/">
+                    <span class="nav-icon">B</span>
+                    <span>BOM 执行</span>
+                </a>
+                <a class="{{ 'active' if request.url.path.startswith('/query') or request.url.path.startswith('/parts') else '' }}" href="/query">
+                    <span class="nav-icon">Q</span>
+                    <span>料号查询</span>
+                </a>
+
+                {% if user and user.is_admin %}
+                <span class="nav-label">管理</span>
+                <a class="{{ 'active' if request.url.path == '/admin/config' else '' }}" href="/admin/config">
+                    <span class="nav-icon">C</span>
+                    <span>配置</span>
+                </a>
+                <a class="{{ 'active' if request.url.path.startswith('/admin/data/invalid') else '' }}" href="/admin/data/invalid-parts">
+                    <span class="nav-icon">I</span>
+                    <span>失效料号库</span>
+                </a>
+                <a class="{{ 'active' if request.url.path.startswith('/admin/data/binding') else '' }}" href="/admin/data/binding">
+                    <span class="nav-icon">L</span>
+                    <span>绑定料号库</span>
+                </a>
+                <a class="{{ 'active' if request.url.path.startswith('/admin/data/important') else '' }}" href="/admin/data/important">
+                    <span class="nav-icon">M</span>
+                    <span>重要物料</span>
+                </a>
+                <a class="{{ 'active' if request.url.path.startswith('/admin/users') else '' }}" href="/admin/users">
+                    <span class="nav-icon">U</span>
+                    <span>用户管理</span>
+                </a>
+                {% endif %}
+            </nav>
+
+            <div class="sidebar-footer">
+                <span class="mini-status online"></span>
+                <span>网络配置优先</span>
+            </div>
+        </aside>
+
+        <div class="workspace">
+            <header class="topbar">
+                <div class="topbar-status">
+                    <span class="status-dot"></span>
+                    <span>公共数据源</span>
+                    <strong>实时校验</strong>
+                </div>
+                <div class="topbar-actions">
+                    <a class="topbar-link" href="/query">快速查询</a>
+                    {% if user %}
+                    <span class="user-chip">{{ user.username }}{% if user.is_admin %} / 管理员{% endif %}</span>
+                    <form action="/logout" method="post" class="inline-form">
+                        <button type="submit" class="quiet-button">退出</button>
+                    </form>
+                    {% else %}
+                    <a class="admin-login" href="/login">管理员登录</a>
+                    {% endif %}
+                </div>
+            </header>
+
+            <main class="container">
+                {% block content %}{% endblock %}
+            </main>
+        </div>
+    </div>
+</body>
+</html>

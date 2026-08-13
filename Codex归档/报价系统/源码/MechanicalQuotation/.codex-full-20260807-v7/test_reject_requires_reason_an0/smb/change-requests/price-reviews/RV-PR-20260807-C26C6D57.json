@@ -1,0 +1,14 @@
+{
+  "review_id": "RV-5A52D5A1908A",
+  "price_record_id": "PR-20260807-C26C6D57",
+  "supplier_id": "SUP-LFAF-001",
+  "status": "REJECTED",
+  "review_comment": "报价单缺少有效期",
+  "reviewed_by": "3debddfc-0fdf-4aef-b6a7-a23919a71cf2",
+  "reviewed_by_name": "管理员",
+  "reviewed_at": "2026-08-07T01:28:49.712775+00:00",
+  "source_sha256": "7e95eb858dbb8cbfdd827613a5a5d1b6808dbcc65c07b480b08417d1d53ccee3",
+  "previous_price_version_id": null,
+  "published_price_version_id": null,
+  "published_company_price_id": null
+}

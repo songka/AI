@@ -1,0 +1,29 @@
+{
+  "bom_item": "UC1004001890",
+  "bounding_box": {
+    "length_min": 1170.0,
+    "length_max": 1430.0000000000002,
+    "width_min": 105.48,
+    "width_max": 128.92000000000002,
+    "height_min": 79.2,
+    "height_max": 96.80000000000001
+  },
+  "material": {
+    "text_contains": [
+      "SPCC"
+    ],
+    "source": "DRAWING_TEXT",
+    "confidence_min": 0.5
+  },
+  "surface_treatment": {
+    "present": true,
+    "source": "DRAWING_TEXT"
+  },
+  "holes": {
+    "count_min": 4
+  },
+  "threads": {
+    "present": true,
+    "spec_contains": "M8"
+  }
+}

@@ -1,0 +1,1133 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/no516r",
+    "id": "no516r",
+    "slide": 5,
+    "layoutId": "e6069b42-abd9-400c-b432-952790896c08",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "16aea525-ccb4-4b2b-9c2b-7ab79510def0",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "e6069b42-abd9-400c-b432-952790896c08",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "16aea525-ccb4-4b2b-9c2b-7ab79510def0",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "16aea525-ccb4-4b2b-9c2b-7ab79510def0",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5o7qpg3e",
+      "id": "1",
+      "bbox": [
+        48,
+        32,
+        760,
+        28
+      ],
+      "geometry": "rect",
+      "text": "文件名分三类：必须、约定、自定义",
+      "textPreview": "文件名分三类：必须、约定、自定义",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#5F6368",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "文件名分三类：必须、约定、自定义"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "文件名分三类：必须、约定、自定义",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "文件名分三类：必须、约定、自定义",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxobm58z",
+      "id": "2",
+      "bbox": [
+        48,
+        74,
+        1050,
+        88
+      ],
+      "geometry": "rect",
+      "text": "英文目录名不要随便翻译成中文路径，PPT 可写中文备注，真实文件名最好保留英文",
+      "textPreview": "英文目录名不要随便翻译成中文路径，PPT 可写中文备注，真实文件名最好保留英文",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "fontSize": 39,
+        "typeface": "Microsoft YaHei",
+        "color": "#121212",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "英文目录名不要随便翻译成中文路径，PPT"
+          },
+          {
+            "index": 2,
+            "text": "可写中文备注，真实文件名最好保留英文"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "英文目录名不要随便翻译成中文路径，PPT 可写中文备注，真实文件名最好保留英文",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "typeface": "Microsoft YaHei",
+            "color": "#121212",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "英文目录名不要随便翻译成中文路径，PPT 可写中文备注，真实文件名最好保留英文",
+              "fontSize": 39,
+              "typeface": "Microsoft YaHei",
+              "color": "#121212",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nih4byhg",
+      "id": "3",
+      "bbox": [
+        48,
+        218,
+        1184,
+        1.5
+      ],
+      "geometry": "rect",
+      "fillColor": "#C8CDD4",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gr2p8nqx",
+      "id": "4",
+      "bbox": [
+        58,
+        252,
+        354,
+        284
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7F8FA",
+      "lineColor": "#C8CDD4",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cvixcze",
+      "id": "5",
+      "bbox": [
+        74,
+        264,
+        322,
+        28
+      ],
+      "geometry": "rect",
+      "text": "必须保留的名称",
+      "textPreview": "必须保留的名称",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#B42318",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "必须保留的名称"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "必须保留的名称",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#B42318",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "必须保留的名称",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#B42318",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ylc7u54z",
+      "id": "6",
+      "bbox": [
+        74,
+        300,
+        322,
+        228
+      ],
+      "geometry": "rect",
+      "text": "SKILL.md：skill 的入口文件，必须存在。\n\npackage.zip：导入时常用的压缩包名称。\n\n_meta.json：平台包里可能出现的元数据，通常不要改字段。",
+      "textPreview": "SKILL.md：skill 的入口文件，必须存在。 |  | package.zip：导入时常用的压缩包名称。 |  | _meta.json：平台包里可能出现的元数据，通常不要改字段。",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#5F6368",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SKILL.md：skill"
+          },
+          {
+            "index": 2,
+            "text": "的入口文件，必须存在。"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "package.zip：导入时常用的压缩包名称"
+          },
+          {
+            "index": 5,
+            "text": "。"
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "_meta.json：平台包里可能出现的元数"
+          },
+          {
+            "index": 8,
+            "text": "据，通常不要改字段。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SKILL.md：skill 的入口文件，必须存在。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SKILL.md：skill 的入口文件，必须存在。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "package.zip：导入时常用的压缩包名称。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "package.zip：导入时常用的压缩包名称。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "_meta.json：平台包里可能出现的元数据，通常不要改字段。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "_meta.json：平台包里可能出现的元数据，通常不要改字段。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r65wjudg",
+      "id": "7",
+      "bbox": [
+        462,
+        252,
+        354,
+        284
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7F8FA",
+      "lineColor": "#C8CDD4",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfmlkjm1",
+      "id": "8",
+      "bbox": [
+        478,
+        264,
+        322,
+        28
+      ],
+      "geometry": "rect",
+      "text": "约定俗成的名称",
+      "textPreview": "约定俗成的名称",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#238636",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "约定俗成的名称"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "约定俗成的名称",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#238636",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "约定俗成的名称",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#238636",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90je9cvi",
+      "id": "9",
+      "bbox": [
+        478,
+        300,
+        322,
+        228
+      ],
+      "geometry": "rect",
+      "text": "references/：资料库\nscripts/：执行脚本\nassets/：示例资源或原始素材\ntemplates/：输出模板\nexamples/：示例输入输出\nevals/：评测案例\nREADME.md / INSTALL.md：说明文档",
+      "textPreview": "references/：资料库 | scripts/：执行脚本 | assets/：示例资源或原始素材 | templates/：输出模板 | examples/：示例输入输出 | evals/：评测案例 | README.md / INSTALL.md：说明文档",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#5F6368",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "references/：资料库"
+          },
+          {
+            "index": 2,
+            "text": "scripts/：执行脚本"
+          },
+          {
+            "index": 3,
+            "text": "assets/：示例资源或原始素材"
+          },
+          {
+            "index": 4,
+            "text": "templates/：输出模板"
+          },
+          {
+            "index": 5,
+            "text": "examples/：示例输入输出"
+          },
+          {
+            "index": 6,
+            "text": "evals/：评测案例"
+          },
+          {
+            "index": 7,
+            "text": "README.md / INSTALL.md：说明文档"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "references/：资料库",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "references/：资料库",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "scripts/：执行脚本",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "scripts/：执行脚本",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "assets/：示例资源或原始素材",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "assets/：示例资源或原始素材",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "templates/：输出模板",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "templates/：输出模板",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "examples/：示例输入输出",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "examples/：示例输入输出",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "evals/：评测案例",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "evals/：评测案例",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "README.md / INSTALL.md：说明文档",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "README.md / INSTALL.md：说明文档",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lc7u54zi",
+      "id": "10",
+      "bbox": [
+        866,
+        252,
+        354,
+        284
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7F8FA",
+      "lineColor": "#C8CDD4",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wra5gbq1",
+      "id": "11",
+      "bbox": [
+        882,
+        264,
+        322,
+        28
+      ],
+      "geometry": "rect",
+      "text": "用户自定义的名称",
+      "textPreview": "用户自定义的名称",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#1F6FEB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "用户自定义的名称"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "用户自定义的名称",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#1F6FEB",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "用户自定义的名称",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#1F6FEB",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/36hcrmhk",
+      "id": "12",
+      "bbox": [
+        882,
+        300,
+        322,
+        228
+      ],
+      "geometry": "rect",
+      "text": "skill 文件夹名可以按主题命名。\n\nreferences/ 里面的文件名可按业务命名，例如：task-router.md、safety-boundaries.md。\n\n脚本名、模板名、案例名也可以按你的工程习惯命名。",
+      "textPreview": "skill 文件夹名可以按主题命名。 |  | references/ 里面的文件名可按业务命名，例如：task-router.md、safety-boundaries.md。 |  | 脚本名、模板名、案例名也可以按你的工程习惯命名。",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#5F6368",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 9,
+        "lines": [
+          {
+            "index": 1,
+            "text": "skill 文件夹名可以按主题命名。"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "references/"
+          },
+          {
+            "index": 4,
+            "text": "里面的文件名可按业务命名，例如：tas"
+          },
+          {
+            "index": 5,
+            "text": "k-router.md、safety-boundaries.md"
+          },
+          {
+            "index": 6,
+            "text": "。"
+          },
+          {
+            "index": 7,
+            "text": ""
+          },
+          {
+            "index": 8,
+            "text": "脚本名、模板名、案例名也可以按你的"
+          },
+          {
+            "index": 9,
+            "text": "工程习惯命名。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "skill 文件夹名可以按主题命名。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "skill 文件夹名可以按主题命名。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "references/ 里面的文件名可按业务命名，例如：task-router.md、safety-boundaries.md。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "references/ 里面的文件名可按业务命名，例如：task-router.md、safety-boundaries.md。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "脚本名、模板名、案例名也可以按你的工程习惯命名。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "脚本名、模板名、案例名也可以按你的工程习惯命名。",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/eloj2t83",
+      "id": "13",
+      "bbox": [
+        76,
+        588,
+        1060,
+        34
+      ],
+      "geometry": "rect",
+      "text": "建议：文件名用英文，括号里备注中文。这样 AI 和系统容易识别，你自己也容易找到原文件。",
+      "textPreview": "建议：文件名用英文，括号里备注中文。这样 AI 和系统容易识别，你自己也容易找到原文件。",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#E85D2A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "建议：文件名用英文，括号里备注中文。这样 AI 和系统容易识别，你自己也容易找到原文件。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "建议：文件名用英文，括号里备注中文。这样 AI 和系统容易识别，你自己也容易找到原文件。",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#E85D2A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "建议：文件名用英文，括号里备注中文。这样 AI 和系统容易识别，你自己也容易找到原文件。",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#E85D2A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0rqd4vm",
+      "id": "14",
+      "bbox": [
+        48,
+        666,
+        620,
+        24
+      ],
+      "geometry": "rect",
+      "text": "电气工程师 Agent Skill 分析与提问方法",
+      "textPreview": "电气工程师 Agent Skill 分析与提问方法",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Microsoft YaHei",
+        "color": "#5F6368",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "电气工程师 Agent Skill 分析与提问方法"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "电气工程师 Agent Skill 分析与提问方法",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "电气工程师 Agent Skill 分析与提问方法",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfyxobm5",
+      "id": "15",
+      "bbox": [
+        1180,
+        660,
+        58,
+        26
+      ],
+      "geometry": "rect",
+      "text": "05",
+      "textPreview": "05",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#5F6368",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#5F6368",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "05",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#5F6368",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

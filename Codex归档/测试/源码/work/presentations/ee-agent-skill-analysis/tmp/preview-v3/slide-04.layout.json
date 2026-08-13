@@ -1,0 +1,1072 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/q87xg3",
+    "id": "q87xg3",
+    "slide": 4,
+    "layoutId": "8aa06e24-b55d-4c97-b976-e276929ed650",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d2a4a8fb-57a4-48aa-844f-578457d99e8d",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8aa06e24-b55d-4c97-b976-e276929ed650",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d2a4a8fb-57a4-48aa-844f-578457d99e8d",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d2a4a8fb-57a4-48aa-844f-578457d99e8d",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulwval87",
+      "id": "1",
+      "bbox": [
+        42,
+        34,
+        620,
+        28
+      ],
+      "geometry": "rect",
+      "text": "第二步：要素 1-2",
+      "textPreview": "第二步：要素 1-2",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "第二步：要素 1-2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "第二步：要素 1-2",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "第二步：要素 1-2",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cfa9w3m",
+      "id": "2",
+      "bbox": [
+        42,
+        78,
+        1070,
+        94
+      ],
+      "geometry": "rect",
+      "text": "先写清楚“什么时候用”，再写清楚“什么时候不用”",
+      "textPreview": "先写清楚“什么时候用”，再写清楚“什么时候不用”",
+      "resolvedFontSize": 41,
+      "resolvedTextStyle": {
+        "fontSize": 41,
+        "typeface": "Microsoft YaHei",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "先写清楚“什么时候用”，再写清楚“什么时候不用”"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "先写清楚“什么时候用”，再写清楚“什么时候不用”",
+          "resolvedTextStyle": {
+            "fontSize": 41,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "先写清楚“什么时候用”，再写清楚“什么时候不用”",
+              "fontSize": 41,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crmhk3q5",
+      "id": "3",
+      "bbox": [
+        42,
+        216,
+        1196,
+        1.5
+      ],
+      "geometry": "rect",
+      "fillColor": "#C7CBD1",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "4",
+      "bbox": [
+        52,
+        250,
+        548,
+        285
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8F8F8",
+      "lineColor": "#C7CBD1",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxc3ylc7",
+      "id": "5",
+      "bbox": [
+        70,
+        264,
+        512,
+        30
+      ],
+      "geometry": "rect",
+      "text": "1. 名称与触发描述",
+      "textPreview": "1. 名称与触发描述",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#1F6FEB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. 名称与触发描述"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1. 名称与触发描述",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#1F6FEB",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. 名称与触发描述",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#1F6FEB",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kre1w7m",
+      "id": "6",
+      "bbox": [
+        70,
+        302,
+        512,
+        225
+      ],
+      "geometry": "rect",
+      "text": "作用：让 AI 一眼知道这个 skill 负责什么。\n\n要写细：\n- skill 名称\n- 典型触发词\n- 典型任务\n- 不要只写“电气助手”这种大词\n\n通俗理解：像工具柜标签，标签越清楚，拿错工具的概率越低。",
+      "textPreview": "作用：让 AI 一眼知道这个 skill 负责什么。 |  | 要写细： | - skill 名称 | - 典型触发词 | - 典型任务 | - 不要只写“电气助手”这种大词 |  | 通俗理解：像工具柜标签，标签越清楚，拿错工具的概率越低。",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 9,
+        "lines": [
+          {
+            "index": 1,
+            "text": "作用：让 AI 一眼知道这个 skill 负责什么。"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "要写细："
+          },
+          {
+            "index": 4,
+            "text": "- skill 名称"
+          },
+          {
+            "index": 5,
+            "text": "- 典型触发词"
+          },
+          {
+            "index": 6,
+            "text": "- 典型任务"
+          },
+          {
+            "index": 7,
+            "text": "- 不要只写“电气助手”这种大词"
+          },
+          {
+            "index": 8,
+            "text": ""
+          },
+          {
+            "index": 9,
+            "text": "通俗理解：像工具柜标签，标签越清楚，拿错工具的概率越低。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "作用：让 AI 一眼知道这个 skill 负责什么。",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "作用：让 AI 一眼知道这个 skill 负责什么。",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "要写细：",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "要写细：",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "- skill 名称",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- skill 名称",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "- 典型触发词",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 典型触发词",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "- 典型任务",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 典型任务",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "- 不要只写“电气助手”这种大词",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 不要只写“电气助手”这种大词",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "通俗理解：像工具柜标签，标签越清楚，拿错工具的概率越低。",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "通俗理解：像工具柜标签，标签越清楚，拿错工具的概率越低。",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3ylc7u5",
+      "id": "7",
+      "bbox": [
+        680,
+        250,
+        548,
+        285
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8F8F8",
+      "lineColor": "#C7CBD1",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqh0fepk",
+      "id": "8",
+      "bbox": [
+        698,
+        264,
+        512,
+        30
+      ],
+      "geometry": "rect",
+      "text": "2. 适用边界",
+      "textPreview": "2. 适用边界",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#C2410C",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2. 适用边界"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2. 适用边界",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#C2410C",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. 适用边界",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#C2410C",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5o7qpg3",
+      "id": "9",
+      "bbox": [
+        698,
+        302,
+        512,
+        225
+      ],
+      "geometry": "rect",
+      "text": "作用：防止 AI 把 skill 用到不该用的地方。\n\n要写细：\n- 覆盖范围\n- 排除范围\n- 安全/合规边界\n- 输入不够时要先问什么\n\n通俗理解：像电气柜警示牌，告诉你哪些能碰，哪些必须确认。",
+      "textPreview": "作用：防止 AI 把 skill 用到不该用的地方。 |  | 要写细： | - 覆盖范围 | - 排除范围 | - 安全/合规边界 | - 输入不够时要先问什么 |  | 通俗理解：像电气柜警示牌，告诉你哪些能碰，哪些必须确认。",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 9,
+        "lines": [
+          {
+            "index": 1,
+            "text": "作用：防止 AI 把 skill 用到不该用的地方。"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "要写细："
+          },
+          {
+            "index": 4,
+            "text": "- 覆盖范围"
+          },
+          {
+            "index": 5,
+            "text": "- 排除范围"
+          },
+          {
+            "index": 6,
+            "text": "- 安全/合规边界"
+          },
+          {
+            "index": 7,
+            "text": "- 输入不够时要先问什么"
+          },
+          {
+            "index": 8,
+            "text": ""
+          },
+          {
+            "index": 9,
+            "text": "通俗理解：像电气柜警示牌，告诉你哪些能碰，哪些必须确认。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "作用：防止 AI 把 skill 用到不该用的地方。",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "作用：防止 AI 把 skill 用到不该用的地方。",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "要写细：",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "要写细：",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "- 覆盖范围",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 覆盖范围",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "- 排除范围",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 排除范围",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "- 安全/合规边界",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 安全/合规边界",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "- 输入不够时要先问什么",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 输入不够时要先问什么",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "通俗理解：像电气柜警示牌，告诉你哪些能碰，哪些必须确认。",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "通俗理解：像电气柜警示牌，告诉你哪些能碰，哪些必须确认。",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzupwb2h",
+      "id": "10",
+      "bbox": [
+        74,
+        558,
+        500,
+        58
+      ],
+      "geometry": "rect",
+      "text": "例：看到“PLC、顺控、联锁、梯形图”才触发 PLC skill",
+      "textPreview": "例：看到“PLC、顺控、联锁、梯形图”才触发 PLC skill",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#1F6FEB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "例：看到“PLC、顺控、联锁、梯形图”才触发 PLC skill"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "例：看到“PLC、顺控、联锁、梯形图”才触发 PLC skill",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#1F6FEB",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "例：看到“PLC、顺控、联锁、梯形图”才触发 PLC skill",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#1F6FEB",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9knih4by",
+      "id": "11",
+      "bbox": [
+        702,
+        558,
+        500,
+        58
+      ],
+      "geometry": "rect",
+      "text": "例：不知道 PLC 厂商时，不直接给三菱专用指令",
+      "textPreview": "例：不知道 PLC 厂商时，不直接给三菱专用指令",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#C2410C",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "例：不知道 PLC 厂商时，不直接给三菱专用指令"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "例：不知道 PLC 厂商时，不直接给三菱专用指令",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#C2410C",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "例：不知道 PLC 厂商时，不直接给三菱专用指令",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#C2410C",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2t83itgf",
+      "id": "12",
+      "bbox": [
+        42,
+        666,
+        620,
+        24
+      ],
+      "geometry": "rect",
+      "text": "电气工程师 Agent Skill 分析与提问方法",
+      "textPreview": "电气工程师 Agent Skill 分析与提问方法",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "电气工程师 Agent Skill 分析与提问方法"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "电气工程师 Agent Skill 分析与提问方法",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "电气工程师 Agent Skill 分析与提问方法",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/re1w7mp0",
+      "id": "13",
+      "bbox": [
+        1186,
+        660,
+        52,
+        28
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

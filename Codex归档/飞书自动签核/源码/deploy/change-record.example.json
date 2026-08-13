@@ -1,0 +1,23 @@
+{
+  "ticket": "CHG-YYYY-NNNN",
+  "version": "2026.07.30.1800",
+  "owner": "变更负责人",
+  "risk": "medium",
+  "status": "pending",
+  "approver": "独立审批人",
+  "approved_at": "2026-07-29T16:00:00+08:00",
+  "approval_url": "https://change.example.com/CHG-YYYY-NNNN",
+  "canary_percent": 10,
+  "rollback_version": "2026.07.29.1700",
+  "rollback_steps": [
+    "停止新版本计划任务和回调流量",
+    "将 current 软链接切回 rollback_version",
+    "重启旧版本 Gunicorn 并检查 /health",
+    "确认失败率和待人工积压恢复"
+  ],
+  "success_thresholds": {
+    "max_failure_rate": 1.0,
+    "max_p95_ms": 2000,
+    "observation_minutes": 30
+  }
+}

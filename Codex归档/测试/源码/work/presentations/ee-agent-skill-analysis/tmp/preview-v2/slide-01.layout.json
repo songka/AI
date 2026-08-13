@@ -1,0 +1,712 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/tgz2l5",
+    "id": "tgz2l5",
+    "slide": 1,
+    "layoutId": "846a2f8f-dd96-4b15-b3f2-f359061d1304",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "911a24ad-b04e-4a3f-84b4-d9b516384998",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "846a2f8f-dd96-4b15-b3f2-f359061d1304",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "911a24ad-b04e-4a3f-84b4-d9b516384998",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "911a24ad-b04e-4a3f-84b4-d9b516384998",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfil0rqd",
+      "id": "1",
+      "bbox": [
+        42,
+        44,
+        620,
+        40
+      ],
+      "geometry": "rect",
+      "text": "电气工程师 Agent Skill",
+      "textPreview": "电气工程师 Agent Skill",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "电气工程师 Agent Skill"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "电气工程师 Agent Skill",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "电气工程师 Agent Skill",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zupwb2hw",
+      "id": "2",
+      "bbox": [
+        42,
+        152,
+        860,
+        190
+      ],
+      "geometry": "rect",
+      "text": "Skill 要素拆解：\n从会用，到会让 AI 写出来",
+      "textPreview": "Skill 要素拆解： | 从会用，到会让 AI 写出来",
+      "resolvedFontSize": 54,
+      "resolvedTextStyle": {
+        "fontSize": 54,
+        "typeface": "Microsoft YaHei",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Skill 要素拆解："
+          },
+          {
+            "index": 2,
+            "text": "从会用，到会让 AI 写出来"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Skill 要素拆解：",
+          "resolvedTextStyle": {
+            "fontSize": 54,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Skill 要素拆解：",
+              "fontSize": 54,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "从会用，到会让 AI 写出来",
+          "resolvedTextStyle": {
+            "fontSize": 54,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "从会用，到会让 AI 写出来",
+              "fontSize": 54,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9w3m94f",
+      "id": "3",
+      "bbox": [
+        46,
+        394,
+        900,
+        70
+      ],
+      "geometry": "rect",
+      "text": "重点不再盘点现有 skill 覆盖了什么，而是讲清楚一个 skill 为什么能稳定工作、怎样分类、怎样组织文件、怎样向 AI 提问生成。",
+      "textPreview": "重点不再盘点现有 skill 覆盖了什么，而是讲清楚一个 skill 为什么能稳定工作、怎样分类、怎样组织文件、怎样向 AI 提问生成。",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "重点不再盘点现有 skill 覆盖了什么，而是讲清楚一个 skill"
+          },
+          {
+            "index": 2,
+            "text": "为什么能稳定工作、怎样分类、怎样组织文件、怎样向 AI 提问生成。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "重点不再盘点现有 skill 覆盖了什么，而是讲清楚一个 skill 为什么能稳定工作、怎样分类、怎样组织文件、怎样向 AI 提问生成。",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "重点不再盘点现有 skill 覆盖了什么，而是讲清楚一个 skill 为什么能稳定工作、怎样分类、怎样组织文件、怎样向 AI 提问生成。",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcrmhk3q",
+      "id": "4",
+      "bbox": [
+        900,
+        140,
+        300,
+        322
+      ],
+      "geometry": "rect",
+      "fillColor": "#EEEEEE",
+      "lineColor": "#C7CBD1",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/orytsvu9",
+      "id": "5",
+      "bbox": [
+        918,
+        156,
+        264,
+        28
+      ],
+      "geometry": "rect",
+      "text": "这版讲法",
+      "textPreview": "这版讲法",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#FF6B35",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "这版讲法"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "这版讲法",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#FF6B35",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "这版讲法",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#FF6B35",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z61032ls",
+      "id": "6",
+      "bbox": [
+        918,
+        194,
+        264,
+        258
+      ],
+      "geometry": "rect",
+      "text": "先分类型\n再拆要素\n每个要素配工程例子\n最后给可复制提问",
+      "textPreview": "先分类型 | 再拆要素 | 每个要素配工程例子 | 最后给可复制提问",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "先分类型"
+          },
+          {
+            "index": 2,
+            "text": "再拆要素"
+          },
+          {
+            "index": 3,
+            "text": "每个要素配工程例子"
+          },
+          {
+            "index": 4,
+            "text": "最后给可复制提问"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "先分类型",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "先分类型",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "再拆要素",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "再拆要素",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "每个要素配工程例子",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "每个要素配工程例子",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "最后给可复制提问",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "最后给可复制提问",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al87ed8b",
+      "id": "7",
+      "bbox": [
+        42,
+        598,
+        710,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#111111",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3q5o7q",
+      "id": "8",
+      "bbox": [
+        42,
+        618,
+        620,
+        32
+      ],
+      "geometry": "rect",
+      "text": "适合培训、内部分享、让同事照着做 skill",
+      "textPreview": "适合培训、内部分享、让同事照着做 skill",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "适合培训、内部分享、让同事照着做 skill"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "适合培训、内部分享、让同事照着做 skill",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "适合培训、内部分享、让同事照着做 skill",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oza1gvy9",
+      "id": "9",
+      "bbox": [
+        42,
+        666,
+        620,
+        24
+      ],
+      "geometry": "rect",
+      "text": "电气工程师 Agent Skill 分析与提问方法",
+      "textPreview": "电气工程师 Agent Skill 分析与提问方法",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "电气工程师 Agent Skill 分析与提问方法"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "电气工程师 Agent Skill 分析与提问方法",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "电气工程师 Agent Skill 分析与提问方法",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29gr2p8n",
+      "id": "10",
+      "bbox": [
+        1186,
+        660,
+        52,
+        28
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,14 @@
+fields:
+  description:
+  - PartDesc
+  - Description
+  item:
+  - PartNumber
+  - PN
+  unit_cost:
+  - Price
+  - Cost
+header_min_matches: 2
+header_scan:
+  max_row: 5
+  min_row: 1

@@ -1,0 +1,4 @@
+模板检查脚本因当前Windows运行环境缺少可用的unzip -Z1命令而无法完成媒体清单步骤。
+已改用artifact-tool直接导入源PPTX，检查全部20页文本、版式和讲者备注，并逐页渲染PNG进行视觉检查。
+输出仍通过artifact-tool导入、筛选、排序和导出，未使用Python或OOXML修改PPTX。
+

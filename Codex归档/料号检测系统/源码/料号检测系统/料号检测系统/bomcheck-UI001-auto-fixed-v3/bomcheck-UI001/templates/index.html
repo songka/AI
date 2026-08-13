@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-head">
+    <div>
+        <h1>BOM 执行</h1>
+        <p>上传 Excel 后后台处理，完成后可下载带统计结果的文件。</p>
+    </div>
+    <a class="secondary-button" href="/query">查询料号</a>
+</section>
+
+<section class="panel upload-panel">
+    <div class="section-title">
+        <h2>选择 BOM 文件</h2>
+        <span>.xlsx / .xlsm</span>
+    </div>
+    {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+    <form action="/execute" method="post" enctype="multipart/form-data" class="upload-form">
+        <label class="file-picker" for="file">
+            <span>选择 Excel 文件</span>
+            <input type="file" id="file" name="file" accept=".xlsx,.xlsm" required>
+        </label>
+        <button type="submit">开始执行</button>
+    </form>
+</section>
+
+{% if last_job %}
+<section class="panel">
+    <div class="section-title">
+        <h2>最近任务</h2>
+        <span class="status-pill {{ 'ok' if last_job.ok else 'ng' if last_job.ok is not none else '' }}">{{ last_job.status }}</span>
+    </div>
+    <dl class="meta-grid">
+        <div><dt>任务 ID</dt><dd>{{ last_job.job_id }}</dd></div>
+        <div><dt>状态</dt><dd>{{ last_job.status }}</dd></div>
+    </dl>
+    <pre class="{{ 'missing-highlight' if last_job.ok is sameas false else '' }}">{{ last_job.message }}</pre>
+    <a class="button" href="/jobs/{{ last_job.job_id }}">查看详情</a>
+</section>
+{% endif %}
+{% endblock %}

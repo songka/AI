@@ -1,0 +1,7 @@
+interface:
+  display_name: "外购件流程管家"
+  short_description: "管理外购件资料流水线状态并持续给出下一步"
+  default_prompt: "Use $external-part-pipeline-manager to inspect the current pipeline state and tell me the exact next step."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,54 @@
+[
+  {
+    "username": "admin",
+    "password_hash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+    "permissions": [
+      "asset",
+      "binding",
+      "blocked",
+      "important",
+      "invalid_part"
+    ],
+    "is_admin": true
+  },
+  {
+    "username": "test1",
+    "password_hash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+    "permissions": [
+      "asset",
+      "binding",
+      "blocked",
+      "important",
+      "invalid_part"
+    ],
+    "is_admin": false
+  },
+  {
+    "username": "LFAF",
+    "password_hash": "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae",
+    "permissions": [
+      "asset",
+      "binding",
+      "invalid_part"
+    ],
+    "is_admin": false
+  },
+  {
+    "username": "USER",
+    "password_hash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+    "permissions": [
+      "asset"
+    ],
+    "is_admin": false
+  },
+  {
+    "username": "lfaf",
+    "password_hash": "39e741eddb03e3118da619625b9200e131832dc8cc8542e2198b1e00e02c48a3",
+    "permissions": [
+      "asset",
+      "binding",
+      "invalid_part"
+    ],
+    "is_admin": false
+  }
+]

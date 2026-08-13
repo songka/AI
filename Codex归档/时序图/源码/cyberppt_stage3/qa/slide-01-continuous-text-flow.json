@@ -1,0 +1,12 @@
+{
+  "slide": 1,
+  "passed": true,
+  "objects": [
+    "cover-title",
+    "cover-subtitle",
+    "supporting-line"
+  ],
+  "baseline_issues": [],
+  "spacing_issues": [],
+  "reading_order_issues": []
+}

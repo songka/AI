@@ -1,0 +1,20 @@
+{
+  "price_version_id": "BASE-V1",
+  "version": "1.0",
+  "status": "PUBLISHED",
+  "company_prices": [
+    {
+      "company_price_id": "CP-OLD",
+      "target_type": "MATERIAL",
+      "canonical_code": "SUS304",
+      "specification": "3mm",
+      "unit_price": 25.0,
+      "unit": "kg",
+      "currency": "CNY",
+      "price_basis": "EXCLUDING_TAX",
+      "effective_from": "2026-01-01",
+      "origin_supplier_id": "SUP-OLD-001",
+      "origin_price_record_id": "PR-OLD"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "pptx": "slide-01.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "shapes": 51,
+      "pictures": 9,
+      "full_slide_pictures": 0
+    }
+  ],
+  "failures": []
+}

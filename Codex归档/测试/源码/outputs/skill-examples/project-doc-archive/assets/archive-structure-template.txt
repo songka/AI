@@ -1,0 +1,12 @@
+PROJECT_CODE_customer_equipment/
+  00-sales-handoff/
+  01-scheme/
+  02-design/
+  03-procurement/
+  04-assembly/
+  05-commissioning/
+  06-acceptance/
+  07-after-sales/
+  _index/
+    document-register.xlsx
+    open-actions.xlsx

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h2>失效料号库</h2>
+    {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+    {% if message %}<div class="alert alert-info">{{ message }}</div>{% endif %}
+    <div class="alert alert-warning">维护前请先确认源 Excel 已备份；第一列失效料号不能为空，且同一料号不能重复。</div>
+    <form method="post" onsubmit="return confirm('确认保存失效料号库？保存会覆盖当前 Excel 内容。');">
+        <input type="hidden" name="headers" value="{{ headers | join('|') }}">
+        <input type="hidden" name="row_count" value="{{ rows|length + 3 }}">
+        <div class="table-wrap">
+            <table class="table">
+                <thead>
+                    <tr>
+                        {% for header in headers %}<th>{{ header }}</th>{% endfor %}
+                        <th>删除</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in rows %}
+                    {% set r = loop.index0 %}
+                    <tr>
+                        {% for header in headers %}
+                        <td><input type="text" name="row-{{ r }}-{{ loop.index0 }}" value="{{ row[loop.index0] if loop.index0 < row|length else '' }}" /></td>
+                        {% endfor %}
+                        <td><input type="checkbox" name="row-{{ r }}-delete" /></td>
+                    </tr>
+                    {% endfor %}
+                    {% for i in range(3) %}
+                    <tr>
+                        {% for header in headers %}
+                        <td><input type="text" name="row-{{ rows|length + i }}-{{ loop.index0 }}" /></td>
+                        {% endfor %}
+                        <td></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <button type="submit">保存</button>
+    </form>
+</div>
+{% endblock %}

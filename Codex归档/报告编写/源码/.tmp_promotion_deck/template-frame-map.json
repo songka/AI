@@ -1,0 +1,42 @@
+{
+  "outputSlides": [
+    {"outputSlide": 1, "sourceSlide": 1, "narrativeRole": "opening", "reuseMode": "duplicate-slide", "editTargets": []},
+    {"outputSlide": 2, "sourceSlide": 2, "narrativeRole": "agenda", "reuseMode": "duplicate-slide", "editTargets": []},
+    {"outputSlide": 3, "sourceSlide": 3, "narrativeRole": "career history", "reuseMode": "duplicate-slide", "editTargets": []},
+    {"outputSlide": 4, "sourceSlide": 4, "narrativeRole": "personal strengths", "reuseMode": "duplicate-slide", "editTargets": []},
+    {"outputSlide": 5, "sourceSlide": 5, "narrativeRole": "major project delivery", "reuseMode": "duplicate-slide", "editTargets": []},
+    {"outputSlide": 6, "sourceSlide": 6, "narrativeRole": "service team formation", "reuseMode": "duplicate-slide", "editTargets": []},
+    {"outputSlide": 7, "sourceSlide": 7, "narrativeRole": "preserve existing standardization page", "reuseMode": "duplicate-slide", "editTargets": []},
+    {"outputSlide": 8, "sourceSlide": 8, "narrativeRole": "preserve existing visual-management page", "reuseMode": "duplicate-slide", "editTargets": []},
+    {"outputSlide": 9, "sourceSlide": 9, "narrativeRole": "material management improvement", "reuseMode": "duplicate-slide", "editTargets": []},
+    {
+      "outputSlide": 10,
+      "sourceSlide": 10,
+      "narrativeRole": "technology upgrade roadmap",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {"sourceElementId": "sh/xc3mho32", "action": "rewrite", "reason": "精簡標題"},
+        {"sourceElementId": "sh/1cru1g3y", "action": "rewrite-and-reposition", "reason": "第一階段路徑"},
+        {"sourceElementId": "sh/e9gb61k7", "action": "rewrite-and-reposition", "reason": "第二階段底板"},
+        {"sourceElementId": "im/nidcv6po", "action": "rewrite-and-reposition", "reason": "統一階段圖示位置"},
+        {"sourceElementId": "sh/ozitcv29", "action": "rewrite-and-reposition", "reason": "第二階段標題"},
+        {"sourceElementId": "sh/p0ru503u", "action": "rewrite-and-reposition", "reason": "第二階段行動與價值"},
+        {"sourceElementId": "sh/xwnupgvy", "action": "rewrite-and-reposition", "reason": "第三階段路徑"}
+      ]
+    },
+    {
+      "outputSlide": 11,
+      "sourceSlide": 11,
+      "narrativeRole": "people and organization roadmap",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {"sourceElementId": "sh/xcryxg7y", "action": "rewrite", "reason": "精簡標題"},
+        {"sourceElementId": "sh/xgnehwri", "action": "rewrite-and-reposition", "reason": "人才多能路徑"},
+        {"sourceElementId": "sh/fmlw729k", "action": "rewrite-and-reposition", "reason": "售後整合路徑"},
+        {"sourceElementId": "sh/jutoj2lk", "action": "rewrite-and-reposition", "reason": "自動化生產路徑"}
+      ]
+    },
+    {"outputSlide": 12, "sourceSlide": 12, "narrativeRole": "closing bumper", "reuseMode": "duplicate-slide", "editTargets": []}
+  ],
+  "omittedSourceSlides": []
+}

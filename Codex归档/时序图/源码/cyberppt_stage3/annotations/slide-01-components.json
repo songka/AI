@@ -1,0 +1,44 @@
+{
+  "components": [
+    {
+      "id": "s01_cover_title",
+      "type": "cover-title-stack",
+      "priority": "P0",
+      "required_subcomponents": ["title", "divider_rule", "subtitle", "supporting_line"],
+      "content_lock_refs": ["slides[0].title", "slides[0].subtitle", "slides[0].context"],
+      "must_preserve_type": true
+    },
+    {
+      "id": "s01_timing_ai_visual",
+      "type": "industrial-timing-network-diagram",
+      "priority": "P0",
+      "required_subcomponents": ["five_timing_rows", "event_nodes", "dependency_arcs", "outline_icons", "ai_core"],
+      "content_lock_refs": ["slides[0].required_components[0]", "slides[0].required_components[4]"],
+      "must_preserve_type": true
+    },
+    {
+      "id": "s01_version_block",
+      "type": "version-date-lockup",
+      "priority": "P1",
+      "required_subcomponents": ["version_icon", "version_label", "date"],
+      "content_lock_refs": ["slides[0].facts[0]"],
+      "must_preserve_type": true
+    },
+    {
+      "id": "s01_surface_system",
+      "type": "continuous-ivory-paper-surface",
+      "priority": "P0",
+      "required_subcomponents": ["ivory_background", "top_accent_rule", "bottom_rule"],
+      "content_lock_refs": ["selected_style_id", "selected_style_name"],
+      "must_preserve_type": true
+    },
+    {
+      "id": "s01_footer",
+      "type": "cyberppt-footer-page-badge",
+      "priority": "P0",
+      "required_subcomponents": ["footer_rule", "page_badge"],
+      "content_lock_refs": ["slides[0].slide_number"],
+      "must_preserve_type": true
+    }
+  ]
+}

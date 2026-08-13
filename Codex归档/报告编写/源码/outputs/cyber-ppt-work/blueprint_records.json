@@ -1,0 +1,104 @@
+{
+  "phase": "CyberPPT Phase 2 visual blueprint confirmation",
+  "status": "awaiting_user_approval",
+  "selected_style": {
+    "id": 4,
+    "name": "象牙白 + 深蓝强调",
+    "scope": "仅正文内容区",
+    "template_invariant": "原公司封面、标题区、标题线、灰色页脚、版权、页码与MPT Logo保持不变"
+  },
+  "language": "简体中文",
+  "density_target": "每页一个主框架，3-4个证据区，一个限制说明，一条SO WHAT结论",
+  "records": [
+    {
+      "slide": 1,
+      "generation_id": "31b1ec5a-7538-4573-aa1a-660c883f5d24",
+      "output": "blueprints/slide-01.png",
+      "prompt_summary": "沿用原公司封面模板，仅替换视觉无序抓取技术应用汇报的标题、副标题和日期。",
+      "visual_assets": ["原公司封面模板"],
+      "native_components": ["标题", "副标题", "日期"],
+      "evidence_ids": []
+    },
+    {
+      "slide": 2,
+      "generation_id": "45969967-2d5d-4897-8bba-de5dc37d40a3",
+      "output": "blueprints/slide-02.png",
+      "prompt_summary": "用三张真实量产设备照片和一个并联照片待补位呈现四类方案、CT、精度、成本及管理结论。",
+      "visual_assets": ["自建三轴真实照片", "四轴真实照片", "随线视频真实帧", "并联现场照片待补占位"],
+      "native_components": ["四方案卡片", "KPI", "管理结论"],
+      "evidence_ids": ["E01", "E06", "E08", "E10", "E11", "E12"]
+    },
+    {
+      "slide": 3,
+      "generation_id": "765101b8-3954-4a8e-b305-b3c2bddf1646",
+      "output": "blueprints/slide-03.png",
+      "prompt_summary": "两条控制路径拓扑：视觉PC经Modbus/TCP到PLC、再经CANopen到自建轴；视觉PC经TCP/IP到机器人控制器；柔性振动盘经I/O到PLC。",
+      "visual_assets": [],
+      "native_components": ["系统拓扑图", "通信标签", "职责说明"],
+      "evidence_ids": ["E02", "E03", "E04"]
+    },
+    {
+      "slide": 4,
+      "generation_id": "86172b31-ff31-4996-82ea-cd9ec94f4d9d",
+      "output": "blueprints/slide-04.png",
+      "prompt_summary": "以标准菱形判断框绘制补料、找不到产品和叠料风险三个分支，异常动作后回流到指定节点，补偿值反馈后结束。",
+      "visual_assets": [],
+      "native_components": ["判断流程图", "异常处理表", "SO WHAT"],
+      "evidence_ids": ["E05"]
+    },
+    {
+      "slide": 5,
+      "generation_id": "c00506a9-fed9-4302-894f-72040742ac73",
+      "output": "blueprints/slide-05.png",
+      "prompt_summary": "K7自建三轴+旋转轴量产案例，使用真实设备及铁件照片，突出6s、±1mm、33170元材料成本。",
+      "visual_assets": ["自建三轴屏蔽机器人照片", "K7铁件产品照片"],
+      "native_components": ["KPI卡片", "事实说明", "成本限制", "SO WHAT"],
+      "evidence_ids": ["E06", "E07", "E13", "E14"]
+    },
+    {
+      "slide": 6,
+      "generation_id": "58c75d2e-84d6-4613-9caa-cf3f7ce2647f",
+      "output": "blueprints/slide-06.png",
+      "prompt_summary": "K21标准四轴量产案例，使用真实设备及Lens照片，突出6s、±1mm、49000元及相对自建方案成本差。",
+      "visual_assets": ["四轴真实设备照片", "K21 Lens真实照片"],
+      "native_components": ["KPI卡片", "成本比较", "事实说明", "SO WHAT"],
+      "evidence_ids": ["E08", "E09", "E13", "E14"]
+    },
+    {
+      "slide": 7,
+      "generation_id": "6b6a0b2d-2741-4372-8078-0eef5fef877f",
+      "output": "blueprints/slide-07.png",
+      "prompt_summary": "K41外购并联机械手量产表现与自制蜘蛛手规划对照；无真实照片，明确保留现场照片待补。",
+      "visual_assets": ["并联现场照片待补占位"],
+      "native_components": ["KPI卡片", "已验证/待验证对照", "自制目标卡", "SO WHAT"],
+      "evidence_ids": ["E10", "E11", "E13", "E14"]
+    },
+    {
+      "slide": 8,
+      "generation_id": "0e93aabd-8660-475e-ab27-3d9e6e542b0f",
+      "output": "blueprints/slide-08.png",
+      "prompt_summary": "用真实随线取放视频帧说明连续输送、视觉跟踪及四轴取放，突出2.2s、±2mm、64000元及不可直接横比的限制。",
+      "visual_assets": ["随线取放真实视频代表帧"],
+      "native_components": ["三步流程", "KPI卡片", "标准/随线对照", "SO WHAT"],
+      "evidence_ids": ["E12", "E13", "E14"]
+    },
+    {
+      "slide": 9,
+      "generation_id": "307c1dd1-8512-48f8-967d-fda840ccce61",
+      "output": "blueprints/slide-09.png",
+      "prompt_summary": "五方案决策矩阵，比较材料成本、CT、精度、行程/臂展、优势与应用场景，并列出三项成本差。",
+      "visual_assets": [],
+      "native_components": ["选型矩阵", "成本差标签", "场景推荐带", "限制说明", "SO WHAT"],
+      "evidence_ids": ["E06", "E07", "E08", "E09", "E10", "E11", "E12", "E13"]
+    },
+    {
+      "slide": 10,
+      "generation_id": "0dd8a3f3-6ec7-4ad2-a477-3fc81697701d",
+      "output": "blueprints/slide-10.png",
+      "prompt_summary": "按7月至10月绘制自制蜘蛛手四阶段甘特图，锁定日期、300mm臂展、33862元预计材料及量产验证门槛。",
+      "visual_assets": [],
+      "native_components": ["甘特图", "里程碑", "验证门槛", "风险说明", "SO WHAT"],
+      "evidence_ids": ["用户确认的排程与成本"]
+    }
+  ]
+}

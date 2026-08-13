@@ -1,0 +1,18 @@
+{
+  "instructions": "把实际 Windows 登录名填入对应 accounts 数组。格式建议为 域名\\账号 或 计算机名\\账号。未匹配账户自动归入 user。",
+  "exampleOnly": {
+    "administrator": [
+      "DOMAIN\\ai-assets-admin"
+    ],
+    "reviewer": [
+      "DOMAIN\\ai-assets-reviewer"
+    ],
+    "publisher": [
+      "DOMAIN\\ai-assets-publisher"
+    ],
+    "user": [
+      "DOMAIN\\employee-a",
+      "DOMAIN\\employee-b"
+    ]
+  }
+}

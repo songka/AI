@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card">
+    <h2>BOM 查询</h2>
+    {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+    <form action="/query" method="post" class="form-grid">
+        <label>料号/关键字</label>
+        <input type="text" name="keyword" value="{{ query }}" placeholder="输入料号或关键字">
+        <label class="checkbox"><input type="checkbox" name="fuzzy" value="1" {% if fuzzy %}checked{% endif %}> 模糊匹配/前缀匹配</label>
+        <label>每页数量</label>
+        <input type="number" name="size" value="{{ size }}" min="1" max="200">
+        <input type="hidden" name="page" value="1">
+        <button type="submit">查询</button>
+    </form>
+</section>
+
+{% if results is not none %}
+<section class="card">
+    <h3>结果 ({{ total }})</h3>
+    {% if results %}
+    <table class="table">
+        <thead>
+            <tr><th>料号</th><th>描述</th><th>单位</th><th>申请人</th><th>库存</th></tr>
+        </thead>
+        <tbody>
+            {% for item in results %}
+            <tr>
+                <td><a href="/parts/{{ item.part_no }}">{{ item.part_no }}</a></td>
+                <td>{{ item.description }}</td>
+                <td>{{ item.unit }}</td>
+                <td>{{ item.applicant }}</td>
+                <td>{{ item.inventory_display }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <div class="pager">
+        {% if page > 1 %}
+        <form action="/query" method="post" class="inline-form">
+            <input type="hidden" name="keyword" value="{{ query }}">
+            <input type="hidden" name="fuzzy" value="{{ 1 if fuzzy else 0 }}">
+            <input type="hidden" name="size" value="{{ size }}">
+            <input type="hidden" name="page" value="{{ page - 1 }}">
+            <button type="submit">上一页</button>
+        </form>
+        {% endif %}
+        {% if has_next %}
+        <form action="/query" method="post" class="inline-form">
+            <input type="hidden" name="keyword" value="{{ query }}">
+            <input type="hidden" name="fuzzy" value="{{ 1 if fuzzy else 0 }}">
+            <input type="hidden" name="size" value="{{ size }}">
+            <input type="hidden" name="page" value="{{ page + 1 }}">
+            <button type="submit">下一页</button>
+        </form>
+        {% endif %}
+    </div>
+    {% else %}
+    <p>没有匹配结果</p>
+    {% endif %}
+</section>
+{% endif %}
+{% endblock %}

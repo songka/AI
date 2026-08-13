@@ -1,0 +1,90 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AICodingSessionManager/1.0.0": {
+        "dependencies": {
+          "AICodingSessionManager.Adapters.ClaudeCode": "1.0.0",
+          "AICodingSessionManager.Adapters.Codex": "1.0.0",
+          "AICodingSessionManager.Adapters.OpenCode": "1.0.0",
+          "AICodingSessionManager.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AICodingSessionManager.dll": {}
+        }
+      },
+      "AICodingSessionManager.Adapters.ClaudeCode/1.0.0": {
+        "dependencies": {
+          "AICodingSessionManager.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AICodingSessionManager.Adapters.ClaudeCode.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AICodingSessionManager.Adapters.Codex/1.0.0": {
+        "dependencies": {
+          "AICodingSessionManager.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AICodingSessionManager.Adapters.Codex.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AICodingSessionManager.Adapters.OpenCode/1.0.0": {
+        "dependencies": {
+          "AICodingSessionManager.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AICodingSessionManager.Adapters.OpenCode.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AICodingSessionManager.Domain/1.0.0": {
+        "runtime": {
+          "AICodingSessionManager.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AICodingSessionManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AICodingSessionManager.Adapters.ClaudeCode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AICodingSessionManager.Adapters.Codex/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AICodingSessionManager.Adapters.OpenCode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AICodingSessionManager.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

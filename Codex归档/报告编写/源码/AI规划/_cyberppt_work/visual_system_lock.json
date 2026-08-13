@@ -1,0 +1,28 @@
+{
+  "selected_style_id": 4,
+  "selected_style_name": "象牙白 + 深蓝强调",
+  "target_language": "中文",
+  "language_source": "source_material",
+  "effective_language": "中文",
+  "language_overrides": [],
+  "allowed_foreign_terms": ["AI", "Skill", "Skill Hub", "DeepSeek", "AS228T", "PLC", "ST", "ISPSoft", "Fanuc", "RACI", "PC", "SDK", "I/O"],
+  "canvas": "16:9",
+  "safe_margin": "左右 4.8%，上下 4.5%",
+  "grid": "12 列网格，6pt 基线；内容页常用 7:5、8:4、9:3 分栏",
+  "palette": {
+    "background": "#F7F6F0",
+    "title": "#101820",
+    "body": "#303030",
+    "secondary": "#6F7275",
+    "line": "#C9CDD1",
+    "accent": "#12355B",
+    "accent_light": "#DCE5ED",
+    "warning": "#B56A2D"
+  },
+  "surface_system": "连续象牙白纸面；分区主要依赖细边框、栏头、分隔线和轻微蓝灰色阶；白色只作局部强调，禁止全页大面积纯白卡片和重阴影。",
+  "typography": "C0 封面标题；T1 内容页结论标题；T2 副标题；T3 模块标题；T4 图表标题；T5 证据标签；T6 证据块标题；T7 正文；T8 结论条；T9 SO WHAT；T10 图表标签；T11 微标签；T12 KPI；T13 注释；T14 来源与页码。",
+  "chart_language": "深蓝表示核心路径与批准项；灰色表示现状或次级信息；铜橙仅表示风险、缺口和待确认；横向直接标注，减少图例。",
+  "header_footer": "顶部细线页眉，左侧章节/报告名，右侧主题；底部来源与页码徽章。",
+  "icon_library": "tabler-outline",
+  "density_rule": "封面低密度；内容页每页 3-6 个信息区、一个主视觉、一个 SO WHAT；保持样张 04 的咨询式高密度但不缩小正文。"
+}

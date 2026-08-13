@@ -1,0 +1,183 @@
+{
+  "deck_title": "视觉无序抓取技术应用汇报",
+  "source_deck": "C:/Users/lfaf-test/Documents/报告编写/outputs/视觉无序抓取_电气技术汇报_2026-07-13_R003.pptx",
+  "target_language": "简体中文",
+  "language_source": "conversation",
+  "global_caveats": [
+    "CT与精度为用户确认的量产实测值",
+    "材料成本不包含人工、软件开发、调试、风险准备金和维护费用",
+    "不同方案的材料范围可能不同，材料成本不等同于总拥有成本",
+    "随线取放与标准抓取的工艺场景不同，CT不做等同比较",
+    "精度影响因素为方向性判断，未提供误差分解数据"
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "role": "Cover",
+      "title": "视觉无序抓取技术应用汇报",
+      "subtitle": "四类量产方案已形成跨平台能力｜并联机械手自主开发进入排程",
+      "context": "本周电气技术汇报｜2026年7月",
+      "required_components": ["原公司封面模板原样保留", "仅替换标题和副标题文字", "MPT Logo与公司页脚不修改"]
+    },
+    {
+      "slide": 2,
+      "role": "Situation",
+      "title": "四类方案均已量产，视觉逻辑可复用，但高速平台仍依赖外购",
+      "kpis": [
+        {"solution": "自建三轴＋旋转轴", "application": "K7铁件", "ct": "6s", "accuracy": "±1mm", "material_cost_rmb": 33170},
+        {"solution": "四轴机械手", "application": "K21 Altis Lens上料", "ct": "6s", "accuracy": "±1mm", "material_cost_rmb": 49000},
+        {"solution": "并联机械手", "application": "K41 KDB10-B脚垫测试", "ct": "4s", "accuracy": "±1mm", "status": "现有机构外购"},
+        {"solution": "四轴随线取放", "application": "K21-H-MODEL印刷下料", "ct": "2.2s", "accuracy": "±2mm", "material_cost_rmb": 64000}
+      ],
+      "management_conclusions": ["视觉流程已跨四种运动平台复用", "四类设备均已投入生产运行", "下一项能力建设是自制并联机械手"],
+      "image_policy": [
+        "自建三轴使用真实现场图片：自建三轴_屏蔽机器人.png",
+        "四轴机械手使用真实现场图片：四轴图片.jpg",
+        "四轴随线取放使用真实视频代表帧：随线取放.mp4代表帧",
+        "并联机械手未提供真实现场照片，保留现场照片待补，不得使用生成图或网络图冒充"
+      ],
+      "caveat": "随线取放和标准抓取场景不同，CT不直接横比",
+      "so_what": "成果已经从单点设备上升为可复用的视觉抓取能力。",
+      "evidence_ids": ["E01", "E06", "E08", "E10", "E11", "E12"]
+    },
+    {
+      "slide": 3,
+      "role": "Situation",
+      "title": "一套视觉程序通过两条控制路径适配自建轴和机器人",
+      "architecture": {
+        "self_built_path": ["视觉相机", "网线", "视觉PC", "Modbus/TCP", "PLC", "CANopen", "自建三轴＋旋转轴"],
+        "robot_path": ["视觉PC", "TCP/IP", "Robot控制器", "四轴机械手／并联机械手"],
+        "feeder_path": ["柔性振动盘", "I/O", "PLC"]
+      },
+      "interpretation": ["视觉PC负责拍照、识别和补偿", "PLC负责自建轴流程和运动控制", "机器人方案由PC直接反馈视觉坐标"],
+      "so_what": "更换运动平台时，主要调整接口与运动参数，不重复开发视觉逻辑。",
+      "evidence_ids": ["E02", "E03", "E04"]
+    },
+    {
+      "slide": 4,
+      "role": "Situation-Complication",
+      "title": "三个判断分支把缺料、空盘和叠料纳入自动闭环",
+      "flow": [
+        "收到拍照信号",
+        "拍照取像",
+        "Blob分析",
+        "判断：需要补料？",
+        "是→补料动作→振动盘振动→返回拍照取像",
+        "否→特征匹配",
+        "判断：找到产品？",
+        "否→振动盘振动→返回拍照取像",
+        "是→定位候选产品→检查周围特征",
+        "判断：周围有其他产品？",
+        "是→排除当前目标→返回特征匹配",
+        "否→视觉补偿计算→反馈补偿值→结束"
+      ],
+      "exception_table": [
+        {"condition": "需要补料", "action": "补料并振动", "return": "拍照取像"},
+        {"condition": "找不到产品", "action": "振动盘振动", "return": "拍照取像"},
+        {"condition": "周围有其他产品", "action": "排除当前目标", "return": "特征匹配"}
+      ],
+      "caveat": "未提供重试次数、超时和报警策略",
+      "so_what": "视觉系统不仅给坐标，还负责处理无序上料的主要异常。",
+      "evidence_ids": ["E05"]
+    },
+    {
+      "slide": 5,
+      "role": "Evidence",
+      "title": "K7自建方案以6s／±1mm满足量产，并保留成本和调整优势",
+      "application": "K7铁件",
+      "solution": "标准四轴设备增加自建三轴＋旋转轴",
+      "ct": "6s",
+      "accuracy": "±1mm",
+      "material_cost_rmb": 33170,
+      "advantages": ["结构自行搭建", "调整方便", "材料成本低"],
+      "constraint": "精度主要受视觉视野影响",
+      "images": ["自建三轴_屏蔽机器人.png", "自建三轴铁件产品.jpg"],
+      "so_what": "成本敏感且需要灵活调整的工位，可优先采用自建轴方案。",
+      "evidence_ids": ["E06", "E07", "E13", "E14"]
+    },
+    {
+      "slide": 6,
+      "role": "Evidence",
+      "title": "K21四轴以相同CT和精度换取更大的跨区域行程",
+      "application": "K21 Altis Lens上料",
+      "solution": "四轴机械手",
+      "ct": "6s",
+      "accuracy": "±1mm",
+      "material_cost_rmb": 49000,
+      "advantage": "行程大，覆盖范围广",
+      "constraint": "精度主要受视觉视野影响",
+      "comparison": "较自建三轴＋旋转轴材料成本高15,830元",
+      "images": ["四轴图片.jpg", "四轴lens产品.jpg"],
+      "so_what": "当工位跨度超过自建轴的经济范围时，四轴方案用成本换取覆盖能力。",
+      "evidence_ids": ["E08", "E09", "E13", "E14"]
+    },
+    {
+      "slide": 7,
+      "role": "Evidence-Complication",
+      "title": "K41并联将标准抓取CT降至4s，但核心机构仍为外购",
+      "application": "K41 KDB10-B脚垫测试",
+      "solution": "并联机械手",
+      "ct": "4s",
+      "accuracy": "±1mm",
+      "current_status": "现有并联机械手机构外购，设备已投入生产运行",
+      "evidence_gap": "现场照片待补",
+      "next_solution": "自制蜘蛛手，臂展300mm",
+      "estimated_first_unit_material_cost_rmb": 33862,
+      "cost_note": "仅材料成本，不含人工、软件开发、调试和维护费用",
+      "so_what": "性能已验证，下一步是把高速机构和控制能力掌握在内部。",
+      "evidence_ids": ["E10", "E11", "E13", "E14"]
+    },
+    {
+      "slide": 8,
+      "role": "Evidence",
+      "title": "随线取放在不停线条件下实现2.2s，但精度受皮带偏差约束",
+      "application": "K21-H-MODEL印刷下料",
+      "solution": "四轴随线取放",
+      "ct": "2.2s",
+      "accuracy": "±2mm",
+      "material_cost_rmb": 64000,
+      "advantage": "产品无需停线定位，适合连续生产",
+      "constraint": "精度主要受皮带线偏差影响",
+      "image": "随线取放.mp4代表帧",
+      "caveat": "与标准抓取工艺不同，CT不直接横比",
+      "so_what": "连续线优先追求不停线和节拍，接受更大的定位误差边界。",
+      "evidence_ids": ["E12", "E13", "E14"]
+    },
+    {
+      "slide": 9,
+      "role": "Complication",
+      "title": "选型应同时看成本、行程、速度和误差来源，不能只比CT",
+      "decision_matrix": [
+        {"solution": "自建三轴＋旋转轴", "ct": "6s", "accuracy": "±1mm", "material_cost_rmb": 33170, "strength": "低成本、方便调整", "constraint": "视觉视野"},
+        {"solution": "四轴机械手", "ct": "6s", "accuracy": "±1mm", "material_cost_rmb": 49000, "strength": "行程大", "constraint": "视觉视野"},
+        {"solution": "外购并联机械手", "ct": "4s", "accuracy": "±1mm", "material_cost_rmb": null, "strength": "速度快", "constraint": "机构外购"},
+        {"solution": "自制蜘蛛手首台", "ct": "目标待验证", "accuracy": "目标待验证", "material_cost_rmb": 33862, "strength": "自主化", "constraint": "尚未完成调试"},
+        {"solution": "四轴随线取放", "ct": "2.2s", "accuracy": "±2mm", "material_cost_rmb": 64000, "strength": "不停线、节拍快", "constraint": "皮带线偏差"}
+      ],
+      "derived_cost_differences": [
+        "自制蜘蛛手首台材料成本比四轴低15,138元",
+        "自制蜘蛛手首台材料成本比随线抓取低30,138元",
+        "四轴材料成本比自建三轴＋旋转轴高15,830元"
+      ],
+      "caveat": "不同方案材料范围可能不同，成本只用于当前方案级比较",
+      "so_what": "低成本优先自建轴，大行程选四轴，高速标准抓取推进自制蜘蛛手，连续线采用随线方案。",
+      "evidence_ids": ["E06", "E07", "E08", "E09", "E10", "E11", "E12", "E13"]
+    },
+    {
+      "slide": 10,
+      "role": "Resolution",
+      "title": "自制蜘蛛手按设计、物料、组装和调试四阶段推进至10月底",
+      "project": "自制蜘蛛手，臂展300mm",
+      "estimated_material_cost_rmb": 33862,
+      "schedule": [
+        {"phase": "设计", "start": "2026-07-02", "end": "2026-07-20", "deliverable": "臂展300mm机构设计"},
+        {"phase": "物料", "start": "2026-07-21", "end": "2026-08-15", "deliverable": "柔性振动盘零件、蜘蛛手零件、触控一体机电脑"},
+        {"phase": "组装", "start": "2026-08-16", "end": "2026-08-30", "deliverable": "整机装配完成"},
+        {"phase": "调试", "start": "2026-08-31", "end": "2026-10-30", "deliverable": "机构、控制、视觉与生产验证"}
+      ],
+      "validation_targets": ["CT和精度目标待项目验收定义", "长期稳定性指标待定义", "材料成本口径不包含人工与调试"],
+      "so_what": "下一次汇报应给出设计完成度、物料到位风险和CT／精度验收指标。",
+      "evidence_ids": ["E11", "用户第一次确认新增排程与成本"]
+    }
+  ]
+}

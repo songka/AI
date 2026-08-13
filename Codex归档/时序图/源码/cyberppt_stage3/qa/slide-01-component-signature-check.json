@@ -1,0 +1,16 @@
+{
+  "schema": "cyberppt.component_signature_check.v1",
+  "slide": 1,
+  "signature_path": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage3/frozen/slide-01-component-signature.json",
+  "signature_sha256": "EF3800AB2F8C1FC6E7901446381C869ADB3C3B8511683B1391E9B88208501418",
+  "blueprint_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage2\\blueprints\\slide-01.png",
+  "blueprint_hash_expected": "704B3BE2D9886D902F275D678BCF6C696DDE9B1A0CF28B6B4B40A270A523B999",
+  "blueprint_hash_actual": "704B3BE2D9886D902F275D678BCF6C696DDE9B1A0CF28B6B4B40A270A523B999",
+  "content_lock_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage2\\slide_content_lock.json",
+  "content_lock_hash_expected": "B699FB675B2A48F410796B4F220EFD472B3A48106586BAB66EF786DEE9618322",
+  "content_lock_hash_actual": "B699FB675B2A48F410796B4F220EFD472B3A48106586BAB66EF786DEE9618322",
+  "component_count": 5,
+  "missing_components": [],
+  "component_types_preserved": true,
+  "passed": true
+}

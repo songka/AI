@@ -1,0 +1,1 @@
+"""DXF parsing and DWG conversion infrastructure."""

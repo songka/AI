@@ -1,0 +1,12 @@
+{
+  "slide": 1,
+  "passed": true,
+  "containers": [
+    "cover-title",
+    "cover-subtitle",
+    "supporting-line",
+    "version-block",
+    "page-badge"
+  ],
+  "overflow_objects": []
+}

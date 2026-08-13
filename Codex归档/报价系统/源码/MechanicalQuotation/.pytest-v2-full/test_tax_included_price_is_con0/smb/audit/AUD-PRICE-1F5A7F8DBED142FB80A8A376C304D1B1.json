@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "action": "price_approved_and_published",
+  "review": {
+    "review_id": "RV-AC7FD2C47E56",
+    "price_record_id": "PR-20260810-31C07DE9",
+    "supplier_id": "SUP-LFAF-001",
+    "status": "APPROVED",
+    "review_comment": null,
+    "reviewed_by": "8c9521b8-9d7d-4414-980f-f545ca517228",
+    "reviewed_by_name": "管理员",
+    "reviewed_at": "2026-08-10T02:51:14.583016+00:00",
+    "source_sha256": "e43f287d93ac8b6bd40a2f7e21652c380a68e5635809f8599fd48926c406f9e2",
+    "previous_price_version_id": "BASE-V1",
+    "published_price_version_id": "CP-20260810-025114-0347A5",
+    "published_company_price_id": "CP-562d77fdea53"
+  },
+  "published_company_price": {
+    "company_price_id": "CP-562d77fdea53",
+    "target_type": "MATERIAL",
+    "canonical_code": "SUS304",
+    "specification": "3mm",
+    "unit_price": 100.0,
+    "unit": "kg",
+    "currency": "CNY",
+    "price_basis": "EXCLUDING_TAX",
+    "effective_from": "2026-08-05",
+    "effective_to": null,
+    "origin_type": "SUPPLIER_PRICE_RECORD",
+    "origin_supplier_id": "SUP-LFAF-001",
+    "origin_price_record_id": "PR-20260810-31C07DE9",
+    "selection_policy": "MANUAL_ADMIN_SELECTION",
+    "selection_reason": "管理员审核供应商原始报价后发布",
+    "approved_by": "admin001",
+    "approved_at": "2026-08-10T02:51:14.583016+00:00",
+    "price_version_id": "CP-20260810-025114-0347A5"
+  }
+}

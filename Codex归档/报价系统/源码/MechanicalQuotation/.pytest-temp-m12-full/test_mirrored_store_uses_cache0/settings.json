@@ -1,0 +1,11 @@
+{
+  "dwg_converter_path": "",
+  "dwg_converter_note": "外部 ODA 转换器路径；第三方程序不包含在本系统中",
+  "api_host": "127.0.0.1",
+  "api_port": 8000,
+  "smb_root": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\.pytest-temp-m12-full\\test_mirrored_store_uses_cache0\\share",
+  "smb_auth_type": "current_user",
+  "smb_cache_dir": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\.pytest-temp-m12-full\\test_mirrored_store_uses_cache0\\cache",
+  "smb_sync_enabled": true,
+  "smb_sync_interval_seconds": 60
+}

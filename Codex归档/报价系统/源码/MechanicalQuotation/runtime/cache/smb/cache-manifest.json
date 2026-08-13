@@ -1,0 +1,75 @@
+{
+  "cache_version": 6418,
+  "source_root": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\10-自動報價系統\\data",
+  "last_sync": "2026-08-12T05:09:37.148024+00:00",
+  "files": {
+    "data/external-skill-routing.json": {
+      "sha256": "48d3f3519fc12711476646b659925064eb91efd6efa7da073c3cabbce8cab5b9",
+      "cached_at": "2026-08-07T05:35:13.641392+00:00"
+    },
+    "data/external-skills/part.cost.estimator/3.0.0/assets/icon.svg": {
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "cached_at": "2026-08-07T04:33:32.721724+00:00"
+    },
+    "data/external-skills/part.cost.estimator/3.0.0/README.md": {
+      "sha256": "3752d67d914a35b8ec53b00c0778a9ed2a358982ab6eac461e9d74d0a87c2762",
+      "cached_at": "2026-08-07T04:33:32.721724+00:00"
+    },
+    "data/external-skills/part.cost.estimator/3.0.0/references/four-category-inputs.md": {
+      "sha256": "872c1bb07d6e2f457b71cd9e9181aad4605608e285a47fee4526c5a62821c468",
+      "cached_at": "2026-08-07T04:33:32.721724+00:00"
+    },
+    "data/external-skills/part.cost.estimator/3.0.0/skill.json": {
+      "sha256": "753230c5d0c83ee9e1925a57219f48c0ff8af6086f02781852b4e6f237a0cc18",
+      "cached_at": "2026-08-07T04:33:32.721724+00:00"
+    },
+    "data/external-skills/part.cost.estimator/3.0.0/SKILL.md": {
+      "sha256": "bef5e7b8394aa7d709c6e36eda1c09335637ce435b3e5d6e30c37a0c373b4a7a",
+      "cached_at": "2026-08-07T04:33:32.721724+00:00"
+    },
+    "data/external-skills/part.cost.estimator/3.0.0/tests/cases.json": {
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "cached_at": "2026-08-07T04:33:32.721724+00:00"
+    },
+    "data/external-skills/part.cost.estimator/3.0.0/tests/expected-results.json": {
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "cached_at": "2026-08-07T04:33:32.721724+00:00"
+    },
+    "data/users.json": {
+      "sha256": "a3ad33cfaf85b21522d3976d8d07193909c8f30ad25d6e11bec8d19082a70e82",
+      "cached_at": "2026-08-12T02:14:33.650377+00:00"
+    },
+    "rules/published/quotation-rules.yaml": {
+      "sha256": "14f15df0b95d68268749f2bbac0551a48c92b61a8c4cbe4c0ee086898da27a93",
+      "cached_at": "2026-08-04T08:31:01.315327+00:00"
+    },
+    "prices/published/company-pricebook-r01-v1.1-snapshot.json": {
+      "sha256": "09caadf8554e9ac6855bd736ed5b4a007954f5779ca6c9559957eb55878b5991",
+      "cached_at": "2026-08-04T08:31:01.315327+00:00"
+    },
+    "prices/published/current-version-pointer.json": {
+      "sha256": "6ec24cdb3f57d5d3e595ee58c2d31e3e6a8c4877964603ed8bd963b29367969e",
+      "cached_at": "2026-08-04T08:31:01.315327+00:00"
+    },
+    "prices/published/feature-price-calibration-gcs-v1.0.json": {
+      "sha256": "dbaee7934c039b033bfa74e4f086343c60ef9d1128eafa555065b62cc0b8724b",
+      "cached_at": "2026-08-04T08:31:01.315327+00:00"
+    },
+    "prices/published/pricing-source-records-r01-v1.0.json": {
+      "sha256": "d4b6943a5c9f8329d45154035573a531ef0c08effcde003eed273cd2ce0b2bf8",
+      "cached_at": "2026-08-04T08:31:01.315327+00:00"
+    },
+    "prices/published/version.txt": {
+      "sha256": "32bf3a6955a3f840e09a83de249cf90a7e0f4f3b8206bf51aa02ce600c0ecb35",
+      "cached_at": "2026-08-04T08:31:01.315327+00:00"
+    },
+    "suppliers/prices/SUP-FUYUCHANG/PR-20260810-833B4B28.json": {
+      "sha256": "20e157d569e974a1a6fdc5ca4d6889c9a132958152105c5c7780e4e213ee8480",
+      "cached_at": "2026-08-10T06:30:21.825285+00:00"
+    },
+    "suppliers/suppliers.json": {
+      "sha256": "6068a58d364fff32e2714e8f81b51304f9b3309f7e1228ddebfec9decd640567",
+      "cached_at": "2026-08-04T09:30:11.873008+00:00"
+    }
+  }
+}

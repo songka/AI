@@ -1,0 +1,380 @@
+{
+  "generated_at": "2026-08-03T15:08:42.306865",
+  "tests": "726 passed, 1 skipped, 1 warning",
+  "golden_total": 20,
+  "counts": {
+    "quote_ready": 19,
+    "review_required": 1,
+    "parse_failed": 0
+  },
+  "metrics": {
+    "comparable_cases": 20,
+    "wape_pct": 81.04,
+    "mae_cny": 585.05,
+    "median_absolute_deviation_cny": 116.12,
+    "mean_ape_pct": 172.1,
+    "buckets": {
+      "<=10%": 1,
+      "10-20%": 0,
+      "20-30%": 1,
+      ">30%": 18
+    }
+  },
+  "cases": [
+    {
+      "bom_item": "UC1000005854",
+      "part_code": "J003",
+      "dwg": "UC1000005854-J003.DWG",
+      "pdf_count": 1,
+      "historical_price": 1425.0,
+      "system_price": 1046.42,
+      "absolute_error": 378.58,
+      "deviation_pct": -26.57,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "與歷史價差在 30% 內；仍需按有效期與數量條件人工確認"
+    },
+    {
+      "bom_item": "UC1000005855",
+      "part_code": "J005",
+      "dwg": "UC1000005855-J005.DWG",
+      "pdf_count": 1,
+      "historical_price": 712.0,
+      "system_price": 323.9,
+      "absolute_error": 388.1,
+      "deviation_pct": -54.51,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "系統僅計入圖紙可證明的材料/加工，歷史成交價可能含未標註工序、管理或採購成本"
+    },
+    {
+      "bom_item": "UC1000005856",
+      "part_code": "J006",
+      "dwg": "UC1000005856-J006.DWG",
+      "pdf_count": 1,
+      "historical_price": 874.0,
+      "system_price": 471.24,
+      "absolute_error": 402.76,
+      "deviation_pct": -46.08,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "系統僅計入圖紙可證明的材料/加工，歷史成交價可能含未標註工序、管理或採購成本"
+    },
+    {
+      "bom_item": "UC1000005857",
+      "part_code": "J007",
+      "dwg": "UC1000005857-J007.DWG",
+      "pdf_count": 1,
+      "historical_price": 693.0,
+      "system_price": 350.06,
+      "absolute_error": 342.94,
+      "deviation_pct": -49.49,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "系統僅計入圖紙可證明的材料/加工，歷史成交價可能含未標註工序、管理或採購成本"
+    },
+    {
+      "bom_item": "UC1002006858",
+      "part_code": "J026",
+      "dwg": "UC1002006858_J026.DWG",
+      "pdf_count": 1,
+      "historical_price": 71.0,
+      "system_price": 74.9,
+      "absolute_error": 3.9,
+      "deviation_pct": 5.49,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "與歷史價差在 30% 內；仍需按有效期與數量條件人工確認"
+    },
+    {
+      "bom_item": "UC1002009711",
+      "part_code": "R001",
+      "dwg": "UC1002009711-R001.DWG",
+      "pdf_count": 1,
+      "historical_price": 209.0,
+      "system_price": 911.6,
+      "absolute_error": 702.6,
+      "deviation_pct": 336.17,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "現行規則與歷史成交條件差異較大，需以供應商/工時資料校準"
+    },
+    {
+      "bom_item": "UC1002009712",
+      "part_code": "R002",
+      "dwg": "UC1002009712-R002.DWG",
+      "pdf_count": 1,
+      "historical_price": 61.0,
+      "system_price": 167.42,
+      "absolute_error": 106.42,
+      "deviation_pct": 174.46,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "現行規則與歷史成交條件差異較大，需以供應商/工時資料校準"
+    },
+    {
+      "bom_item": "UC1002009713",
+      "part_code": "R003",
+      "dwg": "UC1002009713-R003.DWG",
+      "pdf_count": 1,
+      "historical_price": 38.0,
+      "system_price": 112.74,
+      "absolute_error": 74.74,
+      "deviation_pct": 196.68,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "現行規則與歷史成交條件差異較大，需以供應商/工時資料校準"
+    },
+    {
+      "bom_item": "UC1002009718",
+      "part_code": "R004",
+      "dwg": "UC1002009718-R004.DWG",
+      "pdf_count": 1,
+      "historical_price": 66.0,
+      "system_price": 167.42,
+      "absolute_error": 101.42,
+      "deviation_pct": 153.67,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "現行規則與歷史成交條件差異較大，需以供應商/工時資料校準"
+    },
+    {
+      "bom_item": "UC1003000436",
+      "part_code": "J001",
+      "dwg": "UC1003000436_J001.DWG",
+      "pdf_count": 1,
+      "historical_price": 7000.0,
+      "system_price": 1269.67,
+      "absolute_error": 5730.33,
+      "deviation_pct": -81.86,
+      "status": "REVIEW_REQUIRED",
+      "cost_completion": 75.0,
+      "unknown_count": 2,
+      "reason": "2D 圖無法可靠分解結構重量，依規則要求人工審核"
+    },
+    {
+      "bom_item": "UC1004001529",
+      "part_code": "W002",
+      "dwg": "UC1004001529_W002.DWG",
+      "pdf_count": 1,
+      "historical_price": 16.0,
+      "system_price": 71.22,
+      "absolute_error": 55.22,
+      "deviation_pct": 345.12,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "現行規則與歷史成交條件差異較大，需以供應商/工時資料校準"
+    },
+    {
+      "bom_item": "UC1004001886",
+      "part_code": "J036",
+      "dwg": "UC1004001886-J036.stp.DWG",
+      "pdf_count": 1,
+      "historical_price": 28.0,
+      "system_price": 172.57,
+      "absolute_error": 144.57,
+      "deviation_pct": 516.32,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "現行規則與歷史成交條件差異較大，需以供應商/工時資料校準"
+    },
+    {
+      "bom_item": "UC1004001887",
+      "part_code": "F002",
+      "dwg": "UC1004001887-F002.DWG",
+      "pdf_count": 1,
+      "historical_price": 38.0,
+      "system_price": 197.65,
+      "absolute_error": 159.65,
+      "deviation_pct": 420.13,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "現行規則與歷史成交條件差異較大，需以供應商/工時資料校準"
+    },
+    {
+      "bom_item": "UC1004001888",
+      "part_code": "J050",
+      "dwg": "UC1004001888-J050.DWG",
+      "pdf_count": 1,
+      "historical_price": 47.0,
+      "system_price": 141.69,
+      "absolute_error": 94.69,
+      "deviation_pct": 201.47,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "現行規則與歷史成交條件差異較大，需以供應商/工時資料校準"
+    },
+    {
+      "bom_item": "UC1004001889",
+      "part_code": "J027",
+      "dwg": "UC1004001889_J027.DWG",
+      "pdf_count": 1,
+      "historical_price": 38.0,
+      "system_price": 163.83,
+      "absolute_error": 125.83,
+      "deviation_pct": 331.13,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "現行規則與歷史成交條件差異較大，需以供應商/工時資料校準"
+    },
+    {
+      "bom_item": "UC1004001890",
+      "part_code": "J035",
+      "dwg": "UC1004001890-J035.DWG",
+      "pdf_count": 1,
+      "historical_price": 95.0,
+      "system_price": 156.78,
+      "absolute_error": 61.78,
+      "deviation_pct": 65.03,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "現行規則與歷史成交條件差異較大，需以供應商/工時資料校準"
+    },
+    {
+      "bom_item": "UC1004001904",
+      "part_code": "F003",
+      "dwg": "UC1004001904-F003.DWG",
+      "pdf_count": 1,
+      "historical_price": 57.0,
+      "system_price": 93.73,
+      "absolute_error": 36.73,
+      "deviation_pct": 64.44,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "現行規則與歷史成交條件差異較大，需以供應商/工時資料校準"
+    },
+    {
+      "bom_item": "UC1004001905",
+      "part_code": "F001",
+      "dwg": "UC1004001905-F001.DWG",
+      "pdf_count": 1,
+      "historical_price": 57.0,
+      "system_price": 93.58,
+      "absolute_error": 36.58,
+      "deviation_pct": 64.18,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "現行規則與歷史成交條件差異較大，需以供應商/工時資料校準"
+    },
+    {
+      "bom_item": "UC1007000773",
+      "part_code": "J029",
+      "dwg": "UC1007000773_J029.DWG",
+      "pdf_count": 1,
+      "historical_price": 14.0,
+      "system_price": 44.14,
+      "absolute_error": 30.14,
+      "deviation_pct": 215.29,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "現行規則與歷史成交條件差異較大，需以供應商/工時資料校準"
+    },
+    {
+      "bom_item": "UC2020083221",
+      "part_code": null,
+      "dwg": "UC2020083221-W001.DWG",
+      "pdf_count": 1,
+      "historical_price": 2900.0,
+      "system_price": 176.01,
+      "absolute_error": 2723.99,
+      "deviation_pct": -93.93,
+      "status": "COMPLETE",
+      "cost_completion": 100.0,
+      "unknown_count": 0,
+      "reason": "系統僅計入圖紙可證明的材料/加工，歷史成交價可能含未標註工序、管理或採購成本"
+    }
+  ],
+  "price_version": "R01-COMPANY-PRICE-V1.1",
+  "rule_version": "1.0",
+  "snapshot_sha256": "15d5ada623b3a2106129c7dbbc278fc5b722da821d323a31b5809d176cd10ae3",
+  "external_drawings": {
+    "dwg_processed": 20,
+    "pdf_companions": 20,
+    "dwg_health": {
+      "configured": true,
+      "available": true,
+      "adapter": "ODA File Converter",
+      "configuration_source": "user_settings",
+      "executable_path": "C:\\Users\\lfaf-test\\AppData\\Local\\MechanicalQuotation\\ODAFileConverter-27.1\\ODAFileConverter.exe",
+      "message": "DWG轉換器可用",
+      "cache_directory": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\runtime\\cache\\dwg"
+    }
+  },
+  "tax": {
+    "rate": "17%",
+    "excluding_and_including_verified": true
+  },
+  "excel": {
+    "path": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\runtime\\validation\\final_golden_quotes.xlsx",
+    "sheets": [
+      "报价汇总",
+      "报价明细",
+      "待人工审核",
+      "源文件",
+      "价格来源追踪",
+      "DWG转换记录"
+    ],
+    "nonempty": true
+  },
+  "ui": {
+    "tkinter_startup": true
+  },
+  "api": {
+    "health": true,
+    "openapi_paths": 14,
+    "published_pricebook": true
+  },
+  "ai": {
+    "configured": true,
+    "reachable": true,
+    "structured_call": true,
+    "model": "deepseek-v4-flash",
+    "model_found": true,
+    "latency_ms": 538.2,
+    "error": null,
+    "reference_estimate_call": true
+  },
+  "portable": {
+    "exists": true,
+    "self_check": {
+      "passed": 12,
+      "failed": 0
+    },
+    "smoke": {
+      "passed": 3,
+      "failed": 0
+    },
+    "oda_bundled": false,
+    "zwcad_bundled": false
+  },
+  "secret_scan": {
+    "local_key_configured": true,
+    "exact_key_copies": 0,
+    "credential_patterns": 0
+  },
+  "risks": [
+    "歷史 BOM 價格未提供數量、有效期、完整加工工序與管理費拆分，準確度指標僅作基準比較。",
+    "TAP 舊版規則仍為 Draft，必須人工確認或填入 Quote-scoped M 價格。",
+    "J001 類焊接結構無可靠 2D 分解重量時維持人工審核。",
+    "ODA 商業使用/散布授權須由公司法務確認；可攜包未包含 ODA 或中望 CAD。",
+    "PyInstaller 未簽章，正式對外發布前應進行公司程式碼簽章。"
+  ]
+}

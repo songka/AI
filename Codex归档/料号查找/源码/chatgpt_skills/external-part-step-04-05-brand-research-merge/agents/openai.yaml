@@ -1,0 +1,7 @@
+interface:
+  display_name: "外购件第4-5步"
+  short_description: "识别品牌并合并品牌候选。"
+  default_prompt: "使用 $external-part-step-04-05-brand-research-merge 处理 brand_pending 批次并合并品牌结果。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,11 @@
+{
+  "agent_id": "company.machining-time-agent",
+  "agent_name_zh": "加工件工时智能体",
+  "agent_version": "2.0.0",
+  "protocol_version": "1.0",
+  "description_zh": "根据工艺证据估算单件工时并列出假设",
+  "supported_steps": ["TIME_ESTIMATION"],
+  "supported_processes": ["MILL", "GRIND"],
+  "instruction_file": "AGENT.md",
+  "reference_files": ["references/time-boundaries.md"]
+}

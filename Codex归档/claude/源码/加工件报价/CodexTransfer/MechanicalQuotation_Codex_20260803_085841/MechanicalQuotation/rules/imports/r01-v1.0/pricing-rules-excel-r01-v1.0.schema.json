@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mechanical Quotation Pricing Rules Overlay",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "ruleset",
+    "pricing_source_records",
+    "supplier_master",
+    "tax_profiles"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "ruleset": {
+      "type": "object"
+    },
+    "pricing_source_records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "record_id",
+          "target_type",
+          "price_source",
+          "status",
+          "source_sheet",
+          "source_cell"
+        ]
+      }
+    },
+    "supplier_master": {
+      "type": "array"
+    },
+    "tax_profiles": {
+      "type": "array"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+roles:
+  admin:
+    name: 管理员
+    is_system: true
+    permissions:
+      - quotation.create
+      - quotation.view
+      - quotation.view_cost
+      - quotation.export
+      - quotation.delete
+      - rule.view
+      - rule.modify
+      - rule.approve
+      - price.view_cost
+      - price.modify
+      - user.manage
+      - user.view
+      - system.audit_log
+      - system.config
+      - skill.debug.view
+  engineer:
+    name: 工程师
+    is_system: true
+    permissions:
+      - quotation.create
+      - quotation.view
+      - quotation.view_cost
+      - quotation.export
+      - rule.view
+      - rule.modify
+      - price.view_cost
+      - price.modify
+  sales:
+    name: 业务
+    is_system: true
+    permissions:
+      - quotation.create
+      - quotation.view
+      - quotation.export
+      - rule.view
+  viewer:
+    name: 查看者
+    is_system: true
+    permissions:
+      - quotation.view

@@ -1,0 +1,7 @@
+interface:
+  display_name: "外购件第0步归档"
+  short_description: "创建 Drive 项目文件夹并归档输入。"
+  default_prompt: "使用 $external-part-step-00-drive-start 为本次外购件流水线创建 Google Drive 项目文件夹并归档输入。"
+
+policy:
+  allow_implicit_invocation: true

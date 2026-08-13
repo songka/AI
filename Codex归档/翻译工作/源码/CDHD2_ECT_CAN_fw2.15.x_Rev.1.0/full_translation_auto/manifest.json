@@ -1,0 +1,370 @@
+{
+  "input": "D:\\Codex项目\\打标开发\\output\\pdf\\CDHD2_ECT_CAN_fw2.15.x_Rev.1.0\\CDHD2_ECT_CAN_fw2.15.x_Rev.1.0_extracted_en.md",
+  "model": "gpt-4.1-mini",
+  "max_chars": 8500,
+  "start_page": null,
+  "end_page": null,
+  "chunk_count": 60,
+  "chunks": [
+    {
+      "chunk_id": "p001-p005-e6a7278c64",
+      "start_page": 1,
+      "end_page": 5,
+      "chars": 7070
+    },
+    {
+      "chunk_id": "p006-p006-b1d8301c7d",
+      "start_page": 6,
+      "end_page": 6,
+      "chars": 7193
+    },
+    {
+      "chunk_id": "p007-p007-9cb5974fa6",
+      "start_page": 7,
+      "end_page": 7,
+      "chars": 7122
+    },
+    {
+      "chunk_id": "p008-p008-d0f7a7329b",
+      "start_page": 8,
+      "end_page": 8,
+      "chars": 7506
+    },
+    {
+      "chunk_id": "p009-p009-b3faa9aedc",
+      "start_page": 9,
+      "end_page": 9,
+      "chars": 7431
+    },
+    {
+      "chunk_id": "p010-p010-fe5379631a",
+      "start_page": 10,
+      "end_page": 10,
+      "chars": 7596
+    },
+    {
+      "chunk_id": "p011-p011-da531e7ba8",
+      "start_page": 11,
+      "end_page": 11,
+      "chars": 7532
+    },
+    {
+      "chunk_id": "p012-p012-2b6d8b14a8",
+      "start_page": 12,
+      "end_page": 12,
+      "chars": 7553
+    },
+    {
+      "chunk_id": "p013-p013-d9a74e0d8e",
+      "start_page": 13,
+      "end_page": 13,
+      "chars": 7430
+    },
+    {
+      "chunk_id": "p014-p014-5db055eddf",
+      "start_page": 14,
+      "end_page": 14,
+      "chars": 7552
+    },
+    {
+      "chunk_id": "p015-p017-c997175401",
+      "start_page": 15,
+      "end_page": 17,
+      "chars": 8461
+    },
+    {
+      "chunk_id": "p018-p025-04f2e2df64",
+      "start_page": 18,
+      "end_page": 25,
+      "chars": 8151
+    },
+    {
+      "chunk_id": "p026-p040-a4765710b4",
+      "start_page": 26,
+      "end_page": 40,
+      "chars": 8550
+    },
+    {
+      "chunk_id": "p041-p052-96568ac969",
+      "start_page": 41,
+      "end_page": 52,
+      "chars": 8507
+    },
+    {
+      "chunk_id": "p053-p058-5f802c0efa",
+      "start_page": 53,
+      "end_page": 58,
+      "chars": 7798
+    },
+    {
+      "chunk_id": "p059-p063-f128870b8b",
+      "start_page": 59,
+      "end_page": 63,
+      "chars": 7759
+    },
+    {
+      "chunk_id": "p064-p068-10c07f32dc",
+      "start_page": 64,
+      "end_page": 68,
+      "chars": 6660
+    },
+    {
+      "chunk_id": "p069-p074-ed19572a47",
+      "start_page": 69,
+      "end_page": 74,
+      "chars": 7354
+    },
+    {
+      "chunk_id": "p075-p079-b7f343aaf8",
+      "start_page": 75,
+      "end_page": 79,
+      "chars": 7637
+    },
+    {
+      "chunk_id": "p080-p085-decabfa685",
+      "start_page": 80,
+      "end_page": 85,
+      "chars": 7594
+    },
+    {
+      "chunk_id": "p086-p089-134baab858",
+      "start_page": 86,
+      "end_page": 89,
+      "chars": 6736
+    },
+    {
+      "chunk_id": "p090-p093-e550be1c63",
+      "start_page": 90,
+      "end_page": 93,
+      "chars": 7824
+    },
+    {
+      "chunk_id": "p094-p103-db7fa7fa5c",
+      "start_page": 94,
+      "end_page": 103,
+      "chars": 7852
+    },
+    {
+      "chunk_id": "p104-p114-9925cd8335",
+      "start_page": 104,
+      "end_page": 114,
+      "chars": 8364
+    },
+    {
+      "chunk_id": "p115-p125-cb7ab206f1",
+      "start_page": 115,
+      "end_page": 125,
+      "chars": 8509
+    },
+    {
+      "chunk_id": "p126-p136-43bcfd2c85",
+      "start_page": 126,
+      "end_page": 136,
+      "chars": 8512
+    },
+    {
+      "chunk_id": "p137-p147-c059672fb1",
+      "start_page": 137,
+      "end_page": 147,
+      "chars": 7964
+    },
+    {
+      "chunk_id": "p148-p157-0b5625fbe3",
+      "start_page": 148,
+      "end_page": 157,
+      "chars": 8435
+    },
+    {
+      "chunk_id": "p158-p169-c890fdd61f",
+      "start_page": 158,
+      "end_page": 169,
+      "chars": 8492
+    },
+    {
+      "chunk_id": "p170-p180-ded6235570",
+      "start_page": 170,
+      "end_page": 180,
+      "chars": 7964
+    },
+    {
+      "chunk_id": "p181-p191-04039ced61",
+      "start_page": 181,
+      "end_page": 191,
+      "chars": 7878
+    },
+    {
+      "chunk_id": "p192-p202-ac66f10d98",
+      "start_page": 192,
+      "end_page": 202,
+      "chars": 8148
+    },
+    {
+      "chunk_id": "p203-p213-e41167486a",
+      "start_page": 203,
+      "end_page": 213,
+      "chars": 7908
+    },
+    {
+      "chunk_id": "p214-p224-ce4d095696",
+      "start_page": 214,
+      "end_page": 224,
+      "chars": 8264
+    },
+    {
+      "chunk_id": "p225-p235-c07e75391b",
+      "start_page": 225,
+      "end_page": 235,
+      "chars": 8027
+    },
+    {
+      "chunk_id": "p236-p245-20ed374d1a",
+      "start_page": 236,
+      "end_page": 245,
+      "chars": 8442
+    },
+    {
+      "chunk_id": "p246-p256-b0f5f44fe6",
+      "start_page": 246,
+      "end_page": 256,
+      "chars": 8281
+    },
+    {
+      "chunk_id": "p257-p267-d4807629ed",
+      "start_page": 257,
+      "end_page": 267,
+      "chars": 8545
+    },
+    {
+      "chunk_id": "p268-p277-11a94a9dd7",
+      "start_page": 268,
+      "end_page": 277,
+      "chars": 8454
+    },
+    {
+      "chunk_id": "p278-p288-69f6be3a4c",
+      "start_page": 278,
+      "end_page": 288,
+      "chars": 8502
+    },
+    {
+      "chunk_id": "p289-p299-aa556fea58",
+      "start_page": 289,
+      "end_page": 299,
+      "chars": 7868
+    },
+    {
+      "chunk_id": "p300-p311-878f407097",
+      "start_page": 300,
+      "end_page": 311,
+      "chars": 8314
+    },
+    {
+      "chunk_id": "p312-p323-94b1e2df05",
+      "start_page": 312,
+      "end_page": 323,
+      "chars": 8138
+    },
+    {
+      "chunk_id": "p324-p335-ac80ddcf74",
+      "start_page": 324,
+      "end_page": 335,
+      "chars": 8557
+    },
+    {
+      "chunk_id": "p336-p347-ce0083f92e",
+      "start_page": 336,
+      "end_page": 347,
+      "chars": 8434
+    },
+    {
+      "chunk_id": "p348-p358-f20ed57ff5",
+      "start_page": 348,
+      "end_page": 358,
+      "chars": 8440
+    },
+    {
+      "chunk_id": "p359-p369-d79968145b",
+      "start_page": 359,
+      "end_page": 369,
+      "chars": 7901
+    },
+    {
+      "chunk_id": "p370-p379-acda695c1d",
+      "start_page": 370,
+      "end_page": 379,
+      "chars": 7842
+    },
+    {
+      "chunk_id": "p380-p390-03561d1e3b",
+      "start_page": 380,
+      "end_page": 390,
+      "chars": 7844
+    },
+    {
+      "chunk_id": "p391-p401-1604beef1f",
+      "start_page": 391,
+      "end_page": 401,
+      "chars": 8050
+    },
+    {
+      "chunk_id": "p402-p414-ef73944d51",
+      "start_page": 402,
+      "end_page": 414,
+      "chars": 8558
+    },
+    {
+      "chunk_id": "p415-p426-ff0ba973af",
+      "start_page": 415,
+      "end_page": 426,
+      "chars": 8303
+    },
+    {
+      "chunk_id": "p427-p438-4b5ca44ac0",
+      "start_page": 427,
+      "end_page": 438,
+      "chars": 8475
+    },
+    {
+      "chunk_id": "p439-p449-5b030f85c1",
+      "start_page": 439,
+      "end_page": 449,
+      "chars": 7926
+    },
+    {
+      "chunk_id": "p450-p458-4998c3e83b",
+      "start_page": 450,
+      "end_page": 458,
+      "chars": 8123
+    },
+    {
+      "chunk_id": "p459-p468-a4d96fecea",
+      "start_page": 459,
+      "end_page": 468,
+      "chars": 8269
+    },
+    {
+      "chunk_id": "p469-p477-cd482c9c30",
+      "start_page": 469,
+      "end_page": 477,
+      "chars": 8470
+    },
+    {
+      "chunk_id": "p478-p488-1be8b8d282",
+      "start_page": 478,
+      "end_page": 488,
+      "chars": 7771
+    },
+    {
+      "chunk_id": "p489-p495-7d5400ed26",
+      "start_page": 489,
+      "end_page": 495,
+      "chars": 7375
+    },
+    {
+      "chunk_id": "p496-p499-237aa45476",
+      "start_page": 496,
+      "end_page": 499,
+      "chars": 4027
+    }
+  ]
+}

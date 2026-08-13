@@ -1,0 +1,790 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/xgzws0",
+    "id": "xgzws0",
+    "slide": 8,
+    "layoutId": "bae1f76f-7a5d-4d27-9386-6f99358d6cfd",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bae1f76f-7a5d-4d27-9386-6f99358d6cfd",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwjyl4jq",
+      "id": "1",
+      "name": "Google-Shape-532-p58-2",
+      "bbox": [
+        1184.18,
+        659.24,
+        54.48,
+        25.33
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "text": "08",
+      "textPreview": "08",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "fontSize": 13.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "right",
+        "verticalAlignment": "bottom",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "08"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "08",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "fontSize": 13.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "right",
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "08",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ut8fap0z",
+      "id": "2",
+      "name": "Google-Shape-533-p58-3",
+      "bbox": [
+        41.33,
+        36.12,
+        1197.33,
+        109.97
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "text": "下一步：AI自动生成报告",
+      "textPreview": "下一步：AI自动生成报告",
+      "resolvedFontSize": 38.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38.67,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "下一步：AI自动生成报告"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "下一步：AI自动生成报告",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 38.67,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "下一步：AI自动生成报告",
+              "fontSize": 48,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu1gju1k",
+      "id": "3",
+      "name": "Picture-3-4-backing",
+      "bbox": [
+        658.17,
+        41.62,
+        581.6,
+        588.14
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#EAF5FB",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/94369cja",
+      "id": "4",
+      "name": "Picture-3-4",
+      "bbox": [
+        658.17,
+        41.62,
+        581.6,
+        588.14
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "roundRect",
+      "alt": "hero placeholder for Picture 3",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect"
+      },
+      "prompt": "Clean editorial light-blue conceptual image with subtle architectural geometry, ample white space, and no embedded text",
+      "isPlaceholder": true,
+      "asset": {
+        "assetId": "22aec045-38c6-4065-a4ee-be7b473ee424",
+        "prompt": "Clean editorial light-blue conceptual image with subtle architectural geometry, ample white space, and no embedded text"
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p0jyp4jm",
+      "id": "5",
+      "name": "Google-Shape-534-p58-5",
+      "bbox": [
+        41.33,
+        213.33,
+        581.33,
+        416
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4"
+      },
+      "geometry": "rect",
+      "text": "检索 → 总结 → 生成\n① 自动提炼单个专案摘要\n② 汇总报警、原因与历史处理方式\n③ 跨文件归纳技术信息\n④ 按部门模板生成报告初稿\n\n工程师负责审核确认。",
+      "textPreview": "检索 → 总结 → 生成 | ① 自动提炼单个专案摘要 | ② 汇总报警、原因与历史处理方式 | ③ 跨文件归纳技术信息 | ④ 按部门模板生成报告初稿 |  | 工程师负责审核确认。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "检索 → 总结 → 生成"
+          },
+          {
+            "index": 2,
+            "text": "① 自动提炼单个专案摘要"
+          },
+          {
+            "index": 3,
+            "text": "② 汇总报警、原因与历史处理方式"
+          },
+          {
+            "index": 4,
+            "text": "③ 跨文件归纳技术信息"
+          },
+          {
+            "index": 5,
+            "text": "④ 按部门模板生成报告初稿"
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "工程师负责审核确认。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "检索 → 总结 → 生成",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 650,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "检索 → 总结 → 生成",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "① 自动提炼单个专案摘要\n② 汇总报警、原因与历史处理方式\n③ 跨文件归纳技术信息\n④ 按部门模板生成报告初稿\n\n工程师负责审核确认。",
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "① 自动提炼单个专案摘要\n② 汇总报警、原因与历史处理方式\n③ 跨文件归纳技术信息\n④ 按部门模板生成报告初稿\n\n工程师负责审核确认。",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ni1o7m14",
+      "id": "6",
+      "bbox": [
+        658.17,
+        41.62,
+        581.6,
+        588.14
+      ],
+      "geometry": "roundRect",
+      "alt": "多格式工程资料经过AI知识处理后形成结构化报告",
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0.02,
+        "top": 0.02,
+        "right": 0.02,
+        "bottom": 0.02
+      },
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 2063"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "7490102e-b0a0-4524-a3e7-670f6f68105a",
+        "contentType": "image/png",
+        "byteLength": 1796608
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3y1gnu1w",
+      "id": "7",
+      "bbox": [
+        41.33,
+        145,
+        130,
+        7
+      ],
+      "geometry": "rect",
+      "fillColor": "#3D8DFF",
+      "lineColor": "#3D8DFF",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "codex-grid-layout-library#slide-08",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1239.77,
+          "height": 684.57
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "text",
+            "name": "Google-Shape-532-p58-2",
+            "position": {
+              "left": 1184.18,
+              "top": 659.24
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 54.48
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 25.33
+              }
+            },
+            "intrinsicSize": {
+              "width": 54.48,
+              "height": 25.33
+            },
+            "frame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            },
+            "snappedFrame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            },
+            "children": [],
+            "text": "08",
+            "transform": "none",
+            "element": {
+              "aid": "sh/hwjyl4jq",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "text",
+            "name": "Google-Shape-533-p58-3",
+            "position": {
+              "left": 41.33,
+              "top": 36.12
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1197.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 109.97
+              }
+            },
+            "intrinsicSize": {
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "children": [],
+            "text": "下一步：AI自动生成报告",
+            "transform": "none",
+            "element": {
+              "aid": "sh/ut8fap0z",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "shape",
+            "name": "Picture-3-4-backing",
+            "position": {
+              "left": 658.17,
+              "top": 41.62
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 581.6
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 588.14
+              }
+            },
+            "intrinsicSize": {
+              "width": 581.6,
+              "height": 588.14
+            },
+            "frame": {
+              "left": 658.17,
+              "top": 41.62,
+              "width": 581.6,
+              "height": 588.14
+            },
+            "snappedFrame": {
+              "left": 658.17,
+              "top": 41.62,
+              "width": 581.6,
+              "height": 588.14
+            },
+            "children": [],
+            "geometry": "roundRect",
+            "element": {
+              "aid": "sh/fu1gju1k",
+              "id": "3",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.3",
+            "kind": "image",
+            "name": "Picture-3-4",
+            "position": {
+              "left": 658.17,
+              "top": 41.62
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 581.6
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 588.14
+              }
+            },
+            "intrinsicSize": {
+              "width": 581.6,
+              "height": 588.14
+            },
+            "frame": {
+              "left": 658.17,
+              "top": 41.62,
+              "width": 581.6,
+              "height": 588.14
+            },
+            "snappedFrame": {
+              "left": 658.17,
+              "top": 41.62,
+              "width": 581.6,
+              "height": 588.14
+            },
+            "children": [],
+            "source": {
+              "kind": "prompt",
+              "prompt": "Clean editorial light-blue conceptual image with subtle architectural geometry, ample white space, and no embedded text"
+            },
+            "fit": "cover",
+            "alt": "hero placeholder for Picture 3",
+            "geometry": "roundRect",
+            "element": {
+              "aid": "im/94369cja",
+              "id": "4",
+              "kind": "image"
+            }
+          },
+          {
+            "path": "0.4",
+            "kind": "text",
+            "name": "Google-Shape-534-p58-5",
+            "position": {
+              "left": 41.33,
+              "top": 213.33
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 581.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 416
+              }
+            },
+            "intrinsicSize": {
+              "width": 581.33,
+              "height": 416
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 416
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 416
+            },
+            "children": [],
+            "text": "检索 → 总结 → 生成\n① 自动提炼单个专案摘要\n② 汇总报警、原因与历史处理方式\n③ 跨文件归纳技术信息\n④ 按部门模板生成报告初稿\n\n工程师负责审核确认。",
+            "transform": "none",
+            "element": {
+              "aid": "sh/p0jyp4jm",
+              "id": "5",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 658.17,
+              "top": 41.62,
+              "width": 581.6,
+              "height": 588.14
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 658.17,
+              "top": 41.62,
+              "width": 581.6,
+              "height": 588.14
+            }
+          },
+          {
+            "path": "0.4",
+            "frame": {
+              "left": 41.33,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 416
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

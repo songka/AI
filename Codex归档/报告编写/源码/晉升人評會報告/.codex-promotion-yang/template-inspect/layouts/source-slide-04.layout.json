@@ -1,0 +1,1612 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/jyx0ra1s",
+    "id": "jyx0ra1s",
+    "slide": 4,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#5B9BD5",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#4472C4",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Calibri",
+      "Calibri Light",
+      "Helvetica",
+      "微軟正黑體"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            62.03
+          ],
+          "geometry": "rect",
+          "text": "Click To Edit Master Title",
+          "textPreview": "Click To Edit Master Title",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click To Edit Master Title",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click To Edit Master Title"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Content Placeholder 2",
+          "bbox": [
+            88,
+            114.87,
+            1104,
+            515.99
+          ],
+          "geometry": "rect",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level\n\n\n",
+          "textPreview": "Edit Master text styles | Second level | Third level | Fourth level | Fifth level |  |  |",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Slide Number Placeholder 6",
+          "bbox": [
+            28.76,
+            675.12,
+            59.24,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/6",
+          "id": "6",
+          "name": "Straight Connector 5",
+          "bbox": [
+            0,
+            100.36,
+            1004.51,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "#00467E",
+          "lineWidth": 0.67
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            139.17
+          ],
+          "geometry": "rect",
+          "text": "Click To Edit Master Title Style",
+          "textPreview": "Click To Edit Master Title Style",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click To Edit Master Title Style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click To Edit Master Title Style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            88,
+            191.67,
+            1104,
+            456.83
+          ],
+          "geometry": "rect",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/7",
+          "id": "7",
+          "name": "Rectangle 6",
+          "bbox": [
+            0,
+            654.7,
+            1280,
+            65.3
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/10",
+          "id": "10",
+          "name": "TextBox 9",
+          "bbox": [
+            88,
+            674.43,
+            831,
+            25.85
+          ],
+          "geometry": "rect",
+          "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "textPreview": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "resolvedTextStyle": {
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved.",
+                  "fontSize": 13.33,
+                  "typeface": "Helvetica",
+                  "color": "#021D36"
+                },
+                {
+                  "index": 2,
+                  "text": " CONFIDENTIAL.",
+                  "fontSize": 13.33,
+                  "typeface": "Helvetica",
+                  "color": "#021D36"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/11",
+          "id": "11",
+          "name": "Picture 7",
+          "bbox": [
+            1189.03,
+            666.82,
+            67.28,
+            43.66
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 2109
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 2109
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cj2d8b6",
+      "id": "2",
+      "name": "Title 1",
+      "bbox": [
+        88,
+        38.33,
+        1104,
+        62.03
+      ],
+      "text": "個人簡介",
+      "textPreview": "個人簡介",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 48,
+        "typeface": "Helvetica",
+        "color": "#00457A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. 個人簡介"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "個人簡介",
+          "runs": [
+            {
+              "index": 1,
+              "text": "個人簡介"
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rm1k7yt4",
+      "id": "4",
+      "name": "Slide Number Placeholder 3",
+      "bbox": [
+        28.76,
+        675.12,
+        59.24,
+        38.33
+      ],
+      "text": "4",
+      "textPreview": "4",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "fontSize": 13.33,
+        "typeface": "Helvetica",
+        "color": "#021D36",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4",
+          "runs": [
+            {
+              "index": 1,
+              "text": "4"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8badgbq9",
+      "id": "72",
+      "name": "文本框 7",
+      "bbox": [
+        91.23,
+        116.52,
+        255.57,
+        60.1
+      ],
+      "geometry": "rect",
+      "text": "個人優點",
+      "textPreview": "個人優點",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "l個人優點"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "個人優點",
+          "lineSpacingPercent": 130000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "個人優點",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "color": "#0000FF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7a9wz69g",
+      "id": "181",
+      "name": "文本框 126",
+      "bbox": [
+        667.84,
+        197.06,
+        213.12,
+        48.47
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "3.教导力",
+      "textPreview": "3.教导力",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3.教导力"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3.教导力",
+          "runs": [
+            {
+              "index": 1,
+              "text": "3.",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "教",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "导力",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bixsra1",
+      "id": "182",
+      "name": "文本框 127",
+      "bbox": [
+        662.42,
+        242.58,
+        483.29,
+        144.11
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "因應公司近年大量增加金屬製程，自動線數量需求數量龐大且緊急，頻繁的新進員工的培訓及工作指導；理論與實踐反復檢練。歸納總結一套新員工快速上線的方法。",
+      "textPreview": "因應公司近年大量增加金屬製程，自動線數量需求數量龐大且緊急，頻繁的新進員工的培訓及工作指導；理論與實踐反復檢練。歸納總結一套新員工快速上線的方法。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "因應公司近年大量增加金屬製程，自動線數量需"
+          },
+          {
+            "index": 2,
+            "text": "求數量龐大且緊急，頻繁的新進員工的培訓及工"
+          },
+          {
+            "index": 3,
+            "text": "作指導；理論與實踐反復檢練。歸納總結一套新"
+          },
+          {
+            "index": 4,
+            "text": "員工快速上線的方法。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "因應公司近年大量增加金屬製程，自動線數量需求數量龐大且緊急，頻繁的新進員工的培訓及工作指導；理論與實踐反復檢練。歸納總結一套新員工快速上線的方法。",
+          "lineSpacingPercent": 130000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "因應公司近年大量增加金屬製程，自動線數量需求數量龐大且緊急，頻繁的新進員工的培訓及工作指導；理論與實踐反復檢練。歸納總結一套新員工快速上線的方法。",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lgr6t4zy",
+      "id": "121",
+      "name": "直接连接符 70",
+      "bbox": [
+        442.05,
+        381.61,
+        420.16,
+        134.53
+      ],
+      "verticalFlip": true,
+      "geometry": "line",
+      "lineColor": "#F9F9F9",
+      "lineWidth": 0.33
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ytg7ypg7",
+      "id": "122",
+      "name": "直接连接符 66",
+      "bbox": [
+        442.05,
+        247.97,
+        420.16,
+        133.64
+      ],
+      "geometry": "line",
+      "lineColor": "#F9F9F9",
+      "lineWidth": 0.33
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18b6hk7m",
+      "id": "172",
+      "name": "文本框 117",
+      "bbox": [
+        85.25,
+        397.36,
+        155.41,
+        48.47
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "2.學習力",
+      "textPreview": "2.學習力",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2.學習力"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2.學習力",
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2.",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "學習",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "力",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bipwr298",
+      "id": "189",
+      "name": "文本框 118",
+      "bbox": [
+        102.59,
+        448.32,
+        456.58,
+        107.05
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "工作職責的變化及工作的知識需要，通過不斷學習，為陌生場景的情景提供了指引的方向和動力。",
+      "textPreview": "工作職責的變化及工作的知識需要，通過不斷學習，為陌生場景的情景提供了指引的方向和動力。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "工作職責的變化及工作的知識需要，通過不斷"
+          },
+          {
+            "index": 2,
+            "text": "學習，為陌生場景的情景提供了指引的方向和"
+          },
+          {
+            "index": 3,
+            "text": "動力。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "工作職責的變化及工作的知識需要，通過不斷學習，為陌生場景的情景提供了指引的方向和動力。",
+          "lineSpacingPercent": 130000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "工作職責的變化及工作的知識需要，通過不斷學習，為陌生場景的情景提供了指引的方向和動力。",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byt87epo",
+      "id": "178",
+      "name": "文本框 123",
+      "bbox": [
+        61.23,
+        191.89,
+        174.82,
+        48.47
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "1.執行力",
+      "textPreview": "1.執行力",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1.執行力"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1.執行力",
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1.",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "執行力",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/axk7e9o3",
+      "id": "179",
+      "name": "文本框 124",
+      "bbox": [
+        84.65,
+        236.29,
+        475.23,
+        73.44
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "內斂而好強的個性，對工作的執行力度，更是一種認真的態度；確保每一項工作都能高效落地。",
+      "textPreview": "內斂而好強的個性，對工作的執行力度，更是一種認真的態度；確保每一項工作都能高效落地。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "內斂而好強的個性，對工作的執行力度，更是一"
+          },
+          {
+            "index": 2,
+            "text": "種認真的態度；確保每一項工作都能高效落地。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "內斂而好強的個性，對工作的執行力度，更是一種認真的態度；確保每一項工作都能高效落地。",
+          "lineSpacingPercent": 130000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "內斂而好強的個性，對工作的執行力度，更是一種認真的態度；確保每一項工作都能高效落地。",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l8rexwrq",
+      "id": "187",
+      "name": "文本框 133",
+      "bbox": [
+        663.99,
+        401.72,
+        263.72,
+        49.97
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "4.快速處理能力",
+      "textPreview": "4.快速處理能力",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4.快速處理能力"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4.快速處理能力",
+          "runs": [
+            {
+              "index": 1,
+              "text": "4",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": ".",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "快速處理",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            },
+            {
+              "index": 4,
+              "text": "能力",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qhgvihs3",
+      "id": "188",
+      "name": "文本框 134",
+      "bbox": [
+        666.56,
+        443.01,
+        437.54,
+        145.01
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "長期的品質及製造管理工作，從方案參與檢討、大項物料、物料異常情況、製造、調試、設備交機、售後等各個繁瑣的日常工作中，鍛煉出快速處理邏輯思維；",
+      "textPreview": "長期的品質及製造管理工作，從方案參與檢討、大項物料、物料異常情況、製造、調試、設備交機、售後等各個繁瑣的日常工作中，鍛煉出快速處理邏輯思維；",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "長期的品質及製造管理工作，從方案參與檢"
+          },
+          {
+            "index": 2,
+            "text": "討、大項物料、物料異常情況、製造、調試"
+          },
+          {
+            "index": 3,
+            "text": "、設備交機、售後等各個繁瑣的日常工作中"
+          },
+          {
+            "index": 4,
+            "text": "，鍛煉出快速處理邏輯思維；"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "長期的品質及製造管理工作，從方案參與檢討、大項物料、物料異常情況、製造、調試、設備交機、售後等各個繁瑣的日常工作中，鍛煉出快速處理邏輯思維；",
+          "lineSpacingPercent": 130000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "長期的品質及製造管理工作，從方案參與檢討、大項物料、物料異常情況、製造、調試、設備交機、售後等各個繁瑣的日常工作中，鍛煉出快速處理邏輯思維；",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94jmtgr6",
+      "id": "271",
+      "name": "椭圆 56",
+      "bbox": [
+        511.67,
+        374.64,
+        53.27,
+        56.69
+      ],
+      "rotation": 0,
+      "geometry": "ellipse",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FFC000",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72h4r690",
+      "id": "273",
+      "name": "Freeform 91",
+      "bbox": [
+        523.97,
+        387.61,
+        28.68,
+        30.75
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": {
+        "type": "theme",
+        "value": "tx1",
+        "transform": {
+          "lighten": 0.25
+        }
+      },
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m183y18f",
+      "id": "272",
+      "name": "椭圆 64",
+      "bbox": [
+        524.16,
+        174.81,
+        53.27,
+        56.69
+      ],
+      "rotation": 0,
+      "geometry": "ellipse",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FFC000",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7al4bqh",
+      "id": "274",
+      "name": "Freeform 137",
+      "bbox": [
+        537.11,
+        189.85,
+        27.36,
+        26.62
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": {
+        "type": "theme",
+        "value": "tx1",
+        "transform": {
+          "lighten": 0.25
+        }
+      },
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u5s32l8r",
+      "id": "276",
+      "name": "椭圆 60",
+      "bbox": [
+        594.58,
+        494.88,
+        53.27,
+        56.69
+      ],
+      "rotation": 0,
+      "geometry": "ellipse",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FFC000",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v614vq9w",
+      "id": "277",
+      "name": "Freeform 76",
+      "bbox": [
+        606.18,
+        507.34,
+        30.07,
+        31.76
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": {
+        "type": "theme",
+        "value": "tx1",
+        "transform": {
+          "lighten": 0.25
+        }
+      },
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cb6lsrqd",
+      "id": "278",
+      "name": "椭圆 59",
+      "bbox": [
+        598.87,
+        281.53,
+        53.27,
+        56.69
+      ],
+      "rotation": 0,
+      "geometry": "ellipse",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FFC000",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xcz2lwry",
+      "id": "279",
+      "name": "Freeform 81",
+      "bbox": [
+        609.31,
+        293.12,
+        32.39,
+        33.51
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#0F1618",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gv29g7q5",
+      "id": "25",
+      "name": "弧形接點 24",
+      "bbox": [
+        554.83,
+        237.99,
+        66.62,
+        37.05
+      ],
+      "rotation": 270,
+      "horizontalFlip": true,
+      "geometry": "curvedConnector3"
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwryx4n6",
+      "id": "293",
+      "name": "弧形接點 292",
+      "bbox": [
+        568.96,
+        326.4,
+        44.72,
+        68.36
+      ],
+      "rotation": 90,
+      "geometry": "curvedConnector3"
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mpgfip4j",
+      "id": "294",
+      "name": "弧形接點 293",
+      "bbox": [
+        531.34,
+        449.1,
+        101.85,
+        37.61
+      ],
+      "rotation": 270,
+      "verticalFlip": true,
+      "geometry": "curvedConnector3"
+    }
+  ],
+  "composeRuns": []
+}

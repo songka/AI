@@ -1,0 +1,1193 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/2bo47e",
+    "id": "2bo47e",
+    "slide": 10,
+    "layoutId": "8aa06e24-b55d-4c97-b976-e276929ed650",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d2a4a8fb-57a4-48aa-844f-578457d99e8d",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Consolas",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8aa06e24-b55d-4c97-b976-e276929ed650",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d2a4a8fb-57a4-48aa-844f-578457d99e8d",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d2a4a8fb-57a4-48aa-844f-578457d99e8d",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bq1oryts",
+      "id": "1",
+      "bbox": [
+        42,
+        34,
+        620,
+        28
+      ],
+      "geometry": "rect",
+      "text": "第四步：看 PLC-Programming",
+      "textPreview": "第四步：看 PLC-Programming",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "第四步：看 PLC-Programming"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "第四步：看 PLC-Programming",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "第四步：看 PLC-Programming",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4byhgn29",
+      "id": "2",
+      "bbox": [
+        42,
+        78,
+        1070,
+        94
+      ],
+      "geometry": "rect",
+      "text": "专家路由型 skill 先分诊，再进入通用层或厂商层",
+      "textPreview": "专家路由型 skill 先分诊，再进入通用层或厂商层",
+      "resolvedFontSize": 41,
+      "resolvedTextStyle": {
+        "fontSize": 41,
+        "typeface": "Microsoft YaHei",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "专家路由型 skill 先分诊，再进入通用层或厂商层"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "专家路由型 skill 先分诊，再进入通用层或厂商层",
+          "resolvedTextStyle": {
+            "fontSize": 41,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "专家路由型 skill 先分诊，再进入通用层或厂商层",
+              "fontSize": 41,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twra5gbq",
+      "id": "3",
+      "bbox": [
+        42,
+        216,
+        1196,
+        1.5
+      ],
+      "geometry": "rect",
+      "fillColor": "#C7CBD1",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhk3q5o7",
+      "id": "4",
+      "bbox": [
+        52,
+        244,
+        552,
+        366
+      ],
+      "geometry": "rect",
+      "text": "PLC-Programming/\n├─ SKILL.md（技能说明书）\n├─ references/（资料库）\n│  ├─ skill-architecture.md（技能架构）\n│  ├─ common/（通用资料）\n│  │  ├─ task-router.md（任务路由）\n│  │  ├─ safety-boundaries.md（安全边界）\n│  │  └─ code-review-checklists.md（代码审查清单）\n│  └─ vendors/（厂商资料）\n│     ├─ vendor-routing.md（厂商路由）\n│     ├─ mitsubishi/（三菱）\n│     ├─ siemens/（西门子）\n│     └─ rockwell / omron / codesys ...\n├─ templates/common/（输出模板）\n├─ examples/common/（通用示例）\n└─ evals/（评测案例）",
+      "textPreview": "PLC-Programming/ | ├─ SKILL.md（技能说明书） | ├─ references/（资料库） | │  ├─ skill-architecture.md（技能架构） | │  ├─ common/（通用资料） | │  │  ├─ task-rou...",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Consolas",
+        "color": "#F7F7F7",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 16,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PLC-Programming/"
+          },
+          {
+            "index": 2,
+            "text": "├─ SKILL.md（技能说明书）"
+          },
+          {
+            "index": 3,
+            "text": "├─ references/（资料库）"
+          },
+          {
+            "index": 4,
+            "text": "│  ├─ skill-architecture.md（技能架构）"
+          },
+          {
+            "index": 5,
+            "text": "│  ├─ common/（通用资料）"
+          },
+          {
+            "index": 6,
+            "text": "│  │  ├─ task-router.md（任务路由）"
+          },
+          {
+            "index": 7,
+            "text": "│  │  ├─ safety-boundaries.md（安全边界）"
+          },
+          {
+            "index": 8,
+            "text": "│  │  └─ code-review-checklists.md（代码审查清单）"
+          },
+          {
+            "index": 9,
+            "text": "│  └─ vendors/（厂商资料）"
+          },
+          {
+            "index": 10,
+            "text": "│     ├─ vendor-routing.md（厂商路由）"
+          },
+          {
+            "index": 11,
+            "text": "│     ├─ mitsubishi/（三菱）"
+          },
+          {
+            "index": 12,
+            "text": "│     ├─ siemens/（西门子）"
+          },
+          {
+            "index": 13,
+            "text": "│     └─ rockwell / omron / codesys ..."
+          },
+          {
+            "index": 14,
+            "text": "├─ templates/common/（输出模板）"
+          },
+          {
+            "index": 15,
+            "text": "├─ examples/common/（通用示例）"
+          },
+          {
+            "index": 16,
+            "text": "└─ evals/（评测案例）"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PLC-Programming/",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PLC-Programming/",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "├─ SKILL.md（技能说明书）",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "├─ SKILL.md（技能说明书）",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "├─ references/（资料库）",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "├─ references/（资料库）",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "│  ├─ skill-architecture.md（技能架构）",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  ├─ skill-architecture.md（技能架构）",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "│  ├─ common/（通用资料）",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  ├─ common/（通用资料）",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "│  │  ├─ task-router.md（任务路由）",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  │  ├─ task-router.md（任务路由）",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "│  │  ├─ safety-boundaries.md（安全边界）",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  │  ├─ safety-boundaries.md（安全边界）",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "│  │  └─ code-review-checklists.md（代码审查清单）",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  │  └─ code-review-checklists.md（代码审查清单）",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "│  └─ vendors/（厂商资料）",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  └─ vendors/（厂商资料）",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 10,
+          "text": "│     ├─ vendor-routing.md（厂商路由）",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│     ├─ vendor-routing.md（厂商路由）",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 11,
+          "text": "│     ├─ mitsubishi/（三菱）",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│     ├─ mitsubishi/（三菱）",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 12,
+          "text": "│     ├─ siemens/（西门子）",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│     ├─ siemens/（西门子）",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 13,
+          "text": "│     └─ rockwell / omron / codesys ...",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│     └─ rockwell / omron / codesys ...",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 14,
+          "text": "├─ templates/common/（输出模板）",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "├─ templates/common/（输出模板）",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 15,
+          "text": "├─ examples/common/（通用示例）",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "├─ examples/common/（通用示例）",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 16,
+          "text": "└─ evals/（评测案例）",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "└─ evals/（评测案例）",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#151515",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2hwfyxo",
+      "id": "5",
+      "bbox": [
+        660,
+        244,
+        500,
+        70
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8F8F8",
+      "lineColor": "#C7CBD1",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4nap4r65",
+      "id": "6",
+      "bbox": [
+        678,
+        258,
+        464,
+        30
+      ],
+      "geometry": "rect",
+      "text": "类别",
+      "textPreview": "类别",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#B7791F",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "类别"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "类别",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#B7791F",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "类别",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#B7791F",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t83itgfm",
+      "id": "7",
+      "bbox": [
+        678,
+        296,
+        464,
+        10
+      ],
+      "geometry": "rect",
+      "text": "专家路由型 + 流程型",
+      "textPreview": "专家路由型 + 流程型",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "专家路由型 + 流程型"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "专家路由型 + 流程型",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "专家路由型 + 流程型",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mp0bi9s3",
+      "id": "8",
+      "bbox": [
+        660,
+        336,
+        500,
+        134
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8F8F8",
+      "lineColor": "#C7CBD1",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bat47y1k",
+      "id": "9",
+      "bbox": [
+        678,
+        350,
+        464,
+        30
+      ],
+      "geometry": "rect",
+      "text": "动作流程",
+      "textPreview": "动作流程",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#FF6B35",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "动作流程"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "动作流程",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#FF6B35",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "动作流程",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#FF6B35",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "10",
+      "bbox": [
+        678,
+        388,
+        464,
+        74
+      ],
+      "geometry": "rect",
+      "text": "确认是否 PLC 任务 → 识别厂商线索 → 选择通用资料或厂商资料 → 生成/审查/调试 → 标注假设和安全边界",
+      "textPreview": "确认是否 PLC 任务 → 识别厂商线索 → 选择通用资料或厂商资料 → 生成/审查/调试 → 标注假设和安全边界",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "确认是否 PLC 任务 → 识别厂商线索 →"
+          },
+          {
+            "index": 2,
+            "text": "选择通用资料或厂商资料 → 生成/审查/调试 →"
+          },
+          {
+            "index": 3,
+            "text": "标注假设和安全边界"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "确认是否 PLC 任务 → 识别厂商线索 → 选择通用资料或厂商资料 → 生成/审查/调试 → 标注假设和安全边界",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "确认是否 PLC 任务 → 识别厂商线索 → 选择通用资料或厂商资料 → 生成/审查/调试 → 标注假设和安全边界",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxc3ylc7",
+      "id": "11",
+      "bbox": [
+        660,
+        492,
+        500,
+        116
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8F8F8",
+      "lineColor": "#C7CBD1",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kre1w7m",
+      "id": "12",
+      "bbox": [
+        678,
+        506,
+        464,
+        30
+      ],
+      "geometry": "rect",
+      "text": "通俗例子",
+      "textPreview": "通俗例子",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#1F6FEB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "通俗例子"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "通俗例子",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#1F6FEB",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "通俗例子",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#1F6FEB",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3ylc7u5",
+      "id": "13",
+      "bbox": [
+        678,
+        544,
+        464,
+        56
+      ],
+      "geometry": "rect",
+      "text": "像调试现场的老师傅。你说“三菱 FX3U”，他进三菱资料；你只说“顺控”，他先按通用 PLC 方法处理。",
+      "textPreview": "像调试现场的老师傅。你说“三菱 FX3U”，他进三菱资料；你只说“顺控”，他先按通用 PLC 方法处理。",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "像调试现场的老师傅。你说“三菱"
+          },
+          {
+            "index": 2,
+            "text": "FX3U”，他进三菱资料；你只说“顺控”，他先按通用 PLC"
+          },
+          {
+            "index": 3,
+            "text": "方法处理。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "像调试现场的老师傅。你说“三菱 FX3U”，他进三菱资料；你只说“顺控”，他先按通用 PLC 方法处理。",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "像调试现场的老师傅。你说“三菱 FX3U”，他进三菱资料；你只说“顺控”，他先按通用 PLC 方法处理。",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6tovaho",
+      "id": "14",
+      "bbox": [
+        42,
+        666,
+        620,
+        24
+      ],
+      "geometry": "rect",
+      "text": "电气工程师 Agent Skill 分析与提问方法",
+      "textPreview": "电气工程师 Agent Skill 分析与提问方法",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "电气工程师 Agent Skill 分析与提问方法"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "电气工程师 Agent Skill 分析与提问方法",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "电气工程师 Agent Skill 分析与提问方法",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulwval87",
+      "id": "15",
+      "bbox": [
+        1186,
+        660,
+        52,
+        28
+      ],
+      "geometry": "rect",
+      "text": "10",
+      "textPreview": "10",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

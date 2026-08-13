@@ -1,0 +1,7 @@
+interface:
+  display_name: "外购件官网图片查找 v3"
+  short_description: "中文优先查找官网、PDF 和多角度图片。"
+  default_prompt: "使用 $external-part-official-image-finder-v3 根据 asset_pending 批次查找官网产品页和多角度图片 URL。"
+
+policy:
+  allow_implicit_invocation: true

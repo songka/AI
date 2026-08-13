@@ -1,0 +1,4 @@
+interface:
+  display_name: "焊接加工报价"
+  short_description: "针对焊接加工提供工时计价价格审核与人工审核建议能力"
+  default_prompt: "使用此 Skill 完成指定具体工艺的报价步骤，并返回协议 JSON。"

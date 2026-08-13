@@ -1,0 +1,14 @@
+{
+  "review_id": "RV-35CF36C010C9",
+  "price_record_id": "PR-20260806-47D85BDD",
+  "supplier_id": "SUP-LFAF-001",
+  "status": "APPROVED",
+  "review_comment": "已核对供应商盖章报价单",
+  "reviewed_by": "db84e982-c7af-4a17-bb02-a265894cb168",
+  "reviewed_by_name": "管理员",
+  "reviewed_at": "2026-08-06T01:29:48.019686+00:00",
+  "source_sha256": "4ac6072b2cad7aef9ec14a8b11813bf75db3eda2476a240c1d814a8d1d5bfa4f",
+  "previous_price_version_id": "BASE-V1",
+  "published_price_version_id": "CP-20260806-012948-A74D62",
+  "published_company_price_id": "CP-cf7a5acf215f"
+}

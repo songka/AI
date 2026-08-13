@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head><meta charset="utf-8"><title>展示煙霧測試報告</title>
+<style>
+body{font-family:'Microsoft YaHei UI',sans-serif;max-width:800px;margin:20px auto;padding:20px}
+h1{color:#1a5276}.pass{color:#27ae60}.fail{color:#e74c3c}.warn{color:#e67e22}
+table{border-collapse:collapse;width:100%}th,td{border:1px solid #ddd;padding:8px;text-align:left}
+th{background:#1a5276;color:white}
+</style></head>
+<body>
+<h1>機械加工件智能報價系統 — 展示煙霧測試報告</h1>
+<p>執行時間: 2026-08-03 08:39:01 | 版本: 1.0-demo</p>
+<table>
+<tr><th>步驟</th><th>狀態</th><th>詳情</th></tr>
+<tr><td>系統健康檢查</td><td class="warn">執行中</td><td></td></tr>
+<tr><td>系統健康檢查</td><td class="pass">通過</td><td>QuotationApplicationService 初始化成功</td></tr>
+<tr><td>J003 報價</td><td class="warn">執行中</td><td></td></tr>
+<tr><td>J003 報價</td><td class="pass">通過</td><td>狀態=COMPLETE, cost_completion=100.0%, 未稅=CNY 1,553.28, 含稅=CNY 1,817.34</td></tr>
+<tr><td>W001 報價</td><td class="warn">執行中</td><td></td></tr>
+<tr><td>W001 報價</td><td class="pass">通過</td><td>狀態=REVIEW_REQUIRED, cost_completion=85.7%, unknown=1</td></tr>
+<tr><td>批量 Excel</td><td class="warn">執行中</td><td></td></tr>
+<tr><td>批量 Excel</td><td class="pass">通過</td><td>已生成: D:\claude\加工件报价\MechanicalQuotation\runtime\exports\smoke_batch_20260803_083901.xlsx</td></tr>
+<tr><td>稅務驗證</td><td class="warn">執行中</td><td></td></tr>
+<tr><td>稅務驗證</td><td class="pass">通過</td><td>未稅=CNY 1,000.00, 稅額=CNY 170.00, 含稅=CNY 1,170.00</td></tr>
+<tr><td>未知價格不為0</td><td class="warn">執行中</td><td></td></tr>
+<tr><td>未知價格不為0</td><td class="pass">通過</td><td>內部 amount=0, UI/Excel 顯示 '待確認'</td></tr>
+</table>
+<p>總結: 6 通過, 0 失敗</p>
+</body></html>

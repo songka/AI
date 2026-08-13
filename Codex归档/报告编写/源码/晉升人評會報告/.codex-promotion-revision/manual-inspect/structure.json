@@ -1,0 +1,298 @@
+{
+  "slideCount": 8,
+  "masters": [
+    {
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "",
+      "placeholders": [
+        {
+          "name": "title",
+          "type": "title",
+          "text": "Click To Edit Master Title Style"
+        },
+        {
+          "name": "body",
+          "type": "body",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level"
+        }
+      ],
+      "elementCount": 5
+    }
+  ],
+  "layouts": [
+    {
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "",
+      "parentLayoutId": "",
+      "placeholders": [
+        {
+          "name": "title",
+          "type": "title",
+          "text": "Click To Edit Master Title Style"
+        },
+        {
+          "name": "body",
+          "type": "body",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level"
+        }
+      ]
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "placeholders": [
+        {
+          "name": "title",
+          "type": "title",
+          "text": "Click To Edit Master Title"
+        },
+        {
+          "name": "subtitle",
+          "type": "subtitle",
+          "text": "Click To Edit Master Subtitle Style"
+        },
+        {
+          "name": "body",
+          "type": "body",
+          "text": "Name"
+        },
+        {
+          "name": "body",
+          "type": "body",
+          "text": "Date"
+        }
+      ]
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Title and Content",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "placeholders": [
+        {
+          "name": "title",
+          "type": "title",
+          "text": "Click To Edit Master Title"
+        },
+        {
+          "name": "content placeholder 2",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level\n\n\n"
+        },
+        {
+          "name": "slideNumber",
+          "type": "slideNumber",
+          "text": "‹#›"
+        }
+      ]
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout3.xml",
+      "name": "Section Header",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "placeholders": [
+        {
+          "name": "title",
+          "type": "title",
+          "text": "Click To Edit Master Title"
+        },
+        {
+          "name": "body",
+          "type": "body",
+          "text": "Edit Master Text Styles"
+        }
+      ]
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout4.xml",
+      "name": "Two Content",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "placeholders": [
+        {
+          "name": "content placeholder 2",
+          "text": "Edit master text\nSecond level\nThird level\nFourth level\nFifth level"
+        },
+        {
+          "name": "content placeholder 3",
+          "text": "Edit master text\nSecond level\nThird level\nFourth level\nFifth level"
+        },
+        {
+          "name": "slideNumber",
+          "type": "slideNumber",
+          "text": "‹#›"
+        },
+        {
+          "name": "title",
+          "type": "title",
+          "text": "Click To Edit Master Title"
+        }
+      ]
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout5.xml",
+      "name": "Comparison",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "placeholders": [
+        {
+          "name": "body",
+          "type": "body",
+          "text": "Edit Master Text"
+        },
+        {
+          "name": "content placeholder 3",
+          "text": "Edit master text\nSecond level\nThird level\nFourth level\nFifth level"
+        },
+        {
+          "name": "body",
+          "type": "body",
+          "text": "Edit Master text"
+        },
+        {
+          "name": "content placeholder 5",
+          "text": "Edit master text\nSecond level\nThird level\nFourth level\nFifth level"
+        },
+        {
+          "name": "slideNumber",
+          "type": "slideNumber",
+          "text": "‹#›"
+        },
+        {
+          "name": "title",
+          "type": "title",
+          "text": "Click To Edit Master Title"
+        }
+      ]
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout6.xml",
+      "name": "Title Only",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "placeholders": [
+        {
+          "name": "slideNumber",
+          "type": "slideNumber",
+          "text": "‹#›"
+        },
+        {
+          "name": "title",
+          "type": "title",
+          "text": "Click To Edit Master Title"
+        }
+      ]
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout7.xml",
+      "name": "Blank",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "placeholders": [
+        {
+          "name": "slideNumber",
+          "type": "slideNumber",
+          "text": "‹#›"
+        }
+      ]
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout8.xml",
+      "name": "Content with Caption",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "placeholders": [
+        {
+          "name": "title",
+          "type": "title",
+          "text": "Click To Edit Master Title"
+        },
+        {
+          "name": "content placeholder 2",
+          "text": "Edit Master Text\nSecond level\nThird level\nFourth level\nFifth level"
+        },
+        {
+          "name": "body",
+          "type": "body",
+          "text": "Edit Master text"
+        },
+        {
+          "name": "slideNumber",
+          "type": "slideNumber",
+          "text": "‹#›"
+        }
+      ]
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout9.xml",
+      "name": "Picture with Caption",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "placeholders": [
+        {
+          "name": "title",
+          "type": "title",
+          "text": "Click To Edit Master Title"
+        },
+        {
+          "name": "picture",
+          "type": "picture",
+          "text": ""
+        },
+        {
+          "name": "body",
+          "type": "body",
+          "text": "Edit Master text"
+        },
+        {
+          "name": "slideNumber",
+          "type": "slideNumber",
+          "text": "‹#›"
+        }
+      ]
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout10.xml",
+      "name": "Title and Vertical Text",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "placeholders": [
+        {
+          "name": "body",
+          "type": "body",
+          "text": "Edit Master text\nSecond level\nThird level\nFourth level\nFifth level"
+        },
+        {
+          "name": "slideNumber",
+          "type": "slideNumber",
+          "text": "‹#›"
+        },
+        {
+          "name": "title",
+          "type": "title",
+          "text": "Click To Edit Master Title"
+        }
+      ]
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout11.xml",
+      "name": "Vertical Title and Text",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "placeholders": [
+        {
+          "name": "title",
+          "type": "title",
+          "text": "Click To Edit Master Title"
+        },
+        {
+          "name": "body",
+          "type": "body",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level"
+        },
+        {
+          "name": "slideNumber",
+          "type": "slideNumber",
+          "text": "‹#›"
+        }
+      ]
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout12.xml",
+      "name": "End Slide",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "placeholders": []
+    }
+  ]
+}

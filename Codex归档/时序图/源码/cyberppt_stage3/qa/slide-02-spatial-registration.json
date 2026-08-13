@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "checked_groups": [
+    {
+      "group_id": "title_group",
+      "status": "passed",
+      "anchor_points": [
+        {
+          "anchor": "title_baseline",
+          "label": "主标题基线",
+          "status": "passed",
+          "blueprint_bbox_px": {
+            "x": 75,
+            "y": 75,
+            "w": 1270,
+            "h": 120
+          },
+          "render_bbox_px": {
+            "x": 75,
+            "y": 75,
+            "w": 1270,
+            "h": 120
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3
+        }
+      ]
+    },
+    {
+      "group_id": "workflow_group",
+      "status": "passed",
+      "anchor_points": [
+        {
+          "anchor": "workflow_label_baseline",
+          "label": "五步流程标签基线",
+          "status": "passed",
+          "blueprint_bbox_px": {
+            "x": 66,
+            "y": 213,
+            "w": 1014,
+            "h": 525
+          },
+          "render_bbox_px": {
+            "x": 66,
+            "y": 213,
+            "w": 1014,
+            "h": 525
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3
+        }
+      ]
+    }
+  ]
+}

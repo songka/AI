@@ -1,0 +1,43 @@
+{
+  "file": "cyberppt_stage3\\pages\\slide-01.pptx",
+  "summary": {
+    "slide_count": 1,
+    "width_emu": 12192000,
+    "height_emu": 6858000,
+    "aspect_ratio": 1.7778,
+    "native_text_shapes": 7,
+    "native_graphic_shapes": 156,
+    "pictures": 0,
+    "charts": 0,
+    "tables": 0
+  },
+  "errors": [],
+  "warnings": [],
+  "slides": [
+    {
+      "slide": 1,
+      "native_text_shapes": 7,
+      "native_graphic_shapes": 156,
+      "pictures": 0,
+      "charts": 0,
+      "tables": 0,
+      "element_count": 156,
+      "coverage_ratio": 0.8443,
+      "picture_area_ratio": 0,
+      "max_picture_area_ratio": 0.0,
+      "min_font_size_pt": 10.5,
+      "max_font_size_pt": 37.5,
+      "text_characters": 111
+    }
+  ],
+  "manifest": {
+    "file": "cyberppt_stage3\\slide_manifest.json",
+    "loaded": true,
+    "slide_entries": 1
+  },
+  "visual_qa": {
+    "file": "cyberppt_stage3\\visual_qa_gate.json",
+    "loaded": true,
+    "slide_entries": 1
+  }
+}

@@ -1,0 +1,1240 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ydvegz",
+    "id": "ydvegz",
+    "slide": 1,
+    "layoutId": "9cdacb06-71d2-4641-94bc-d5c17d3cc414",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "8290697d-c166-4f92-b8b4-93c4185b09c2",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F6F0",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "9cdacb06-71d2-4641-94bc-d5c17d3cc414",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "8290697d-c166-4f92-b8b4-93c4185b09c2",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "8290697d-c166-4f92-b8b4-93c4185b09c2",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1c7it8ry",
+      "id": "1",
+      "name": "header-left",
+      "bbox": [
+        30,
+        20,
+        470,
+        20
+      ],
+      "geometry": "rect",
+      "text": "目录页",
+      "textPreview": "目录页",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#12355B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "目录页"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "目录页",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#12355B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "目录页",
+              "fontSize": 13,
+              "color": "#12355B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e9gjyds7",
+      "id": "2",
+      "name": "header-right",
+      "bbox": [
+        790,
+        20,
+        458,
+        20
+      ],
+      "geometry": "rect",
+      "text": "内部 AI 框架与 Skill 建设专题汇报",
+      "textPreview": "内部 AI 框架与 Skill 建设专题汇报",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#6F7275",
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "内部 AI 框架与 Skill 建设专题汇报"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "内部 AI 框架与 Skill 建设专题汇报",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#6F7275",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "内部 AI 框架与 Skill 建设专题汇报",
+              "fontSize": 13,
+              "color": "#6F7275",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zap0ri9s",
+      "id": "3",
+      "name": "header-rule",
+      "bbox": [
+        30,
+        44,
+        1218,
+        1.2
+      ],
+      "geometry": "rect",
+      "fillColor": "#12355B",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c7y1w3ah",
+      "id": "4",
+      "name": "footer-rule",
+      "bbox": [
+        30,
+        681,
+        1218,
+        1.2
+      ],
+      "geometry": "rect",
+      "fillColor": "#12355B",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d87ip8rm",
+      "id": "5",
+      "name": "footer",
+      "bbox": [
+        30,
+        689,
+        430,
+        18
+      ],
+      "geometry": "rect",
+      "text": "来源：内部规划与项目实践   |   仅供内部汇报使用",
+      "textPreview": "来源：内部规划与项目实践   |   仅供内部汇报使用",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#6F7275",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "来源：内部规划与项目实践   |   仅供内部汇报使用"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "来源：内部规划与项目实践   |   仅供内部汇报使用",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#6F7275",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "来源：内部规划与项目实践   |   仅供内部汇报使用",
+              "fontSize": 11,
+              "color": "#6F7275",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5wjutsb",
+      "id": "6",
+      "name": "page-badge",
+      "bbox": [
+        1184,
+        686,
+        62,
+        24
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0A2D5E",
+      "lineColor": "#0A2D5E",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r6p0ny9w",
+      "id": "7",
+      "name": "page-no",
+      "bbox": [
+        1184,
+        686,
+        62,
+        24
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 12,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3i187ql",
+      "id": "8",
+      "name": "title-bar",
+      "bbox": [
+        48,
+        72,
+        8,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#0A2D5E",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4r21cr6",
+      "id": "9",
+      "name": "page-title",
+      "bbox": [
+        72,
+        65,
+        1160,
+        54
+      ],
+      "geometry": "rect",
+      "text": "本次汇报聚焦三个问题",
+      "textPreview": "本次汇报聚焦三个问题",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "color": "#101820",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "本次汇报聚焦三个问题"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "本次汇报聚焦三个问题",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#101820",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "本次汇报聚焦三个问题",
+              "fontSize": 36,
+              "color": "#101820",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l4vy14v6",
+      "id": "10",
+      "name": "num-0",
+      "bbox": [
+        52,
+        222,
+        105,
+        76
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 52,
+      "resolvedTextStyle": {
+        "fontSize": 52,
+        "typeface": "+mn-lt",
+        "color": "#0A2D5E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "resolvedTextStyle": {
+            "fontSize": 52,
+            "color": "#0A2D5E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 52,
+              "color": "#0A2D5E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/03mhszul",
+      "id": "11",
+      "name": "v-0",
+      "bbox": [
+        168,
+        220,
+        0.5,
+        295
+      ],
+      "geometry": "line",
+      "lineColor": "#C9CDD1",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z2dgzud0",
+      "id": "12",
+      "name": "q-0",
+      "bbox": [
+        197,
+        224,
+        225,
+        90
+      ],
+      "geometry": "rect",
+      "text": "如何构建内部\n可用的 AI 框架",
+      "textPreview": "如何构建内部 | 可用的 AI 框架",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#0A2D5E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "如何构建内部"
+          },
+          {
+            "index": 2,
+            "text": "可用的 AI 框架"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "如何构建内部",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#0A2D5E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "如何构建内部",
+              "fontSize": 23,
+              "color": "#0A2D5E",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "可用的 AI 框架",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#0A2D5E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "可用的 AI 框架",
+              "fontSize": 23,
+              "color": "#0A2D5E",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yh4zqpcf",
+      "id": "13",
+      "name": "icon-ring-0",
+      "bbox": [
+        202,
+        335,
+        118,
+        118
+      ],
+      "geometry": "ellipse",
+      "lineColor": "#12355B",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 14,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/6pkjm18v",
+      "id": "14",
+      "bbox": [
+        230,
+        363,
+        62,
+        62
+      ],
+      "alt": "dir-icon-0",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "2a3823d3-afd8-43c1-8e15-1b6a306ea8b4",
+        "contentType": "image/png",
+        "byteLength": 25717
+      }
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cfmhofu9",
+      "id": "15",
+      "name": "num-1",
+      "bbox": [
+        438,
+        222,
+        105,
+        76
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 52,
+      "resolvedTextStyle": {
+        "fontSize": 52,
+        "typeface": "+mn-lt",
+        "color": "#0A2D5E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "fontSize": 52,
+            "color": "#0A2D5E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 52,
+              "color": "#0A2D5E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/betgvud4",
+      "id": "16",
+      "name": "v-1",
+      "bbox": [
+        554,
+        220,
+        0.5,
+        295
+      ],
+      "geometry": "line",
+      "lineColor": "#C9CDD1",
+      "lineWidth": 1
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qdkfmpcj",
+      "id": "17",
+      "name": "q-1",
+      "bbox": [
+        583,
+        224,
+        225,
+        90
+      ],
+      "geometry": "rect",
+      "text": "需要开发\n哪五大类 Skill",
+      "textPreview": "需要开发 | 哪五大类 Skill",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#0A2D5E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "需要开发"
+          },
+          {
+            "index": 2,
+            "text": "哪五大类 Skill"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "需要开发",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#0A2D5E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "需要开发",
+              "fontSize": 23,
+              "color": "#0A2D5E",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "哪五大类 Skill",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#0A2D5E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "哪五大类 Skill",
+              "fontSize": 23,
+              "color": "#0A2D5E",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xcfi9ove",
+      "id": "18",
+      "name": "icon-ring-1",
+      "bbox": [
+        588,
+        335,
+        118,
+        118
+      ],
+      "geometry": "ellipse",
+      "lineColor": "#12355B",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 19,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/jmt0rmp4",
+      "id": "19",
+      "bbox": [
+        616,
+        363,
+        62,
+        62
+      ],
+      "alt": "dir-icon-1",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "24792110-170c-4c54-9524-b4d5881dde7e",
+        "contentType": "image/png",
+        "byteLength": 23518
+      }
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gry9sr61",
+      "id": "20",
+      "name": "num-2",
+      "bbox": [
+        824,
+        222,
+        105,
+        76
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 52,
+      "resolvedTextStyle": {
+        "fontSize": 52,
+        "typeface": "+mn-lt",
+        "color": "#0A2D5E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 52,
+            "color": "#0A2D5E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 52,
+              "color": "#0A2D5E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1s7alw7m",
+      "id": "21",
+      "name": "v-2",
+      "bbox": [
+        940,
+        220,
+        0.5,
+        295
+      ],
+      "geometry": "line",
+      "lineColor": "#C9CDD1",
+      "lineWidth": 1
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/epgrqhob",
+      "id": "22",
+      "name": "q-2",
+      "bbox": [
+        969,
+        224,
+        225,
+        90
+      ],
+      "geometry": "rect",
+      "text": "为什么网络下载的\nSkill 必须改写",
+      "textPreview": "为什么网络下载的 | Skill 必须改写",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#0A2D5E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "为什么网络下载的"
+          },
+          {
+            "index": 2,
+            "text": "Skill 必须改写"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "为什么网络下载的",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#0A2D5E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "为什么网络下载的",
+              "fontSize": 23,
+              "color": "#0A2D5E",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Skill 必须改写",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#0A2D5E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Skill 必须改写",
+              "fontSize": 23,
+              "color": "#0A2D5E",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fqpsjmpg",
+      "id": "23",
+      "name": "icon-ring-2",
+      "bbox": [
+        974,
+        335,
+        118,
+        118
+      ],
+      "geometry": "ellipse",
+      "lineColor": "#12355B",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 24,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/bip87y1w",
+      "id": "24",
+      "bbox": [
+        1002,
+        363,
+        62,
+        62
+      ],
+      "alt": "dir-icon-2",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "340be674-0d19-4449-86ca-dab8bc0e3acd",
+        "contentType": "image/png",
+        "byteLength": 10351
+      }
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/to7ahc7q",
+      "id": "25",
+      "name": "progress",
+      "bbox": [
+        165,
+        532,
+        929,
+        0.5
+      ],
+      "geometry": "line",
+      "lineColor": "#12355B",
+      "lineWidth": 2
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6lwrmxoz",
+      "id": "26",
+      "name": "progress-160",
+      "bbox": [
+        160,
+        525,
+        14,
+        14
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#12355B",
+      "lineColor": "#12355B",
+      "lineWidth": 1
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rm5sf2pk",
+      "id": "27",
+      "name": "progress-550",
+      "bbox": [
+        550,
+        525,
+        14,
+        14
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#12355B",
+      "lineColor": "#12355B",
+      "lineWidth": 1
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kze9k76t",
+      "id": "28",
+      "name": "progress-940",
+      "bbox": [
+        940,
+        525,
+        14,
+        14
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#12355B",
+      "lineColor": "#12355B",
+      "lineWidth": 1
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5knadc7e",
+      "id": "29",
+      "name": "arrow-1",
+      "bbox": [
+        532,
+        523,
+        18,
+        18
+      ],
+      "geometry": "triangle",
+      "fillColor": "#12355B",
+      "lineColor": "#12355B",
+      "lineWidth": 1
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nuls329g",
+      "id": "30",
+      "name": "arrow-2",
+      "bbox": [
+        922,
+        523,
+        18,
+        18
+      ],
+      "geometry": "triangle",
+      "fillColor": "#12355B",
+      "lineColor": "#12355B",
+      "lineWidth": 1
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtcbuxsv",
+      "id": "31",
+      "name": "progress-label",
+      "bbox": [
+        390,
+        570,
+        500,
+        34
+      ],
+      "geometry": "rect",
+      "text": "框架   →   能力   →   改写落地",
+      "textPreview": "框架   →   能力   →   改写落地",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "fontSize": 26,
+        "typeface": "+mn-lt",
+        "color": "#0A2D5E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "框架   →   能力   →   改写落地"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "框架   →   能力   →   改写落地",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "color": "#0A2D5E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "框架   →   能力   →   改写落地",
+              "fontSize": 26,
+              "color": "#0A2D5E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

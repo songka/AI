@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h2>失效料号库</h2>
+    {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+    <form method="post">
+        <input type="hidden" name="headers" value="{{ headers | join('|') }}">
+        <input type="hidden" name="row_count" value="{{ rows|length + 3 }}">
+        <table class="table">
+            <thead>
+                <tr>
+                    {% for header in headers %}<th>{{ header }}</th>{% endfor %}
+                    <th>删除</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in rows %}
+                {% set r = loop.index0 %}
+                <tr>
+                    {% for header in headers %}
+                    <td><input type="text" name="row-{{ r }}-{{ loop.index0 }}" value="{{ row[loop.index0] if loop.index0 < row|length else '' }}" /></td>
+                    {% endfor %}
+                    <td><input type="checkbox" name="row-{{ r }}-delete" /></td>
+                </tr>
+                {% endfor %}
+                {% for i in range(3) %}
+                <tr>
+                    {% for header in headers %}
+                    <td><input type="text" name="row-{{ rows|length + i }}-{{ loop.index0 }}" /></td>
+                    {% endfor %}
+                    <td></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <button type="submit">保存</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+机械加工报价系统——交付与启动说明
+
+1. 必须复制或解压整个 MechanicalQuotation 文件夹，不能只复制 EXE。
+2. 支持 Windows 10/11 64 位；双击 MechanicalQuotation.exe 启动桌面程序，默认不要求登录。
+3. FastAPI 双击 start_api.bat 启动，再打开 http://127.0.0.1:8000/docs；默认只允许本机访问。
+4. DXF、PDF 可直接使用。
+5. DWG 转换器已放在 third_party 并自动配置；仅限已获授权的内部电脑使用。
+6. SLDDRW、SLDPRT 需要接收电脑安装可用的 SOLIDWORKS。
+7. 本交付包已按要求配置 DeepSeek Key；请仅交给获授权人员，并妥善保管。
+8. 另一台电脑须能访问公司内网 DeepSeek 服务及 SMB 公共槽；Windows 防火墙可允许本程序访问公司网络。
+9. 外接 Skill 可使用 HTTP、本地或 SMB 文件夹；文件夹内文档由程序内置 DeepSeek 执行，不运行外部程序。
+10. 首次使用先运行 run_self_check.bat；FastAPI 无法启动时查看窗口错误和 runtime/reports。

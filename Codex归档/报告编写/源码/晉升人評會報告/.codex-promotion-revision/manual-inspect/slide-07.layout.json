@@ -1,0 +1,720 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/gnmp4jqx",
+    "id": "gnmp4jqx",
+    "slide": 7,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#5B9BD5",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#4472C4",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Calibri",
+      "Calibri Light",
+      "Helvetica"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            62.03
+          ],
+          "geometry": "rect",
+          "text": "Click To Edit Master Title",
+          "textPreview": "Click To Edit Master Title",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click To Edit Master Title",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click To Edit Master Title"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Content Placeholder 2",
+          "bbox": [
+            88,
+            114.87,
+            1104,
+            515.99
+          ],
+          "geometry": "rect",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level\n\n\n",
+          "textPreview": "Edit Master text styles | Second level | Third level | Fourth level | Fifth level |  |  |",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Slide Number Placeholder 6",
+          "bbox": [
+            28.76,
+            675.12,
+            59.24,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/6",
+          "id": "6",
+          "name": "Straight Connector 5",
+          "bbox": [
+            0,
+            100.36,
+            1004.51,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "#00467E",
+          "lineWidth": 0.67
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            139.17
+          ],
+          "geometry": "rect",
+          "text": "Click To Edit Master Title Style",
+          "textPreview": "Click To Edit Master Title Style",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click To Edit Master Title Style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click To Edit Master Title Style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            88,
+            191.67,
+            1104,
+            456.83
+          ],
+          "geometry": "rect",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/7",
+          "id": "7",
+          "name": "Rectangle 6",
+          "bbox": [
+            0,
+            654.7,
+            1280,
+            65.3
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/10",
+          "id": "10",
+          "name": "TextBox 9",
+          "bbox": [
+            88,
+            674.43,
+            831,
+            25.85
+          ],
+          "geometry": "rect",
+          "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "textPreview": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "resolvedTextStyle": {
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved.",
+                  "fontSize": 13.33,
+                  "typeface": "Helvetica",
+                  "color": "#021D36"
+                },
+                {
+                  "index": 2,
+                  "text": " CONFIDENTIAL.",
+                  "fontSize": 13.33,
+                  "typeface": "Helvetica",
+                  "color": "#021D36"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/11",
+          "id": "11",
+          "name": "Picture 7",
+          "bbox": [
+            1189.03,
+            666.82,
+            67.28,
+            43.66
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image.png",
+            "contentType": "image/png",
+            "byteLength": 2109
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image.png",
+            "contentType": "image/png",
+            "byteLength": 2109
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cb2tkvap",
+      "id": "2",
+      "name": "Title 1",
+      "bbox": [
+        88,
+        38.33,
+        1104,
+        62.03
+      ],
+      "text": "個人及組織發展｜從技術骨幹到管理者",
+      "textPreview": "個人及組織發展｜從技術骨幹到管理者",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 48,
+        "typeface": "Helvetica",
+        "color": "#00457A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "個人及組織發展｜從技術骨幹到管理者"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "個人及組織發展｜從技術骨幹到管理者",
+          "runs": [
+            {
+              "index": 1,
+              "text": "個人及組織發展｜從技術骨幹到管理者"
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcbud0ra",
+      "id": "3",
+      "name": "Content Placeholder 2",
+      "bbox": [
+        88,
+        131.58,
+        1104,
+        456.83
+      ],
+      "text": "轉管理的理由：更大的價值是建標準、帶人才、調資源、保交付\n組織分工：需求／系統設計、核心模組負責、測試驗證／交付三類角色\n技術承接：模組同步建立說明、案例、測試及版本責任人，降低單點依賴\n管理機制：週檢討、里程碑、風險清單、責任人與完成日，推動問題閉環\n個人改善：強化向上匯報及跨部門推動，採用「結論—事實—風險—支持—下一步」\n管理承諾：從解決單一技術問題，轉為持續提升團隊整體交付能力",
+      "textPreview": "轉管理的理由：更大的價值是建標準、帶人才、調資源、保交付 | 組織分工：需求／系統設計、核心模組負責、測試驗證／交付三類角色 | 技術承接：模組同步建立說明、案例、測試及版本責任人，降低單點依賴 | 管理機制：週檢討、里程碑、風險清單、責任人與完成日，推動問題閉環 | 個人...",
+      "resolvedFontSize": 37.33,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 37.33,
+        "typeface": "Arial",
+        "color": {
+          "type": "theme",
+          "value": "tx1",
+          "transform": {
+            "lighten": 0.25
+          }
+        },
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 11,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•轉管理的理由：更大的價值是建標準、帶人才、調資源、保交付"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "•組織分工：需求／系統設計、核心模組負責、測試驗證／交付三類角色"
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "•技術承接：模組同步建立說明、案例、測試及版本責任人，降低單點依賴"
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "•管理機制：週檢討、里程碑、風險清單、責任人與完成日，推動問題閉環"
+          },
+          {
+            "index": 8,
+            "text": ""
+          },
+          {
+            "index": 9,
+            "text": "•個人改善：強化向上匯報及跨部門推動，採用「結論—事實—風險—支持—下一步」"
+          },
+          {
+            "index": 10,
+            "text": ""
+          },
+          {
+            "index": 11,
+            "text": "•管理承諾：從解決單一技術問題，轉為持續提升團隊整體交付能力"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "轉管理的理由：更大的價值是建標準、帶人才、調資源、保交付",
+          "runs": [
+            {
+              "index": 1,
+              "text": "轉管理的理由：更大的價值是建標準、帶人才、調資源、保交付",
+              "fontSize": 21.33,
+              "bold": true
+            }
+          ],
+          "marginLeft": 457200,
+          "indent": -457200,
+          "lineSpacingPercent": 150000
+        },
+        {
+          "index": 2,
+          "text": "組織分工：需求／系統設計、核心模組負責、測試驗證／交付三類角色",
+          "runs": [
+            {
+              "index": 1,
+              "text": "組織分工：需求／系統設計、核心模組負責、測試驗證／交付三類角色",
+              "fontSize": 21.33
+            }
+          ],
+          "marginLeft": 457200,
+          "indent": -457200,
+          "lineSpacingPercent": 150000
+        },
+        {
+          "index": 3,
+          "text": "技術承接：模組同步建立說明、案例、測試及版本責任人，降低單點依賴",
+          "runs": [
+            {
+              "index": 1,
+              "text": "技術承接：模組同步建立說明、案例、測試及版本責任人，降低單點依賴",
+              "fontSize": 22.67
+            }
+          ],
+          "marginLeft": 457200,
+          "indent": -457200,
+          "lineSpacingPercent": 150000
+        },
+        {
+          "index": 4,
+          "text": "管理機制：週檢討、里程碑、風險清單、責任人與完成日，推動問題閉環",
+          "runs": [
+            {
+              "index": 1,
+              "text": "管理機制：週檢討、里程碑、風險清單、責任人與完成日，推動問題閉環",
+              "fontSize": 22.67
+            }
+          ],
+          "marginLeft": 457200,
+          "indent": -457200,
+          "lineSpacingPercent": 150000
+        },
+        {
+          "index": 5,
+          "text": "個人改善：強化向上匯報及跨部門推動，採用「結論—事實—風險—支持—下一步」",
+          "runs": [
+            {
+              "index": 1,
+              "text": "個人改善：強化向上匯報及跨部門推動，採用「結論—事實—風險—支持—下一步」",
+              "fontSize": 22.67,
+              "bold": true
+            }
+          ],
+          "marginLeft": 457200,
+          "indent": -457200,
+          "lineSpacingPercent": 150000
+        },
+        {
+          "index": 6,
+          "text": "管理承諾：從解決單一技術問題，轉為持續提升團隊整體交付能力",
+          "runs": [
+            {
+              "index": 1,
+              "text": "管理承諾：從解決單一技術問題，轉為持續提升團隊整體交付能力",
+              "fontSize": 22.67,
+              "bold": true
+            }
+          ],
+          "marginLeft": 457200,
+          "indent": -457200,
+          "lineSpacingPercent": 150000
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ydkbm5sv",
+      "id": "4",
+      "name": "Slide Number Placeholder 3",
+      "bbox": [
+        28.76,
+        675.12,
+        59.24,
+        38.33
+      ],
+      "text": "7",
+      "textPreview": "7",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "fontSize": 13.33,
+        "typeface": "Helvetica",
+        "color": "#021D36",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "7"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "7",
+          "runs": [
+            {
+              "index": 1,
+              "text": "7"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

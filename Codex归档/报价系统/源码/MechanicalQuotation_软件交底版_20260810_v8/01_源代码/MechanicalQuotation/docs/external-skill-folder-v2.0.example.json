@@ -1,0 +1,15 @@
+{
+  "skill_id": "company.machining-time",
+  "skill_name_zh": "加工件工时 Skill",
+  "skill_version": "2.0.0",
+  "protocol_version": "1.0",
+  "supported_steps": ["TIME_ESTIMATION"],
+  "supported_processes": ["MILL", "GRIND"],
+  "supports_full_quotation": false,
+  "instruction_file": "SKILL.md",
+  "reference_files": ["references/time-rules.md"],
+  "step_agent_routes": {
+    "TIME_ESTIMATION": "company.machining-time-agent"
+  },
+  "commands": []
+}

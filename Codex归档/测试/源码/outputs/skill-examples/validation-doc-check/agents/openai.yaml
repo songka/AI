@@ -1,0 +1,6 @@
+interface:
+  display_name: "Validation Doc Check"
+  short_description: "Check validation packages for completeness and traceability"
+  default_prompt: "Use $validation-doc-check to check this validation document package for gaps and traceability issues."
+policy:
+  allow_implicit_invocation: true

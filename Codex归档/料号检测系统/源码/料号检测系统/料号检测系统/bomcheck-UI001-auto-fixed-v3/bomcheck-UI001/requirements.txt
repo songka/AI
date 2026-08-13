@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+jinja2
+python-multipart
+itsdangerous
+portalocker
+openpyxl
+opencc-python-reimplemented
+Pillow
+requests
+beautifulsoup4

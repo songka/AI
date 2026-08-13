@@ -1,0 +1,6 @@
+interface:
+  display_name: "IO Table Review"
+  short_description: "Check IO tables for naming, duplicate, and signal issues"
+  default_prompt: "Use $io-table-review to inspect this IO table and produce an electrical review issue list."
+policy:
+  allow_implicit_invocation: true

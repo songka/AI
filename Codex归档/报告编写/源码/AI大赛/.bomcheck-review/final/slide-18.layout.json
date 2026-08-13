@@ -1,0 +1,844 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/y5wne50z",
+    "id": "y5wne50z",
+    "slide": 18,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8FFF3",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Calibri",
+      "Calibri Light"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fapkr6pw",
+      "id": "10",
+      "name": "矩形 9",
+      "bbox": [
+        64,
+        42,
+        880,
+        58
+      ],
+      "geometry": "rect",
+      "text": "最后交付的，不只是一个检查按钮",
+      "textPreview": "最后交付的，不只是一个检查按钮",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "最后交付的，不只是一个检查按钮"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "最后交付的，不只是一个检查按钮",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#062C33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "最后交付的，不只是一个检查按钮",
+              "fontSize": 36,
+              "color": "#062C33",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wrelszu9",
+      "id": "2",
+      "name": "矩形 1",
+      "bbox": [
+        66,
+        102,
+        930,
+        34
+      ],
+      "geometry": "rect",
+      "text": "桌面版为主，把审核、查询、资料和发布串在一起",
+      "textPreview": "桌面版为主，把审核、查询、资料和发布串在一起",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "桌面版为主，把审核、查询、资料和发布串在一起"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "桌面版为主，把审核、查询、资料和发布串在一起",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#526B73",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "桌面版为主，把审核、查询、资料和发布串在一起",
+              "fontSize": 18,
+              "color": "#526B73"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hsn2l4bu",
+      "id": "3",
+      "name": "圓角矩形 2",
+      "bbox": [
+        84,
+        180,
+        240,
+        190
+      ],
+      "geometry": "roundRect",
+      "text": "BOM 检查\n失效替换\n绑定规则",
+      "textPreview": "BOM 检查 | 失效替换 | 绑定规则",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BOM 检查"
+          },
+          {
+            "index": 2,
+            "text": "失效替换"
+          },
+          {
+            "index": 3,
+            "text": "绑定规则"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BOM 检查",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#08323A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BOM 检查",
+              "fontSize": 22,
+              "color": "#08323A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "失效替换",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#08323A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "失效替换",
+              "fontSize": 22,
+              "color": "#08323A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "绑定规则",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#08323A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "绑定规则",
+              "fontSize": 22,
+              "color": "#08323A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C9DDE3",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itw3upcf",
+      "id": "4",
+      "name": "圓角矩形 3",
+      "bbox": [
+        374,
+        180,
+        240,
+        190
+      ],
+      "geometry": "roundRect",
+      "text": "料号查询\n空格搜索\n拖选复制",
+      "textPreview": "料号查询 | 空格搜索 | 拖选复制",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "料号查询"
+          },
+          {
+            "index": 2,
+            "text": "空格搜索"
+          },
+          {
+            "index": 3,
+            "text": "拖选复制"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "料号查询",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#08323A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "料号查询",
+              "fontSize": 22,
+              "color": "#08323A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "空格搜索",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#08323A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "空格搜索",
+              "fontSize": 22,
+              "color": "#08323A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "拖选复制",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#08323A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "拖选复制",
+              "fontSize": 22,
+              "color": "#08323A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C9DDE3",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/je5knut0",
+      "id": "5",
+      "name": "圓角矩形 4",
+      "bbox": [
+        664,
+        180,
+        240,
+        190
+      ],
+      "geometry": "roundRect",
+      "text": "资料入口\n图片/说明书\nUA 专案",
+      "textPreview": "资料入口 | 图片/说明书 | UA 专案",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "资料入口"
+          },
+          {
+            "index": 2,
+            "text": "图片/说明书"
+          },
+          {
+            "index": 3,
+            "text": "UA 专案"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "资料入口",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#08323A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "资料入口",
+              "fontSize": 22,
+              "color": "#08323A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "图片/说明书",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#08323A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "图片/说明书",
+              "fontSize": 22,
+              "color": "#08323A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "UA 专案",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#08323A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "UA 专案",
+              "fontSize": 22,
+              "color": "#08323A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C9DDE3",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4felwzu5",
+      "id": "6",
+      "name": "圓角矩形 5",
+      "bbox": [
+        954,
+        180,
+        240,
+        190
+      ],
+      "geometry": "roundRect",
+      "text": "现场交付\n共享盘\n启动器",
+      "textPreview": "现场交付 | 共享盘 | 启动器",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "现场交付"
+          },
+          {
+            "index": 2,
+            "text": "共享盘"
+          },
+          {
+            "index": 3,
+            "text": "启动器"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "现场交付",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#08323A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "现场交付",
+              "fontSize": 22,
+              "color": "#08323A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "共享盘",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#08323A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "共享盘",
+              "fontSize": 22,
+              "color": "#08323A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "启动器",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#08323A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "启动器",
+              "fontSize": 22,
+              "color": "#08323A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C9DDE3",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5gnmp4bq",
+      "id": "7",
+      "name": "矩形 6",
+      "bbox": [
+        130,
+        490,
+        1020,
+        58
+      ],
+      "geometry": "rect",
+      "text": "它把我脑子里的审核经验，变成了同事可以反复使用的工具。",
+      "textPreview": "它把我脑子里的审核经验，变成了同事可以反复使用的工具。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "它把我脑子里的审核经验，变成了同事可以反复使用的工具。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "它把我脑子里的审核经验，变成了同事可以反复使用的工具。",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "color": "#0F766E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "它把我脑子里的审核经验，变成了同事可以反复使用的工具。",
+              "fontSize": 34,
+              "color": "#0F766E",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hw3y9sb",
+      "id": "8",
+      "name": "矩形 7",
+      "bbox": [
+        64,
+        674,
+        230,
+        24
+      ],
+      "geometry": "rect",
+      "text": "BOMCheck AI 落地实践",
+      "textPreview": "BOMCheck AI 落地实践",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BOMCheck AI 落地实践"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BOMCheck AI 落地实践",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#78909C",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BOMCheck AI 落地实践",
+              "fontSize": 13,
+              "color": "#78909C"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rip4retw",
+      "id": "9",
+      "name": "矩形 8",
+      "bbox": [
+        1184,
+        674,
+        40,
+        24
+      ],
+      "geometry": "rect",
+      "text": "18",
+      "textPreview": "18",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "18"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "18",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#78909C",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "18",
+              "fontSize": 13,
+              "color": "#78909C"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

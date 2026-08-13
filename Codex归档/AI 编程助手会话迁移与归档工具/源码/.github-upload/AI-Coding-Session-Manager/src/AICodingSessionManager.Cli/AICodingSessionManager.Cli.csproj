@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>AICodingSessionManager</AssemblyName>
+    <RootNamespace>AICodingSessionManager.Cli</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AICodingSessionManager.Domain\AICodingSessionManager.Domain.csproj" />
+    <ProjectReference Include="..\AICodingSessionManager.Adapters.OpenCode\AICodingSessionManager.Adapters.OpenCode.csproj" />
+    <ProjectReference Include="..\AICodingSessionManager.Adapters.Codex\AICodingSessionManager.Adapters.Codex.csproj" />
+    <ProjectReference Include="..\AICodingSessionManager.Adapters.ClaudeCode\AICodingSessionManager.Adapters.ClaudeCode.csproj" />
+  </ItemGroup>
+</Project>

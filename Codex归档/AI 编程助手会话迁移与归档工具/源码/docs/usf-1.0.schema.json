@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aicodingsessionmanager.local/schema/usf-1.0.json",
+  "title": "Universal Session Format 1.0",
+  "type": "object",
+  "required": ["format", "version", "session", "messages", "metadata", "attachments", "environment", "unsupported_records"],
+  "properties": {
+    "format": { "const": "ai-coding-session" },
+    "version": { "const": "1.0" },
+    "session": {
+      "type": "object",
+      "required": ["id", "title", "source", "source_session_id", "project"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string" },
+        "source": { "enum": ["open_code", "codex", "claude_code"] },
+        "source_session_id": { "type": "string" },
+        "created_at": { "type": ["string", "null"], "format": "date-time" },
+        "updated_at": { "type": ["string", "null"], "format": "date-time" },
+        "cwd": { "type": ["string", "null"] },
+        "project": { "type": "object" },
+        "model": { "type": ["string", "null"] },
+        "provider": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "messages": { "type": "array" },
+    "metadata": { "type": "object" },
+    "attachments": { "type": "array" },
+    "environment": { "type": "object" },
+    "unsupported_records": { "type": "array" }
+  },
+  "additionalProperties": false
+}

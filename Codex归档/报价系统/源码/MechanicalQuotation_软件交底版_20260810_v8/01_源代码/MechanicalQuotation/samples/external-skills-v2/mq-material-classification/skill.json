@@ -1,0 +1,1 @@
+{"skill_id":"sample.material-classification","skill_name_zh":"示例-材料判断","skill_version":"1.0.0","protocol_version":"1.0","supported_steps":["MATERIAL_CLASSIFICATION"],"supports_full_quotation":false,"instruction_file":"SKILL.md","reference_files":[],"commands":[]}

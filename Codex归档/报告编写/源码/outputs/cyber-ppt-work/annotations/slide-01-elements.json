@@ -1,0 +1,13 @@
+{
+  "elements": [
+    {"element_id":"cover_brand_frame","priority":"P0","element_type":"template_chrome","source_component_id":"cover_brand_frame","blueprint_bbox_px":{"x":0,"y":0,"w":1672,"h":941},"tolerance_px":3,"measurement_mode":"individual_bbox","must_reproduce":true},
+    {"element_id":"vision_label","priority":"P0","element_type":"text","source_component_id":"cover_brand_frame","blueprint_bbox_px":{"x":310,"y":210,"w":300,"h":95},"tolerance_px":6,"measurement_mode":"individual_bbox","must_reproduce":true},
+    {"element_id":"cover_title","priority":"P0","element_type":"text","source_component_id":"cover_title","blueprint_bbox_px":{"x":790,"y":79,"w":720,"h":77},"tolerance_px":6,"measurement_mode":"individual_bbox","must_reproduce":true},
+    {"element_id":"cover_date","priority":"P1","element_type":"text","source_component_id":"cover_context","blueprint_bbox_px":{"x":793,"y":184,"w":300,"h":42},"tolerance_px":8,"measurement_mode":"individual_bbox","must_reproduce":true},
+    {"element_id":"context_line_1","priority":"P1","element_type":"text","source_component_id":"cover_context","blueprint_bbox_px":{"x":740,"y":278,"w":620,"h":50},"tolerance_px":8,"measurement_mode":"individual_bbox","must_reproduce":true},
+    {"element_id":"context_line_2","priority":"P1","element_type":"text","source_component_id":"cover_context","blueprint_bbox_px":{"x":740,"y":376,"w":720,"h":50},"tolerance_px":8,"measurement_mode":"individual_bbox","must_reproduce":true},
+    {"element_id":"context_line_3","priority":"P1","element_type":"text","source_component_id":"cover_context","blueprint_bbox_px":{"x":740,"y":469,"w":760,"h":50},"tolerance_px":8,"measurement_mode":"individual_bbox","must_reproduce":true},
+    {"element_id":"mpt_logo","priority":"P0","element_type":"logo","source_component_id":"cover_brand_frame","blueprint_bbox_px":{"x":1464,"y":807,"w":160,"h":92},"tolerance_px":6,"measurement_mode":"individual_bbox","must_reproduce":true},
+    {"element_id":"copyright","priority":"P1","element_type":"footer_text","source_component_id":"cover_brand_frame","blueprint_bbox_px":{"x":770,"y":907,"w":695,"h":18},"tolerance_px":8,"measurement_mode":"individual_bbox","must_reproduce":true}
+  ]
+}

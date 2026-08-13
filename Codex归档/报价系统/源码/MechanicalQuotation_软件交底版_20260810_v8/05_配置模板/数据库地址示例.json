@@ -1,0 +1,6 @@
+{
+  "本机目录": "runtime/data",
+  "本机文件": "D:/MechanicalQuotationData/quotes.db",
+  "公共目录": "\\\\server\\quotation\\database",
+  "公共文件": "\\\\server\\quotation\\database\\quotes.db"
+}

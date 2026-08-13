@@ -1,0 +1,1 @@
+"""BOM description parsing infrastructure."""

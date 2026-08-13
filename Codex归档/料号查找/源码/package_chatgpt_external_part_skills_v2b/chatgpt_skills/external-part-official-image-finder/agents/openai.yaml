@@ -1,0 +1,3 @@
+display_name: 外购件官网图片查找
+short_description: 中文优先查找外购件官网产品页、官方 PDF 和多角度多张图片 URL。
+default_prompt: 请读取我上传的 asset_pending CSV，只处理 confirmed 或高质量 suspected 记录。优先查中文官网、中文产品页、中文 PDF；中文资料不足时再查中文工业品平台和淘宝/天猫作为图片补充。每个料号尽量输出 3-6 张多角度图片 URL，不下载图片，不生成 assets.json。

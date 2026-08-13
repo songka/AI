@@ -1,0 +1,844 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ozofi0",
+    "id": "ozofi0",
+    "slide": 5,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#5B9BD5",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#4472C4",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Calibri",
+      "Calibri Light",
+      "Helvetica",
+      "微軟正黑體"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            62.03
+          ],
+          "geometry": "rect",
+          "text": "Click To Edit Master Title",
+          "textPreview": "Click To Edit Master Title",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click To Edit Master Title",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click To Edit Master Title"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Content Placeholder 2",
+          "bbox": [
+            88,
+            114.87,
+            1104,
+            515.99
+          ],
+          "geometry": "rect",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level\n\n\n",
+          "textPreview": "Edit Master text styles | Second level | Third level | Fourth level | Fifth level |  |  |",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Slide Number Placeholder 6",
+          "bbox": [
+            28.76,
+            675.12,
+            59.24,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/6",
+          "id": "6",
+          "name": "Straight Connector 5",
+          "bbox": [
+            0,
+            100.36,
+            1004.51,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "#00467E",
+          "lineWidth": 0.67
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            139.17
+          ],
+          "geometry": "rect",
+          "text": "Click To Edit Master Title Style",
+          "textPreview": "Click To Edit Master Title Style",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click To Edit Master Title Style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click To Edit Master Title Style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            88,
+            191.67,
+            1104,
+            456.83
+          ],
+          "geometry": "rect",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/7",
+          "id": "7",
+          "name": "Rectangle 6",
+          "bbox": [
+            0,
+            654.7,
+            1280,
+            65.3
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/10",
+          "id": "10",
+          "name": "TextBox 9",
+          "bbox": [
+            88,
+            674.43,
+            831,
+            25.85
+          ],
+          "geometry": "rect",
+          "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "textPreview": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "resolvedTextStyle": {
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved.",
+                  "fontSize": 13.33,
+                  "typeface": "Helvetica",
+                  "color": "#021D36"
+                },
+                {
+                  "index": 2,
+                  "text": " CONFIDENTIAL.",
+                  "fontSize": 13.33,
+                  "typeface": "Helvetica",
+                  "color": "#021D36"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/11",
+          "id": "11",
+          "name": "Picture 7",
+          "bbox": [
+            1189.03,
+            666.82,
+            67.28,
+            43.66
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 2109
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 2109
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yl0bapcf",
+      "id": "2",
+      "name": "Title 1",
+      "bbox": [
+        88,
+        38.33,
+        391.31,
+        62.03
+      ],
+      "text": "績效達成狀況",
+      "textPreview": "績效達成狀況",
+      "resolvedFontSize": 43.2,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 48,
+        "typeface": "Helvetica",
+        "color": "#00457A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.9,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2. 績效達成狀況"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "績效達成狀況",
+          "lineSpacingPercent": 95000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "績效"
+            },
+            {
+              "index": 2,
+              "text": "達成狀況"
+            }
+          ],
+          "bulletCharacter": ""
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wji98fup",
+      "id": "4",
+      "name": "Slide Number Placeholder 3",
+      "bbox": [
+        28.76,
+        675.12,
+        59.24,
+        38.33
+      ],
+      "text": "5",
+      "textPreview": "5",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "fontSize": 13.33,
+        "typeface": "Helvetica",
+        "color": "#021D36",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5",
+          "runs": [
+            {
+              "index": 1,
+              "text": "5"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1srmloba",
+      "id": "14",
+      "name": "文本框 7",
+      "bbox": [
+        89.64,
+        142.11,
+        339.96,
+        60.1
+      ],
+      "geometry": "rect",
+      "text": "搭建調試售後團隊",
+      "textPreview": "搭建調試售後團隊",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "l搭建調試售後團隊"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "搭建調試售後團隊",
+          "lineSpacingPercent": 130000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "搭建調試售後團隊",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "color": "#0000FF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hg3y5gn6",
+      "id": "25",
+      "name": "矩形 24",
+      "bbox": [
+        103.48,
+        210.94,
+        710.12,
+        304.86
+      ],
+      "geometry": "rect",
+      "text": "組建團隊：\n規劃並組建6人調試售後團隊，實現了電控調試和售後的職能分離；\n效率提升：\n對外實現24H內響應，對內釋放電控人力，專注與方案及程序；\n體系建設：\n建立調試期、保固期、保固外統一的作業流程；",
+      "textPreview": "組建團隊： | 規劃並組建6人調試售後團隊，實現了電控調試和售後的職能分離； | 效率提升： | 對外實現24H內響應，對內釋放電控人力，專注與方案及程序； | 體系建設： | 建立調試期、保固期、保固外統一的作業流程；",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. 組建團隊："
+          },
+          {
+            "index": 2,
+            "text": "規劃並組建6人調試售後團隊，實現了電控調試和售後的職能分離；"
+          },
+          {
+            "index": 3,
+            "text": "2. 效率提升："
+          },
+          {
+            "index": 4,
+            "text": "對外實現24H內響應，對內釋放電控人力，專注與方案及程序；"
+          },
+          {
+            "index": 5,
+            "text": "3. 體系建設："
+          },
+          {
+            "index": 6,
+            "text": "建立調試期、保固期、保固外統一的作業流程；"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "組建團隊：\n規劃並組建6人調試售後團隊，實現了電控調試和售後的職能分離；",
+          "lineSpacingPercent": 150000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "組建團隊：",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "\n"
+            },
+            {
+              "index": 4,
+              "text": "規劃並組建",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 5,
+              "text": "6",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 6,
+              "text": "人調試售後團隊",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 7,
+              "text": "，實現了電控調試和售後的職能分離；",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "效率提升：\n對外實現24H內響應，對內釋放電控人力，專注與方案及程序；",
+          "lineSpacingPercent": 150000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "效率提升：",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "\n"
+            },
+            {
+              "index": 4,
+              "text": "對外實現",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 5,
+              "text": "24H",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 6,
+              "text": "內響應，對內釋放電控人力，專注與方案及程序；",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "體系建設：\n建立調試期、保固期、保固外統一的作業流程；",
+          "lineSpacingPercent": 150000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "體系建設：",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "\n"
+            },
+            {
+              "index": 4,
+              "text": "建立調試期、保固期、保固外統一的作業流程；",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9wb6pobm",
+      "id": "10",
+      "name": "Rectangle 3",
+      "bbox": [
+        0,
+        0,
+        1280,
+        377.95
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/5kjqt4rq",
+      "id": "26",
+      "name": "圖片 2",
+      "bbox": [
+        830.4,
+        257.22,
+        402.33,
+        316.18
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image11.png",
+        "contentType": "image/png",
+        "byteLength": 1205340
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image11.png",
+        "contentType": "image/png",
+        "byteLength": 1205340
+      }
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,1 @@
+"""Database infrastructure — historical quotation repository."""

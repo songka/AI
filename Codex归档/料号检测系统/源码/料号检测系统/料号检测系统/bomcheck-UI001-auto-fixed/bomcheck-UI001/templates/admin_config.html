@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h2>配置文件</h2>
+    {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+    {% if message %}<div class="alert alert-info">{{ message }}</div>{% endif %}
+    <form method="post" class="form-grid">
+        <label>失效料号数据库路径
+            <input type="text" name="invalid_part_db" value="{{ config.invalid_part_db }}" required>
+        </label>
+        <label>绑定料号库路径
+            <input type="text" name="binding_library" value="{{ config.binding_library }}" required>
+        </label>
+        <label>重要物料列表路径
+            <input type="text" name="important_materials" value="{{ config.important_materials }}" required>
+        </label>
+        <label>屏蔽申请人列表路径
+            <input type="text" name="blocked_applicants" value="{{ config.blocked_applicants }}" required>
+        </label>
+        <label>系统料号库路径
+            <input type="text" name="system_part_db" value="{{ config.system_part_db }}" required>
+        </label>
+        <label>料号资源目录
+            <input type="text" name="part_asset_dir" value="{{ config.part_asset_dir }}" required>
+        </label>
+        <label>资源 UNC 前缀（用于显示/转换）
+            <input type="text" name="asset_unc_prefix" value="{{ config.asset_unc_prefix }}">
+        </label>
+        <label>资源本地前缀（用于显示/转换）
+            <input type="text" name="asset_local_prefix" value="{{ config.asset_local_prefix }}">
+        </label>
+        <div class="alert alert-info">
+            Web 运行时直接使用公共账号库：<code>{{ config.account_store }}</code>
+        </div>
+        <input type="hidden" name="account_store" value="{{ config.account_store }}">
+        <label>UA 成品资料目录
+            <input type="text" name="ua_lookup_dir" value="{{ config.ua_lookup_dir }}">
+        </label>
+        <button type="submit">保存</button>
+    </form>
+</div>
+{% endblock %}

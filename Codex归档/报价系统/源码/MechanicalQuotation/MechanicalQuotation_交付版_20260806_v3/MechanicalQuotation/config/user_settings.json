@@ -1,0 +1,11 @@
+{
+  "dwg_converter_path": "../third_party/ODAFileConverter-27.1/ODAFileConverter.exe",
+  "dwg_converter_note": "交付包内 ODA 转换器；仅限已获第三方授权的内部电脑使用",
+  "api_host": "127.0.0.1",
+  "api_port": 8000,
+  "smb_root": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\10-自動報價系統\\data",
+  "smb_auth_type": "current_user",
+  "smb_cache_dir": "runtime/cache/smb",
+  "smb_sync_enabled": true,
+  "smb_sync_interval_seconds": 60
+}

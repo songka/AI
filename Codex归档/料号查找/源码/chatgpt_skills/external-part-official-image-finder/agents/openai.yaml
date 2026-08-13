@@ -1,0 +1,7 @@
+interface:
+  display_name: "外购件官网图片查找"
+  short_description: "查找官网产品页、PDF 和图片 URL。"
+  default_prompt: "使用 $external-part-official-image-finder 读取 asset_pending CSV，按固定字段输出 asset_result CSV，不下载图片，不生成 assets.json。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,1 @@
+{"skill_id":"sample.process.wire-cut","skill_name_zh":"示例-快丝线切割报价","skill_version":"1.0.0","protocol_version":"1.0","supported_steps":["TIME_ESTIMATION","LINE_ITEM_PRICING","PRICE_AUDIT","REVIEW_RECOMMENDATION"],"supported_processes":["WIRE_CUT"],"supports_full_quotation":false,"instruction_file":"SKILL.md","reference_files":[],"commands":[]}

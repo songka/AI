@@ -1,0 +1,1 @@
+{"skill_id":"sample.feature-extraction","skill_name_zh":"示例-制造特征提取","skill_version":"1.0.0","protocol_version":"1.0","supported_steps":["FEATURE_EXTRACTION"],"supports_full_quotation":false,"instruction_file":"SKILL.md","reference_files":[],"commands":[]}

@@ -1,0 +1,12 @@
+{
+  "webhook_url": "https://open.feishu.cn/open-apis/bot/v2/hook/xxx",
+  "app_id": "cli_xxx",
+  "app_secret": "xxx",
+  "receive_id": "oc_xxx",
+  "private_id": "ou_xxx",
+  "bot_open_id": "ou_xxx",
+  "title": "签核待办提醒",
+  "ai_endpoint": "",
+  "ai_key": "",
+  "ai_model": ""
+}

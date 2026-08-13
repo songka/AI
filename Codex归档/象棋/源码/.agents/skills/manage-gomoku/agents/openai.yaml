@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manage Gomoku"
+  short_description: "Safely modify, test, and release Gomoku"
+  default_prompt: "Use $manage-gomoku to make a validated change to the Gomoku project."

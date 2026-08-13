@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h2>料号详情 {{ record.part_no }}</h2>
+    <p><strong>描述：</strong> {{ record.description }}</p>
+    <p><strong>单位：</strong> {{ record.unit }}</p>
+    <p><strong>申请人：</strong> {{ record.applicant }}</p>
+    <p><strong>库存：</strong> {{ record.inventory_display }}</p>
+    <p><strong>分类：</strong> {{ record.categories | join(' / ') }}</p>
+    <a href="/query" class="button">返回查询</a>
+</div>
+
+<div class="card">
+    <h3>料号资源</h3>
+    {% if assets.available %}
+        <p><strong>网络地址：</strong> {{ assets.network_path or '' }}</p>
+        <p><strong>本地地址：</strong> {{ assets.local_path or '' }}</p>
+        {% if assets.images %}
+            <div class="image-grid">
+                {% for image in assets.images %}
+                    <div class="image-item">
+                        <img src="/assets/{{ record.part_no }}/{{ image }}" alt="{{ image }}" style="max-width: 300px; max-height: 300px;">
+                        <div>{{ image }}</div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+        {% if assets.other_files %}
+            <ul>
+                {% for file in assets.other_files %}
+                    <li><a href="/assets/{{ record.part_no }}/{{ file }}" target="_blank">{{ file }}</a></li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        {% if not assets.images and not assets.other_files %}
+            <p>暂无资源文件</p>
+        {% endif %}
+    {% else %}
+        <p>未配置/不可访问</p>
+    {% endif %}
+</div>
+{% endblock %}

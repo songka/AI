@@ -1,0 +1,678 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/4k32cd",
+    "id": "4k32cd",
+    "slide": 10,
+    "layoutId": "bae1f76f-7a5d-4d27-9386-6f99358d6cfd",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bae1f76f-7a5d-4d27-9386-6f99358d6cfd",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ilwnu1k",
+      "id": "1",
+      "name": "Title-3-1",
+      "bbox": [
+        41.33,
+        182.55,
+        992,
+        261.57
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "text": "让历史资料成为\n可复用的工程知识",
+      "textPreview": "让历史资料成为 | 可复用的工程知识",
+      "resolvedFontSize": 80,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "fontSize": 80,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "bottom",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "让历史资料成为"
+          },
+          {
+            "index": 2,
+            "text": "可复用的工程知识"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "让历史资料成为\n可复用的工程知识",
+          "lineSpacingPercent": 98000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "fontSize": 80,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "verticalAlignment": "bottom",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "让历史资料成为\n可复用的工程知识",
+              "fontSize": 68,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sjuxwz25",
+      "id": "2",
+      "name": "Subtitle-4-2",
+      "bbox": [
+        41.33,
+        522.13,
+        374.67,
+        113.41
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "text": "真实痛点\n已完成基础能力\n可持续升级与复制",
+      "textPreview": "真实痛点 | 已完成基础能力 | 可持续升级与复制",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "真实痛点"
+          },
+          {
+            "index": 2,
+            "text": "已完成基础能力"
+          },
+          {
+            "index": 3,
+            "text": "可持续升级与复制"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "真实痛点",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "真实痛点",
+              "fontSize": 25,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "已完成基础能力",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "已完成基础能力",
+              "fontSize": 25,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "可持续升级与复制",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "可持续升级与复制",
+              "fontSize": 25,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tk3ep4jq",
+      "id": "3",
+      "name": "Subtitle-4-3",
+      "bbox": [
+        41.33,
+        41.18,
+        169.33,
+        68.15
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "rect",
+      "text": "LFAF小助手",
+      "textPreview": "LFAF小助手",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LFAF小助手"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LFAF小助手",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LFAF小助手",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#3D8DFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulcfy9kb",
+      "id": "4",
+      "bbox": [
+        864,
+        0,
+        416,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF5FB",
+      "lineColor": "#EAF5FB",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fm5wre1g",
+      "id": "5",
+      "bbox": [
+        950,
+        185,
+        180,
+        180
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#3D8DFF",
+      "lineColor": "#3D8DFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gnex0j21",
+      "id": "6",
+      "bbox": [
+        985,
+        232,
+        110,
+        70
+      ],
+      "geometry": "rect",
+      "text": "AI",
+      "textPreview": "AI",
+      "resolvedFontSize": 54,
+      "resolvedTextStyle": {
+        "fontSize": 54,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI",
+          "resolvedTextStyle": {
+            "fontSize": 54,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI",
+              "fontSize": 54,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "codex-grid-layout-library#slide-26",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1033.33,
+          "height": 635.54
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "text",
+            "name": "Title-3-1",
+            "position": {
+              "left": 41.33,
+              "top": 182.55
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 992
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 261.57
+              }
+            },
+            "intrinsicSize": {
+              "width": 992,
+              "height": 261.57
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 182.55,
+              "width": 992,
+              "height": 261.57
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 182.55,
+              "width": 992,
+              "height": 261.57
+            },
+            "children": [],
+            "text": "让历史资料成为\n可复用的工程知识",
+            "transform": "none",
+            "element": {
+              "aid": "sh/7ilwnu1k",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "text",
+            "name": "Subtitle-4-2",
+            "position": {
+              "left": 41.33,
+              "top": 522.13
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 374.67
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 113.41
+              }
+            },
+            "intrinsicSize": {
+              "width": 374.67,
+              "height": 113.41
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 522.13,
+              "width": 374.67,
+              "height": 113.41
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 522.13,
+              "width": 374.67,
+              "height": 113.41
+            },
+            "children": [],
+            "text": "真实痛点\n已完成基础能力\n可持续升级与复制",
+            "transform": "none",
+            "element": {
+              "aid": "sh/sjuxwz25",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "text",
+            "name": "Subtitle-4-3",
+            "position": {
+              "left": 41.33,
+              "top": 41.18
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 169.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 68.15
+              }
+            },
+            "intrinsicSize": {
+              "width": 169.33,
+              "height": 68.15
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 41.18,
+              "width": 169.33,
+              "height": 68.15
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 41.18,
+              "width": 169.33,
+              "height": 68.15
+            },
+            "children": [],
+            "text": "LFAF小助手",
+            "transform": "none",
+            "element": {
+              "aid": "sh/tk3ep4jq",
+              "id": "3",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 41.33,
+              "top": 182.55,
+              "width": 992,
+              "height": 261.57
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 41.33,
+              "top": 522.13,
+              "width": 374.67,
+              "height": 113.41
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 41.33,
+              "top": 41.18,
+              "width": 169.33,
+              "height": 68.15
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

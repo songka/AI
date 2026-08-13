@@ -1,0 +1,24 @@
+共享提示词
+
+Use case: productivity-visual. Asset type: CyberPPT high-fidelity full-page 16:9 presentation blueprint. Fixed style 04 “象牙白 + 深蓝强调”: background #F7F6F0, title #101820, body #303030, secondary #6F7275, fine lines #C9CDD1, main accent #12355B, small copper-orange only for risks and pending items. Premium management consulting + industrial technology B2B aesthetic, continuous ivory paper surface, 12-column grid, fine dividers and subtle blue-gray regions; no large pure-white cards, no heavy shadows, no web dashboard, no generic UI card grid, no dark cockpit, no neon. Simplified Chinese visible text only except AI, Skill, SMB, DeepSeek, opencode, Claude Code, PLC, AS228T, ST, ISPSoft, Robot, PC, Fanuc, SKILL.md, references, templates, examples, evals. Do not display language metadata. Clear presentation-sized typography, concise content, restrained density, top fine-line header, bottom source/footer and page badge, direct labels, Tabler-outline style icons, no logo, no watermark.
+
+SLIDE 01
+低密度封面。主标题「内部 AI 框架与五类 Skill 建设规划」，副标题「以 SMB 公共槽共享工程能力，先形成可用闭环，再逐步完善治理」，小字「老板汇报版｜2026年7月」。左侧 58% 标题，右侧 42% 抽象主视觉：三台个人 PC 连接公共 DeepSeek，同时连接一个共享文件库形态的 SMB Skill 公共槽；不要出现已建成的 Skill Hub。大量有意图留白，深蓝技术线条，精致工业科技感。
+
+SLIDE 02
+目录页，标题「本次汇报聚焦三个问题」。使用一条由左至右递进的三段路径，三个大编号：01「如何构建内部可用的 AI 框架」；02「需要开发哪五大类 Skill」；03「为什么网络下载的 Skill 必须改写」。每段有简洁线性图标：网络框架、能力树、裁剪改写。底部一句「框架 → 能力 → 改写落地」。保持低至中信息密度，不要普通三卡片。
+
+SLIDE 03
+结论标题「先用公共 DeepSeek + SMB Skill 公共槽搭建轻量框架，让个人电脑共享同一套能力」。副标题「Skill Hub 尚未建立，SMB 是第一阶段的共享、发布和版本载体」。主架构图：左侧三台个人 PC，每台标注 opencode / Claude Code；中间公共电脑 DeepSeek，个人 PC 与其双向通信；右侧为大型共享文件库/网络存储形态的「SMB Skill 公共槽」，内部清晰分层显示 Skill、公司规则、模板、示例；三台个人 PC 都直接读取 SMB 同一版本；上方管理员向 SMB 发布并负责权限、版本、备份、回滚。实线表示第一阶段已规划链路；右上角虚线小框「后续：平台化 Skill Hub（尚未建设）」。底部图例和 SO WHAT「先低成本解决大家都能用同一套 Skill，再考虑平台化」。避免把 Skill Hub 画成当前核心节点。
+
+SLIDE 04
+结论标题「首批建设五大类 Skill，覆盖工程开发与日常办公的核心场景」。构图为一棵从底部 SMB 公共槽生长出的五分支能力树或五条连续泳道，不做五张卡片。五个分支直接标注：PLC Skill「台达 AS228T；全局变量、局部变量、ST 程序」；Robot Skill「那智、Fanuc、川崎；按品牌专精」；PC 程序 Skill「标准框架、通信、日志、异常、测试」；视觉程序 Skill「相机、算法平台、PLC/PC 二次开发」；办公类 Skill「报告、表格、PPT、会议纪要、知识检索」。底部 SO WHAT「把公司做法变成可重复调用的能力」。
+
+SLIDE 05
+结论标题「每类 Skill 都必须有负责人、公司规则、示例和验收标准」。主图为简洁责任链：领域 Owner → Skill 编写人 → 验收人 → SMB 管理员 → 使用者反馈，箭头形成发布和反馈闭环。下方横向展示最小交付包目录结构：SKILL.md、references、templates / examples、evals，像一个精致文件结构而非卡片。右侧窄栏为进入 SMB 的准入门：规则批准、样例齐全、真实项目验收、版本与回滚就绪。底部 SO WHAT「没有负责人和真实项目验收的 Skill 不进入 SMB 公共槽」。
+
+SLIDE 06
+结论标题「网络下载的 PLC Skill 只能作为素材库，不能直接作为公司生产 Skill」。顶部连续证据带：111 个文件、110 个 Markdown、10 个厂商目录、台达仅 3 个文件、AS228T 专属内容 0。中部左侧表现“网络通用包：宽而杂”，多个厂商分支和冲突规则；右侧表现“公司专精 Skill：窄而深”，聚焦 AS228T。中间三段转换动作：保留（结构、模板、检查表）、删除（无关厂商和冲突规则）、重写（AS228T、ISPSoft、公司标准）。铜橙风险注释：台达主体偏 DVP；ST 风格面向三菱 FX3U/GX Works2；缺少公司地址、命名、程序框架。底部 SO WHAT。
+
+SLIDE 07
+收束页，结论标题「将网络 PLC Skill 改写为只服务台达 AS228T 的公司专精 Skill」。主画面为一条清晰单一流水线：网络 Skill → 裁剪/重写 → 注入公司规则 → AS228T 三件套 → 真实工程验收 → 发布至 SMB。三件套显著展开为工程文档：全局变量、局部变量、ST 程序；公司规则包含地址分配、变量命名、程序框架、报警/互锁/复位；质量检查包含地址冲突、命名、变量引用、输出单写、回归测试。右侧或底部为三项老板支持请求：指定 PLC Owner 与验收人；提供公司规则和 AS228T/ISPSoft 工程样例；批准 SMB 权限与版本管理方式。最终深蓝结论条「先把一个 PLC Skill 做深做实，再复制到其他四类 Skill」。不设置谢谢。

@@ -1,0 +1,21 @@
+# Windows 可攜式包交付 Checklist
+
+- [ ] `MechanicalQuotation.exe` 可啟動 UI
+- [ ] `MechanicalQuotation.exe` Authenticode 狀態為 Valid，啟動後未被端點防護隔離
+- [ ] 桌面 UI 未啟動 FastAPI 時仍可獨立完成報價與匯出
+- [ ] 僅在需要外部 API 對接時執行 `start_api.bat`，其後 `/api/v1/health` 與 `/docs` 可用
+- [ ] `stop_api.bat` 只終止 PID 檔記錄的本包 API
+- [ ] `run_self_check.bat` 全部通過
+- [ ] `run_demo_smoke.bat` 產生中文 HTML 與 Excel
+- [ ] `data/current-version-pointer.json` 指向 v1.1 Published snapshot
+- [ ] Pricebook SHA256 驗證通過
+- [ ] `runtime/secrets/deepseek_api_key.txt` 交付時為空白
+- [ ] Key 未出現在 EXE、設定、manifest、報告或 Git
+- [ ] ODA File Converter 未被打包
+- [ ] 中望 CAD 未被打包
+- [ ] `config/user_settings.json` 僅保存外部 converter 路徑
+- [ ] LocalAppData administrative image 或設定檔中的 ODA 路徑可被偵測
+- [ ] 一組真實 DWG + 配對 PDF 在可攜包內完成轉檔、PDF 文字抽取與報價
+- [ ] 無 Key 時非 AI 功能仍可用
+- [ ] 有 Key 時 AI health 與一次結構化建議可用
+- [ ] 中文及含空格路徑已驗證

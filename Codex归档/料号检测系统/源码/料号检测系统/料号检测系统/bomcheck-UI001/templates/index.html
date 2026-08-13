@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card">
+    <h2>BOM 执行</h2>
+    {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+    <form action="/execute" method="post" enctype="multipart/form-data" class="form-grid">
+        <label for="file">选择 Excel 文件 (.xlsx/.xlsm)</label>
+        <input type="file" id="file" name="file" accept=".xlsx,.xlsm" required>
+        <button type="submit">开始执行</button>
+    </form>
+    <p class="note">上传后将后台处理，完成后可在任务页下载。</p>
+</section>
+
+{% if last_job %}
+<section class="card">
+    <h3>最近任务</h3>
+    <p>ID: {{ last_job.job_id }}</p>
+    <p>状态: <span class="{{ 'status-ok' if last_job.ok else 'status-ng' if last_job.ok is not none else '' }}">{{ last_job.status }}</span></p>
+    <p>摘要:<br><pre class="{{ 'missing-highlight' if last_job.ok is sameas false else '' }}">{{ last_job.message }}</pre></p>
+    <a class="button" href="/jobs/{{ last_job.job_id }}">查看详情</a>
+</section>
+{% endif %}
+{% endblock %}

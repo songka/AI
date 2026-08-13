@@ -1,0 +1,63 @@
+{
+  "auto_reject": [
+    {
+      "name": "料号描述含简体字或为空",
+      "conditions": [
+        {"field": "描述", "op": "has_cn", "value": ""},
+        {"field": "描述", "op": "is_empty", "value": ""}
+      ],
+      "logic": "OR"
+    },
+    {
+      "name": "半成品;軟體: 单位不是ST",
+      "conditions": [
+        {"field": "描述", "op": "starts_with", "value": "半成品;軟體"},
+        {"field": "单位", "op": "not_equals", "value": "ST"}
+      ],
+      "logic": "AND"
+    },
+    {
+      "name": "半成品;軟體: 类别不是PH",
+      "conditions": [
+        {"field": "描述", "op": "starts_with", "value": "半成品;軟體"},
+        {"field": "类别", "op": "not_equals", "value": "PH"}
+      ],
+      "logic": "AND"
+    },
+    {
+      "name": "半成品;軟體: 无R版本号",
+      "conditions": [
+        {"field": "描述", "op": "starts_with", "value": "半成品;軟體"},
+        {"field": "描述", "op": "not_regex", "value": "R\\d{3}"}
+      ],
+      "logic": "AND"
+    },
+    {
+      "name": "原材料;電控外購件: 单位不是M或EA",
+      "conditions": [
+        {"field": "描述", "op": "starts_with", "value": "原材料;電控外購件"},
+        {"field": "单位", "op": "not_in_list", "value": "M,EA"}
+      ],
+      "logic": "AND"
+    },
+    {
+      "name": "原材料;電控外購件: 类别不是P",
+      "conditions": [
+        {"field": "描述", "op": "starts_with", "value": "原材料;電控外購件"},
+        {"field": "类别", "op": "not_equals", "value": "P"}
+      ],
+      "logic": "AND"
+    }
+  ],
+  "auto_approve": [
+    {
+      "name": "content_whitelist开头+白名单申请人",
+      "conditions": [
+        {"field": "描述", "op": "starts_with_content_wl", "value": ""},
+        {"field": "申请人", "op": "in_whitelist", "value": ""}
+      ],
+      "logic": "AND"
+    }
+  ],
+  "notify": []
+}

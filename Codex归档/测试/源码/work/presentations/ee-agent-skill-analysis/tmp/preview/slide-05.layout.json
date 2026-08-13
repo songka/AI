@@ -1,0 +1,1128 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/o1wbmj",
+    "id": "o1wbmj",
+    "slide": 5,
+    "layoutId": "1c2afb87-1046-4198-8aa3-6296b2fd6762",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "6e17edf2-09c6-44f7-b748-5230c6e8f5ba",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Consolas",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "1c2afb87-1046-4198-8aa3-6296b2fd6762",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "6e17edf2-09c6-44f7-b748-5230c6e8f5ba",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "6e17edf2-09c6-44f7-b748-5230c6e8f5ba",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "1",
+      "bbox": [
+        42,
+        36,
+        420,
+        30
+      ],
+      "geometry": "rect",
+      "text": "EE-AI-Toolkit 是工具库型 skill",
+      "textPreview": "EE-AI-Toolkit 是工具库型 skill",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "EE-AI-Toolkit 是工具库型 skill"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "EE-AI-Toolkit 是工具库型 skill",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "EE-AI-Toolkit 是工具库型 skill",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidonyd0",
+      "id": "2",
+      "bbox": [
+        42,
+        80,
+        900,
+        88
+      ],
+      "geometry": "rect",
+      "text": "它把课程资料、提示词库和 100 个 Python 示例脚本打包",
+      "textPreview": "它把课程资料、提示词库和 100 个 Python 示例脚本打包",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "Microsoft YaHei",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "它把课程资料、提示词库和 100 个 Python"
+          },
+          {
+            "index": 2,
+            "text": "示例脚本打包"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "它把课程资料、提示词库和 100 个 Python 示例脚本打包",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "它把课程资料、提示词库和 100 个 Python 示例脚本打包",
+              "fontSize": 44,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1gvy90j",
+      "id": "3",
+      "bbox": [
+        42,
+        214,
+        1196,
+        1.5
+      ],
+      "geometry": "rect",
+      "fillColor": "#B8BCC4",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "4",
+      "bbox": [
+        52,
+        250,
+        552,
+        350
+      ],
+      "geometry": "rect",
+      "text": "EE-AI-Toolkit/\n├─ SKILL.md\n├─ references/\n│  ├─ course-index.md\n│  ├─ condensed-lessons.md\n│  ├─ prompt-library.md\n│  ├─ python-script-catalog.md\n│  └─ source-digest.md\n├─ assets/python-scripts/\n│  ├─ script_001_power_calculator.py\n│  ├─ ...\n│  └─ script_100_engineering_decision_support_system.py\n└─ scripts/search_ee_ai.py",
+      "textPreview": "EE-AI-Toolkit/ | ├─ SKILL.md | ├─ references/ | │  ├─ course-index.md | │  ├─ condensed-lessons.md | │  ├─ prompt-library.md | │  ├─ pyth...",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Consolas",
+        "color": "#F6F6F6",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 13,
+        "lines": [
+          {
+            "index": 1,
+            "text": "EE-AI-Toolkit/"
+          },
+          {
+            "index": 2,
+            "text": "├─ SKILL.md"
+          },
+          {
+            "index": 3,
+            "text": "├─ references/"
+          },
+          {
+            "index": 4,
+            "text": "│  ├─ course-index.md"
+          },
+          {
+            "index": 5,
+            "text": "│  ├─ condensed-lessons.md"
+          },
+          {
+            "index": 6,
+            "text": "│  ├─ prompt-library.md"
+          },
+          {
+            "index": 7,
+            "text": "│  ├─ python-script-catalog.md"
+          },
+          {
+            "index": 8,
+            "text": "│  └─ source-digest.md"
+          },
+          {
+            "index": 9,
+            "text": "├─ assets/python-scripts/"
+          },
+          {
+            "index": 10,
+            "text": "│  ├─ script_001_power_calculator.py"
+          },
+          {
+            "index": 11,
+            "text": "│  ├─ ..."
+          },
+          {
+            "index": 12,
+            "text": "│  └─ script_100_engineering_decision_support_system.py"
+          },
+          {
+            "index": 13,
+            "text": "└─ scripts/search_ee_ai.py"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "EE-AI-Toolkit/",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F6F6F6"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "EE-AI-Toolkit/",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F6F6F6"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "├─ SKILL.md",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F6F6F6"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "├─ SKILL.md",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F6F6F6"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "├─ references/",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F6F6F6"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "├─ references/",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F6F6F6"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "│  ├─ course-index.md",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F6F6F6"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  ├─ course-index.md",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F6F6F6"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "│  ├─ condensed-lessons.md",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F6F6F6"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  ├─ condensed-lessons.md",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F6F6F6"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "│  ├─ prompt-library.md",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F6F6F6"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  ├─ prompt-library.md",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F6F6F6"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "│  ├─ python-script-catalog.md",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F6F6F6"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  ├─ python-script-catalog.md",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F6F6F6"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "│  └─ source-digest.md",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F6F6F6"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  └─ source-digest.md",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F6F6F6"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "├─ assets/python-scripts/",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F6F6F6"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "├─ assets/python-scripts/",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F6F6F6"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 10,
+          "text": "│  ├─ script_001_power_calculator.py",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F6F6F6"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  ├─ script_001_power_calculator.py",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F6F6F6"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 11,
+          "text": "│  ├─ ...",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F6F6F6"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  ├─ ...",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F6F6F6"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 12,
+          "text": "│  └─ script_100_engineering_decision_support_system.py",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F6F6F6"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  └─ script_100_engineering_decision_support_system.py",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F6F6F6"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 13,
+          "text": "└─ scripts/search_ee_ai.py",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Consolas",
+            "color": "#F6F6F6"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "└─ scripts/search_ee_ai.py",
+              "fontSize": 16,
+              "typeface": "Consolas",
+              "color": "#F6F6F6"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#151515",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "5",
+      "bbox": [
+        660,
+        248,
+        500,
+        104
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7F7F7",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za1gvy90",
+      "id": "6",
+      "bbox": [
+        678,
+        264,
+        464,
+        28
+      ],
+      "geometry": "rect",
+      "text": "适合回答什么",
+      "textPreview": "适合回答什么",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#1F6FEB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "适合回答什么"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "适合回答什么",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#1F6FEB",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "适合回答什么",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#1F6FEB",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4r65wj",
+      "id": "7",
+      "bbox": [
+        678,
+        302,
+        464,
+        40
+      ],
+      "geometry": "rect",
+      "text": "电气工程 AI、提示工程、电力系统、智能电网、电气计算、设计自动化、数据可视化、优化、职业工具包。",
+      "textPreview": "电气工程 AI、提示工程、电力系统、智能电网、电气计算、设计自动化、数据可视化、优化、职业工具包。",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "电气工程"
+          },
+          {
+            "index": 2,
+            "text": "AI、提示工程、电力系统、智能电网、电气计算、设计自动化、数据可"
+          },
+          {
+            "index": 3,
+            "text": "视化、优化、职业工具包。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "电气工程 AI、提示工程、电力系统、智能电网、电气计算、设计自动化、数据可视化、优化、职业工具包。",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "电气工程 AI、提示工程、电力系统、智能电网、电气计算、设计自动化、数据可视化、优化、职业工具包。",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "8",
+      "bbox": [
+        660,
+        370,
+        500,
+        116
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7F7F7",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "9",
+      "bbox": [
+        678,
+        386,
+        464,
+        28
+      ],
+      "geometry": "rect",
+      "text": "关键机制",
+      "textPreview": "关键机制",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#1F6FEB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "关键机制"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "关键机制",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#1F6FEB",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "关键机制",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#1F6FEB",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qh0fepkz",
+      "id": "10",
+      "bbox": [
+        678,
+        424,
+        464,
+        52
+      ],
+      "geometry": "rect",
+      "text": "先按问题类型读最小资料；资料大时用 search_ee_ai.py 检索；需要代码时优先复用 assets/python-scripts 中最接近的脚本。",
+      "textPreview": "先按问题类型读最小资料；资料大时用 search_ee_ai.py 检索；需要代码时优先复用 assets/python-scripts 中最接近的脚本。",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "先按问题类型读最小资料；资料大时用 search_ee_ai.py"
+          },
+          {
+            "index": 2,
+            "text": "检索；需要代码时优先复用 assets/python-scripts 中最接近的脚本。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "先按问题类型读最小资料；资料大时用 search_ee_ai.py 检索；需要代码时优先复用 assets/python-scripts 中最接近的脚本。",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "先按问题类型读最小资料；资料大时用 search_ee_ai.py 检索；需要代码时优先复用 assets/python-scripts 中最接近的脚本。",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2t83itg",
+      "id": "11",
+      "bbox": [
+        660,
+        504,
+        500,
+        112
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7F7F7",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nqxs72x",
+      "id": "12",
+      "bbox": [
+        678,
+        520,
+        464,
+        28
+      ],
+      "geometry": "rect",
+      "text": "安全约束",
+      "textPreview": "安全约束",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#C2410C",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "安全约束"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "安全约束",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#C2410C",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "安全约束",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#C2410C",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18jqh0fe",
+      "id": "13",
+      "bbox": [
+        678,
+        558,
+        464,
+        48
+      ],
+      "geometry": "rect",
+      "text": "工程计算必须说明单位、假设、公式、验证方法；安全或合规相关结果只能作为草案，需标准、仿真、现场数据和资质审查验证。",
+      "textPreview": "工程计算必须说明单位、假设、公式、验证方法；安全或合规相关结果只能作为草案，需标准、仿真、现场数据和资质审查验证。",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "工程计算必须说明单位、假设、公式、验证方法；安全或合规相关结果"
+          },
+          {
+            "index": 2,
+            "text": "只能作为草案，需标准、仿真、现场数据和资质审查验证。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "工程计算必须说明单位、假设、公式、验证方法；安全或合规相关结果只能作为草案，需标准、仿真、现场数据和资质审查验证。",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "工程计算必须说明单位、假设、公式、验证方法；安全或合规相关结果只能作为草案，需标准、仿真、现场数据和资质审查验证。",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5o7qpg3",
+      "id": "14",
+      "bbox": [
+        42,
+        666,
+        620,
+        24
+      ],
+      "geometry": "rect",
+      "text": "电气工程师 Agent Skill 分析与提问方法",
+      "textPreview": "电气工程师 Agent Skill 分析与提问方法",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "电气工程师 Agent Skill 分析与提问方法"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "电气工程师 Agent Skill 分析与提问方法",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "电气工程师 Agent Skill 分析与提问方法",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqh0fepk",
+      "id": "15",
+      "bbox": [
+        1185,
+        660,
+        52,
+        28
+      ],
+      "geometry": "rect",
+      "text": "05",
+      "textPreview": "05",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "05",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

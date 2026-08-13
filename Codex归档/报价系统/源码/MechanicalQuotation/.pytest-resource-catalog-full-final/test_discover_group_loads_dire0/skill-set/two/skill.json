@@ -1,0 +1,1 @@
+{"skill_id": "sample.two", "skill_name_zh": "\u793a\u4f8btwo", "skill_version": "1.0.0", "protocol_version": "1.0", "supported_steps": ["MATERIAL_CLASSIFICATION"], "supports_full_quotation": false, "instruction_file": "SKILL.md"}

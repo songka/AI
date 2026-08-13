@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h2>{{ title }}</h2>
+    <form method="post" class="form-grid">
+        <textarea name="content" rows="12" style="width:100%; padding:8px; border:1px solid var(--border); border-radius:4px;">{{ content }}</textarea>
+        <button type="submit">保存</button>
+    </form>
+</div>
+{% endblock %}

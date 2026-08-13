@@ -1,0 +1,61 @@
+{
+  "slides": [
+    {
+      "slide": 1,
+      "blueprint_render_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage2\\blueprints\\slide-01.png",
+      "ppt_render_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\renders\\slide-01.png",
+      "side_by_side_comparison_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-side-by-side.png",
+      "component_signature_check_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-component-signature-check.json",
+      "visual_element_registry_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-visual-registry-measured.json",
+      "bbox_delta_report_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+      "overlay_comparison_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-overlay.png",
+      "pixel_diff_report_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+      "local_crop_comparisons": [
+        {
+          "path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-title-comparison.png"
+        },
+        {
+          "path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-visual-comparison.png"
+        },
+        {
+          "path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-footer-comparison.png"
+        }
+      ],
+      "local_overlay_artifacts": [
+        "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-overlay.png"
+      ],
+      "measurement_evidence_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-visual-registry-measured.json",
+      "spatial_numeric_check_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+      "visual_differences": [],
+      "evidence": {
+        "surface_system_match": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+        "main_chart_semantics_match": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+        "visual_semantics_preserved": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+        "editable_information_layer_pass": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+        "spatial_registration_pass": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+        "curve_fidelity_pass": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+        "label_collision_pass": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+        "text_overflow_pass": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+        "container_overflow_pass": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+        "continuous_text_flow_pass": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+        "table_semantic_typography_pass": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+        "table_density_pass": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json",
+        "blueprint_background_not_used": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-pixel-diff.json"
+      },
+      "deliverable_allowed": true,
+      "surface_system_match": true,
+      "main_chart_semantics_match": true,
+      "visual_semantics_preserved": true,
+      "editable_information_layer_pass": true,
+      "spatial_registration_pass": true,
+      "curve_fidelity_pass": true,
+      "label_collision_pass": true,
+      "text_overflow_pass": true,
+      "container_overflow_pass": true,
+      "continuous_text_flow_pass": true,
+      "table_semantic_typography_pass": true,
+      "table_density_pass": true,
+      "blueprint_background_not_used": true
+    }
+  ]
+}

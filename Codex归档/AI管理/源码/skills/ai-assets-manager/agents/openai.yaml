@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Assets Manager"
+  short_description: "统一管理 Skill、CLI 与 Agent 版本"
+  default_prompt: "Use $ai-assets-manager to manage, update, and publish shared AI assets safely."

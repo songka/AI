@@ -1,0 +1,2659 @@
+{
+  "audit_version": "GCS-PRICE-AUDIT-V1.0",
+  "generated_at": "2026-08-03T07:34:59.998974+00:00",
+  "bom_path": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\runtime\\price-audit\\source\\GCS-双滑台打磨设备-BOM.xlsx",
+  "drawings_root": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D",
+  "summary": {
+    "machining_rows": 82,
+    "unique_items": 66,
+    "items_with_drawings": 51,
+    "items_without_drawings": 15,
+    "duplicate_price_conflicts": 0,
+    "actual_extended_total": 20094.0,
+    "accuracy": {
+      "comparable_cases": 51,
+      "wape_pct": 83.18,
+      "mae_cny": 251.91,
+      "median_absolute_deviation_cny": 107.87,
+      "mean_ape_pct": 172.91,
+      "buckets": {
+        "<=10%": 1,
+        "10-20%": 2,
+        "20-30%": 2,
+        ">30%": 46
+      }
+    }
+  },
+  "conflicts": [],
+  "cases": [
+    {
+      "source_row": 53,
+      "level": "2",
+      "item": "UC1000005854",
+      "description": "原材料;加工件;S50C;J003;928*796*15;表面鍍鉻 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 1425.0,
+      "historical_extended": 1425.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1000005854-J003.DWG",
+      "system_price": 1046.42,
+      "status": "COMPLETE",
+      "absolute_error": 378.58,
+      "deviation_pct": -26.57,
+      "source_summary": {
+        "C": 1046.4199999999998
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "S50C 材料費",
+          "amount": 74.8,
+          "source": "C",
+          "evidence": "weight_kg=7.123818637837446430226873987, unit_price=10.0, loss_rate=0.05, area_mm2=143122.8272333319118715809437, thickness_mm=6.340657445420662, volume_mm3=907492.8201066810739142514633, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 74.80 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 936.0,
+          "source": "C",
+          "evidence": "hours=11.700000000000001, rate=80.0 -> hours × rate = 936.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面鍍鉻；",
+          "amount": 35.62,
+          "source": "C",
+          "evidence": "weight_kg=7.123818637837446430226873987, unit_price=5.0 -> weight_kg x unit_price = 35.62 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 54,
+      "level": "2",
+      "item": "UC1000005855",
+      "description": "原材料;加工件;S50C;J005;1400*250*15;表面鍍鉻 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 712.0,
+      "historical_extended": 712.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1000005855-J005.DWG",
+      "system_price": 323.9,
+      "status": "COMPLETE",
+      "absolute_error": 388.1,
+      "deviation_pct": -54.51,
+      "source_summary": {
+        "C": 323.9
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "S50C 材料費",
+          "amount": 35.16,
+          "source": "C",
+          "evidence": "weight_kg=3.348717639053052798641923691, unit_price=10.0, loss_rate=0.05, area_mm2=89436.87285505893013083437260, thickness_mm=4.769713213985037, volume_mm3=426588.2342742742418652132091, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 35.16 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 272.0,
+          "source": "C",
+          "evidence": "hours=3.4000000000000004, rate=80.0 -> hours × rate = 272.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面鍍鉻；",
+          "amount": 16.74,
+          "source": "C",
+          "evidence": "weight_kg=3.348717639053052798641923691, unit_price=5.0 -> weight_kg x unit_price = 16.74 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 55,
+      "level": "2",
+      "item": "UC1000005856",
+      "description": "原材料;加工件;S50C;J006;798*530*15;表面鍍鉻 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 874.0,
+      "historical_extended": 874.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1000005856-J006.DWG",
+      "system_price": 471.24,
+      "status": "COMPLETE",
+      "absolute_error": 402.76,
+      "deviation_pct": -46.08,
+      "source_summary": {
+        "C": 471.24
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "S50C 材料費",
+          "amount": 37.42,
+          "source": "C",
+          "evidence": "weight_kg=3.564085050085849826945910826, unit_price=10.0, loss_rate=0.05, area_mm2=92268.05598117279066614564083, thickness_mm=4.920701627787487, volume_mm3=454023.5732593439269994790861, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 37.42 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 416.0,
+          "source": "C",
+          "evidence": "hours=5.2, rate=80.0 -> hours × rate = 416.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面鍍鉻；",
+          "amount": 17.82,
+          "source": "C",
+          "evidence": "weight_kg=3.564085050085849826945910826, unit_price=5.0 -> weight_kg x unit_price = 17.82 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 56,
+      "level": "2",
+      "item": "UC1000005857",
+      "description": "原材料;加工件;S50C;J007;1400*250*15;表面鍍鉻 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 693.0,
+      "historical_extended": 693.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1000005857-J007.DWG",
+      "system_price": 350.06,
+      "status": "COMPLETE",
+      "absolute_error": 342.94,
+      "deviation_pct": -49.49,
+      "source_summary": {
+        "C": 350.06
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "S50C 材料費",
+          "amount": 31.2,
+          "source": "C",
+          "evidence": "weight_kg=2.97169625619856382941135716, unit_price=10.0, loss_rate=0.05, area_mm2=84251.87009647057422896511785, thickness_mm=4.493194420530947, volume_mm3=378560.0326367597234918926319, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 31.20 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 304.0,
+          "source": "C",
+          "evidence": "hours=3.8000000000000003, rate=80.0 -> hours × rate = 304.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面鍍鉻；",
+          "amount": 14.86,
+          "source": "C",
+          "evidence": "weight_kg=2.97169625619856382941135716, unit_price=5.0 -> weight_kg x unit_price = 14.86 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 190,
+      "level": "2",
+      "item": "UC1000006481",
+      "description": "原材料;加工件;S50C;A023;50*28*17;表面鍍鉻 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 114.0,
+      "historical_extended": 114.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1000006481-A023.DWG",
+      "system_price": 49.36,
+      "status": "COMPLETE",
+      "absolute_error": 64.64,
+      "deviation_pct": -56.7,
+      "source_summary": {
+        "C": 49.36
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "S50C 材料費",
+          "amount": 33.44,
+          "source": "C",
+          "evidence": "weight_kg=3.18440035531598664704807108, unit_price=10.0, loss_rate=0.05, area_mm2=87214.99751484845258087790193, thickness_mm=4.6512194895096295, volume_mm3=405656.0962185970251016651057, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 33.44 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面鍍鉻；",
+          "amount": 15.92,
+          "source": "C",
+          "evidence": "weight_kg=3.18440035531598664704807108, unit_price=5.0 -> weight_kg x unit_price = 15.92 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 191,
+      "level": "2",
+      "item": "UC1000006484",
+      "description": "原材料;加工件;S50C;A022;58*23*15.5;表面鍍鉻 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 109.0,
+      "historical_extended": 109.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1000006484-A022.DWG",
+      "system_price": 48.6,
+      "status": "COMPLETE",
+      "absolute_error": 60.4,
+      "deviation_pct": -55.41,
+      "source_summary": {
+        "C": 48.6
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "S50C 材料費",
+          "amount": 32.92,
+          "source": "C",
+          "evidence": "weight_kg=3.13552459692464261004560201, unit_price=10.0, loss_rate=0.05, area_mm2=86543.09983926891877928388640, thickness_mm=4.615386850024893, volume_mm3=399429.8849585531987319238229, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 32.92 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面鍍鉻；",
+          "amount": 15.68,
+          "source": "C",
+          "evidence": "weight_kg=3.13552459692464261004560201, unit_price=5.0 -> weight_kg x unit_price = 15.68 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 192,
+      "level": "2",
+      "item": "UC1000006488",
+      "description": "原材料;加工件;S50C;GCS-打磨設備（HSC07）滑軌追加工（附圖） Subassembly",
+      "uom": "EA",
+      "quantity": 2.0,
+      "historical_price": 104.0,
+      "historical_extended": 208.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 193,
+      "level": "2",
+      "item": "UC1000006493",
+      "description": "原材料;加工件;S50C;A007;63*34*26;表面鍍鉻 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 95.0,
+      "historical_extended": 95.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1000006493-A007.DWG",
+      "system_price": 108.15,
+      "status": "COMPLETE",
+      "absolute_error": 13.15,
+      "deviation_pct": 13.84,
+      "source_summary": {
+        "C": 108.15
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "S50C 材料費",
+          "amount": 35.33,
+          "source": "C",
+          "evidence": "weight_kg=3.364511143123846341946337148, unit_price=10.0, loss_rate=0.05, area_mm2=89647.52962282881683548101741, thickness_mm=4.7809476448944865, volume_mm3=428600.1456208721454708709743, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 35.33 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 56.0,
+          "source": "C",
+          "evidence": "hours=0.7, rate=80.0 -> hours × rate = 56.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面鍍鉻；",
+          "amount": 16.82,
+          "source": "C",
+          "evidence": "weight_kg=3.364511143123846341946337148, unit_price=5.0 -> weight_kg x unit_price = 16.82 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 194,
+      "level": "2",
+      "item": "UC1000006494",
+      "description": "原材料;加工件;S50C;A006;100*50*29;表面鍍鉻 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 118.0,
+      "historical_extended": 118.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1000006494-A006.DWG",
+      "system_price": 146.57,
+      "status": "COMPLETE",
+      "absolute_error": 28.57,
+      "deviation_pct": 24.21,
+      "source_summary": {
+        "C": 146.57
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "S50C 材料費",
+          "amount": 34.26,
+          "source": "C",
+          "evidence": "weight_kg=3.262870015690968215717477885, unit_price=10.0, loss_rate=0.05, area_mm2=88283.02939565144025064395771, thickness_mm=4.708178164519197, volume_mm3=415652.2312982125115563666095, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 34.26 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 96.0,
+          "source": "C",
+          "evidence": "hours=1.2000000000000002, rate=80.0 -> hours × rate = 96.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面鍍鉻；",
+          "amount": 16.31,
+          "source": "C",
+          "evidence": "weight_kg=3.262870015690968215717477885, unit_price=5.0 -> weight_kg x unit_price = 16.31 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 26,
+      "level": "2",
+      "item": "UC1002000231",
+      "description": "原材料;加工件;A6061-T6;R013C,Ø72*65;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 92.0,
+      "historical_extended": 92.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 27,
+      "level": "2",
+      "item": "UC1002004015",
+      "description": "原材料;加工件;A6061-T6;R001-1;60*60*30;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 93.0,
+      "historical_extended": 93.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 57,
+      "level": "2",
+      "item": "UC1002006858",
+      "description": "原材料;加工件;A6061-T6;J026；92*20*92;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 2.0,
+      "historical_price": 71.0,
+      "historical_extended": 142.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1002006858_J026.DWG",
+      "system_price": 74.9,
+      "status": "COMPLETE",
+      "absolute_error": 3.9,
+      "deviation_pct": 5.49,
+      "source_summary": {
+        "C": 74.9
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SPCC 材料費",
+          "amount": 2.0,
+          "source": "C",
+          "evidence": "weight_kg=0.2116773875257028112534977349, unit_price=9.0, loss_rate=0.05, area_mm2=17976.84819751191603002103905, thickness_mm=1.5, volume_mm3=26965.27229626787404503155858, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 2.00 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 72.0,
+          "source": "C",
+          "evidence": "hours=0.9, rate=80.0 -> hours × rate = 72.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "4.表面烤漆，RAL9003細橘紋白；",
+          "amount": 0.9,
+          "source": "C",
+          "evidence": "surface_area_m2=0.035953696395023835, unit_price=25.0 -> surface_area_m2 x unit_price = 0.90 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 28,
+      "level": "2",
+      "item": "UC1002009711",
+      "description": "原材料;加工件;A6061-T6;R001;φ250*15;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 209.0,
+      "historical_extended": 209.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機頭;打磨類;GCS-HSC07打磨設備-機頭模組\\UC1002009711-R001.DWG",
+      "system_price": 911.6,
+      "status": "COMPLETE",
+      "absolute_error": 702.6,
+      "deviation_pct": 336.17,
+      "source_summary": {
+        "C": 911.6
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 82.63,
+          "source": "C",
+          "evidence": "weight_kg=2.248347507318573606529474223, unit_price=35.0, loss_rate=0.05, area_mm2=136344.5443896724910736589270, thickness_mm=6.107477953991052, volume_mm3=832721.2990068791135294348973, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 82.63 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 784.0,
+          "source": "C",
+          "evidence": "hours=9.8, rate=80.0 -> hours × rate = 784.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色;",
+          "amount": 44.97,
+          "source": "C",
+          "evidence": "weight_kg=2.248347507318573606529474223, unit_price=20.0 -> weight_kg x unit_price = 44.97 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 29,
+      "level": "2",
+      "item": "UC1002009712",
+      "description": "原材料;加工件;A6061-T6;R002;60*70*20;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 2.0,
+      "historical_price": 61.0,
+      "historical_extended": 122.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機頭;打磨類;GCS-HSC07打磨設備-機頭模組\\UC1002009712-R002.DWG",
+      "system_price": 167.42,
+      "status": "COMPLETE",
+      "absolute_error": 106.42,
+      "deviation_pct": 174.46,
+      "source_summary": {
+        "C": 167.42000000000002
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 51.43,
+          "source": "C",
+          "evidence": "weight_kg=1.399470736339579025042994573, unit_price=35.0, loss_rate=0.05, area_mm2=98585.30808641835767814503563, thickness_mm=5.257603845861407, volume_mm3=518322.4949405848240899979900, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 51.43 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 88.0,
+          "source": "C",
+          "evidence": "hours=1.1, rate=80.0 -> hours × rate = 88.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色;",
+          "amount": 27.99,
+          "source": "C",
+          "evidence": "weight_kg=1.399470736339579025042994573, unit_price=20.0 -> weight_kg x unit_price = 27.99 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 30,
+      "level": "2",
+      "item": "UC1002009713",
+      "description": "原材料;加工件;A6061-T6;R003;60*30*10;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 3.0,
+      "historical_price": 38.0,
+      "historical_extended": 114.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機頭;打磨類;GCS-HSC07打磨設備-機頭模組\\UC1002009713-R003.DWG",
+      "system_price": 112.74,
+      "status": "COMPLETE",
+      "absolute_error": 74.74,
+      "deviation_pct": 196.68,
+      "source_summary": {
+        "C": 112.74000000000001
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 36.74,
+          "source": "C",
+          "evidence": "weight_kg=0.9997611383538188881704815482, unit_price=35.0, loss_rate=0.05, area_mm2=83325.59295767872685491452717, thickness_mm=4.443795596895111, volume_mm3=370281.9030940069956186968697, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 36.74 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 56.0,
+          "source": "C",
+          "evidence": "hours=0.7, rate=80.0 -> hours × rate = 56.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色;",
+          "amount": 20.0,
+          "source": "C",
+          "evidence": "weight_kg=0.9997611383538188881704815482, unit_price=20.0 -> weight_kg x unit_price = 20.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 31,
+      "level": "2",
+      "item": "UC1002009718",
+      "description": "原材料;加工件;A6061-T6;R004;40*16*13;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 66.0,
+      "historical_extended": 66.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機頭;打磨類;GCS-HSC07打磨設備-機頭模組\\UC1002009718-R004.DWG",
+      "system_price": 167.42,
+      "status": "COMPLETE",
+      "absolute_error": 101.42,
+      "deviation_pct": 153.67,
+      "source_summary": {
+        "C": 167.42000000000002
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 51.43,
+          "source": "C",
+          "evidence": "weight_kg=1.399470736339579025042994573, unit_price=35.0, loss_rate=0.05, area_mm2=98585.30808641835767814503563, thickness_mm=5.257603845861407, volume_mm3=518322.4949405848240899979900, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 51.43 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 88.0,
+          "source": "C",
+          "evidence": "hours=1.1, rate=80.0 -> hours × rate = 88.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色;",
+          "amount": 27.99,
+          "source": "C",
+          "evidence": "weight_kg=1.399470736339579025042994573, unit_price=20.0 -> weight_kg x unit_price = 27.99 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 172,
+      "level": "2",
+      "item": "UC1002009781",
+      "description": "原材料;加工件;A6061-T6;X001;220*200*15;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 175.0,
+      "historical_extended": 350.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;運輸;滑台;GCS-HSC07打磨設備-滑台旋轉模組\\旋轉平台-左\\UC1002009781-X001.DWG",
+      "system_price": 424.17,
+      "status": "COMPLETE",
+      "absolute_error": 249.17,
+      "deviation_pct": 142.38,
+      "source_summary": {
+        "C": 424.17
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 51.92,
+          "source": "C",
+          "evidence": "weight_kg=1.412676343270346402942638146, unit_price=35.0, loss_rate=0.05, area_mm2=99049.34853408319426402691994, thickness_mm=5.282351355299013, volume_mm3=523213.4604704986677565326465, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 51.92 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 344.0,
+          "source": "C",
+          "evidence": "hours=4.300000000000001, rate=80.0 -> hours × rate = 344.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色;",
+          "amount": 28.25,
+          "source": "C",
+          "evidence": "weight_kg=1.412676343270346402942638146, unit_price=20.0 -> weight_kg x unit_price = 28.25 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 195,
+      "level": "2",
+      "item": "UC1002011369",
+      "description": "原材料;加工件;A6061-T6;A001-L;220*113*14;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 175.0,
+      "historical_extended": 175.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1002011369-A001-L.DWG",
+      "system_price": 341.4,
+      "status": "COMPLETE",
+      "absolute_error": 166.4,
+      "deviation_pct": 95.09,
+      "source_summary": {
+        "C": 341.4
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 39.76,
+          "source": "C",
+          "evidence": "weight_kg=1.08180101944899978345972207, unit_price=35.0, loss_rate=0.05, area_mm2=86677.02174390814132125456161, thickness_mm=4.6225289722593645, volume_mm3=400667.0442403702901702674335, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 39.76 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 280.0,
+          "source": "C",
+          "evidence": "hours=3.5, rate=80.0 -> hours × rate = 280.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色;",
+          "amount": 21.64,
+          "source": "C",
+          "evidence": "weight_kg=1.08180101944899978345972207, unit_price=20.0 -> weight_kg x unit_price = 21.64 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 196,
+      "level": "2",
+      "item": "UC1002011370",
+      "description": "原材料;加工件;A6061-T6;A002-L;308.5*220*14;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 389.0,
+      "historical_extended": 389.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1002011370-A002-L.DWG",
+      "system_price": 597.43,
+      "status": "COMPLETE",
+      "absolute_error": 208.43,
+      "deviation_pct": 53.58,
+      "source_summary": {
+        "C": 597.4300000000001
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 44.96,
+          "source": "C",
+          "evidence": "weight_kg=1.223277992916085894151902377, unit_price=35.0, loss_rate=0.05, area_mm2=92170.69634183506852517234780, thickness_mm=4.915509389469735, volume_mm3=453065.9233022540348710749544, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 44.96 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 528.0,
+          "source": "C",
+          "evidence": "hours=6.6000000000000005, rate=80.0 -> hours × rate = 528.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色;",
+          "amount": 24.47,
+          "source": "C",
+          "evidence": "weight_kg=1.223277992916085894151902377, unit_price=20.0 -> weight_kg x unit_price = 24.47 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 197,
+      "level": "2",
+      "item": "UC1002011371",
+      "description": "原材料;加工件;A6061-T6;A003;266.5*79*15;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 2.0,
+      "historical_price": 171.0,
+      "historical_extended": 342.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011371-A003.DWG",
+      "system_price": 0.0,
+      "status": "COMPLETE",
+      "absolute_error": 171.0,
+      "deviation_pct": -100.0,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 198,
+      "level": "2",
+      "item": "UC1002011372",
+      "description": "原材料;加工件;A6061-T6;A004;86*28*15;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 66.0,
+      "historical_extended": 66.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011372-A004.DWG",
+      "system_price": 0.0,
+      "status": "COMPLETE",
+      "absolute_error": 66.0,
+      "deviation_pct": -100.0,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 199,
+      "level": "2",
+      "item": "UC1002011373",
+      "description": "原材料;加工件;A6061-T6;A005-L;143*120*10;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 147.0,
+      "historical_extended": 147.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1002011373-A005-L.DWG",
+      "system_price": 223.08,
+      "status": "COMPLETE",
+      "absolute_error": 76.08,
+      "deviation_pct": 51.76,
+      "source_summary": {
+        "C": 223.08
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 46.03,
+          "source": "C",
+          "evidence": "weight_kg=1.252531992359795348405390303, unit_price=35.0, loss_rate=0.05, area_mm2=93266.28988170728716052505019, thickness_mm=4.973937941558691, volume_mm3=463900.7379110353142242186306, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 46.03 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 152.0,
+          "source": "C",
+          "evidence": "hours=1.9000000000000001, rate=80.0 -> hours × rate = 152.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色;",
+          "amount": 25.05,
+          "source": "C",
+          "evidence": "weight_kg=1.252531992359795348405390303, unit_price=20.0 -> weight_kg x unit_price = 25.05 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 200,
+      "level": "2",
+      "item": "UC1002011376",
+      "description": "原材料;加工件;A6061-T6;A009;87*55*10;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 61.0,
+      "historical_extended": 61.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\下料搬运\\UC1002011376_A009-L.dwg",
+      "system_price": 186.83,
+      "status": "COMPLETE",
+      "absolute_error": 125.83,
+      "deviation_pct": 206.28,
+      "source_summary": {
+        "C": 186.83
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 43.28,
+          "source": "C",
+          "evidence": "weight_kg=1.177648580266283557354960585, unit_price=35.0, loss_rate=0.05, area_mm2=90435.33331997478681523786673, thickness_mm=4.822961610548149, volume_mm3=436166.1408393642805018372537, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 43.28 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 120.0,
+          "source": "C",
+          "evidence": "hours=1.5, rate=80.0 -> hours × rate = 120.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色;",
+          "amount": 23.55,
+          "source": "C",
+          "evidence": "weight_kg=1.177648580266283557354960585, unit_price=20.0 -> weight_kg x unit_price = 23.55 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 201,
+      "level": "2",
+      "item": "UC1002011377",
+      "description": "原材料;加工件;A6061-T6;A020;45*40*15;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1002011377_A020.DWG",
+      "system_price": 78.02,
+      "status": "COMPLETE",
+      "absolute_error": 40.02,
+      "deviation_pct": 105.32,
+      "source_summary": {
+        "C": 78.02000000000001
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 3.9,
+          "source": "C",
+          "evidence": "weight_kg=0.1059885581728640420853167617, unit_price=35.0, loss_rate=0.05, area_mm2=17284.98264788055164691846624, thickness_mm=2.2710477843793826, volume_mm3=39255.02154550520077233954136, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 3.90 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 72.0,
+          "source": "C",
+          "evidence": "hours=0.9, rate=80.0 -> hours × rate = 72.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色；",
+          "amount": 2.12,
+          "source": "C",
+          "evidence": "weight_kg=0.1059885581728640420853167617, unit_price=20.0 -> weight_kg x unit_price = 2.12 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 202,
+      "level": "2",
+      "item": "UC1002011378",
+      "description": "原材料;加工件;A6061-T6;B025-L;71*40*34.5;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 104.0,
+      "historical_extended": 104.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1002011378_B025.DWG",
+      "system_price": 154.57,
+      "status": "COMPLETE",
+      "absolute_error": 50.57,
+      "deviation_pct": 48.63,
+      "source_summary": {
+        "C": 154.57000000000002
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 43.11,
+          "source": "C",
+          "evidence": "weight_kg=1.172950833223706772771699427, unit_price=35.0, loss_rate=0.05, area_mm2=90254.77569965239709416617128, thickness_mm=4.813332382243923, volume_mm3=434426.2345272988047302590472, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 43.11 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 88.0,
+          "source": "C",
+          "evidence": "hours=1.1, rate=80.0 -> hours × rate = 88.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色；",
+          "amount": 23.46,
+          "source": "C",
+          "evidence": "weight_kg=1.172950833223706772771699427, unit_price=20.0 -> weight_kg x unit_price = 23.46 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 203,
+      "level": "2",
+      "item": "UC1002011379",
+      "description": "原材料;加工件;A6061-T6;B013-L;139*102.1*15;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 161.0,
+      "historical_extended": 161.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1002011379_-B013-L.DWG",
+      "system_price": 268.87,
+      "status": "COMPLETE",
+      "absolute_error": 107.87,
+      "deviation_pct": 67.0,
+      "source_summary": {
+        "C": 268.87
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 49.78,
+          "source": "C",
+          "evidence": "weight_kg=1.354595140141725736742617468, unit_price=35.0, loss_rate=0.05, area_mm2=96991.80549698454676238033662, thickness_mm=5.172621554836326, volume_mm3=501701.9037561947173120805436, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 49.78 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 192.0,
+          "source": "C",
+          "evidence": "hours=2.4000000000000004, rate=80.0 -> hours × rate = 192.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色；",
+          "amount": 27.09,
+          "source": "C",
+          "evidence": "weight_kg=1.354595140141725736742617468, unit_price=20.0 -> weight_kg x unit_price = 27.09 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 204,
+      "level": "2",
+      "item": "UC1002011380",
+      "description": "原材料;加工件;A6061-T6;B002-L;162.5*50*13.07;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 90.0,
+      "historical_extended": 90.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1002011380_B002-L.DWG",
+      "system_price": 145.23,
+      "status": "COMPLETE",
+      "absolute_error": 55.23,
+      "deviation_pct": 61.37,
+      "source_summary": {
+        "C": 145.23
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 47.42,
+          "source": "C",
+          "evidence": "weight_kg=1.290396513593986728635019148, unit_price=35.0, loss_rate=0.05, area_mm2=94665.53152353802343697544224, thickness_mm=5.048560198973862, volume_mm3=477924.6346644395291240811658, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 47.42 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 72.0,
+          "source": "C",
+          "evidence": "hours=0.9, rate=80.0 -> hours × rate = 72.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色；",
+          "amount": 25.81,
+          "source": "C",
+          "evidence": "weight_kg=1.290396513593986728635019148, unit_price=20.0 -> weight_kg x unit_price = 25.81 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 263,
+      "level": "2",
+      "item": "UC1002011381",
+      "description": "原材料;加工件;A6061-T6;A001-R;220*113*14;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 175.0,
+      "historical_extended": 175.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011381-A001-R.DWG",
+      "system_price": 347.24,
+      "status": "COMPLETE",
+      "absolute_error": 172.24,
+      "deviation_pct": 98.42,
+      "source_summary": {
+        "C": 347.24
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 43.54,
+          "source": "C",
+          "evidence": "weight_kg=1.184792983025205655922273775, unit_price=35.0, loss_rate=0.05, area_mm2=90709.23908805205076489279040, thickness_mm=4.837569142315299, volume_mm3=438812.2159352613540452865833, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 43.54 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 280.0,
+          "source": "C",
+          "evidence": "hours=3.5, rate=80.0 -> hours × rate = 280.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色;",
+          "amount": 23.7,
+          "source": "C",
+          "evidence": "weight_kg=1.184792983025205655922273775, unit_price=20.0 -> weight_kg x unit_price = 23.70 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 264,
+      "level": "2",
+      "item": "UC1002011382",
+      "description": "原材料;加工件;A6061-T6;A002-R;308.5*220*14;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 389.0,
+      "historical_extended": 389.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011382-A002-R.DWG",
+      "system_price": 695.87,
+      "status": "COMPLETE",
+      "absolute_error": 306.87,
+      "deviation_pct": 78.89,
+      "source_summary": {
+        "C": 695.87
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 93.17,
+          "source": "C",
+          "evidence": "weight_kg=2.535115383551297661124090296, unit_price=35.0, loss_rate=0.05, area_mm2=148978.5835283607570322346890, thickness_mm=6.302460402697916, volume_mm3=938931.6235375176522681815911, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 93.17 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 552.0,
+          "source": "C",
+          "evidence": "hours=6.9, rate=80.0 -> hours × rate = 552.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色；",
+          "amount": 50.7,
+          "source": "C",
+          "evidence": "weight_kg=2.535115383551297661124090296, unit_price=20.0 -> weight_kg x unit_price = 50.70 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 265,
+      "level": "2",
+      "item": "UC1002011383",
+      "description": "原材料;加工件;A6061-T6;A005-R;143*120*10;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 147.0,
+      "historical_extended": 147.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011383-A005-R.DWG",
+      "system_price": 277.51,
+      "status": "COMPLETE",
+      "absolute_error": 130.51,
+      "deviation_pct": 88.78,
+      "source_summary": {
+        "C": 277.51
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 81.28,
+          "source": "C",
+          "evidence": "weight_kg=2.211691604742599470202070767, unit_price=35.0, loss_rate=0.05, area_mm2=130403.2901792482325926442818, thickness_mm=6.2816286128025185, volume_mm3=819145.0387935553593341002840, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 81.28 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 152.0,
+          "source": "C",
+          "evidence": "hours=1.9000000000000001, rate=80.0 -> hours × rate = 152.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色；",
+          "amount": 44.23,
+          "source": "C",
+          "evidence": "weight_kg=2.211691604742599470202070767, unit_price=20.0 -> weight_kg x unit_price = 44.23 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 266,
+      "level": "2",
+      "item": "UC1002011387",
+      "description": "原材料;加工件;A6061-T6;B025-R;71*40*34.5;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 90.0,
+      "historical_extended": 90.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 267,
+      "level": "2",
+      "item": "UC1002011388",
+      "description": "原材料;加工件;A6061-T6;B013-R;139*102.1*15;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 160.0,
+      "historical_extended": 160.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011388-B013-R.DWG",
+      "system_price": 255.28,
+      "status": "COMPLETE",
+      "absolute_error": 95.28,
+      "deviation_pct": 59.55,
+      "source_summary": {
+        "C": 255.28
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 40.98,
+          "source": "C",
+          "evidence": "weight_kg=1.115149164387375653979961953, unit_price=35.0, loss_rate=0.05, area_mm2=88002.85642296856945169415919, thickness_mm=4.693236399592189, volume_mm3=413018.2090323613533259118343, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 40.98 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 192.0,
+          "source": "C",
+          "evidence": "hours=2.4000000000000004, rate=80.0 -> hours × rate = 192.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色;",
+          "amount": 22.3,
+          "source": "C",
+          "evidence": "weight_kg=1.115149164387375653979961953, unit_price=20.0 -> weight_kg x unit_price = 22.30 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 268,
+      "level": "2",
+      "item": "UC1002011389",
+      "description": "原材料;加工件;A6061-T6;B002-R;162.5*50*13.07;表面噴砂陽極銀色 Subassembly",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 90.0,
+      "historical_extended": 90.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011389-B002-R.DWG",
+      "system_price": 139.82,
+      "status": "COMPLETE",
+      "absolute_error": 49.82,
+      "deviation_pct": 55.36,
+      "source_summary": {
+        "C": 139.82
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 33.56,
+          "source": "C",
+          "evidence": "weight_kg=0.9131681845177588332771090458, unit_price=35.0, loss_rate=0.05, area_mm2=79635.30966233855206402781767, thickness_mm=4.246990940881955, volume_mm3=338210.4387102810493618922392, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 33.56 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 88.0,
+          "source": "C",
+          "evidence": "hours=1.1, rate=80.0 -> hours × rate = 88.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色;",
+          "amount": 18.26,
+          "source": "C",
+          "evidence": "weight_kg=0.9131681845177588332771090458, unit_price=20.0 -> weight_kg x unit_price = 18.26 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 205,
+      "level": "2",
+      "item": "UC1002011390",
+      "description": "原材料;加工件;A6061-T6;R003;82.5*35*15;表面噴砂陽極銀色 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 47.0,
+      "historical_extended": 47.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1002011390-R003.DWG",
+      "system_price": 136.89,
+      "status": "COMPLETE",
+      "absolute_error": 89.89,
+      "deviation_pct": 191.26,
+      "source_summary": {
+        "C": 136.89000000000001
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "A6061-T6 材料費",
+          "amount": 47.2,
+          "source": "C",
+          "evidence": "weight_kg=1.284453976819451882901574206, unit_price=35.0, loss_rate=0.05, area_mm2=94447.30303326949337703665592, thickness_mm=5.0369219643120955, volume_mm3=475723.6951183155121857682246, density_g_cm3=2.70 -> weight × unit_price × (1 + loss_rate) = 47.20 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 64.0,
+          "source": "C",
+          "evidence": "hours=0.8, rate=80.0 -> hours × rate = 64.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面噴砂,陽極銀色;",
+          "amount": 25.69,
+          "source": "C",
+          "evidence": "weight_kg=1.284453976819451882901574206, unit_price=20.0 -> weight_kg x unit_price = 25.69 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 58,
+      "level": "2",
+      "item": "UC1003000436",
+      "description": "原材料;加工件;方通;J001;1400*1300*785;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 7000.0,
+      "historical_extended": 7000.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1003000436_J001.DWG",
+      "system_price": 1269.67,
+      "status": "REVIEW_REQUIRED",
+      "absolute_error": 5730.33,
+      "deviation_pct": -81.86,
+      "source_summary": {
+        "U": 0.0,
+        "C": 1192.0,
+        "E": 77.67
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "材料待确认（未定价）",
+          "amount": 0.0,
+          "source": "U",
+          "evidence": null
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 928.0,
+          "source": "C",
+          "evidence": "hours=11.600000000000001, rate=80.0 -> hours × rate = 928.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "2.所有焊縫全部焊滿，焊接後表面打磨平;（未定价）",
+          "amount": 0.0,
+          "source": "U",
+          "evidence": null
+        },
+        {
+          "category": "material",
+          "name": "方通 材料費",
+          "amount": 62.67,
+          "source": "E",
+          "evidence": "length_m=2.08906783384355, rate=30.0 -> length × rate = 62.67 CNY"
+        },
+        {
+          "category": "material",
+          "name": "連接件",
+          "amount": 0.0,
+          "source": "E",
+          "evidence": "joint_count=0, rate=5.0 -> count × rate = 0.00 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 132.0,
+          "source": "C",
+          "evidence": "hours=1.5, rate=88.0 -> hours × rate = 132.00 CNY"
+        },
+        {
+          "category": "material",
+          "name": "acrylic/panel material",
+          "amount": 15.0,
+          "source": "E",
+          "evidence": "area_m2=0.07, rate=200.0 -> area x rate = 15.00 CNY"
+        },
+        {
+          "category": "process",
+          "name": "DOOR 人工費",
+          "amount": 132.0,
+          "source": "C",
+          "evidence": "hours=1.5, rate=88.0 -> hours × rate = 132.00 CNY"
+        }
+      ],
+      "warnings": [
+        "焊接結構無法由2D圖可靠分解重量，需人工審核"
+      ],
+      "errors": []
+    },
+    {
+      "source_row": 206,
+      "level": "2",
+      "item": "UC1003000495",
+      "description": "原材料;加工件;方通;J022;220*130*258;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 551.0,
+      "historical_extended": 551.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 59,
+      "level": "2",
+      "item": "UC1004001529",
+      "description": "原材料;加工件;SPCC;W002;56*50*44;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 2.0,
+      "historical_price": 16.0,
+      "historical_extended": 32.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001529_W002.DWG",
+      "system_price": 71.22,
+      "status": "COMPLETE",
+      "absolute_error": 55.22,
+      "deviation_pct": 345.12,
+      "source_summary": {
+        "C": 71.22
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SPCC 材料費",
+          "amount": 10.5,
+          "source": "C",
+          "evidence": "weight_kg=1.110692357121127956994545991, unit_price=9.0, loss_rate=0.05, area_mm2=94326.31482981978403350709054, thickness_mm=1.5, volume_mm3=141489.4722447296760502606358, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 10.50 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 56.0,
+          "source": "C",
+          "evidence": "hours=0.7, rate=80.0 -> hours × rate = 56.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "4.表面烤漆，RAL9003細橘紋白；",
+          "amount": 4.72,
+          "source": "C",
+          "evidence": "surface_area_m2=0.18865262965963958, unit_price=25.0 -> surface_area_m2 x unit_price = 4.72 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 207,
+      "level": "2",
+      "item": "UC1004001600",
+      "description": "原材料;加工件;SPCC;F060;295*50*32;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 2.0,
+      "historical_price": 19.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\下料漏斗-R01\\UC1004001600-F060.dwg",
+      "system_price": 16.12,
+      "status": "COMPLETE",
+      "absolute_error": 2.88,
+      "deviation_pct": -15.16,
+      "source_summary": {
+        "C": 16.119999999999997
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SPCC 材料費",
+          "amount": 11.12,
+          "source": "C",
+          "evidence": "weight_kg=1.17652999471494310035877703, unit_price=9.0, loss_rate=0.05, area_mm2=99917.62163184230151666896223, thickness_mm=1.5, volume_mm3=149876.4324477634522750034433, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 11.12 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "4.表面烤漆，RAL9003細橘紋白；",
+          "amount": 5.0,
+          "source": "C",
+          "evidence": "surface_area_m2=0.19983524326368462, unit_price=25.0 -> surface_area_m2 x unit_price = 5.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 60,
+      "level": "2",
+      "item": "UC1004001826",
+      "description": "原材料;加工件;SPCC;F012;278*82*2;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 4.0,
+      "historical_price": 19.0,
+      "historical_extended": 76.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 61,
+      "level": "2",
+      "item": "UC1004001886",
+      "description": "原材料;加工件;SPCC;J036;1208*103.5*2;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 28.0,
+      "historical_extended": 28.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001886-J036.stp.DWG",
+      "system_price": 172.57,
+      "status": "COMPLETE",
+      "absolute_error": 144.57,
+      "deviation_pct": 516.32,
+      "source_summary": {
+        "C": 172.57
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SPCC 材料費",
+          "amount": 8.67,
+          "source": "C",
+          "evidence": "weight_kg=0.917314980728258077820203405, unit_price=9.0, loss_rate=0.05, area_mm2=77903.60770515992168324445056, thickness_mm=1.5, volume_mm3=116855.4115577398825248666758, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 8.67 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 160.0,
+          "source": "C",
+          "evidence": "hours=2.0, rate=80.0 -> hours × rate = 160.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "4.表面烤漆，RAL9003細橘紋白；",
+          "amount": 3.9,
+          "source": "C",
+          "evidence": "surface_area_m2=0.15580721541031986, unit_price=25.0 -> surface_area_m2 x unit_price = 3.90 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 62,
+      "level": "2",
+      "item": "UC1004001887",
+      "description": "原材料;加工件;SPCC;F002;794*200*15;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001887-F002.DWG",
+      "system_price": 197.65,
+      "status": "COMPLETE",
+      "absolute_error": 159.65,
+      "deviation_pct": 420.13,
+      "source_summary": {
+        "C": 197.64999999999998
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SPCC 材料費",
+          "amount": 9.42,
+          "source": "C",
+          "evidence": "weight_kg=0.9964113635426613206491931452, unit_price=9.0, loss_rate=0.05, area_mm2=84620.92259385658774090812276, thickness_mm=1.5, volume_mm3=126931.3838907848816113621841, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 9.42 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 184.0,
+          "source": "C",
+          "evidence": "hours=2.3, rate=80.0 -> hours × rate = 184.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.表面烤漆，RAL9003細橘紋白色；",
+          "amount": 4.23,
+          "source": "C",
+          "evidence": "surface_area_m2=0.1692418451877132, unit_price=25.0 -> surface_area_m2 x unit_price = 4.23 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 63,
+      "level": "2",
+      "item": "UC1004001888",
+      "description": "原材料;加工件;SPCC;J050;798*50*15;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 47.0,
+      "historical_extended": 47.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001888-J050.DWG",
+      "system_price": 141.69,
+      "status": "COMPLETE",
+      "absolute_error": 94.69,
+      "deviation_pct": 201.47,
+      "source_summary": {
+        "C": 141.69
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SPCC 材料費",
+          "amount": 9.45,
+          "source": "C",
+          "evidence": "weight_kg=0.9996736499359956587482098802, unit_price=9.0, loss_rate=0.05, area_mm2=84897.97451685738078541060551, thickness_mm=1.5, volume_mm3=127346.9617752860711781159083, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 9.45 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 128.0,
+          "source": "C",
+          "evidence": "hours=1.6, rate=80.0 -> hours × rate = 128.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.表面烤漆，RAL9003細橘紋白色；",
+          "amount": 4.24,
+          "source": "C",
+          "evidence": "surface_area_m2=0.16979594903371477, unit_price=25.0 -> surface_area_m2 x unit_price = 4.24 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 64,
+      "level": "2",
+      "item": "UC1004001889",
+      "description": "原材料;加工件;SPCC;J027;1300*117.2*2;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001889_J027.DWG",
+      "system_price": 163.83,
+      "status": "COMPLETE",
+      "absolute_error": 125.83,
+      "deviation_pct": 331.13,
+      "source_summary": {
+        "C": 163.82999999999998
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SPCC 材料費",
+          "amount": 8.16,
+          "source": "C",
+          "evidence": "weight_kg=0.8638799952955220283284221798, unit_price=9.0, loss_rate=0.05, area_mm2=73365.60469601036333999339107, thickness_mm=1.5, volume_mm3=110048.4070440155450099900866, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 8.16 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 152.0,
+          "source": "C",
+          "evidence": "hours=1.9000000000000001, rate=80.0 -> hours × rate = 152.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "4.表面烤漆，RAL9003細橘紋白；",
+          "amount": 3.67,
+          "source": "C",
+          "evidence": "surface_area_m2=0.14673120939202074, unit_price=25.0 -> surface_area_m2 x unit_price = 3.67 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 65,
+      "level": "2",
+      "item": "UC1004001890",
+      "description": "原材料;加工件;SPCC;J035;1300*117.2*88;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 95.0,
+      "historical_extended": 95.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001890-J035.DWG",
+      "system_price": 156.78,
+      "status": "COMPLETE",
+      "absolute_error": 61.78,
+      "deviation_pct": 65.03,
+      "source_summary": {
+        "C": 156.78
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SPCC 材料費",
+          "amount": 8.82,
+          "source": "C",
+          "evidence": "weight_kg=0.9332254607624899855007507099, unit_price=9.0, loss_rate=0.05, area_mm2=79254.81620063609218690027262, thickness_mm=1.5, volume_mm3=118882.2243009541382803504089, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 8.82 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 144.0,
+          "source": "C",
+          "evidence": "hours=1.8, rate=80.0 -> hours × rate = 144.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "4.表面烤漆，RAL9003細橘紋白；",
+          "amount": 3.96,
+          "source": "C",
+          "evidence": "surface_area_m2=0.1585096324012722, unit_price=25.0 -> surface_area_m2 x unit_price = 3.96 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 66,
+      "level": "2",
+      "item": "UC1004001892",
+      "description": "原材料;加工件;SPCC;F021;815.5*200.3*52;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 83.0,
+      "historical_extended": 83.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 173,
+      "level": "2",
+      "item": "UC1004001893",
+      "description": "原材料;加工件;SPCC;X002;85*70*50;顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 28.0,
+      "historical_extended": 56.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;運輸;滑台;GCS-HSC07打磨設備-滑台旋轉模組\\旋轉平台-左\\UC1004001893-X002.DWG",
+      "system_price": 78.0,
+      "status": "COMPLETE",
+      "absolute_error": 50.0,
+      "deviation_pct": 178.57,
+      "source_summary": {
+        "C": 78.0
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SPCC 材料費",
+          "amount": 9.66,
+          "source": "C",
+          "evidence": "weight_kg=1.022605969087430222157122832, unit_price=9.0, loss_rate=0.05, area_mm2=86845.51754458006132969196030, thickness_mm=1.5, volume_mm3=130268.2763168700919945379404, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 9.66 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 64.0,
+          "source": "C",
+          "evidence": "hours=0.8, rate=80.0 -> hours × rate = 64.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "2.工件表面噴漆,細橘紋白色,RAL9003;",
+          "amount": 4.34,
+          "source": "C",
+          "evidence": "surface_area_m2=0.17369103508916014, unit_price=25.0 -> surface_area_m2 x unit_price = 4.34 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 67,
+      "level": "2",
+      "item": "UC1004001894",
+      "description": "原材料;加工件;SPCC;F022;794*200*15;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001894-F022.SLDPRT.DWG",
+      "system_price": 216.63,
+      "status": "COMPLETE",
+      "absolute_error": 178.63,
+      "deviation_pct": 470.08,
+      "source_summary": {
+        "C": 216.63
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SPCC 材料費",
+          "amount": 28.39,
+          "source": "C",
+          "evidence": "weight_kg=3.003815632919868492381951822, unit_price=9.0, loss_rate=0.05, area_mm2=84705.96169138115406941496568, thickness_mm=4.517411352669379, volume_mm3=382651.6729834227378830511875, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 28.39 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 184.0,
+          "source": "C",
+          "evidence": "hours=2.3, rate=80.0 -> hours × rate = 184.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "4.表面烤漆，細橘紋白色，RAL9003；",
+          "amount": 4.24,
+          "source": "C",
+          "evidence": "surface_area_m2=0.16941192338276232, unit_price=25.0 -> surface_area_m2 x unit_price = 4.24 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 68,
+      "level": "2",
+      "item": "UC1004001904",
+      "description": "原材料;加工件;SPCC;F003;818*200*21;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 57.0,
+      "historical_extended": 57.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001904-F003.DWG",
+      "system_price": 93.73,
+      "status": "COMPLETE",
+      "absolute_error": 36.73,
+      "deviation_pct": 64.44,
+      "source_summary": {
+        "C": 93.73
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SPCC 材料費",
+          "amount": 9.47,
+          "source": "C",
+          "evidence": "weight_kg=1.002353276953809446151204302, unit_price=9.0, loss_rate=0.05, area_mm2=85125.54369034475126549505744, thickness_mm=1.5, volume_mm3=127688.3155355171268982425862, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 9.47 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 80.0,
+          "source": "C",
+          "evidence": "hours=1.0, rate=80.0 -> hours × rate = 80.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.表面烤漆，RAL9003細橘紋白色；",
+          "amount": 4.26,
+          "source": "C",
+          "evidence": "surface_area_m2=0.1702510873806895, unit_price=25.0 -> surface_area_m2 x unit_price = 4.26 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 69,
+      "level": "2",
+      "item": "UC1004001905",
+      "description": "原材料;加工件;SPCC;F001;818*200*21;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 57.0,
+      "historical_extended": 57.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1004001905-F001.DWG",
+      "system_price": 93.58,
+      "status": "COMPLETE",
+      "absolute_error": 36.58,
+      "deviation_pct": 64.18,
+      "source_summary": {
+        "C": 93.58
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SPCC 材料費",
+          "amount": 9.37,
+          "source": "C",
+          "evidence": "weight_kg=0.9919368791563235509887036828, unit_price=9.0, loss_rate=0.05, area_mm2=84240.92391985762641093024904, thickness_mm=1.5, volume_mm3=126361.3858797864396163953736, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 9.37 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 80.0,
+          "source": "C",
+          "evidence": "hours=1.0, rate=80.0 -> hours × rate = 80.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.表面烤漆，RAL9003細橘紋白色；",
+          "amount": 4.21,
+          "source": "C",
+          "evidence": "surface_area_m2=0.16848184783971525, unit_price=25.0 -> surface_area_m2 x unit_price = 4.21 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 70,
+      "level": "2",
+      "item": "UC1004001906",
+      "description": "原材料;加工件;SPCC;F024;815.5*200.3*52;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 57.0,
+      "historical_extended": 57.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 71,
+      "level": "2",
+      "item": "UC1004001907",
+      "description": "原材料;加工件;SPCC;F015;220*58*22;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 20.0,
+      "historical_extended": 20.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 72,
+      "level": "2",
+      "item": "UC1004001908",
+      "description": "原材料;加工件;SPCC;F016;220*42*75;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 26.0,
+      "historical_extended": 26.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 73,
+      "level": "2",
+      "item": "UC1004001909",
+      "description": "原材料;加工件;SPCC;F018;220*58*22;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 26.0,
+      "historical_extended": 26.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 74,
+      "level": "2",
+      "item": "UC1004001910",
+      "description": "原材料;加工件;SPCC;F017;220*42*75;表面烤漆,顏色細橘紋白色,RAL9003 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 26.0,
+      "historical_extended": 26.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 75,
+      "level": "2",
+      "item": "UC1007000329",
+      "description": "原材料;加工件;SUS304;J028;90*60*2 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 10.0,
+      "historical_extended": 10.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 76,
+      "level": "2",
+      "item": "UC1007000773",
+      "description": "原材料;加工件;SUS304;J029;80*90*2 Purchased item",
+      "uom": "EA",
+      "quantity": 2.0,
+      "historical_price": 14.0,
+      "historical_extended": 28.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1007000773_J029.DWG",
+      "system_price": 44.14,
+      "status": "COMPLETE",
+      "absolute_error": 30.14,
+      "deviation_pct": 215.29,
+      "source_summary": {
+        "C": 44.14
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SUS304 材料費",
+          "amount": 44.14,
+          "source": "C",
+          "evidence": "weight_kg=1.401194886764682657591435789, unit_price=30.0, loss_rate=0.05, area_mm2=88347.72299903421548495812035, thickness_mm=2.0, volume_mm3=176695.4459980684309699162407, density_g_cm3=7.93 -> weight × unit_price × (1 + loss_rate) = 44.14 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 77,
+      "level": "2",
+      "item": "UC1007000775",
+      "description": "原材料;加工件;SUS304;F020;894.5*330*94 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 285.0,
+      "historical_extended": 285.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 78,
+      "level": "2",
+      "item": "UC1007000776",
+      "description": "原材料;加工件;SUS304;F025;855*166*132 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 270.0,
+      "historical_extended": 270.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\半成品;機架;打磨;GCS-HSC07打磨設備-機架模組\\UC1007000776-F025.DWG",
+      "system_price": 111.71,
+      "status": "COMPLETE",
+      "absolute_error": 158.29,
+      "deviation_pct": -58.63,
+      "source_summary": {
+        "C": 111.71000000000001
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SUS304 材料費",
+          "amount": 39.71,
+          "source": "C",
+          "evidence": "weight_kg=1.260661486058563353179377056, unit_price=30.0, loss_rate=0.05, area_mm2=79486.85284101912693438695187, thickness_mm=2.0, volume_mm3=158973.7056820382538687739037, density_g_cm3=7.93 -> weight × unit_price × (1 + loss_rate) = 39.71 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 72.0,
+          "source": "C",
+          "evidence": "hours=0.9, rate=80.0 -> hours × rate = 72.00 CNY"
+        },
+        {
+          "category": "process",
+          "name": "FRAME 人工費",
+          "amount": 0.0,
+          "source": "C",
+          "evidence": "hours=0.0, rate=88.0 -> hours × rate = 0.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 208,
+      "level": "2",
+      "item": "UC1007000944",
+      "description": "原材料;加工件;SUS304;F067;980*283.1*133 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 332.0,
+      "historical_extended": 332.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\下料漏斗-R01\\UC1007000944-F067.dwg",
+      "system_price": 207.99,
+      "status": "COMPLETE",
+      "absolute_error": 124.01,
+      "deviation_pct": -37.35,
+      "source_summary": {
+        "C": 207.99
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SUS304 材料費",
+          "amount": 63.99,
+          "source": "C",
+          "evidence": "weight_kg=2.031512909216605148325907875, unit_price=30.0, loss_rate=0.05, area_mm2=85393.56491032388181277460595, thickness_mm=3.0, volume_mm3=256180.6947309716454383238178, density_g_cm3=7.93 -> weight × unit_price × (1 + loss_rate) = 63.99 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 144.0,
+          "source": "C",
+          "evidence": "hours=1.8, rate=80.0 -> hours × rate = 144.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 209,
+      "level": "2",
+      "item": "UC1007000950",
+      "description": "原材料;加工件;SUS304;F064;271*100*23 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 28.0,
+      "historical_extended": 28.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\下料漏斗-R01\\UC1007000950-F064.dwg",
+      "system_price": 170.64,
+      "status": "COMPLETE",
+      "absolute_error": 142.64,
+      "deviation_pct": 509.43,
+      "source_summary": {
+        "C": 170.64
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SUS304 材料費",
+          "amount": 66.64,
+          "source": "C",
+          "evidence": "weight_kg=2.115572110019367596745795545, unit_price=30.0, loss_rate=0.05, area_mm2=88926.94871876282457947858533, thickness_mm=3.0, volume_mm3=266780.8461562884737384357560, density_g_cm3=7.93 -> weight × unit_price × (1 + loss_rate) = 66.64 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 104.0,
+          "source": "C",
+          "evidence": "hours=1.3, rate=80.0 -> hours × rate = 104.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 210,
+      "level": "2",
+      "item": "UC1007000965",
+      "description": "原材料;加工件;SUS304;B220-L;247*62*66.5 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1007000965-B220-L.DWG",
+      "system_price": 252.09,
+      "status": "COMPLETE",
+      "absolute_error": 214.09,
+      "deviation_pct": 563.39,
+      "source_summary": {
+        "C": 252.09
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SUS304 材料費",
+          "amount": 124.09,
+          "source": "C",
+          "evidence": "weight_kg=3.939280510539756862949012929, unit_price=30.0, loss_rate=0.05, area_mm2=99351.33696191063967084521887, thickness_mm=5.0, volume_mm3=496756.6848095531983542260944, density_g_cm3=7.93 -> weight × unit_price × (1 + loss_rate) = 124.09 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 128.0,
+          "source": "C",
+          "evidence": "hours=1.6, rate=80.0 -> hours × rate = 128.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 211,
+      "level": "2",
+      "item": "UC1007000966",
+      "description": "原材料;加工件;SUS304;B222-L;35*26*23 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 19.0,
+      "historical_extended": 19.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1007000966_B222-L.DWG",
+      "system_price": 62.71,
+      "status": "COMPLETE",
+      "absolute_error": 43.71,
+      "deviation_pct": 230.05,
+      "source_summary": {
+        "C": 62.709999999999994
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SPCC 材料費",
+          "amount": 9.62,
+          "source": "C",
+          "evidence": "weight_kg=1.018167238712948717207206534, unit_price=9.0, loss_rate=0.05, area_mm2=86468.55530470902056961414298, thickness_mm=1.5, volume_mm3=129702.8329570635308544212145, density_g_cm3=7.85 -> weight × unit_price × (1 + loss_rate) = 9.62 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 48.0,
+          "source": "C",
+          "evidence": "hours=0.6, rate=80.0 -> hours × rate = 48.00 CNY"
+        },
+        {
+          "category": "surface",
+          "name": "3.工件表面鍍鉻;",
+          "amount": 5.09,
+          "source": "C",
+          "evidence": "weight_kg=1.018167238712948717207206534, unit_price=5.0 -> weight_kg x unit_price = 5.09 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 212,
+      "level": "2",
+      "item": "UC1007000967",
+      "description": "原材料;加工件;SUS304;B221-L;145*130*67 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;左邊\\UC1007000967-B221-L.DWG",
+      "system_price": 250.01,
+      "status": "COMPLETE",
+      "absolute_error": 212.01,
+      "deviation_pct": 557.92,
+      "source_summary": {
+        "C": 250.01
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SUS304 材料費",
+          "amount": 122.01,
+          "source": "C",
+          "evidence": "weight_kg=3.87348589496497060401360143, unit_price=30.0, loss_rate=0.05, area_mm2=97691.95195371930905456750138, thickness_mm=5.0, volume_mm3=488459.7597685965452728375069, density_g_cm3=7.93 -> weight × unit_price × (1 + loss_rate) = 122.01 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 128.0,
+          "source": "C",
+          "evidence": "hours=1.6, rate=80.0 -> hours × rate = 128.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 275,
+      "level": "2",
+      "item": "UC1007000968",
+      "description": "原材料;加工件;SUS304;B220-R;247*62*66.5 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1007000968-B220-R.DWG",
+      "system_price": 246.94,
+      "status": "COMPLETE",
+      "absolute_error": 208.94,
+      "deviation_pct": 549.84,
+      "source_summary": {
+        "C": 246.94
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SUS304 材料費",
+          "amount": 118.94,
+          "source": "C",
+          "evidence": "weight_kg=3.775937205305350077160579696, unit_price=30.0, loss_rate=0.05, area_mm2=95231.70757390542439244841603, thickness_mm=5.0, volume_mm3=476158.5378695271219622420802, density_g_cm3=7.93 -> weight × unit_price × (1 + loss_rate) = 118.94 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 128.0,
+          "source": "C",
+          "evidence": "hours=1.6, rate=80.0 -> hours × rate = 128.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 276,
+      "level": "2",
+      "item": "UC1007000969",
+      "description": "原材料;加工件;SUS304;B221-R;145*130*67 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 38.0,
+      "historical_extended": 38.0,
+      "remark": "",
+      "occurrence_count": 1,
+      "drawing_path": "\\\\10.97.0.210\\lfaf_Engineer\\Mechanical\\3-標準文檔\\3-LFAF自主標準設備\\17-GCS-雙滑台打磨設備\\2-3D\\下料搬运\\半成品;運輸;抓取;GCS;搬運模組;右邊\\UC1007000969-B221-R.DWG",
+      "system_price": 245.45,
+      "status": "COMPLETE",
+      "absolute_error": 207.45,
+      "deviation_pct": 545.92,
+      "source_summary": {
+        "C": 245.45
+      },
+      "quote_items": [
+        {
+          "category": "material",
+          "name": "SUS304 材料費",
+          "amount": 117.45,
+          "source": "C",
+          "evidence": "weight_kg=3.728607109746067466281526233, unit_price=30.0, loss_rate=0.05, area_mm2=94038.01033407484152034114080, thickness_mm=5.0, volume_mm3=470190.0516703742076017057040, density_g_cm3=7.93 -> weight × unit_price × (1 + loss_rate) = 117.45 CNY"
+        },
+        {
+          "category": "process",
+          "name": "CNC 加工費",
+          "amount": 128.0,
+          "source": "C",
+          "evidence": "hours=1.6, rate=80.0 -> hours × rate = 128.00 CNY"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "source_row": 213,
+      "level": "2",
+      "item": "UC1230000925",
+      "description": "原材料;加工件;SKD11;R018;283.6*φ8 Purchased item",
+      "uom": "EA",
+      "quantity": 1.0,
+      "historical_price": 104.0,
+      "historical_extended": 104.0,
+      "remark": "",
+      "occurrence_count": 2,
+      "drawing_path": null,
+      "system_price": null,
+      "status": "NO_DRAWING",
+      "absolute_error": null,
+      "deviation_pct": null,
+      "source_summary": {},
+      "quote_items": [],
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

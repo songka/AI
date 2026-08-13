@@ -1,0 +1,25 @@
+Source deck: 12 slides, 1280 x 720, MPT corporate master with white content canvas, dark-blue titles, blue bullets, gray footer, and MPT logo.
+
+Reusable patterns:
+- Slide 1: promotion-report cover.
+- Slide 2: four-item agenda.
+- Slide 3: three-step career timeline with bottom thesis strip.
+- Slide 5: six-photo project portfolio.
+- Slides 6, 7, 9, 10: title + evidence copy + authentic workplace photo(s).
+- Slide 11: five-step management-development staircase.
+- Slide 12: closing brand bumper.
+
+Typography and spacing:
+- Preserve imported font families, sizes, weights, insets, title line, footer, page marker, and master furniture.
+- Shorten copy to fit inherited text frames. Do not shrink template text.
+- Keep authentic internal photos and their existing crops.
+
+Narrative contract:
+- 10 slides for a short meeting report.
+- One conclusion per slide.
+- Performance story progresses from project delivery, to team mechanism, to standardization, to prevention.
+- Future plan and development plan explicitly connect current evidence to section-chief responsibilities.
+
+Placeholder audit:
+- Existing slide-number text objects on copied content slides will be rewritten to the output slide number.
+- The closing bumper is preserve-only.

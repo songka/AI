@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "separationOfDuties": {
+    "reviewAndPublishMustUseDifferentAccounts": true,
+    "submitterCannotReviewOwnSubmission": true,
+    "publisherCanOnlyPublishReviewedCandidates": true
+  },
+  "repositories": {
+    "authoritative": "backup",
+    "distribution": "public",
+    "allowPublicToBackupSync": false,
+    "allowAutomaticDeletionDuringMirror": false
+  },
+  "versions": {
+    "scheme": "semver",
+    "allowOverwriteExistingVersion": false,
+    "stableRequiresReview": true,
+    "previewRequiresReview": true
+  },
+  "client": {
+    "sameRegistryForAllComputers": true,
+    "sameApprovedVersionsForAllComputers": true,
+    "preserveLastKnownGoodOnFailure": true,
+    "requireSignedRegistryBeforeProduction": true
+  }
+}

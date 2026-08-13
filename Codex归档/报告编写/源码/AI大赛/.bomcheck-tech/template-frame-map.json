@@ -1,0 +1,25 @@
+{
+  "outputSlides": [
+    {"outputSlide":1,"sourceSlide":1,"narrativeRole":"AI technology and outcome opening","reuseMode":"duplicate-slide","editTargets":[{"sourceElementIds":["sh/547294r6","sh/k3yl0zql","sh/7qp4be9c","sh/65g3298r","sh/ts7md4r2"],"action":"rewrite"}]},
+    {"outputSlide":2,"sourceSlide":2,"narrativeRole":"requirements summary","reuseMode":"duplicate-slide","editTargets":[{"sourceElementIds":["sh/t8byxkn2","sh/9072xkry","sh/b29kza94","sh/a10jqpsj","sh/w3i1sfa9","sh/r65knqtk","sh/ove9o7yd","sh/9wnqhczy"],"action":"rewrite"}]},
+    {"outputSlide":3,"sourceSlide":3,"narrativeRole":"AI application section","reuseMode":"duplicate-slide","editTargets":[{"sourceElementIds":["sh/d0jax03i","sh/298ryl4v"],"action":"rewrite"}]},
+    {"outputSlide":4,"sourceSlide":4,"narrativeRole":"AI technology workflow","reuseMode":"duplicate-slide","editTargets":[{"sourceElementIds":["sh/1cj2d8b6","sh/0ba143al","sh/rm1k7yt4","sh/ql8jytsj","sh/doj29oba","sh/sna103ap","sh/3ihk3et8"],"action":"rewrite"}]},
+    {"outputSlide":5,"sourceSlide":5,"narrativeRole":"AI boundary","reuseMode":"duplicate-slide","editTargets":[{"sourceElementIds":["sh/x4vedgvm","sh/dgbulwnm","sh/cf2tcr61","sh/z2tcnm5s","sh/yhkbe1o7","sh/l4bupwny","sh/032tgr6d","sh/n6dcr65o"],"action":"rewrite"}]},
+    {"outputSlide":6,"sourceSlide":6,"narrativeRole":"outcome section","reuseMode":"duplicate-slide","editTargets":[{"sourceElementIds":["sh/zi98nu94","sh/87ipkzal"],"action":"rewrite"}]},
+    {"outputSlide":7,"sourceSlide":7,"narrativeRole":"before state evidence","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":8,"sourceSlide":8,"narrativeRole":"converted capabilities","reuseMode":"duplicate-slide","editTargets":[{"sourceElementIds":["sh/m5gvmhwn","sh/18byd4zy","sh/id0fu50z"],"action":"rewrite"}]},
+    {"outputSlide":9,"sourceSlide":9,"narrativeRole":"innovation and visual evidence section","reuseMode":"duplicate-slide","editTargets":[{"sourceElementIds":["sh/0b65obm9","sh/nex4jq5k"],"action":"rewrite"}]},
+    {"outputSlide":10,"sourceSlide":10,"narrativeRole":"visual evidence 1","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":11,"sourceSlide":11,"narrativeRole":"visual evidence 2","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":12,"sourceSlide":12,"narrativeRole":"visual evidence 3","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":13,"sourceSlide":13,"narrativeRole":"extensibility","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":14,"sourceSlide":14,"narrativeRole":"delivery section","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":15,"sourceSlide":15,"narrativeRole":"deployment evidence","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":16,"sourceSlide":16,"narrativeRole":"AI local delivery evidence","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":17,"sourceSlide":17,"narrativeRole":"replication section","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":18,"sourceSlide":18,"narrativeRole":"transformation outcomes","reuseMode":"duplicate-slide","editTargets":[{"sourceElementIds":["sh/fapkr6pw","sh/wrelszu9","sh/hsn2l4bu","sh/itw3upcf","sh/je5knut0","sh/4felwzu5","sh/5gnmp4bq"],"action":"rewrite"}]},
+    {"outputSlide":19,"sourceSlide":19,"narrativeRole":"replication method","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":20,"sourceSlide":20,"narrativeRole":"closing synthesis","reuseMode":"duplicate-slide","editTargets":[{"sourceElementIds":["sh/4nu1krqh","sh/qpwjmh8n"],"action":"rewrite"}]}
+  ],
+  "omittedSourceSlides": []
+}

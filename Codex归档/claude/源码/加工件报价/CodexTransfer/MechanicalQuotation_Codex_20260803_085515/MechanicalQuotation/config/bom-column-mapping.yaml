@@ -1,0 +1,96 @@
+# BOM Column Mapping Configuration
+#
+# Maps Excel column header names (multiple aliases) to standard field names.
+# Supports Chinese and English headers.
+#
+# The reader scans row 1-8 for header row, then maps columns by name.
+
+version: "1.0"
+
+# --- Mapping rules ---
+# For each standard field, list all possible header names (case-insensitive match).
+# The first matching column in the header row wins.
+
+fields:
+  level:
+    - "Level"
+    - "級別"
+    - "層級"
+    - "BOM Level"
+    - "階層"
+
+  item:
+    - "Item"
+    - "Item "
+    - "料號"
+    - "零件號"
+    - "物料編號"
+    - "Part Number"
+    - "PN"
+
+  description:
+    - "Description"
+    - "描述"
+    - "品名"
+    - "規格描述"
+    - "物料描述"
+    - "Part Description"
+
+  item_type:
+    - "Type"
+    - "類型"
+    - "項目類型"
+    - "Item Type"
+    - "BOM Type"
+
+  uom:
+    - "Uom"
+    - "UOM"
+    - "單位"
+    - "Unit"
+    - "計量單位"
+
+  quantity:
+    - "Quantity"
+    - "Qty"
+    - "數量"
+    - "Q'ty"
+
+  unit_cost:
+    - "Unit Cost"
+    - "單價"
+    - "單位成本"
+    - "Unit Price"
+    - "Price"
+
+  extended_cost:
+    - "Extended Cost"
+    - "總價"
+    - "總成本"
+    - "Total Cost"
+    - "Amount"
+
+  notes:
+    - "備註"
+    - "Notes"
+    - "Remark"
+    - "備注"
+    - "Remarks"
+
+# --- Header detection ---
+# The reader will scan these rows to find the column header row.
+header_scan:
+  min_row: 1
+  max_row: 10
+
+# How to identify the header row: a row where at least this many columns
+# match known field names.
+header_min_matches: 3
+
+# --- Data detection ---
+# Rows after the header row are considered data rows.
+# Rows with empty 'item' or 'description' are skipped.
+# Rows where 'item' is a string like "None" or "Item" are skipped.
+skip_values:
+  item: ["None", "Item", "Item ", ""]
+  description: ["None", ""]

@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-head">
+    <div>
+        <h1>料号查询</h1>
+        <p>无需登录即可查询系统料号、库存、申请人与资源详情。</p>
+    </div>
+    <a class="secondary-button" href="/">BOM 执行</a>
+</section>
+
+<section class="panel query-panel">
+    <div class="section-title">
+        <h2>查询条件</h2>
+        <span>公开查询</span>
+    </div>
+    {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+    <form action="/query" method="get" class="query-form">
+        <label class="search-field">
+            <span>料号 / 关键字</span>
+            <input type="text" name="keyword" value="{{ query }}" placeholder="输入料号或关键字" autofocus>
+        </label>
+        <label class="compact-field">
+            <span>每页</span>
+            <input type="number" name="size" value="{{ size }}" min="1" max="200">
+        </label>
+        <label class="toggle-field">
+            <input type="checkbox" name="fuzzy" value="1" {% if fuzzy %}checked{% endif %}>
+            <span>模糊/前缀</span>
+        </label>
+        <input type="hidden" name="page" value="1">
+        <button type="submit">查询</button>
+        {% if query %}
+        <a class="ghost-button" href="/query">清空</a>
+        {% endif %}
+    </form>
+</section>
+
+{% if results is not none %}
+<section class="panel results-panel">
+    <div class="section-title">
+        <h2>查询结果</h2>
+        <span>{{ total }} 条</span>
+    </div>
+    {% if results %}
+    <div class="table-wrap">
+        <table class="table">
+            <thead>
+                <tr><th>料号</th><th>描述</th><th>单位</th><th>申请人</th><th>库存</th></tr>
+            </thead>
+            <tbody>
+                {% for item in results %}
+                <tr>
+                    <td><a class="part-link" href="/parts/{{ item.part_no }}">{{ item.part_no }}</a></td>
+                    <td>{{ item.description }}</td>
+                    <td>{{ item.unit }}</td>
+                    <td>{{ item.applicant }}</td>
+                    <td>{{ item.inventory_display }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="pager">
+        <span>第 {{ page }} 页</span>
+        {% if page > 1 %}<a class="ghost-button" href="{{ prev_url }}">上一页</a>{% endif %}
+        {% if has_next %}<a class="ghost-button" href="{{ next_url }}">下一页</a>{% endif %}
+    </div>
+    {% else %}
+    <div class="empty-state">没有匹配结果</div>
+    {% endif %}
+</section>
+{% endif %}
+{% endblock %}

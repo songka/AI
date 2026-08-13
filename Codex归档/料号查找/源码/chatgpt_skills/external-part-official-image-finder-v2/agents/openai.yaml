@@ -1,0 +1,7 @@
+interface:
+  display_name: "外购件官网图片查找 v2"
+  short_description: "中文优先查找官网、PDF 和多角度图片。"
+  default_prompt: "使用 $external-part-official-image-finder-v2 读取 asset_pending CSV，优先查中文官网、中文产品页和中文 PDF，输出多角度图片 URL，不下载图片，不生成 assets.json。"
+
+policy:
+  allow_implicit_invocation: true

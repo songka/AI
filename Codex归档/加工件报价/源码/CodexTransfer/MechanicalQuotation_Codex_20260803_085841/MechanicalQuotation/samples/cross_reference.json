@@ -1,0 +1,195 @@
+{
+  "matched": [
+    {
+      "dwg": "UC1000005854-J003.DWG",
+      "item": "UC1000005854",
+      "material": "S50C",
+      "part_code": "J003",
+      "dimensions": "928*796*15",
+      "surface": "表面鍍鉻",
+      "unit_cost": 1425.0
+    },
+    {
+      "dwg": "UC1000005855-J005.DWG",
+      "item": "UC1000005855",
+      "material": "S50C",
+      "part_code": "J005",
+      "dimensions": "1400*250*15",
+      "surface": "表面鍍鉻",
+      "unit_cost": 712.0
+    },
+    {
+      "dwg": "UC1000005856-J006.DWG",
+      "item": "UC1000005856",
+      "material": "S50C",
+      "part_code": "J006",
+      "dimensions": "798*530*15",
+      "surface": "表面鍍鉻",
+      "unit_cost": 874.0
+    },
+    {
+      "dwg": "UC1000005857-J007.DWG",
+      "item": "UC1000005857",
+      "material": "S50C",
+      "part_code": "J007",
+      "dimensions": "1400*250*15",
+      "surface": "表面鍍鉻",
+      "unit_cost": 693.0
+    },
+    {
+      "dwg": "UC1002006858_J026.DWG",
+      "item": "UC1002006858",
+      "material": "A6061-T6",
+      "part_code": "",
+      "dimensions": "",
+      "surface": "表面噴砂陽極銀色",
+      "unit_cost": 71.0
+    },
+    {
+      "dwg": "UC1002009711-R001.DWG",
+      "item": "UC1002009711",
+      "material": "A6061-T6",
+      "part_code": "R001",
+      "dimensions": "φ250*15",
+      "surface": "表面噴砂陽極銀色",
+      "unit_cost": 209.0
+    },
+    {
+      "dwg": "UC1002009712-R002.DWG",
+      "item": "UC1002009712",
+      "material": "A6061-T6",
+      "part_code": "R002",
+      "dimensions": "60*70*20",
+      "surface": "表面噴砂陽極銀色",
+      "unit_cost": 61.0
+    },
+    {
+      "dwg": "UC1002009713-R003.DWG",
+      "item": "UC1002009713",
+      "material": "A6061-T6",
+      "part_code": "R003",
+      "dimensions": "60*30*10",
+      "surface": "表面噴砂陽極銀色",
+      "unit_cost": 38.0
+    },
+    {
+      "dwg": "UC1002009718-R004.DWG",
+      "item": "UC1002009718",
+      "material": "A6061-T6",
+      "part_code": "R004",
+      "dimensions": "40*16*13",
+      "surface": "表面噴砂陽極銀色",
+      "unit_cost": 66.0
+    },
+    {
+      "dwg": "UC1003000436_J001.DWG",
+      "item": "UC1003000436",
+      "material": "方通",
+      "part_code": "J001",
+      "dimensions": "1400*1300*785",
+      "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+      "unit_cost": 7000.0
+    },
+    {
+      "dwg": "UC1004001529_W002.DWG",
+      "item": "UC1004001529",
+      "material": "SPCC",
+      "part_code": "W002",
+      "dimensions": "56*50*44",
+      "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+      "unit_cost": 16.0
+    },
+    {
+      "dwg": "UC1004001886-J036.stp.DWG",
+      "item": "UC1004001886",
+      "material": "SPCC",
+      "part_code": "J036",
+      "dimensions": "1208*103.5*2",
+      "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+      "unit_cost": 28.0
+    },
+    {
+      "dwg": "UC1004001887-F002.DWG",
+      "item": "UC1004001887",
+      "material": "SPCC",
+      "part_code": "F002",
+      "dimensions": "794*200*15",
+      "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+      "unit_cost": 38.0
+    },
+    {
+      "dwg": "UC1004001888-J050.DWG",
+      "item": "UC1004001888",
+      "material": "SPCC",
+      "part_code": "J050",
+      "dimensions": "798*50*15",
+      "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+      "unit_cost": 47.0
+    },
+    {
+      "dwg": "UC1004001889_J027.DWG",
+      "item": "UC1004001889",
+      "material": "SPCC",
+      "part_code": "J027",
+      "dimensions": "1300*117.2*2",
+      "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+      "unit_cost": 38.0
+    },
+    {
+      "dwg": "UC1004001890-J035.DWG",
+      "item": "UC1004001890",
+      "material": "SPCC",
+      "part_code": "J035",
+      "dimensions": "1300*117.2*88",
+      "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+      "unit_cost": 95.0
+    },
+    {
+      "dwg": "UC1004001904-F003.DWG",
+      "item": "UC1004001904",
+      "material": "SPCC",
+      "part_code": "F003",
+      "dimensions": "818*200*21",
+      "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+      "unit_cost": 57.0
+    },
+    {
+      "dwg": "UC1004001905-F001.DWG",
+      "item": "UC1004001905",
+      "material": "SPCC",
+      "part_code": "F001",
+      "dimensions": "818*200*21",
+      "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+      "unit_cost": 57.0
+    },
+    {
+      "dwg": "UC1007000773_J029.DWG",
+      "item": "UC1007000773",
+      "material": "SUS304",
+      "part_code": "J029",
+      "dimensions": "80*90*2",
+      "surface": "80*90*2",
+      "unit_cost": 14.0
+    },
+    {
+      "dwg": "UC2020083221-W001.DWG",
+      "item": "UC2020083221",
+      "material": "框架及配件",
+      "part_code": "",
+      "dimensions": "40*40",
+      "surface": "品牌:無",
+      "unit_cost": 2900.0
+    }
+  ],
+  "unmatched": [
+    "UC1002009714-Z018.DWG",
+    "UC1002009715-Z016.DWG",
+    "UC1002009716-Z011.DWG",
+    "UC1007000774-Z020.DWG",
+    "UC1008000528-Z001.DWG",
+    "UC1008000529-Z019.DWG",
+    "UC1008000530-Z021.DWG",
+    "UC1250000084-Z024.DWG",
+    "UC1300000008-Z017.DWG"
+  ]
+}

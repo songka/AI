@@ -1,0 +1,17 @@
+OpenCode Skill 实操课演示包
+
+1. 打开本文件夹后，在这里启动 OpenCode。
+2. OpenCode 会发现 skill-examples/.opencode/skills 下的 5 个 Skill。
+3. 上课时先用 PPT 中的“建立方式 A/B/C”演示如何通过对话生成 Skill；然后用“现场调用句”运行现成 Skill。
+4. 如果要在自己的项目使用，把对应 Skill 文件夹复制到项目根目录的 .opencode/skills/ 下。
+5. 如果要所有项目都能用，复制到 ~/.config/opencode/skills/ 下。
+
+演示顺序建议：
+电机初选 → BOM 失效料检查 → 邮件回复 → IO 点表检查 → 会议纪要行动项。
+
+注意：
+- 电机选型结果是工程初选，不能替代机械、电气与安全审核。
+- BOM 对照默认采用“标准化后的完整料号精确匹配”，不会凭相似度判定失效。
+- 邮件、会议纪要不会编造承诺、负责人或日期。
+
+OpenCode 官方说明：https://opencode.ai/docs/skills/

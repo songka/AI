@@ -1,0 +1,9 @@
+Slides 1-3: copy tightened and role framing changed from engineer wording to manufacturing supervisor promotion context.
+Slide 1 layout: inherited Date prompt filled with the report date so no default placeholder remains.
+Slide 4: source slide 5 retained; conclusion and project labels normalized.
+Slide 5: source slide 6 retained; copy reframed as organization, efficiency, and mechanism.
+Slide 6: source slide 7 retained; source slide 8 content consolidated into its inherited body frame.
+Slide 7: source slide 9 retained; copy reframed as before, after, and management value.
+Slide 8: source slide 10 retained; future plan organized into team, technology, and standards.
+Slide 9: source slide 11 retained; staircase copy rewritten as a section-chief capability path.
+Slide 10: source slide 12 preserved as the branded close.

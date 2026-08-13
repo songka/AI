@@ -1,0 +1,554 @@
+{
+  "price_version": "R01-COMPANY-PRICE-V1.0",
+  "total_parts": 20,
+  "complete": 10,
+  "incomplete": 10,
+  "unknown_total": 10,
+  "avg_abs_deviation": 78.2,
+  "median_deviation": 52.7,
+  "deviation_le_10pct": 3,
+  "deviation_le_20pct": 3,
+  "deviation_le_30pct": 5,
+  "deviation_gt_30pct": 15,
+  "max_overestimate": {
+    "item": "UC1004001886",
+    "deviation": 216.0,
+    "system": 88.49,
+    "historical": 28.0
+  },
+  "max_underestimate": {
+    "item": "UC2020083221",
+    "deviation": -98.6,
+    "system": 40.24,
+    "historical": 2900.0
+  },
+  "spcc_results": [
+    {
+      "item": "UC1004001529",
+      "code": "W002",
+      "material": "SPCC",
+      "dims": "56*50*44",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 16.0,
+      "system_total": 40.37,
+      "mat_cost": 0.37,
+      "proc_cost": 40.0,
+      "surf_cost": 0.0,
+      "deviation_pct": 152.3,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 40.37,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001886",
+      "code": "J036",
+      "material": "SPCC",
+      "dims": "1208*103.5*2",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 28.0,
+      "system_total": 88.49,
+      "mat_cost": 16.49,
+      "proc_cost": 72.0,
+      "surf_cost": 0.0,
+      "deviation_pct": 216.0,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 88.49,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001887",
+      "code": "F002",
+      "material": "SPCC",
+      "dims": "794*200*15",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 38.0,
+      "system_total": 76.94,
+      "mat_cost": 20.94,
+      "proc_cost": 56.0,
+      "surf_cost": 0.0,
+      "deviation_pct": 102.5,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 76.94,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001888",
+      "code": "J050",
+      "material": "SPCC",
+      "dims": "798*50*15",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 47.0,
+      "system_total": 61.26,
+      "mat_cost": 5.26,
+      "proc_cost": 56.0,
+      "surf_cost": 0.0,
+      "deviation_pct": 30.3,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 61.26,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001889",
+      "code": "J027",
+      "material": "SPCC",
+      "dims": "1300*117.2*2",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 38.0,
+      "system_total": 101.69,
+      "mat_cost": 20.09,
+      "proc_cost": 81.6,
+      "surf_cost": 0.0,
+      "deviation_pct": 167.6,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 101.69,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001890",
+      "code": "J035",
+      "material": "SPCC",
+      "dims": "1300*117.2*88",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 95.0,
+      "system_total": 125.69,
+      "mat_cost": 20.09,
+      "proc_cost": 105.6,
+      "surf_cost": 0.0,
+      "deviation_pct": 32.3,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 125.69,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001904",
+      "code": "F003",
+      "material": "SPCC",
+      "dims": "818*200*21",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 57.0,
+      "system_total": 127.18,
+      "mat_cost": 21.58,
+      "proc_cost": 105.6,
+      "surf_cost": 0.0,
+      "deviation_pct": 123.1,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 127.18,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001905",
+      "code": "F001",
+      "material": "SPCC",
+      "dims": "818*200*21",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 57.0,
+      "system_total": 127.18,
+      "mat_cost": 21.58,
+      "proc_cost": 105.6,
+      "surf_cost": 0.0,
+      "deviation_pct": 123.1,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 127.18,
+        "U": 0.0
+      }
+    }
+  ],
+  "source_exceptions_total": 8,
+  "release_blocking_exceptions": 0,
+  "results": [
+    {
+      "item": "UC1000005854",
+      "code": "J003",
+      "material": "S50C",
+      "dims": "928*796*15",
+      "surface": "表面鍍鉻",
+      "historical_price": 1425.0,
+      "system_total": 1439.55,
+      "mat_cost": 872.38,
+      "proc_cost": 105.6,
+      "surf_cost": 461.57,
+      "deviation_pct": 1.0,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "source_summary": {
+        "C": 1439.55
+      }
+    },
+    {
+      "item": "UC1000005855",
+      "code": "J005",
+      "material": "S50C",
+      "dims": "1400*250*15",
+      "surface": "熱處理",
+      "historical_price": 712.0,
+      "system_total": 336.94,
+      "mat_cost": 129.82,
+      "proc_cost": 56.0,
+      "surf_cost": 151.12,
+      "deviation_pct": -52.7,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "source_summary": {
+        "C": 336.94
+      }
+    },
+    {
+      "item": "UC1000005856",
+      "code": "J006",
+      "material": "S50C",
+      "dims": "798*530*15",
+      "surface": "熱處理",
+      "historical_price": 874.0,
+      "system_total": 825.29,
+      "mat_cost": 332.57,
+      "proc_cost": 105.6,
+      "surf_cost": 387.12,
+      "deviation_pct": -5.6,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "source_summary": {
+        "C": 825.29
+      }
+    },
+    {
+      "item": "UC1000005857",
+      "code": "J007",
+      "material": "S50C",
+      "dims": "1400*250*15",
+      "surface": "熱處理",
+      "historical_price": 693.0,
+      "system_total": 362.54,
+      "mat_cost": 129.82,
+      "proc_cost": 81.6,
+      "surf_cost": 151.12,
+      "deviation_pct": -47.7,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "source_summary": {
+        "C": 362.53999999999996
+      }
+    },
+    {
+      "item": "UC1002006858",
+      "code": "J026",
+      "material": "A6061-T6",
+      "dims": "92*20*92",
+      "surface": "表面噴砂陽極銀色",
+      "historical_price": 71.0,
+      "system_total": 56.3,
+      "mat_cost": 0.2,
+      "proc_cost": 56.0,
+      "surf_cost": 0.1,
+      "deviation_pct": -20.7,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "source_summary": {
+        "C": 56.300000000000004
+      }
+    },
+    {
+      "item": "UC1002009711",
+      "code": "R001",
+      "material": "A6061-T6",
+      "dims": "φ250x15",
+      "surface": "表面噴砂陽極銀色",
+      "historical_price": 209.0,
+      "system_total": 122.56,
+      "mat_cost": 33.68,
+      "proc_cost": 72.0,
+      "surf_cost": 16.88,
+      "deviation_pct": -41.4,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "source_summary": {
+        "C": 122.56
+      }
+    },
+    {
+      "item": "UC1002009712",
+      "code": "R002",
+      "material": "A6061-T6",
+      "dims": "60*70*20",
+      "surface": "表面噴砂陽極銀色",
+      "historical_price": 61.0,
+      "system_total": 57.2,
+      "mat_cost": 0.8,
+      "proc_cost": 56.0,
+      "surf_cost": 0.4,
+      "deviation_pct": -6.2,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "source_summary": {
+        "C": 57.199999999999996
+      }
+    },
+    {
+      "item": "UC1002009713",
+      "code": "R003",
+      "material": "A6061-T6",
+      "dims": "60*30*10",
+      "surface": "表面噴砂陽極銀色",
+      "historical_price": 38.0,
+      "system_total": 56.3,
+      "mat_cost": 0.2,
+      "proc_cost": 56.0,
+      "surf_cost": 0.1,
+      "deviation_pct": 48.2,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "source_summary": {
+        "C": 56.300000000000004
+      }
+    },
+    {
+      "item": "UC1002009718",
+      "code": "R004",
+      "material": "A6061-T6",
+      "dims": "40*16*13",
+      "surface": "表面噴砂陽極銀色",
+      "historical_price": 66.0,
+      "system_total": 48.12,
+      "mat_cost": 0.08,
+      "proc_cost": 48.0,
+      "surf_cost": 0.04,
+      "deviation_pct": -27.1,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "source_summary": {
+        "C": 48.12
+      }
+    },
+    {
+      "item": "UC1003000436",
+      "code": "J001",
+      "material": "普通鋼",
+      "dims": "1400*1300*785",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 7000.0,
+      "system_total": 3291.48,
+      "mat_cost": 3120.28,
+      "proc_cost": 171.2,
+      "surf_cost": 0.0,
+      "deviation_pct": -53.0,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 3291.48,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001529",
+      "code": "W002",
+      "material": "SPCC",
+      "dims": "56*50*44",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 16.0,
+      "system_total": 40.37,
+      "mat_cost": 0.37,
+      "proc_cost": 40.0,
+      "surf_cost": 0.0,
+      "deviation_pct": 152.3,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 40.37,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001886",
+      "code": "J036",
+      "material": "SPCC",
+      "dims": "1208*103.5*2",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 28.0,
+      "system_total": 88.49,
+      "mat_cost": 16.49,
+      "proc_cost": 72.0,
+      "surf_cost": 0.0,
+      "deviation_pct": 216.0,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 88.49,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001887",
+      "code": "F002",
+      "material": "SPCC",
+      "dims": "794*200*15",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 38.0,
+      "system_total": 76.94,
+      "mat_cost": 20.94,
+      "proc_cost": 56.0,
+      "surf_cost": 0.0,
+      "deviation_pct": 102.5,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 76.94,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001888",
+      "code": "J050",
+      "material": "SPCC",
+      "dims": "798*50*15",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 47.0,
+      "system_total": 61.26,
+      "mat_cost": 5.26,
+      "proc_cost": 56.0,
+      "surf_cost": 0.0,
+      "deviation_pct": 30.3,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 61.26,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001889",
+      "code": "J027",
+      "material": "SPCC",
+      "dims": "1300*117.2*2",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 38.0,
+      "system_total": 101.69,
+      "mat_cost": 20.09,
+      "proc_cost": 81.6,
+      "surf_cost": 0.0,
+      "deviation_pct": 167.6,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 101.69,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001890",
+      "code": "J035",
+      "material": "SPCC",
+      "dims": "1300*117.2*88",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 95.0,
+      "system_total": 125.69,
+      "mat_cost": 20.09,
+      "proc_cost": 105.6,
+      "surf_cost": 0.0,
+      "deviation_pct": 32.3,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 125.69,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001904",
+      "code": "F003",
+      "material": "SPCC",
+      "dims": "818*200*21",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 57.0,
+      "system_total": 127.18,
+      "mat_cost": 21.58,
+      "proc_cost": 105.6,
+      "surf_cost": 0.0,
+      "deviation_pct": 123.1,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 127.18,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1004001905",
+      "code": "F001",
+      "material": "SPCC",
+      "dims": "818*200*21",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 57.0,
+      "system_total": 127.18,
+      "mat_cost": 21.58,
+      "proc_cost": 105.6,
+      "surf_cost": 0.0,
+      "deviation_pct": 123.1,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 127.18,
+        "U": 0.0
+      }
+    },
+    {
+      "item": "UC1007000773",
+      "code": "J029",
+      "material": "SUS304",
+      "dims": "80*90*2",
+      "surface": null,
+      "historical_price": 14.0,
+      "system_total": 44.03,
+      "mat_cost": 4.03,
+      "proc_cost": 40.0,
+      "surf_cost": 0,
+      "deviation_pct": 214.5,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "source_summary": {
+        "C": 44.03
+      }
+    },
+    {
+      "item": "UC2020083221",
+      "code": "W001",
+      "material": "鋁型材",
+      "dims": "40*40",
+      "surface": "白色透明",
+      "historical_price": 2900.0,
+      "system_total": 40.24,
+      "mat_cost": 0.24,
+      "proc_cost": 40.0,
+      "surf_cost": 0.0,
+      "deviation_pct": -98.6,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "source_summary": {
+        "C": 40.24,
+        "U": 0.0,
+        "E": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "price_version_id": "CP-20260807-012845-CF2D74",
+  "version": "CP-20260807-012845-CF2D74",
+  "status": "PUBLISHED",
+  "company_prices": [
+    {
+      "company_price_id": "CP-0eaee54f4679",
+      "target_type": "MATERIAL",
+      "canonical_code": "SUS304",
+      "specification": "3mm",
+      "unit_price": 28.5,
+      "unit": "kg",
+      "currency": "CNY",
+      "price_basis": "EXCLUDING_TAX",
+      "effective_from": "2026-08-05",
+      "effective_to": null,
+      "origin_type": "SUPPLIER_PRICE_RECORD",
+      "origin_supplier_id": "SUP-LFAF-001",
+      "origin_price_record_id": "PR-20260807-BCED0F23",
+      "selection_policy": "MANUAL_ADMIN_SELECTION",
+      "selection_reason": "管理员审核供应商原始报价后发布",
+      "approved_by": "admin001",
+      "approved_at": "2026-08-07T01:28:45.629648+00:00",
+      "price_version_id": "CP-20260807-012845-CF2D74"
+    }
+  ],
+  "created_by": "admin001",
+  "approved_by": "admin001",
+  "created_at": "2026-08-07T01:28:45.629648+00:00",
+  "approved_at": "2026-08-07T01:28:45.629648+00:00",
+  "snapshot_sha256": "150f9456991e395510f56a8c882aa8d9a4dd7b4f623aa314814486a56a0a6355",
+  "record_count": 1,
+  "material_count": 1,
+  "process_count": 0,
+  "surface_count": 0,
+  "blocking_errors": 0,
+  "blocking_error_list": [],
+  "notes": "管理员批准供应商报价 PR-20260807-BCED0F23"
+}

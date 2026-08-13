@@ -1,0 +1,2567 @@
+[
+  {
+    "item": "UC3000030030",
+    "material": "控制類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:台達",
+    "unit_cost": 370.8,
+    "desc": "原材料;電控外購件;控制類;PLC擴展;擴展IO模塊;型號:AS16AP11T-A;品牌:台達"
+  },
+  {
+    "item": "UC1002000231",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 92.0,
+    "desc": "原材料;加工件;A6061-T6;R013C,Ø72*65;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002004015",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "60*60*30",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 93.0,
+    "desc": "原材料;加工件;A6061-T6;R001-1;60*60*30;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002009711",
+    "material": "A6061-T6",
+    "part_code": "R001",
+    "dimensions": "φ250*15",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 209.0,
+    "desc": "原材料;加工件;A6061-T6;R001;φ250*15;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002009712",
+    "material": "A6061-T6",
+    "part_code": "R002",
+    "dimensions": "60*70*20",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 61.0,
+    "desc": "原材料;加工件;A6061-T6;R002;60*70*20;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002009713",
+    "material": "A6061-T6",
+    "part_code": "R003",
+    "dimensions": "60*30*10",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 38.0,
+    "desc": "原材料;加工件;A6061-T6;R003;60*30*10;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002009718",
+    "material": "A6061-T6",
+    "part_code": "R004",
+    "dimensions": "40*16*13",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 66.0,
+    "desc": "原材料;加工件;A6061-T6;R004;40*16*13;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC2030050022",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:15",
+    "unit_cost": 0.13,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:不鏽鋼;類型:沉頭內六角;螺紋規格:M5;螺桿長度:15"
+  },
+  {
+    "item": "UC2030050031",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:20",
+    "unit_cost": 0.19,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:不鏽鋼;類型:沉頭內六角;螺紋規格:M6;螺桿長度:20"
+  },
+  {
+    "item": "UC2030050032",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:25",
+    "unit_cost": 0.2,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:不鏽鋼;類型:沉頭內六角;螺紋規格:M6;螺桿長度:25"
+  },
+  {
+    "item": "UC2030050149",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "15",
+    "surface": "15",
+    "unit_cost": 0.74,
+    "desc": "原材料;機構外購件;小零件;緊固類;銷釘;帶螺紋;4;15"
+  },
+  {
+    "item": "UC2050050001",
+    "material": "工具",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:一品",
+    "unit_cost": 9.5,
+    "desc": "原材料;機構外購件;工具;剪切類;刀具;型号:銼刀CF-408-150;品牌:一品"
+  },
+  {
+    "item": "UC2050050002",
+    "material": "工具",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:無",
+    "unit_cost": 62.5,
+    "desc": "原材料;機構外購件;工具;剪切類;刀具;型号:合金套裝銼刀400,30件套,Φ3刀柄;品牌:無"
+  },
+  {
+    "item": "UC2050110025",
+    "material": "工具",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:邁盛",
+    "unit_cost": 1200.0,
+    "desc": "原材料;機構外購件;工具;打磨類;打磨機;型号:氣動剉刀;CAF-203;;品牌:邁盛"
+  },
+  {
+    "item": "UC2050110026",
+    "material": "工具",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:索良",
+    "unit_cost": 539.82,
+    "desc": "原材料;機構外購件;工具;打磨類;打磨機;型号:氣動工具;索良SL-2340;品牌:索良"
+  },
+  {
+    "item": "UC2050110027",
+    "material": "工具",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:邁盛",
+    "unit_cost": 575.22,
+    "desc": "原材料;機構外購件;工具;打磨類;打磨機;型号:打磨工具;SM-5405;;品牌:邁盛"
+  },
+  {
+    "item": "UC3030004041",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 31.41,
+    "desc": "原材料;電控外購件;氣類;氣動控制;電磁閥;電壓:DC24V;分類:五口二位單電控;接口管徑:PT1/8;型號:VS2120-01;品牌:紐立得"
+  },
+  {
+    "item": "UC3030004045",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 20.76,
+    "desc": "原材料;電控外購件;氣類;氣動控制;匯流板;型號:200M4F;品牌:紐立得"
+  },
+  {
+    "item": "UC3030012052",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:無",
+    "unit_cost": 12.14,
+    "desc": "原材料;電控外購件;氣類;氣源處理元件;給油器;接口管徑:PT1/4;型號:迷你氣動工具註油器；鐵鍍銅直牙款；內牙：PT1/4；外牙：PT1/4;品牌:無"
+  },
+  {
+    "item": "UC3030021060",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 1.7,
+    "desc": "原材料;電控外購件;氣類;管接頭;氣管接頭;連接螺紋:PT1/8;接管口徑:φ8;規格:螺紋直通;型號:PPC801;品牌:紐立得"
+  },
+  {
+    "item": "UC3030021073",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 3.54,
+    "desc": "原材料;電控外購件;氣類;管接頭;氣管接頭;連接螺紋:PT1/4;接管口徑:φ12;規格:L型螺紋二通;型號:PPL1202;品牌:紐立得"
+  },
+  {
+    "item": "UC3030021098",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 2.48,
+    "desc": "原材料;電控外購件;氣類;管接頭;氣管接頭;連接螺紋:PT1/8;接管口徑:φ10;規格:螺紋直通;型號:PPC1001;品牌:紐立得"
+  },
+  {
+    "item": "UC3030040027",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 0.78,
+    "desc": "原材料;電控外購件;氣類;輔助元件;堵頭;型號:SP01-02S;品牌:紐立得"
+  },
+  {
+    "item": "UC3030040028",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 1.65,
+    "desc": "原材料;電控外購件;氣類;輔助元件;消聲器;型號:BSLM02;品牌:紐立得"
+  },
+  {
+    "item": "UC1000005854",
+    "material": "S50C",
+    "part_code": "J003",
+    "dimensions": "928*796*15",
+    "surface": "表面鍍鉻",
+    "unit_cost": 1425.0,
+    "desc": "原材料;加工件;S50C;J003;928*796*15;表面鍍鉻"
+  },
+  {
+    "item": "UC1000005855",
+    "material": "S50C",
+    "part_code": "J005",
+    "dimensions": "1400*250*15",
+    "surface": "表面鍍鉻",
+    "unit_cost": 712.0,
+    "desc": "原材料;加工件;S50C;J005;1400*250*15;表面鍍鉻"
+  },
+  {
+    "item": "UC1000005856",
+    "material": "S50C",
+    "part_code": "J006",
+    "dimensions": "798*530*15",
+    "surface": "表面鍍鉻",
+    "unit_cost": 874.0,
+    "desc": "原材料;加工件;S50C;J006;798*530*15;表面鍍鉻"
+  },
+  {
+    "item": "UC1000005857",
+    "material": "S50C",
+    "part_code": "J007",
+    "dimensions": "1400*250*15",
+    "surface": "表面鍍鉻",
+    "unit_cost": 693.0,
+    "desc": "原材料;加工件;S50C;J007;1400*250*15;表面鍍鉻"
+  },
+  {
+    "item": "UC1002006858",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 71.0,
+    "desc": "原材料;加工件;A6061-T6;J026；92*20*92;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1003000436",
+    "material": "方通",
+    "part_code": "J001",
+    "dimensions": "1400*1300*785",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 7000.0,
+    "desc": "原材料;加工件;方通;J001;1400*1300*785;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001529",
+    "material": "SPCC",
+    "part_code": "W002",
+    "dimensions": "56*50*44",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 16.0,
+    "desc": "原材料;加工件;SPCC;W002;56*50*44;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001826",
+    "material": "SPCC",
+    "part_code": "F012",
+    "dimensions": "278*82*2",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 19.0,
+    "desc": "原材料;加工件;SPCC;F012;278*82*2;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001886",
+    "material": "SPCC",
+    "part_code": "J036",
+    "dimensions": "1208*103.5*2",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 28.0,
+    "desc": "原材料;加工件;SPCC;J036;1208*103.5*2;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001887",
+    "material": "SPCC",
+    "part_code": "F002",
+    "dimensions": "794*200*15",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 38.0,
+    "desc": "原材料;加工件;SPCC;F002;794*200*15;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001888",
+    "material": "SPCC",
+    "part_code": "J050",
+    "dimensions": "798*50*15",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 47.0,
+    "desc": "原材料;加工件;SPCC;J050;798*50*15;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001889",
+    "material": "SPCC",
+    "part_code": "J027",
+    "dimensions": "1300*117.2*2",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 38.0,
+    "desc": "原材料;加工件;SPCC;J027;1300*117.2*2;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001890",
+    "material": "SPCC",
+    "part_code": "J035",
+    "dimensions": "1300*117.2*88",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 95.0,
+    "desc": "原材料;加工件;SPCC;J035;1300*117.2*88;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001892",
+    "material": "SPCC",
+    "part_code": "F021",
+    "dimensions": "815.5*200.3*52",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 83.0,
+    "desc": "原材料;加工件;SPCC;F021;815.5*200.3*52;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001894",
+    "material": "SPCC",
+    "part_code": "F022",
+    "dimensions": "794*200*15",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 38.0,
+    "desc": "原材料;加工件;SPCC;F022;794*200*15;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001904",
+    "material": "SPCC",
+    "part_code": "F003",
+    "dimensions": "818*200*21",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 57.0,
+    "desc": "原材料;加工件;SPCC;F003;818*200*21;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001905",
+    "material": "SPCC",
+    "part_code": "F001",
+    "dimensions": "818*200*21",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 57.0,
+    "desc": "原材料;加工件;SPCC;F001;818*200*21;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001906",
+    "material": "SPCC",
+    "part_code": "F024",
+    "dimensions": "815.5*200.3*52",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 57.0,
+    "desc": "原材料;加工件;SPCC;F024;815.5*200.3*52;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001907",
+    "material": "SPCC",
+    "part_code": "F015",
+    "dimensions": "220*58*22",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 20.0,
+    "desc": "原材料;加工件;SPCC;F015;220*58*22;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001908",
+    "material": "SPCC",
+    "part_code": "F016",
+    "dimensions": "220*42*75",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 26.0,
+    "desc": "原材料;加工件;SPCC;F016;220*42*75;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001909",
+    "material": "SPCC",
+    "part_code": "F018",
+    "dimensions": "220*58*22",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 26.0,
+    "desc": "原材料;加工件;SPCC;F018;220*58*22;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001910",
+    "material": "SPCC",
+    "part_code": "F017",
+    "dimensions": "220*42*75",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 26.0,
+    "desc": "原材料;加工件;SPCC;F017;220*42*75;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1007000329",
+    "material": "SUS304",
+    "part_code": "J028",
+    "dimensions": "90*60*2",
+    "surface": "90*60*2",
+    "unit_cost": 10.0,
+    "desc": "原材料;加工件;SUS304;J028;90*60*2"
+  },
+  {
+    "item": "UC1007000773",
+    "material": "SUS304",
+    "part_code": "J029",
+    "dimensions": "80*90*2",
+    "surface": "80*90*2",
+    "unit_cost": 14.0,
+    "desc": "原材料;加工件;SUS304;J029;80*90*2"
+  },
+  {
+    "item": "UC1007000775",
+    "material": "SUS304",
+    "part_code": "F020",
+    "dimensions": "894.5*330*94",
+    "surface": "894.5*330*94",
+    "unit_cost": 285.0,
+    "desc": "原材料;加工件;SUS304;F020;894.5*330*94"
+  },
+  {
+    "item": "UC1007000776",
+    "material": "SUS304",
+    "part_code": "F025",
+    "dimensions": "855*166*132",
+    "surface": "855*166*132",
+    "unit_cost": 270.0,
+    "desc": "原材料;加工件;SUS304;F025;855*166*132"
+  },
+  {
+    "item": "UC2030050034",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:35",
+    "unit_cost": 0.29,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:不鏽鋼;類型:沉頭內六角;螺紋規格:M6;螺桿長度:35"
+  },
+  {
+    "item": "UC2030050038",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:25",
+    "unit_cost": 0.42,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:不鏽鋼;類型:沉頭內六角;螺紋規格:M8;螺桿長度:25"
+  },
+  {
+    "item": "UC2030050055",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:15",
+    "unit_cost": 0.09,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:不鏽鋼;類型:半圓頭內六角;螺紋規格:M6;螺桿長度:15"
+  },
+  {
+    "item": "UC2030050056",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:10",
+    "unit_cost": 0.12,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:不鏽鋼;類型:半圓頭內六角;螺紋規格:M5;螺桿長度:10"
+  },
+  {
+    "item": "UC2030050057",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:10",
+    "unit_cost": 0.1,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:不鏽鋼;類型:半圓頭內六角;螺紋規格:M4;螺桿長度:10"
+  },
+  {
+    "item": "UC2030050066",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:35",
+    "unit_cost": 0.82,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:不鏽鋼;類型:沉頭內六角;螺紋規格:M10;螺桿長度:35"
+  },
+  {
+    "item": "UC2910000009",
+    "material": "防護類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:無",
+    "unit_cost": 74.0,
+    "desc": "原材料;機構外購件;防護類;風琴防護罩;類型:U字形;外形尺寸:460*278*52;拉伸長度/壓縮長度:460/90;品牌:無"
+  },
+  {
+    "item": "UC2910000010",
+    "material": "防護類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:無",
+    "unit_cost": 80.0,
+    "desc": "原材料;機構外購件;防護類;風琴防護罩;類型:U字形;外形尺寸:500*278*52;拉伸長度/壓縮長度:500/96.4;品牌:無"
+  },
+  {
+    "item": "UC3000020005",
+    "material": "控制類",
+    "part_code": "",
+    "dimensions": "24VDC",
+    "surface": "台達",
+    "unit_cost": 1380.84,
+    "desc": "原材料;電控外購件;控制類;PLC;24VDC;AS228T-A;28;台達"
+  },
+  {
+    "item": "UC3000030030",
+    "material": "控制類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:台達",
+    "unit_cost": 370.8,
+    "desc": "原材料;電控外購件;控制類;PLC擴展;擴展IO模塊;型號:AS16AP11T-A;品牌:台達"
+  },
+  {
+    "item": "UC3010040002",
+    "material": "動力元件",
+    "part_code": "",
+    "dimensions": "220V",
+    "surface": "卡固",
+    "unit_cost": 34.32,
+    "desc": "原材料;電控外購件;動力元件;風扇;220V;21W;KA1238HA2;卡固"
+  },
+  {
+    "item": "UC3020000012",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "萬可",
+    "unit_cost": 12.74,
+    "desc": "原材料;電控外購件;配線周邊;電線連接器;直通型;8;插針;10A;734-108/037_000;萬可"
+  },
+  {
+    "item": "UC3020000013",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "萬可",
+    "unit_cost": 12.34,
+    "desc": "原材料;電控外購件;配線周邊;電線連接器;直通型;8;插孔;10A;734-308;萬可"
+  },
+  {
+    "item": "UC3020000025",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "米思米",
+    "unit_cost": 23.17,
+    "desc": "原材料;電控外購件;配線周邊;電線連接器;面板安裝型;8;插孔;無;LWC-RJ45-Z6;米思米"
+  },
+  {
+    "item": "UC3020000030",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "萬可",
+    "unit_cost": 5.91,
+    "desc": "原材料;電控外購件;配線周邊;電線連接器;直通型;3;插針;10A;734-103/037-000;萬可"
+  },
+  {
+    "item": "UC3020000031",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "萬可",
+    "unit_cost": 6.0,
+    "desc": "原材料;電控外購件;配線周邊;電線連接器;直通型;3;插孔;10A;734-303;萬可"
+  },
+  {
+    "item": "UC3020000089",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:米思米",
+    "unit_cost": 2.09,
+    "desc": "原材料;電控外購件;配線周邊;電線連接器;直通型;芯數:8;外形樣式:插針;最大電流:無;型號:LAMJ6G-SG-100P;品牌:米思米"
+  },
+  {
+    "item": "UC3020010004",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "和泉",
+    "unit_cost": 30.42,
+    "desc": "原材料;電控外購件;配線周邊;端子相關;端子固定;BAA1000;和泉"
+  },
+  {
+    "item": "UC3020010005",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "2002-3292",
+    "surface": "萬可",
+    "unit_cost": 1.0,
+    "desc": "原材料;電控外購件;配線周邊;端子相關;絕緣擋板;2002-3292;萬可"
+  },
+  {
+    "item": "UC3020010006",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "2002-410",
+    "surface": "萬可",
+    "unit_cost": 6.7,
+    "desc": "原材料;電控外購件;配線周邊;端子相關;梳妝跨接板;2002-410;萬可"
+  },
+  {
+    "item": "UC3020010007",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "無品牌要求",
+    "unit_cost": 1.55,
+    "desc": "原材料;電控外購件;配線周邊;端子相關;端子固定;BNL6;無品牌要求"
+  },
+  {
+    "item": "UC3020010008",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "2002-3201",
+    "surface": "萬可",
+    "unit_cost": 8.0,
+    "desc": "原材料;電控外購件;配線周邊;端子相關;端子台;3;2002-3201;萬可"
+  },
+  {
+    "item": "UC3020010009",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "瑞益洋",
+    "unit_cost": 2.09,
+    "desc": "原材料;電控外購件;配線周邊;端子相關;端子台;2;MEC-15;瑞益洋"
+  },
+  {
+    "item": "UC3020010032",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:無",
+    "unit_cost": 6.79,
+    "desc": "原材料;電控外購件;配線周邊;端子相關;端子固定;型號:DIN導軌35*7.5*1;品牌:無"
+  },
+  {
+    "item": "UC3020020004",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "φ22mm",
+    "surface": "和泉",
+    "unit_cost": 11.0,
+    "desc": "原材料;電控外購件;配線周邊;指示類;顯示燈;AC/DC24V;紅色;φ22mm;YW1P-1BEQ4R;和泉"
+  },
+  {
+    "item": "UC3020020005",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "歐恩",
+    "unit_cost": 56.31,
+    "desc": "原材料;電控外購件;配線周邊;指示類;顯示燈;DC24V;紅綠黃;底座安裝;ONNM4T-1ABFT-RYG-50;歐恩"
+  },
+  {
+    "item": "UC3020030006",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "857-304",
+    "surface": "萬可",
+    "unit_cost": 54.8,
+    "desc": "原材料;電控外購件;配線周邊;繼電器;中間繼電器;DC24V;6A;857-304;萬可"
+  },
+  {
+    "item": "UC3020030010",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "11A",
+    "surface": "富士",
+    "unit_cost": 128.21,
+    "desc": "原材料;電控外購件;配線周邊;繼電器;交流接觸器;DC24V;11A;SC-03/G DC24V 13NO;富士"
+  },
+  {
+    "item": "UC3020040015",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "無",
+    "unit_cost": 0.59,
+    "desc": "原材料;電控外購件;配線周邊;配線輔料;固線貼;HBDE-3.5-50P;無"
+  },
+  {
+    "item": "UC3020040018",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "新光",
+    "unit_cost": 0.02,
+    "desc": "原材料;電控外購件;配線周邊;配線輔料;扎帶;XINGO-200M;新光"
+  },
+  {
+    "item": "UC3020040019",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "瑞益洋",
+    "unit_cost": 0.07,
+    "desc": "原材料;電控外購件;配線周邊;配線輔料;端子;S1.25-3B，1000個/包;瑞益洋"
+  },
+  {
+    "item": "UC3020040020",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "全冠",
+    "unit_cost": 0.08,
+    "desc": "原材料;電控外購件;配線周邊;配線輔料;端子;CE005010白色，1000個/包;全冠"
+  },
+  {
+    "item": "UC3020040021",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "全冠",
+    "unit_cost": 0.1,
+    "desc": "原材料;電控外購件;配線周邊;配線輔料;端子;CE010010黄色;全冠"
+  },
+  {
+    "item": "UC3020040023",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "瑞益洋",
+    "unit_cost": 0.11,
+    "desc": "原材料;電控外購件;配線周邊;配線輔料;端子;MPD1.25-156;瑞益洋"
+  },
+  {
+    "item": "UC3020040024",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "瑞益洋",
+    "unit_cost": 0.11,
+    "desc": "原材料;電控外購件;配線周邊;配線輔料;端子;FRD1.25-156;瑞益洋"
+  },
+  {
+    "item": "UC3020040054",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "φ9-φ14",
+    "surface": "無",
+    "unit_cost": 4.69,
+    "desc": "原材料;電控外購件;配線周邊;配線輔料;電線固定頭;φ9-φ14;CRMPMB-M20-90140;無"
+  },
+  {
+    "item": "UC3020040057",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "無",
+    "unit_cost": 103.81,
+    "desc": "原材料;電控外購件;配線周邊;配線輔料;按钮盒;手持触摸屏安装盒,維綸7寸人機用,配啓動和急停按鈕;無"
+  },
+  {
+    "item": "UC3020040061",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "瑞益洋",
+    "unit_cost": 4.42,
+    "desc": "原材料;電控外購件;配線周邊;配線輔料;線槽;PVC-KSS-35*50MM;瑞益洋"
+  },
+  {
+    "item": "UC3020040062",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "瑞益洋",
+    "unit_cost": 4.9,
+    "desc": "原材料;電控外購件;配線周邊;配線輔料;線槽;PVC-KSS-25*50MM;瑞益洋"
+  },
+  {
+    "item": "UC3020040084",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:無",
+    "unit_cost": 11.5,
+    "desc": "原材料;電控外購件;配線周邊;配線輔料;保護管;分類:魔術貼編織管;型號:展开宽度152（最大线束直径40）,BZRR-40-10;品牌:無"
+  },
+  {
+    "item": "UC3020050021",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:台達",
+    "unit_cost": 130.98,
+    "desc": "原材料;電控外購件;配線周邊;開關電源;輸出電壓:24V;功率:120W;型號:DRL-24V120W1EN;品牌:台達"
+  },
+  {
+    "item": "UC3020060002",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "无",
+    "unit_cost": 38.3,
+    "desc": "原材料;電控外購件;配線周邊;電源插座;插排;10A;250V;GN-109K(3M);无"
+  },
+  {
+    "item": "UC3020080001",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "32A",
+    "surface": "正泰",
+    "unit_cost": 54.84,
+    "desc": "原材料;電控外購件;配線周邊;安全類;漏電斷路器;32A;2P;0.03A;0.1S;NBE7LE-32(C32 2P);正泰"
+  },
+  {
+    "item": "UC3020080004",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "15A",
+    "surface": "天得",
+    "unit_cost": 5.5,
+    "desc": "原材料;電控外購件;配線周邊;安全類;熔斷器座;15A;含10A熔絲;TFB-101N-10A;天得"
+  },
+  {
+    "item": "UC3020080014",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:台達",
+    "unit_cost": 9.74,
+    "desc": "原材料;電控外購件;配線周邊;安全類;電阻;電阻值:120Ω;型號:ASD-TR-DM0008;品牌:台達"
+  },
+  {
+    "item": "UC3020090001",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "公牛",
+    "unit_cost": 3.0,
+    "desc": "原材料;電控外購件;配線周邊;電源插頭;三角插頭;10A;250V;GNT-10;公牛"
+  },
+  {
+    "item": "UC3020090003",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:鴻雁",
+    "unit_cost": 5.3,
+    "desc": "原材料;電控外購件;配線周邊;電源插頭;名稱:三孔電源插;電流:16A;電壓:25VA;型號:T3-16Z;品牌:鴻雁"
+  },
+  {
+    "item": "UC3030000015",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "亞德客",
+    "unit_cost": 30.16,
+    "desc": "原材料;電控外購件;氣類;氣動控制;手動閥;HSV-15;亞德客"
+  },
+  {
+    "item": "UC3030004041",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 31.41,
+    "desc": "原材料;電控外購件;氣類;氣動控制;電磁閥;電壓:DC24V;分類:五口二位單電控;接口管徑:PT1/8;型號:VS2120-01;品牌:紐立得"
+  },
+  {
+    "item": "UC3030004045",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 20.76,
+    "desc": "原材料;電控外購件;氣類;氣動控制;匯流板;型號:200M4F;品牌:紐立得"
+  },
+  {
+    "item": "UC3030010002",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "亞德客",
+    "unit_cost": 115.0,
+    "desc": "原材料;電控外購件;氣類;氣源處理元件;二聯件;PT1/2;GFC30015AF1;亞德客"
+  },
+  {
+    "item": "UC3030010008",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:無",
+    "unit_cost": 289.0,
+    "desc": "原材料;電控外購件;氣類;氣源處理元件;儲氣罐;容量:10L;接口管徑:PT3/8;型號:VBAT10A1-U-X104;品牌:無"
+  },
+  {
+    "item": "UC3030020018",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "φ12",
+    "surface": "無",
+    "unit_cost": 4.43,
+    "desc": "原材料;電控外購件;氣類;管接頭;多通接頭;φ12;公快換接頭;PP40;無"
+  },
+  {
+    "item": "UC3030021057",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 1.24,
+    "desc": "原材料;電控外購件;氣類;管接頭;氣管接頭;連接螺紋:PT1/8;接管口徑:φ6;規格:螺紋直通;型號:PPC601;品牌:紐立得"
+  },
+  {
+    "item": "UC3030021073",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 3.54,
+    "desc": "原材料;電控外購件;氣類;管接頭;氣管接頭;連接螺紋:PT1/4;接管口徑:φ12;規格:L型螺紋二通;型號:PPL1202;品牌:紐立得"
+  },
+  {
+    "item": "UC3030021074",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 3.72,
+    "desc": "原材料;電控外購件;氣類;管接頭;氣管接頭;連接螺紋:PT1/2;接管口徑:φ12;規格:螺紋直通;型號:PPC1204;品牌:紐立得"
+  },
+  {
+    "item": "UC3030021079",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 10.59,
+    "desc": "原材料;電控外購件;氣類;管接頭;多通接頭;接管口徑:φ12;規格:穿板直通;型號:PPM12;品牌:紐立得"
+  },
+  {
+    "item": "UC3030021083",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 4.1,
+    "desc": "原材料;電控外購件;氣類;管接頭;調速接頭;連接螺紋:PT1/8;接管口徑:φ6;規格:L型;型號:PSL601;品牌:紐立得"
+  },
+  {
+    "item": "UC3030021196",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 1.87,
+    "desc": "原材料;電控外購件;氣類;管接頭;變徑接頭;接管口徑Ⅰ:φ12;接管口徑Ⅱ:φ6;規格:減經直通;型號:PPG12-6;品牌:紐立得"
+  },
+  {
+    "item": "UC3030030006",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "US98A060040100MCR；品牌：無",
+    "unit_cost": 0.9,
+    "desc": "原材料;電控外購件;氣類;氣管;聚酯;透明;6mm;4mm;US98A060040100MCR；品牌：無"
+  },
+  {
+    "item": "UC3030030007",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "亞德客",
+    "unit_cost": 1.74,
+    "desc": "原材料;電控外購件;氣類;氣管;聚酯;透明;8mm;5mm;US98A080050100MCR;亞德客"
+  },
+  {
+    "item": "UC3030030009",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "12mm",
+    "surface": "US98A120080100MCR；品牌：無",
+    "unit_cost": 3.28,
+    "desc": "原材料;電控外購件;氣類;氣管;聚酯;透明;12mm;8mm;US98A120080100MCR；品牌：無"
+  },
+  {
+    "item": "UC3030040027",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 0.78,
+    "desc": "原材料;電控外購件;氣類;輔助元件;堵頭;型號:SP01-02S;品牌:紐立得"
+  },
+  {
+    "item": "UC3030040028",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 1.65,
+    "desc": "原材料;電控外購件;氣類;輔助元件;消聲器;型號:BSLM02;品牌:紐立得"
+  },
+  {
+    "item": "UC3040000005",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "12K",
+    "surface": "12K",
+    "unit_cost": 147.5,
+    "desc": "原材料;電控外購件;輸入元件;壓力錶;正壓力表;-101.3-1000KPA;三线;PX-R10N;12K"
+  },
+  {
+    "item": "UC3040010002",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "威綸",
+    "unit_cost": 911.5,
+    "desc": "原材料;電控外購件;輸入元件;人機介面;開孔尺寸13.8*192mm;MT8072IE;威綸"
+  },
+  {
+    "item": "UC3040070003",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "和泉",
+    "unit_cost": 12.71,
+    "desc": "原材料;電控外購件;輸入元件;機械開關;轉換開關;二段選擇;10A;YW1S-2E11;和泉"
+  },
+  {
+    "item": "UC3040070006",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "和泉",
+    "unit_cost": 11.1,
+    "desc": "原材料;電控外購件;輸入元件;機械開關;按鈕開關;平頭;10A;YW1B-M1E20Y;黃色;和泉"
+  },
+  {
+    "item": "UC3040070007",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "和泉",
+    "unit_cost": 7.92,
+    "desc": "原材料;電控外購件;輸入元件;機械開關;按鈕開關;平頭;10A;YW1B-M1E10G;綠色;和泉"
+  },
+  {
+    "item": "UC3040070008",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "和泉",
+    "unit_cost": 7.93,
+    "desc": "原材料;電控外購件;輸入元件;機械開關;按鈕開關;平頭;10A;YW1B-M1E10R;紅色;和泉"
+  },
+  {
+    "item": "UC3040070009",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "和泉",
+    "unit_cost": 16.01,
+    "desc": "原材料;電控外購件;輸入元件;機械開關;急停開關;蘑菇頭;10A;YW1B-V4E11R;紅色;和泉"
+  },
+  {
+    "item": "UC3050050040",
+    "material": "視覺",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "說明:8口全千兆交換機",
+    "unit_cost": 110.61,
+    "desc": "原材料;電控外購件;視覺;PC配件;網路外設;型號:TL-SG1008D;品牌:普聯;說明:8口全千兆交換機"
+  },
+  {
+    "item": "UC3050050052",
+    "material": "視覺",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "說明:無線路由器",
+    "unit_cost": 110.03,
+    "desc": "原材料;電控外購件;視覺;PC配件;網路外設;型號:TP-LINK-TL-WRD5660;品牌:普聯;說明:無線路由器"
+  },
+  {
+    "item": "UC3050060008",
+    "material": "視覺",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "佳宏源科技照明(淘寶)",
+    "unit_cost": 58.54,
+    "desc": "原材料;電控外購件;視覺;光源;照明光源;白色;LED燈;智能可控硅无极调光,T8一体化超亮款(双排灯珠)，白光，長0.3M;佳宏源科技照明(淘寶)"
+  },
+  {
+    "item": "UC3070000005",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "1.5",
+    "surface": "無",
+    "unit_cost": 1.2,
+    "desc": "原材料;電控外購件;配線;電源線;無;1;1.5;RVV 1*1.5² 紅;無"
+  },
+  {
+    "item": "UC3070000006",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "1.5",
+    "surface": "無",
+    "unit_cost": 1.2,
+    "desc": "原材料;電控外購件;配線;電源線;無;1;1.5;RVV 1*1.5² 黑;無"
+  },
+  {
+    "item": "UC3070000008",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "2.5",
+    "surface": "無",
+    "unit_cost": 6.51,
+    "desc": "原材料;電控外購件;配線;電源線;無;3;2.5;RVV 3*2.5²;無"
+  },
+  {
+    "item": "UC3070000010",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "1.5",
+    "surface": "無",
+    "unit_cost": 1.3,
+    "desc": "原材料;電控外購件;配線;電源線;接地線;1;1.5;1*1.5²黃綠相間;無"
+  },
+  {
+    "item": "UC3070010002",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "0.3",
+    "surface": "無",
+    "unit_cost": 0.31,
+    "desc": "原材料;電控外購件;配線;信號線;無;1;0.3;棕色;ARVV 1*0.3 棕;無"
+  },
+  {
+    "item": "UC3070010003",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "0.3",
+    "surface": "無",
+    "unit_cost": 0.27,
+    "desc": "原材料;電控外購件;配線;信號線;無;1;0.3;藍色;ARVV 1*0.3 藍;無"
+  },
+  {
+    "item": "UC3070010007",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "0.3",
+    "surface": "無",
+    "unit_cost": 2.84,
+    "desc": "原材料;電控外購件;配線;信號線;带屏蔽;3;0.3;彩色;TRVVP3*0.3²;無"
+  },
+  {
+    "item": "UC3070010009",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "0.5",
+    "surface": "無",
+    "unit_cost": 4.07,
+    "desc": "原材料;電控外購件;配線;信號線;無;6;0.5;彩色;RVV 6*0.5²;無"
+  },
+  {
+    "item": "UC3070010010",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "10",
+    "surface": "無",
+    "unit_cost": 11.06,
+    "desc": "原材料;電控外購件;配線;信號線;帶屏蔽;10;0.5;彩色;TRVVP10*0.5²;無"
+  },
+  {
+    "item": "UC3070010011",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:無",
+    "unit_cost": 11.09,
+    "desc": "原材料;電控外購件;配線;信號線;明細:耐拖拉型雙絞屏蔽線;線芯數:10;平方數:0.3;顏色:彩色;型號:10*0.3MM;品牌:無"
+  },
+  {
+    "item": "UC3070010026",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:康普",
+    "unit_cost": 2.24,
+    "desc": "原材料;電控外購件;配線;信號線;明細:安普網聯六類四隊非屏蔽雙絞線;線芯數:8;平方數:0.3;顏色:0.5;彩色;型號:YD/T926.2-2009;品牌:康普"
+  },
+  {
+    "item": "UC3070040140",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "說明:成品網線",
+    "unit_cost": 4.42,
+    "desc": "原材料;電控外購件;配線;專用控制連接線;數據通訊線;長度:0.5M;特性:抗干擾;型號:六類千兆-黑-0.5M;品牌:山澤;說明:成品網線"
+  },
+  {
+    "item": "UC3070040141",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "說明:成品網線",
+    "unit_cost": 10.62,
+    "desc": "原材料;電控外購件;配線;專用控制連接線;數據通訊線;長度:5M;特性:抗干擾;型號:六類千兆-黑-5M;品牌:山澤;說明:成品網線"
+  },
+  {
+    "item": "UC2020083221",
+    "material": "框架及配件",
+    "part_code": "",
+    "dimensions": "40*40",
+    "surface": "品牌:無",
+    "unit_cost": 2900.0,
+    "desc": "原材料;機構外購件;框架及配件;型材;40*40;圖號:W001;1300*1300*995;白色透明亞克力；型號:JY-8-4040L;品牌:無"
+  },
+  {
+    "item": "UC3020000030",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "萬可",
+    "unit_cost": 5.91,
+    "desc": "原材料;電控外購件;配線周邊;電線連接器;直通型;3;插針;10A;734-103/037-000;萬可"
+  },
+  {
+    "item": "UC3020000031",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "萬可",
+    "unit_cost": 6.0,
+    "desc": "原材料;電控外購件;配線周邊;電線連接器;直通型;3;插孔;10A;734-303;萬可"
+  },
+  {
+    "item": "UC3040040062",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:德力西",
+    "unit_cost": 6.9,
+    "desc": "原材料;電控外購件;輸入元件;感應開關;微動開關;型號:LXW5-11G3;防護等級:IP62;工作溫度:-10～55℃;接線方式:二線式;品牌:德力西"
+  },
+  {
+    "item": "UC1002009781",
+    "material": "A6061-T6",
+    "part_code": "X001",
+    "dimensions": "220*200*15",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 175.0,
+    "desc": "原材料;加工件;A6061-T6;X001;220*200*15;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1004001893",
+    "material": "SPCC",
+    "part_code": "X002",
+    "dimensions": "85*70*50",
+    "surface": "顏色細橘紋白色,RAL9003",
+    "unit_cost": 28.0,
+    "desc": "原材料;加工件;SPCC;X002;85*70*50;顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC2000121147",
+    "material": "運動部品",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:無",
+    "unit_cost": 3274.34,
+    "desc": "原材料;機構外購件;運動部品;單軸組件;KA模組;導程:20;軌道長度:450;型號:EC17-L20-C-S450-BL-ZHC75-D3;附帶聯軸器,附帶電機法蘭,參考電機型號MS1H4-75B30CB-T331ZX6;品牌:無"
+  },
+  {
+    "item": "UC2001700013",
+    "material": "運動部品",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:威奧博仕",
+    "unit_cost": 4646.02,
+    "desc": "原材料;機構外購件;運動部品;旋轉平台;型號:RPA130-85-10K-Z140-HY;旋轉方向:X;R;品牌:威奧博仕"
+  },
+  {
+    "item": "UC2020050017",
+    "material": "框架及配件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:金福隆",
+    "unit_cost": 34.08,
+    "desc": "原材料;機構外購件;框架及配件;坦克鏈;經濟型;轉彎半徑:38;節數:18;材質:尼龍;長度*寬度:18*37;品牌:金福隆"
+  },
+  {
+    "item": "UC2030050050",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:35",
+    "unit_cost": 0.5,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:不鏽鋼;類型:半圓頭內六角;螺紋規格:M8;螺桿長度:35"
+  },
+  {
+    "item": "UC3000040019",
+    "material": "控制類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:匯川",
+    "unit_cost": 509.01,
+    "desc": "原材料;電控外購件;控制類;伺服驅動器;電壓:220V;功率:400W;型號:SV630CS2R8I;品牌:匯川"
+  },
+  {
+    "item": "UC3000040021",
+    "material": "控制類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:匯川",
+    "unit_cost": 626.67,
+    "desc": "原材料;電控外購件;控制類;伺服驅動器;電壓:220V;功率:750W;型號:SV630CS5R5I;品牌:匯川"
+  },
+  {
+    "item": "UC3010010032",
+    "material": "執行元件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:匯川",
+    "unit_cost": 583.2,
+    "desc": "原材料;電控外購件;執行元件;伺服電機;型號:MS1H4-40B30CB-T331ZX6;功率:400W;是否带制动:否;品牌:匯川"
+  },
+  {
+    "item": "UC3010010033",
+    "material": "執行元件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:匯川",
+    "unit_cost": 732.75,
+    "desc": "原材料;電控外購件;執行元件;伺服電機;型號:MS1H4-40B30CB-T334ZX6;功率:400W;是否带制动:是;品牌:匯川"
+  },
+  {
+    "item": "UC3010010036",
+    "material": "執行元件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:匯川",
+    "unit_cost": 678.55,
+    "desc": "原材料;電控外購件;執行元件;伺服電機;型號:MS1H4-75B30CB-T331ZX6;功率:750W;是否带制动:否;品牌:匯川"
+  },
+  {
+    "item": "UC3020000071",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:匯川",
+    "unit_cost": 4.75,
+    "desc": "原材料;電控外購件;配線周邊;電線連接器;直通型;芯數:44;外形樣式:插針;最大電流:無;型號:S6-C8;品牌:匯川"
+  },
+  {
+    "item": "UC3020100004",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "電壓:3.6V",
+    "unit_cost": 36.01,
+    "desc": "原材料;電控外購件;配線周邊;電池;型號:S6-C4;品牌:無品牌要求;電壓:3.6V"
+  },
+  {
+    "item": "UC3040040006",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "亞德客",
+    "unit_cost": 15.0,
+    "desc": "原材料;電控外購件;輸入元件;感應開關;磁性開關;DMSG-020;否;無;-10-70℃;電子式感應;亞德客"
+  },
+  {
+    "item": "UC3070040075",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "說明:不帶剎車",
+    "unit_cost": 42.24,
+    "desc": "原材料;電控外購件;配線;專用控制連接線;動力線;長度:5M;特性:抗拖拉;型號:S6-L-M107-5.0-T;品牌:匯川;說明:不帶剎車"
+  },
+  {
+    "item": "UC3070040076",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "說明:帶剎車",
+    "unit_cost": 43.7,
+    "desc": "原材料;電控外購件;配線;專用控制連接線;動力線;長度:5M;特性:抗拖拉;型號:S6-L-B107-5.0-T;品牌:匯川;說明:帶剎車"
+  },
+  {
+    "item": "UC3070040077",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "說明:匯川伺服絕對值編碼器線",
+    "unit_cost": 44.27,
+    "desc": "原材料;電控外購件;配線;專用控制連接線;編碼器線;長度:5M;特性:抗拖拉;型號:S6-L-P124-5.0-T;品牌:匯川;說明:匯川伺服絕對值編碼器線"
+  },
+  {
+    "item": "UC1000006481",
+    "material": "S50C",
+    "part_code": "A023",
+    "dimensions": "50*28*17",
+    "surface": "表面鍍鉻",
+    "unit_cost": 114.0,
+    "desc": "原材料;加工件;S50C;A023;50*28*17;表面鍍鉻"
+  },
+  {
+    "item": "UC1000006484",
+    "material": "S50C",
+    "part_code": "A022",
+    "dimensions": "58*23*15.5",
+    "surface": "表面鍍鉻",
+    "unit_cost": 109.0,
+    "desc": "原材料;加工件;S50C;A022;58*23*15.5;表面鍍鉻"
+  },
+  {
+    "item": "UC1000006488",
+    "material": "S50C",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "",
+    "unit_cost": 104.0,
+    "desc": "原材料;加工件;S50C;GCS-打磨設備（HSC07）滑軌追加工（附圖）"
+  },
+  {
+    "item": "UC1000006493",
+    "material": "S50C",
+    "part_code": "A007",
+    "dimensions": "63*34*26",
+    "surface": "表面鍍鉻",
+    "unit_cost": 95.0,
+    "desc": "原材料;加工件;S50C;A007;63*34*26;表面鍍鉻"
+  },
+  {
+    "item": "UC1000006494",
+    "material": "S50C",
+    "part_code": "A006",
+    "dimensions": "100*50*29",
+    "surface": "表面鍍鉻",
+    "unit_cost": 118.0,
+    "desc": "原材料;加工件;S50C;A006;100*50*29;表面鍍鉻"
+  },
+  {
+    "item": "UC1002011369",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "220*113*14",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 175.0,
+    "desc": "原材料;加工件;A6061-T6;A001-L;220*113*14;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011370",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "308.5*220*14",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 389.0,
+    "desc": "原材料;加工件;A6061-T6;A002-L;308.5*220*14;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011371",
+    "material": "A6061-T6",
+    "part_code": "A003",
+    "dimensions": "266.5*79*15",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 171.0,
+    "desc": "原材料;加工件;A6061-T6;A003;266.5*79*15;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011372",
+    "material": "A6061-T6",
+    "part_code": "A004",
+    "dimensions": "86*28*15",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 66.0,
+    "desc": "原材料;加工件;A6061-T6;A004;86*28*15;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011373",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "143*120*10",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 147.0,
+    "desc": "原材料;加工件;A6061-T6;A005-L;143*120*10;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011376",
+    "material": "A6061-T6",
+    "part_code": "A009",
+    "dimensions": "87*55*10",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 61.0,
+    "desc": "原材料;加工件;A6061-T6;A009;87*55*10;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011377",
+    "material": "A6061-T6",
+    "part_code": "A020",
+    "dimensions": "45*40*15",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 38.0,
+    "desc": "原材料;加工件;A6061-T6;A020;45*40*15;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011378",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "71*40*34.5",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 104.0,
+    "desc": "原材料;加工件;A6061-T6;B025-L;71*40*34.5;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011379",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "139*102.1*15",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 161.0,
+    "desc": "原材料;加工件;A6061-T6;B013-L;139*102.1*15;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011380",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "162.5*50*13.07",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 90.0,
+    "desc": "原材料;加工件;A6061-T6;B002-L;162.5*50*13.07;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011390",
+    "material": "A6061-T6",
+    "part_code": "R003",
+    "dimensions": "82.5*35*15",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 47.0,
+    "desc": "原材料;加工件;A6061-T6;R003;82.5*35*15;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1003000495",
+    "material": "方通",
+    "part_code": "J022",
+    "dimensions": "220*130*258",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 551.0,
+    "desc": "原材料;加工件;方通;J022;220*130*258;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001600",
+    "material": "SPCC",
+    "part_code": "F060",
+    "dimensions": "295*50*32",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 19.0,
+    "desc": "原材料;加工件;SPCC;F060;295*50*32;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1007000944",
+    "material": "SUS304",
+    "part_code": "F067",
+    "dimensions": "980*283.1*133",
+    "surface": "980*283.1*133",
+    "unit_cost": 332.0,
+    "desc": "原材料;加工件;SUS304;F067;980*283.1*133"
+  },
+  {
+    "item": "UC1007000950",
+    "material": "SUS304",
+    "part_code": "F064",
+    "dimensions": "271*100*23",
+    "surface": "271*100*23",
+    "unit_cost": 28.0,
+    "desc": "原材料;加工件;SUS304;F064;271*100*23"
+  },
+  {
+    "item": "UC1007000965",
+    "material": "SUS304",
+    "part_code": "",
+    "dimensions": "247*62*66.5",
+    "surface": "247*62*66.5",
+    "unit_cost": 38.0,
+    "desc": "原材料;加工件;SUS304;B220-L;247*62*66.5"
+  },
+  {
+    "item": "UC1007000966",
+    "material": "SUS304",
+    "part_code": "",
+    "dimensions": "35*26*23",
+    "surface": "35*26*23",
+    "unit_cost": 19.0,
+    "desc": "原材料;加工件;SUS304;B222-L;35*26*23"
+  },
+  {
+    "item": "UC1007000967",
+    "material": "SUS304",
+    "part_code": "",
+    "dimensions": "145*130*67",
+    "surface": "145*130*67",
+    "unit_cost": 38.0,
+    "desc": "原材料;加工件;SUS304;B221-L;145*130*67"
+  },
+  {
+    "item": "UC1230000925",
+    "material": "SKD11",
+    "part_code": "R018",
+    "dimensions": "283.6*φ8",
+    "surface": "283.6*φ8",
+    "unit_cost": 104.0,
+    "desc": "原材料;加工件;SKD11;R018;283.6*φ8"
+  },
+  {
+    "item": "UC2000060031",
+    "material": "運動部品",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:上銀",
+    "unit_cost": 75.93,
+    "desc": "原材料;機構外購件;運動部品;直線導軌;滑塊;滑塊樣式:四方型;固定方式:上鎖式;尺寸:20;型号:EGH20CAZAC;品牌:上銀"
+  },
+  {
+    "item": "UC2000060032",
+    "material": "運動部品",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:上銀",
+    "unit_cost": 601.77,
+    "desc": "原材料;機構外購件;運動部品;直線導軌;滑軌;長度:4000;寬度:20;型号:EGR20R4000C;品牌:上銀"
+  },
+  {
+    "item": "UC2010000003",
+    "material": "定位零件",
+    "part_code": "",
+    "dimensions": "10",
+    "surface": "亞德客",
+    "unit_cost": 50.02,
+    "desc": "原材料;機構外購件;定位零件;緩衝器;ACA系列;M12;10;ACA-1210-2;亞德客"
+  },
+  {
+    "item": "UC2020050026",
+    "material": "框架及配件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:金福隆",
+    "unit_cost": 52.5,
+    "desc": "原材料;機構外購件;框架及配件;坦克鏈;經濟型;轉彎半徑:38;半封閉內側可打開;配X4型接頭;節數:22;材質:尼龍;內高*內寬:18*37;品牌:金福隆"
+  },
+  {
+    "item": "UC2030010050",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:米思米",
+    "unit_cost": 4.41,
+    "desc": "原材料;機構外購件;小零件;釦環;C型軸用釦環;內徑:STWN8;品牌:米思米"
+  },
+  {
+    "item": "UC2030050071",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺紋規格:M4",
+    "unit_cost": 0.03,
+    "desc": "原材料;機構外購件;小零件;緊固類;彈簧墊片;材質:發黑;螺紋規格:M4"
+  },
+  {
+    "item": "UC2030050074",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺紋規格:M8",
+    "unit_cost": 0.05,
+    "desc": "原材料;機構外購件;小零件;緊固類;平墊片;材質:發黑;螺紋規格:M8"
+  },
+  {
+    "item": "UC2030050075",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺紋規格:M6",
+    "unit_cost": 0.04,
+    "desc": "原材料;機構外購件;小零件;緊固類;平墊片;材質:發黑;螺紋規格:M6"
+  },
+  {
+    "item": "UC2030050076",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺紋規格:M5",
+    "unit_cost": 0.04,
+    "desc": "原材料;機構外購件;小零件;緊固類;平墊片;材質:發黑;螺紋規格:M5"
+  },
+  {
+    "item": "UC2030050077",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺紋規格:M4",
+    "unit_cost": 0.03,
+    "desc": "原材料;機構外購件;小零件;緊固類;平墊片;材質:發黑;螺紋規格:M4"
+  },
+  {
+    "item": "UC2030050081",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:10",
+    "unit_cost": 0.06,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:發黑;類型:沉頭內六角;螺紋規格:M4;螺桿長度:10"
+  },
+  {
+    "item": "UC2030050082",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:15",
+    "unit_cost": 0.07,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:發黑;類型:沉頭內六角;螺紋規格:M4;螺桿長度:15"
+  },
+  {
+    "item": "UC2030050085",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:10",
+    "unit_cost": 0.06,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:發黑;類型:沉頭內六角;螺紋規格:M5;螺桿長度:10"
+  },
+  {
+    "item": "UC2030050087",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:15",
+    "unit_cost": 0.14,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:發黑;類型:沉頭內六角;螺紋規格:M5;螺桿長度:15"
+  },
+  {
+    "item": "UC2030050100",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:15",
+    "unit_cost": 0.08,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:發黑;類型:沉頭內六角;螺紋規格:M6;螺桿長度:15"
+  },
+  {
+    "item": "UC2030050107",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:15",
+    "unit_cost": 0.16,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:發黑;類型:沉頭內六角;螺紋規格:M8;螺桿長度:15"
+  },
+  {
+    "item": "UC2030050197",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "内牙:M8",
+    "unit_cost": 0.28,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺母;材質:發黑;類型:六角;内牙:M8"
+  },
+  {
+    "item": "UC2040000004",
+    "material": "氣動液壓類",
+    "part_code": "",
+    "dimensions": "20",
+    "surface": "亞德客",
+    "unit_cost": 84.0,
+    "desc": "原材料;機構外購件;氣動液壓類;氣缸;迷你型;復動型;20;350;無;MI20x350SU;亞德客"
+  },
+  {
+    "item": "UC2040000040",
+    "material": "氣動液壓類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:亞德客",
+    "unit_cost": 234.0,
+    "desc": "原材料;機構外購件;氣動液壓類;氣缸;氣動手指型;作動方式:復動;缸径:20;行程:10;調整行程:無;型号:HFZ20;品牌:亞德客"
+  },
+  {
+    "item": "UC2040000042",
+    "material": "氣動液壓類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:亞德客",
+    "unit_cost": 101.0,
+    "desc": "原材料;機構外購件;氣動液壓類;氣缸;雙軸型;作動方式:復動;缸径:16;行程:30;調整行程:無;型号:TN16X30S;品牌:亞德客"
+  },
+  {
+    "item": "UC2040010010",
+    "material": "氣動液壓類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:氣立可",
+    "unit_cost": 38.94,
+    "desc": "原材料;機構外購件;氣動液壓類;氣缸配件;浮動接頭;螺紋規格:M8;型號:CJ-M8X1.25;品牌:氣立可"
+  },
+  {
+    "item": "UC3020000012",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "萬可",
+    "unit_cost": 12.74,
+    "desc": "原材料;電控外購件;配線周邊;電線連接器;直通型;8;插針;10A;734-108/037_000;萬可"
+  },
+  {
+    "item": "UC3020000013",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "萬可",
+    "unit_cost": 12.34,
+    "desc": "原材料;電控外購件;配線周邊;電線連接器;直通型;8;插孔;10A;734-308;萬可"
+  },
+  {
+    "item": "UC3020040012",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "亞德客",
+    "unit_cost": 3.93,
+    "desc": "原材料;電控外購件;配線周邊;配線輔料;感應器綁帶;F-MQ-S20;亞德客"
+  },
+  {
+    "item": "UC3030004041",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 31.41,
+    "desc": "原材料;電控外購件;氣類;氣動控制;電磁閥;電壓:DC24V;分類:五口二位單電控;接口管徑:PT1/8;型號:VS2120-01;品牌:紐立得"
+  },
+  {
+    "item": "UC3030004043",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 74.5,
+    "desc": "原材料;電控外購件;氣類;氣動控制;電磁閥;電壓:DC24V;分類:五口三位中封;接口管徑:PT1/8;型號:VS2320-01;品牌:紐立得"
+  },
+  {
+    "item": "UC3030004045",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 20.76,
+    "desc": "原材料;電控外購件;氣類;氣動控制;匯流板;型號:200M4F;品牌:紐立得"
+  },
+  {
+    "item": "UC3030020010",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "φ6",
+    "surface": "以賽亞",
+    "unit_cost": 7.24,
+    "desc": "原材料;電控外購件;氣類;管接頭;調速接頭;M5;φ6;L型;ISCA06-M5;以賽亞"
+  },
+  {
+    "item": "UC3030021057",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 1.24,
+    "desc": "原材料;電控外購件;氣類;管接頭;氣管接頭;連接螺紋:PT1/8;接管口徑:φ6;規格:螺紋直通;型號:PPC601;品牌:紐立得"
+  },
+  {
+    "item": "UC3030021069",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 4.11,
+    "desc": "原材料;電控外購件;氣類;管接頭;氣管接頭;連接螺紋:PT1/4;接管口徑:φ12;規格:螺紋直通;型號:PPC1202;品牌:紐立得"
+  },
+  {
+    "item": "UC3030021072",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 1.4,
+    "desc": "原材料;電控外購件;氣類;管接頭;多通接頭;接管口徑:φ6;規格:Y型三通;型號:PPY6;品牌:紐立得"
+  },
+  {
+    "item": "UC3030040027",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 0.78,
+    "desc": "原材料;電控外購件;氣類;輔助元件;堵頭;型號:SP01-02S;品牌:紐立得"
+  },
+  {
+    "item": "UC3030040028",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 1.65,
+    "desc": "原材料;電控外購件;氣類;輔助元件;消聲器;型號:BSLM02;品牌:紐立得"
+  },
+  {
+    "item": "UC3040040005",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "亞德客",
+    "unit_cost": 15.29,
+    "desc": "原材料;電控外購件;輸入元件;感應開關;磁性開關;DMSH-20;否;無;-10°-70°;電子式感應;亞德客"
+  },
+  {
+    "item": "UC3040040006",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "亞德客",
+    "unit_cost": 15.0,
+    "desc": "原材料;電控外購件;輸入元件;感應開關;磁性開關;DMSG-020;否;無;-10-70℃;電子式感應;亞德客"
+  },
+  {
+    "item": "UC3040040018",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:奥托尼克斯",
+    "unit_cost": 69.43,
+    "desc": "原材料;電控外購件;輸入元件;感應開關;近接開關;型號:PRL08-2DN;防護等級:是;檢測距離:2mm;工作溫度:-25至70;接線方式:NPN;品牌:奥托尼克斯"
+  },
+  {
+    "item": "UC3070010002",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "0.3",
+    "surface": "無",
+    "unit_cost": 0.31,
+    "desc": "原材料;電控外購件;配線;信號線;無;1;0.3;棕色;ARVV 1*0.3 棕;無"
+  },
+  {
+    "item": "UC3070010003",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "0.3",
+    "surface": "無",
+    "unit_cost": 0.27,
+    "desc": "原材料;電控外購件;配線;信號線;無;1;0.3;藍色;ARVV 1*0.3 藍;無"
+  },
+  {
+    "item": "UC3070010011",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:無",
+    "unit_cost": 11.09,
+    "desc": "原材料;電控外購件;配線;信號線;明細:耐拖拉型雙絞屏蔽線;線芯數:10;平方數:0.3;顏色:彩色;型號:10*0.3MM;品牌:無"
+  },
+  {
+    "item": "UC1000006481",
+    "material": "S50C",
+    "part_code": "A023",
+    "dimensions": "50*28*17",
+    "surface": "表面鍍鉻",
+    "unit_cost": 114.0,
+    "desc": "原材料;加工件;S50C;A023;50*28*17;表面鍍鉻"
+  },
+  {
+    "item": "UC1000006484",
+    "material": "S50C",
+    "part_code": "A022",
+    "dimensions": "58*23*15.5",
+    "surface": "表面鍍鉻",
+    "unit_cost": 109.0,
+    "desc": "原材料;加工件;S50C;A022;58*23*15.5;表面鍍鉻"
+  },
+  {
+    "item": "UC1000006488",
+    "material": "S50C",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "",
+    "unit_cost": 104.0,
+    "desc": "原材料;加工件;S50C;GCS-打磨設備（HSC07）滑軌追加工（附圖）"
+  },
+  {
+    "item": "UC1000006493",
+    "material": "S50C",
+    "part_code": "A007",
+    "dimensions": "63*34*26",
+    "surface": "表面鍍鉻",
+    "unit_cost": 95.0,
+    "desc": "原材料;加工件;S50C;A007;63*34*26;表面鍍鉻"
+  },
+  {
+    "item": "UC1000006494",
+    "material": "S50C",
+    "part_code": "A006",
+    "dimensions": "100*50*29",
+    "surface": "表面鍍鉻",
+    "unit_cost": 118.0,
+    "desc": "原材料;加工件;S50C;A006;100*50*29;表面鍍鉻"
+  },
+  {
+    "item": "UC1002011371",
+    "material": "A6061-T6",
+    "part_code": "A003",
+    "dimensions": "266.5*79*15",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 171.0,
+    "desc": "原材料;加工件;A6061-T6;A003;266.5*79*15;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011372",
+    "material": "A6061-T6",
+    "part_code": "A004",
+    "dimensions": "86*28*15",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 66.0,
+    "desc": "原材料;加工件;A6061-T6;A004;86*28*15;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011376",
+    "material": "A6061-T6",
+    "part_code": "A009",
+    "dimensions": "87*55*10",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 61.0,
+    "desc": "原材料;加工件;A6061-T6;A009;87*55*10;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011377",
+    "material": "A6061-T6",
+    "part_code": "A020",
+    "dimensions": "45*40*15",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 38.0,
+    "desc": "原材料;加工件;A6061-T6;A020;45*40*15;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011381",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "220*113*14",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 175.0,
+    "desc": "原材料;加工件;A6061-T6;A001-R;220*113*14;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011382",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "308.5*220*14",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 389.0,
+    "desc": "原材料;加工件;A6061-T6;A002-R;308.5*220*14;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011383",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "143*120*10",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 147.0,
+    "desc": "原材料;加工件;A6061-T6;A005-R;143*120*10;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011387",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "71*40*34.5",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 90.0,
+    "desc": "原材料;加工件;A6061-T6;B025-R;71*40*34.5;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011388",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "139*102.1*15",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 160.0,
+    "desc": "原材料;加工件;A6061-T6;B013-R;139*102.1*15;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011389",
+    "material": "A6061-T6",
+    "part_code": "",
+    "dimensions": "162.5*50*13.07",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 90.0,
+    "desc": "原材料;加工件;A6061-T6;B002-R;162.5*50*13.07;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1002011390",
+    "material": "A6061-T6",
+    "part_code": "R003",
+    "dimensions": "82.5*35*15",
+    "surface": "表面噴砂陽極銀色",
+    "unit_cost": 47.0,
+    "desc": "原材料;加工件;A6061-T6;R003;82.5*35*15;表面噴砂陽極銀色"
+  },
+  {
+    "item": "UC1003000495",
+    "material": "方通",
+    "part_code": "J022",
+    "dimensions": "220*130*258",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 551.0,
+    "desc": "原材料;加工件;方通;J022;220*130*258;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1004001600",
+    "material": "SPCC",
+    "part_code": "F060",
+    "dimensions": "295*50*32",
+    "surface": "表面烤漆,顏色細橘紋白色,RAL9003",
+    "unit_cost": 19.0,
+    "desc": "原材料;加工件;SPCC;F060;295*50*32;表面烤漆,顏色細橘紋白色,RAL9003"
+  },
+  {
+    "item": "UC1007000944",
+    "material": "SUS304",
+    "part_code": "F067",
+    "dimensions": "980*283.1*133",
+    "surface": "980*283.1*133",
+    "unit_cost": 332.0,
+    "desc": "原材料;加工件;SUS304;F067;980*283.1*133"
+  },
+  {
+    "item": "UC1007000950",
+    "material": "SUS304",
+    "part_code": "F064",
+    "dimensions": "271*100*23",
+    "surface": "271*100*23",
+    "unit_cost": 28.0,
+    "desc": "原材料;加工件;SUS304;F064;271*100*23"
+  },
+  {
+    "item": "UC1007000966",
+    "material": "SUS304",
+    "part_code": "",
+    "dimensions": "35*26*23",
+    "surface": "35*26*23",
+    "unit_cost": 19.0,
+    "desc": "原材料;加工件;SUS304;B222-L;35*26*23"
+  },
+  {
+    "item": "UC1007000968",
+    "material": "SUS304",
+    "part_code": "",
+    "dimensions": "247*62*66.5",
+    "surface": "247*62*66.5",
+    "unit_cost": 38.0,
+    "desc": "原材料;加工件;SUS304;B220-R;247*62*66.5"
+  },
+  {
+    "item": "UC1007000969",
+    "material": "SUS304",
+    "part_code": "",
+    "dimensions": "145*130*67",
+    "surface": "145*130*67",
+    "unit_cost": 38.0,
+    "desc": "原材料;加工件;SUS304;B221-R;145*130*67"
+  },
+  {
+    "item": "UC1230000925",
+    "material": "SKD11",
+    "part_code": "R018",
+    "dimensions": "283.6*φ8",
+    "surface": "283.6*φ8",
+    "unit_cost": 104.0,
+    "desc": "原材料;加工件;SKD11;R018;283.6*φ8"
+  },
+  {
+    "item": "UC2000060031",
+    "material": "運動部品",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:上銀",
+    "unit_cost": 75.93,
+    "desc": "原材料;機構外購件;運動部品;直線導軌;滑塊;滑塊樣式:四方型;固定方式:上鎖式;尺寸:20;型号:EGH20CAZAC;品牌:上銀"
+  },
+  {
+    "item": "UC2000060032",
+    "material": "運動部品",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:上銀",
+    "unit_cost": 601.77,
+    "desc": "原材料;機構外購件;運動部品;直線導軌;滑軌;長度:4000;寬度:20;型号:EGR20R4000C;品牌:上銀"
+  },
+  {
+    "item": "UC2010000003",
+    "material": "定位零件",
+    "part_code": "",
+    "dimensions": "10",
+    "surface": "亞德客",
+    "unit_cost": 50.02,
+    "desc": "原材料;機構外購件;定位零件;緩衝器;ACA系列;M12;10;ACA-1210-2;亞德客"
+  },
+  {
+    "item": "UC2020050026",
+    "material": "框架及配件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:金福隆",
+    "unit_cost": 52.5,
+    "desc": "原材料;機構外購件;框架及配件;坦克鏈;經濟型;轉彎半徑:38;半封閉內側可打開;配X4型接頭;節數:22;材質:尼龍;內高*內寬:18*37;品牌:金福隆"
+  },
+  {
+    "item": "UC2030010050",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:米思米",
+    "unit_cost": 4.41,
+    "desc": "原材料;機構外購件;小零件;釦環;C型軸用釦環;內徑:STWN8;品牌:米思米"
+  },
+  {
+    "item": "UC2030050071",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺紋規格:M4",
+    "unit_cost": 0.03,
+    "desc": "原材料;機構外購件;小零件;緊固類;彈簧墊片;材質:發黑;螺紋規格:M4"
+  },
+  {
+    "item": "UC2030050074",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺紋規格:M8",
+    "unit_cost": 0.05,
+    "desc": "原材料;機構外購件;小零件;緊固類;平墊片;材質:發黑;螺紋規格:M8"
+  },
+  {
+    "item": "UC2030050075",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺紋規格:M6",
+    "unit_cost": 0.04,
+    "desc": "原材料;機構外購件;小零件;緊固類;平墊片;材質:發黑;螺紋規格:M6"
+  },
+  {
+    "item": "UC2030050076",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺紋規格:M5",
+    "unit_cost": 0.04,
+    "desc": "原材料;機構外購件;小零件;緊固類;平墊片;材質:發黑;螺紋規格:M5"
+  },
+  {
+    "item": "UC2030050077",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺紋規格:M4",
+    "unit_cost": 0.03,
+    "desc": "原材料;機構外購件;小零件;緊固類;平墊片;材質:發黑;螺紋規格:M4"
+  },
+  {
+    "item": "UC2030050081",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:10",
+    "unit_cost": 0.06,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:發黑;類型:沉頭內六角;螺紋規格:M4;螺桿長度:10"
+  },
+  {
+    "item": "UC2030050082",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:15",
+    "unit_cost": 0.07,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:發黑;類型:沉頭內六角;螺紋規格:M4;螺桿長度:15"
+  },
+  {
+    "item": "UC2030050085",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:10",
+    "unit_cost": 0.06,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:發黑;類型:沉頭內六角;螺紋規格:M5;螺桿長度:10"
+  },
+  {
+    "item": "UC2030050087",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:15",
+    "unit_cost": 0.14,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:發黑;類型:沉頭內六角;螺紋規格:M5;螺桿長度:15"
+  },
+  {
+    "item": "UC2030050100",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:15",
+    "unit_cost": 0.08,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:發黑;類型:沉頭內六角;螺紋規格:M6;螺桿長度:15"
+  },
+  {
+    "item": "UC2030050107",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "螺桿長度:15",
+    "unit_cost": 0.16,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺絲;材質:發黑;類型:沉頭內六角;螺紋規格:M8;螺桿長度:15"
+  },
+  {
+    "item": "UC2030050197",
+    "material": "小零件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "内牙:M8",
+    "unit_cost": 0.28,
+    "desc": "原材料;機構外購件;小零件;緊固類;螺母;材質:發黑;類型:六角;内牙:M8"
+  },
+  {
+    "item": "UC2040000004",
+    "material": "氣動液壓類",
+    "part_code": "",
+    "dimensions": "20",
+    "surface": "亞德客",
+    "unit_cost": 84.0,
+    "desc": "原材料;機構外購件;氣動液壓類;氣缸;迷你型;復動型;20;350;無;MI20x350SU;亞德客"
+  },
+  {
+    "item": "UC2040000040",
+    "material": "氣動液壓類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:亞德客",
+    "unit_cost": 234.0,
+    "desc": "原材料;機構外購件;氣動液壓類;氣缸;氣動手指型;作動方式:復動;缸径:20;行程:10;調整行程:無;型号:HFZ20;品牌:亞德客"
+  },
+  {
+    "item": "UC2040000042",
+    "material": "氣動液壓類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:亞德客",
+    "unit_cost": 101.0,
+    "desc": "原材料;機構外購件;氣動液壓類;氣缸;雙軸型;作動方式:復動;缸径:16;行程:30;調整行程:無;型号:TN16X30S;品牌:亞德客"
+  },
+  {
+    "item": "UC2040010010",
+    "material": "氣動液壓類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:氣立可",
+    "unit_cost": 38.94,
+    "desc": "原材料;機構外購件;氣動液壓類;氣缸配件;浮動接頭;螺紋規格:M8;型號:CJ-M8X1.25;品牌:氣立可"
+  },
+  {
+    "item": "UC3020000012",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "萬可",
+    "unit_cost": 12.74,
+    "desc": "原材料;電控外購件;配線周邊;電線連接器;直通型;8;插針;10A;734-108/037_000;萬可"
+  },
+  {
+    "item": "UC3020000013",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "10A",
+    "surface": "萬可",
+    "unit_cost": 12.34,
+    "desc": "原材料;電控外購件;配線周邊;電線連接器;直通型;8;插孔;10A;734-308;萬可"
+  },
+  {
+    "item": "UC3020040012",
+    "material": "配線周邊",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "亞德客",
+    "unit_cost": 3.93,
+    "desc": "原材料;電控外購件;配線周邊;配線輔料;感應器綁帶;F-MQ-S20;亞德客"
+  },
+  {
+    "item": "UC3030004041",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 31.41,
+    "desc": "原材料;電控外購件;氣類;氣動控制;電磁閥;電壓:DC24V;分類:五口二位單電控;接口管徑:PT1/8;型號:VS2120-01;品牌:紐立得"
+  },
+  {
+    "item": "UC3030004043",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 74.5,
+    "desc": "原材料;電控外購件;氣類;氣動控制;電磁閥;電壓:DC24V;分類:五口三位中封;接口管徑:PT1/8;型號:VS2320-01;品牌:紐立得"
+  },
+  {
+    "item": "UC3030004045",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 20.76,
+    "desc": "原材料;電控外購件;氣類;氣動控制;匯流板;型號:200M4F;品牌:紐立得"
+  },
+  {
+    "item": "UC3030020010",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "φ6",
+    "surface": "以賽亞",
+    "unit_cost": 7.24,
+    "desc": "原材料;電控外購件;氣類;管接頭;調速接頭;M5;φ6;L型;ISCA06-M5;以賽亞"
+  },
+  {
+    "item": "UC3030021057",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 1.24,
+    "desc": "原材料;電控外購件;氣類;管接頭;氣管接頭;連接螺紋:PT1/8;接管口徑:φ6;規格:螺紋直通;型號:PPC601;品牌:紐立得"
+  },
+  {
+    "item": "UC3030021069",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 4.11,
+    "desc": "原材料;電控外購件;氣類;管接頭;氣管接頭;連接螺紋:PT1/4;接管口徑:φ12;規格:螺紋直通;型號:PPC1202;品牌:紐立得"
+  },
+  {
+    "item": "UC3030021072",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 1.4,
+    "desc": "原材料;電控外購件;氣類;管接頭;多通接頭;接管口徑:φ6;規格:Y型三通;型號:PPY6;品牌:紐立得"
+  },
+  {
+    "item": "UC3030040027",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 0.78,
+    "desc": "原材料;電控外購件;氣類;輔助元件;堵頭;型號:SP01-02S;品牌:紐立得"
+  },
+  {
+    "item": "UC3030040028",
+    "material": "氣類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:紐立得",
+    "unit_cost": 1.65,
+    "desc": "原材料;電控外購件;氣類;輔助元件;消聲器;型號:BSLM02;品牌:紐立得"
+  },
+  {
+    "item": "UC3040040005",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "亞德客",
+    "unit_cost": 15.29,
+    "desc": "原材料;電控外購件;輸入元件;感應開關;磁性開關;DMSH-20;否;無;-10°-70°;電子式感應;亞德客"
+  },
+  {
+    "item": "UC3040040006",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "亞德客",
+    "unit_cost": 15.0,
+    "desc": "原材料;電控外購件;輸入元件;感應開關;磁性開關;DMSG-020;否;無;-10-70℃;電子式感應;亞德客"
+  },
+  {
+    "item": "UC3040040018",
+    "material": "輸入元件",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:奥托尼克斯",
+    "unit_cost": 69.43,
+    "desc": "原材料;電控外購件;輸入元件;感應開關;近接開關;型號:PRL08-2DN;防護等級:是;檢測距離:2mm;工作溫度:-25至70;接線方式:NPN;品牌:奥托尼克斯"
+  },
+  {
+    "item": "UC3070010002",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "0.3",
+    "surface": "無",
+    "unit_cost": 0.31,
+    "desc": "原材料;電控外購件;配線;信號線;無;1;0.3;棕色;ARVV 1*0.3 棕;無"
+  },
+  {
+    "item": "UC3070010003",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "0.3",
+    "surface": "無",
+    "unit_cost": 0.27,
+    "desc": "原材料;電控外購件;配線;信號線;無;1;0.3;藍色;ARVV 1*0.3 藍;無"
+  },
+  {
+    "item": "UC3070010011",
+    "material": "配線",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:無",
+    "unit_cost": 11.09,
+    "desc": "原材料;電控外購件;配線;信號線;明細:耐拖拉型雙絞屏蔽線;線芯數:10;平方數:0.3;顏色:彩色;型號:10*0.3MM;品牌:無"
+  },
+  {
+    "item": "UC3000030030",
+    "material": "控制類",
+    "part_code": "",
+    "dimensions": "",
+    "surface": "品牌:台達",
+    "unit_cost": 370.8,
+    "desc": "原材料;電控外購件;控制類;PLC擴展;擴展IO模塊;型號:AS16AP11T-A;品牌:台達"
+  }
+]

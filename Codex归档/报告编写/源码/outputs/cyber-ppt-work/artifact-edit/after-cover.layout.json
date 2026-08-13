@@ -1,0 +1,419 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/y90nupkv",
+    "id": "y90nupkv",
+    "slide": 1,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Microsoft JhengHei"
+      },
+      "minorFont": {
+        "latinTypeface": "Microsoft JhengHei"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Microsoft JhengHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/dkb2xcfy",
+      "id": "7",
+      "name": "Image 0",
+      "bbox": [
+        0,
+        0,
+        1279.97,
+        720
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image1.png",
+        "contentType": "image/png",
+        "byteLength": 16390
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image1.png",
+        "contentType": "image/png",
+        "byteLength": 16390
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3yl0zql",
+      "id": "3",
+      "name": "Text 0",
+      "bbox": [
+        166.08,
+        129.6,
+        235.2,
+        69.12
+      ],
+      "geometry": "rect",
+      "text": "VISION",
+      "textPreview": "VISION",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft JhengHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "VISION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "VISION",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "VISION",
+              "fontSize": 48,
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qp4be9c",
+      "id": "4",
+      "name": "Text 1",
+      "bbox": [
+        576,
+        52.8,
+        590.4,
+        55.68
+      ],
+      "geometry": "rect",
+      "text": "视觉无序抓取技术应用汇报",
+      "textPreview": "视觉无序抓取技术应用汇报",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft JhengHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "视觉无序抓取技术应用汇报"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "视觉无序抓取技术应用汇报",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "视觉无序抓取技术应用汇报",
+              "fontSize": 36,
+              "typeface": "Microsoft JhengHei",
+              "color": "#00457A",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65g3298r",
+      "id": "5",
+      "name": "Text 2",
+      "bbox": [
+        564.48,
+        170.88,
+        566.4,
+        211.2
+      ],
+      "geometry": "rect",
+      "text": "Ø  汇报主题：视觉无序抓取技术应用\n\nØ  量产成果：4类抓取方案已投入生产运行\n\nØ  下一步计划：推进并联机械手自主开发",
+      "textPreview": "Ø  汇报主题：视觉无序抓取技术应用 |  | Ø  量产成果：4类抓取方案已投入生产运行 |  | Ø  下一步计划：推进并联机械手自主开发",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Microsoft JhengHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ø  汇报主题：视觉无序抓取技术应用"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "Ø  量产成果：4类抓取方案已投入生产运行"
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "Ø  下一步计划：推进并联机械手自主开发"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ø  汇报主题：视觉无序抓取技术应用",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ø  ",
+              "fontSize": 26.67,
+              "typeface": "Microsoft JhengHei",
+              "color": "#505050"
+            },
+            {
+              "index": 2,
+              "text": "汇报主题：视觉无序抓取技术应用",
+              "fontSize": 26.67,
+              "typeface": "Microsoft JhengHei",
+              "color": "#505050"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Ø  量产成果：4类抓取方案已投入生产运行",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ø  ",
+              "fontSize": 26.67,
+              "typeface": "Microsoft JhengHei",
+              "color": "#505050"
+            },
+            {
+              "index": 2,
+              "text": "量产成果：4类抓取方案已投入生产运行",
+              "fontSize": 26.67,
+              "typeface": "Microsoft JhengHei",
+              "color": "#505050"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "Ø  下一步计划：推进并联机械手自主开发",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ø  ",
+              "fontSize": 26.67,
+              "typeface": "Microsoft JhengHei",
+              "color": "#505050"
+            },
+            {
+              "index": 2,
+              "text": "下一步计划：推进并联机械手自主开发",
+              "fontSize": 26.67,
+              "typeface": "Microsoft JhengHei",
+              "color": "#505050"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ts7md4r2",
+      "id": "6",
+      "name": "Text 3",
+      "bbox": [
+        590.4,
+        687.36,
+        499.2,
+        12.48
+      ],
+      "geometry": "rect",
+      "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved.",
+      "textPreview": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Microsoft JhengHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved.",
+          "marginLeft": 0,
+          "indent": 0,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved.",
+              "fontSize": 7.6,
+              "typeface": "Arial",
+              "color": "#D0D0D0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

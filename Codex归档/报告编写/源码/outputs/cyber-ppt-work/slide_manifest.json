@@ -1,0 +1,26 @@
+{
+  "deck":"视觉无序抓取技术应用汇报",
+  "delivery_mode":"single_page_iterative",
+  "slides":[
+    {
+      "slide":1,
+      "role":"Cover",
+      "layout_reference":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/blueprints/slide-01.png",
+      "slide_content_lock":{"path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/slide_content_lock.json","sha256":"B199661DC2875C54081FCCB8EC7A287F184C823BD89F66A7711302C14F4866B","locked":true},
+      "blueprint_component_signature":{"path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/component-signatures/slide-01.json","sha256":"4F9B5E36DFAD4C253F87D24A814C9AD0EE955C4A3BE6499A11B9984FFD842DB5","locked":true},
+      "visual_element_registry":{"path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/visual-element-registries/slide-01.json","sha256":"8BE8387C9684B38BCBDB1EA8AB5F15BECD9F683091CD5DACFF2BD560963060BF","locked":true},
+      "generation_engine":{"tool":"artifact-tool/pptx-generator","fallback_reason":null,"visual_fidelity_not_reduced":true},
+      "page_execution":{"mode":"single_page","single_page_pptx_path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/pages/slide-01.pptx","blueprint_render_path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/blueprints/slide-01.png","ppt_render_path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/renders/slide-01.png","side_by_side_path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/qa/slide-01/overlay.png","local_comparison_artifacts":["C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/qa/slide-01/overlay.png"],"page_status":"awaiting_user_confirmation","user_confirmed":false,"made_before_next_slide":true},
+      "blueprint_reconstruction_plan":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/reconstruction-plans/slide-01.json",
+      "expected_pictures":1,
+      "image_assets":[{"region":"full-page original company cover chrome inherited from layout","source":"R003/original MPT template","necessity":"authentic company template must not be redrawn","coverage":"company cover background and MPT logo","editable_information_sacrificed":false}],
+      "text_objects":[
+        {"id":"cover_title","role":"C0","font_size_pt":36,"editable":true},
+        {"id":"cover_context","role":"T3","font_size_pt":24,"editable":true},
+        {"id":"copyright","role":"T14","font_size_pt":7.5,"editable":true}
+      ],
+      "native_components":[{"id":"cover_title","type":"inherited editable textbox"},{"id":"cover_context","type":"inherited editable textbox"}],
+      "qa_expectations":{"pictures_must_be_zero":false,"all_key_text_editable":true,"typography_scale_required":true,"dual_gate_required":true,"visual_semantics_required":true,"visual_qa_required":true,"spatial_registration_required":true,"container_overflow_check_required":true,"continuous_text_flow_check_required":true,"table_semantic_typography_required":false,"table_density_check_required":false}
+    }
+  ]
+}

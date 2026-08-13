@@ -1,0 +1,4 @@
+interface:
+  display_name: "电气技术报告与培训PPT"
+  short_description: "通过分阶段确认生成老板技术报告或自动化培训教材PPT"
+  default_prompt: "Use $electrical-report-training-ppt to turn my source materials into a confirmed technical report or training deck."

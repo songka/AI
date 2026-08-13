@@ -1,0 +1,48 @@
+{
+  "source_file": "3.0報價表-R01（機構預估價格）(3).xlsx",
+  "source_sha256": "2b9ee60926da63ef74a1a044c1e78d02928ee115173f484034bbcce9eda6d950",
+  "pricing_source_records": 96,
+  "legacy_rate_records": 18,
+  "status_counts": {
+    "PARSED_PENDING_REVIEW": 85,
+    "CONFLICT": 2,
+    "UNKNOWN_PRICE": 7,
+    "UNIT_CONFLICT": 1,
+    "AMBIGUOUS_MATERIAL_SPEC": 1
+  },
+  "target_counts": {
+    "MATERIAL": 79,
+    "PROFILE": 3,
+    "PROCESS": 10,
+    "SURFACE": 4
+  },
+  "organization_type_counts": {
+    "SUPPLIER": 67,
+    "SUPPLIER_PRICE_TABLE": 2,
+    "PROCESS_RATE_BOOK": 10,
+    "SURFACE_RATE_BOOK": 4,
+    "INTERNAL_PRICE_BOOK": 13
+  },
+  "supplier_price_record_counts": {
+    "通瑞": 20,
+    "良伟": 23,
+    "穩迪": 7,
+    "廣致誠": 3,
+    "捷密達": 14
+  },
+  "supplier_master_count": 6,
+  "current_tax_behavior": {
+    "excel_legacy": "17% historical reference only",
+    "current_system_candidate": "13% disabled, requires admin confirmation",
+    "worksheet2_price_tax_status": "UNKNOWN",
+    "worksheet1_material_price_tax_status": "EXCLUDED"
+  },
+  "known_blockers": [
+    "SUJ2 Tongrui has conflicting 25 and 15",
+    "Insulation board says 650/m2 but unit cell says kg",
+    "Aluminum profile 20x30 has no price",
+    "JMD S50C/S45C price is ambiguous",
+    "No source record has effective date",
+    "Worksheet2 tax inclusion is unknown"
+  ]
+}

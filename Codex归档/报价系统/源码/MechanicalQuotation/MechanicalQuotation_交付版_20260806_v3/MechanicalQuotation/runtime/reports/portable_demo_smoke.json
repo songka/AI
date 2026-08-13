@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-08-06T11:02:52.395538",
+  "root": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\dist\\MechanicalQuotation",
+  "summary": {
+    "passed": 3,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "示例报价",
+      "ok": true,
+      "detail": "报价完整"
+    },
+    {
+      "name": "13% 税务",
+      "ok": true,
+      "detail": "未稅=0.62, 含稅=0.70"
+    },
+    {
+      "name": "批量 Excel",
+      "ok": true,
+      "detail": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\dist\\MechanicalQuotation\\exports\\portable_smoke.xlsx"
+    }
+  ]
+}

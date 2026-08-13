@@ -1,0 +1,6 @@
+interface:
+  display_name: "Scheme Review"
+  short_description: "Generate scheme review questions and project risk checklists"
+  default_prompt: "Use $scheme-review to review these automation project inputs and produce a structured scheme review checklist."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,5 @@
+{
+  "purpose": "示例软上限，仅用于异常复核，不替代公司正式工艺标准",
+  "per_piece_soft_limit_hours": 8.0,
+  "required_breakdown": ["setup", "fixture", "machining", "inspection"]
+}

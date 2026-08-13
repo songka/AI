@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Secret detection and privacy-safe text redaction.</Description>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="..\AICodingSessionManager.Domain\AICodingSessionManager.Domain.csproj" /></ItemGroup>
+</Project>

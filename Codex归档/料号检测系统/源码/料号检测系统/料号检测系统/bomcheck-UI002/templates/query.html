@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="query-workspace">
+    <div class="query-command">
+        <div>
+            <span class="eyebrow">MATERIAL LOOKUP</span>
+            <h1>料号查询</h1>
+            <p>无需登录即可查询系统料号、库存、申请人与资源详情。</p>
+        </div>
+        <form action="/query" method="get" class="query-form command-form">
+            <label class="search-field">
+                <span>料号 / 描述 / 申请人</span>
+                <input type="text" name="keyword" value="{{ query }}" placeholder="输入料号、描述或申请人" autofocus>
+            </label>
+            <label class="compact-field">
+                <span>每页</span>
+                <input type="number" name="size" value="{{ size }}" min="1" max="200">
+            </label>
+            <label class="toggle-field">
+                <input type="checkbox" name="fuzzy" value="1" {% if fuzzy %}checked{% endif %}>
+                <span>模糊匹配</span>
+            </label>
+            <input type="hidden" name="page" value="1">
+            <button type="submit">查询</button>
+            <a class="ghost-button" href="/query?show_all=1&size={{ size }}">显示全部</a>
+            {% if query or show_all %}
+            <a class="ghost-button" href="/query">清空</a>
+            {% endif %}
+        </form>
+    </div>
+
+    {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+
+    {% if not searched %}
+    <div class="empty-query-state">
+        <strong>输入后回车即可查询。</strong>
+        <span>首次打开不会加载全库；需要浏览全部料号时再点“显示全部”。</span>
+    </div>
+    {% endif %}
+
+    {% if searched %}
+    <section class="table-panel">
+        <div class="table-toolbar">
+            <div>
+                <h2>{% if show_all and not query %}全库料号{% else %}查询结果{% endif %}</h2>
+                <span>{{ total }} 条记录{% if query %} / 关键字：{{ query }}{% endif %}</span>
+            </div>
+            {% if source_path or source_updated %}
+            <div class="source-strip">
+                {% if source_updated %}<span>更新时间：{{ source_updated }}</span>{% endif %}
+                {% if source_path %}<span title="{{ source_path }}">数据源：{{ source_path }}</span>{% endif %}
+            </div>
+            {% endif %}
+        </div>
+        {% if results %}
+        <div class="table-wrap data-table-wrap">
+            <table class="table data-table query-result-table">
+                <thead>
+                    <tr><th class="part-col">料号</th><th class="desc-col">描述</th><th class="unit-col">单位</th><th class="applicant-col">申请人</th><th class="stock-col">库存</th><th class="action-col">操作</th></tr>
+                </thead>
+                <tbody>
+                    {% for item in results %}
+                    <tr>
+                        <td><a class="part-link" href="/parts/{{ item.part_no }}">{{ item.part_no }}</a></td>
+                        <td class="desc-cell">{{ item.description }}</td>
+                        <td>{{ item.unit }}</td>
+                        <td>{{ item.applicant }}</td>
+                        <td>{{ item.inventory_display }}</td>
+                        <td><a class="row-action" href="/parts/{{ item.part_no }}">详情</a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="pager">
+            <span>第 {{ page }} 页</span>
+            {% if page > 1 %}<a class="ghost-button" href="{{ prev_url }}">上一页</a>{% endif %}
+            {% if has_next %}<a class="ghost-button" href="{{ next_url }}">下一页</a>{% endif %}
+        </div>
+        {% else %}
+        <div class="empty-state">没有匹配结果</div>
+        {% endif %}
+    </section>
+    {% endif %}
+</section>
+{% endblock %}

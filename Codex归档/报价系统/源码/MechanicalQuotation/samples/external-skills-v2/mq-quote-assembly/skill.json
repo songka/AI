@@ -1,0 +1,1 @@
+{"skill_id":"sample.quote-assembly","skill_name_zh":"示例-报价汇总","skill_version":"1.0.0","protocol_version":"1.0","supported_steps":["QUOTE_ASSEMBLY"],"supports_full_quotation":false,"instruction_file":"SKILL.md","reference_files":[],"commands":[]}

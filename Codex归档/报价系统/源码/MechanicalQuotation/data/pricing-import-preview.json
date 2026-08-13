@@ -1,0 +1,315 @@
+{
+  "total_records": 21,
+  "ready_to_import": 17,
+  "conflicts": 2,
+  "unit_conflicts": 1,
+  "unknown_prices": 1,
+  "records": [
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C11R4",
+      "supplier": "通瑞",
+      "material": "A6061T6",
+      "spec": null,
+      "price": 28,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C12R4",
+      "supplier": "良伟",
+      "material": "A6061T6",
+      "spec": null,
+      "price": 35,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C15R4",
+      "supplier": "穩迪",
+      "material": "A6061T6",
+      "spec": null,
+      "price": 25,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C12R7",
+      "supplier": "良伟",
+      "material": "PC",
+      "spec": null,
+      "price": 60,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C14R11",
+      "supplier": "廣致誠",
+      "material": "SPCC",
+      "spec": "2mm",
+      "price": 6.8,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C15R11",
+      "supplier": "穩迪",
+      "material": "SPCC",
+      "spec": "2mm",
+      "price": 9,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C15R32",
+      "supplier": "穩迪",
+      "material": "鋁型材",
+      "spec": "30x30",
+      "price": 30,
+      "unit": "m",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C15R33",
+      "supplier": "穩迪",
+      "material": "鋁型材",
+      "spec": "40x40",
+      "price": 48,
+      "unit": "m",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "R31",
+      "supplier": null,
+      "material": "鋁型材",
+      "spec": "20x30",
+      "price": null,
+      "unit": "m",
+      "status": "UNKNOWN_PRICE"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C11R26",
+      "supplier": "通瑞",
+      "material": "鈹銅",
+      "spec": null,
+      "price": 180,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C12R26",
+      "supplier": "良伟",
+      "material": "鈹銅",
+      "spec": null,
+      "price": 130,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表1",
+      "source_cell": "C6R222",
+      "supplier": "INTERNAL_UNKNOWN",
+      "material": "鈹銅",
+      "spec": null,
+      "price": 220,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表1",
+      "source_cell": "C6R238",
+      "supplier": "捷密達",
+      "material": "鈹銅",
+      "spec": null,
+      "price": 170,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C12R29",
+      "supplier": "良伟",
+      "material": "亞克力",
+      "spec": null,
+      "price": 30,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表1",
+      "source_cell": "C6R228",
+      "supplier": "INTERNAL_UNKNOWN",
+      "material": "亞克力",
+      "spec": null,
+      "price": 28,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表1",
+      "source_cell": "C6R245",
+      "supplier": "捷密達",
+      "material": "亞克力",
+      "spec": null,
+      "price": 25,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C11R20",
+      "supplier": "通瑞",
+      "material": "SUJ2",
+      "spec": null,
+      "price": 25,
+      "unit": "kg",
+      "status": "CONFLICT",
+      "conflict": "R22 also SUJ2=15 from same supplier (通瑞)"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C11R22",
+      "supplier": "通瑞",
+      "material": "SUJ2",
+      "spec": null,
+      "price": 15,
+      "unit": "kg",
+      "status": "CONFLICT",
+      "conflict": "R20 also SUJ2=25 from same supplier (通瑞)"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C12R30",
+      "supplier": "良伟",
+      "material": "隔熱板",
+      "spec": null,
+      "price": 650,
+      "unit": "UNIT_CONFLICT",
+      "status": "UNIT_CONFLICT",
+      "conflict": "price=650/m2 but unit column=公斤"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表1",
+      "source_cell": "C6R226",
+      "supplier": "INTERNAL_UNKNOWN",
+      "material": "鐵",
+      "spec": null,
+      "price": 7,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表1",
+      "source_cell": "C6R242",
+      "supplier": "捷密達",
+      "material": "鐵",
+      "spec": "S50C/S45C",
+      "price": 5.5,
+      "unit": "kg",
+      "status": "IMPORT_READY"
+    }
+  ],
+  "conflict_list": [
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C11R20",
+      "supplier": "通瑞",
+      "material": "SUJ2",
+      "spec": null,
+      "price": 25,
+      "unit": "kg",
+      "status": "CONFLICT",
+      "conflict": "R22 also SUJ2=15 from same supplier (通瑞)"
+    },
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C11R22",
+      "supplier": "通瑞",
+      "material": "SUJ2",
+      "spec": null,
+      "price": 15,
+      "unit": "kg",
+      "status": "CONFLICT",
+      "conflict": "R20 also SUJ2=25 from same supplier (通瑞)"
+    }
+  ],
+  "unit_conflict_list": [
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "C12R30",
+      "supplier": "良伟",
+      "material": "隔熱板",
+      "spec": null,
+      "price": 650,
+      "unit": "UNIT_CONFLICT",
+      "status": "UNIT_CONFLICT",
+      "conflict": "price=650/m2 but unit column=公斤"
+    }
+  ],
+  "unknown_price_list": [
+    {
+      "source_file": "3.0報價表-R01.xlsx",
+      "source_sheet": "工作表2",
+      "source_cell": "R31",
+      "supplier": null,
+      "material": "鋁型材",
+      "spec": "20x30",
+      "price": null,
+      "unit": "m",
+      "status": "UNKNOWN_PRICE"
+    }
+  ],
+  "suppliers_found": [
+    "INTERNAL_UNKNOWN",
+    "廣致誠",
+    "捷密達",
+    "穩迪",
+    "良伟",
+    "通瑞"
+  ],
+  "materials_found": [
+    "A6061T6",
+    "PC",
+    "SPCC",
+    "SUJ2",
+    "亞克力",
+    "鈹銅",
+    "鋁型材",
+    "鐵",
+    "隔熱板"
+  ]
+}

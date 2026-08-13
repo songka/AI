@@ -1,0 +1,13 @@
+﻿9edc8f0 (HEAD -> master) feat: complete batch quotation UI and excel workflow
+72710ed fix: system self-check encoding and batch excel directory creation
+d211c82 feat: add quotation history, management views, and demo tools
+b504c43 fix: make demo UI start reliably
+5b3b164 chore: apply linter formatting to UI files
+74c4e49 feat: add portable demo packaging and runtime secret handling
+32bdf83 feat: add quotation REST API and DeepSeek assistance
+51546f6 feat: add external drawing batch quotation and excel export
+1f2f157 feat: add quotation demo UI with 17 percent tax
+14e1af8 fix: calculate quote cost completion before return
+4311caf docs: update CURRENT_HANDOFF.md with checkpoint info
+e4676df checkpoint: apply remaining Task 0/0.1 working tree modifications
+efb119e checkpoint: published pricebook integration and hardening

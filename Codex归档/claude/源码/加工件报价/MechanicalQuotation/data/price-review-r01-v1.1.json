@@ -1,0 +1,11 @@
+{
+  "version": "1.1",
+  "generated_at": "2026-08-01T06:44:44.177853+00:00",
+  "source_package_sha256": "d4b6943a5c9f8329d45154035573a531ef0c08effcde003eed273cd2ce0b2bf8",
+  "material_candidates": 42,
+  "process_candidates": 10,
+  "surface_candidates": 4,
+  "supplier_records": 67,
+  "exceptions": 10,
+  "status": "DRAFT"
+}

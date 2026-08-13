@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "config_version": 2,
+  "mode": "DISTRIBUTED",
+  "skills": [],
+  "full_skill_id": null,
+  "step_routes": {},
+  "updated_at": "2026-08-06T00:00:00+00:00",
+  "updated_by": "b3f4319c-2ed8-44f8-be03-0daed8f8fee4"
+}

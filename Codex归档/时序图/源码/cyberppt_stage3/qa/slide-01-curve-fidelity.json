@@ -1,0 +1,10 @@
+{
+  "slide": 1,
+  "passed": true,
+  "method": "manual-control-point-overlay",
+  "curve_count": 4,
+  "minimum_point_count": 24,
+  "reference_crop": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage3/qa/slide-01-visual-reference.png",
+  "debug_artifact": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage3/qa/slide-01-curve-debug.png",
+  "rendered_crop_comparison": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage3/qa/slide-01-visual-comparison.png"
+}

@@ -1,0 +1,90 @@
+{
+  "schema": "cyberppt.blueprint_component_signature.v1",
+  "slide": 1,
+  "locked": true,
+  "blueprint_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage2\\blueprints\\slide-01.png",
+  "blueprint_sha256": "704b3be2d9886d902f275d678bcf6c696dde9b1a0cf28b6b4b40a270a523b999",
+  "content_lock_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage2\\slide_content_lock.json",
+  "content_lock_sha256": "b699fb675b2a48f410796b4f220efd472b3a48106586bab66ef786dee9618322",
+  "component_annotation_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\annotations\\slide-01-components.json",
+  "component_annotation_sha256": "93083eaa4fdbffc1ba23d984580d49969b85ac71143e4495c916b68911772c70",
+  "components": [
+    {
+      "id": "s01_cover_title",
+      "type": "cover-title-stack",
+      "priority": "P0",
+      "required_subcomponents": [
+        "title",
+        "divider_rule",
+        "subtitle",
+        "supporting_line"
+      ],
+      "content_lock_refs": [
+        "slides[0].title",
+        "slides[0].subtitle",
+        "slides[0].context"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "s01_timing_ai_visual",
+      "type": "industrial-timing-network-diagram",
+      "priority": "P0",
+      "required_subcomponents": [
+        "five_timing_rows",
+        "event_nodes",
+        "dependency_arcs",
+        "outline_icons",
+        "ai_core"
+      ],
+      "content_lock_refs": [
+        "slides[0].required_components[0]",
+        "slides[0].required_components[4]"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "s01_version_block",
+      "type": "version-date-lockup",
+      "priority": "P1",
+      "required_subcomponents": [
+        "version_icon",
+        "version_label",
+        "date"
+      ],
+      "content_lock_refs": [
+        "slides[0].facts[0]"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "s01_surface_system",
+      "type": "continuous-ivory-paper-surface",
+      "priority": "P0",
+      "required_subcomponents": [
+        "ivory_background",
+        "top_accent_rule",
+        "bottom_rule"
+      ],
+      "content_lock_refs": [
+        "selected_style_id",
+        "selected_style_name"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "s01_footer",
+      "type": "cyberppt-footer-page-badge",
+      "priority": "P0",
+      "required_subcomponents": [
+        "footer_rule",
+        "page_badge"
+      ],
+      "content_lock_refs": [
+        "slides[0].slide_number"
+      ],
+      "must_preserve_type": true
+    }
+  ],
+  "validation_failures": []
+}

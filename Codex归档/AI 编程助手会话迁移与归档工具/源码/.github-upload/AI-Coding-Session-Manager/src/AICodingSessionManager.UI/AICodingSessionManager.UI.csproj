@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>AICodingSessionManager</AssemblyName>
+    <RootNamespace>AICodingSessionManager.UI</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AICodingSessionManager.Domain\AICodingSessionManager.Domain.csproj" />
+    <ProjectReference Include="..\AICodingSessionManager.Adapters.OpenCode\AICodingSessionManager.Adapters.OpenCode.csproj" />
+    <ProjectReference Include="..\AICodingSessionManager.Adapters.Codex\AICodingSessionManager.Adapters.Codex.csproj" />
+    <ProjectReference Include="..\AICodingSessionManager.Adapters.ClaudeCode\AICodingSessionManager.Adapters.ClaudeCode.csproj" />
+    <ProjectReference Include="..\AICodingSessionManager.Adapters.ClaudeDesktop\AICodingSessionManager.Adapters.ClaudeDesktop.csproj" />
+    <ProjectReference Include="..\AICodingSessionManager.Export\AICodingSessionManager.Export.csproj" />
+    <ProjectReference Include="..\AICodingSessionManager.Backup\AICodingSessionManager.Backup.csproj" />
+    <ProjectReference Include="..\AICodingSessionManager.Security\AICodingSessionManager.Security.csproj" />
+    <ProjectReference Include="..\AICodingSessionManager.Library\AICodingSessionManager.Library.csproj" />
+    <ProjectReference Include="..\AICodingSessionManager.Migration\AICodingSessionManager.Migration.csproj" />
+    <ProjectReference Include="..\AICodingSessionManager.ProjectArchive\AICodingSessionManager.ProjectArchive.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+机械加工报价系统——交付与启动说明
+
+1. 必须复制或解压整个 MechanicalQuotation 文件夹，不能只复制 EXE。
+2. 放在 SMB 公共槽时，请双击“快速启动器.bat”；它会按版本复制到本机后启动，首次复制稍慢，之后快速启动。
+3. 不建议从公共槽直接运行 MechanicalQuotation.exe；若文件夹已完整复制到本机，则可直接双击 EXE。
+4. 只有外部系统通过 API 对接或调试 Swagger 时才需要双击 start_api.bat；启动后可打开 http://127.0.0.1:8000/docs，默认只允许本机访问。
+5. DXF 可直接使用；本轻量版不支持 PDF。
+6. DWG 转换器已放在 third_party 并自动配置；仅限已获授权的内部电脑使用。
+7. SLDDRW、SLDPRT 需要接收电脑安装可用的 SOLIDWORKS。
+8. 本交付包已按要求配置 DeepSeek Key；请仅交给获授权人员，并妥善保管。
+9. 另一台电脑须能访问公司内网 DeepSeek 服务及 SMB 公共槽；Windows 防火墙可允许本程序访问公司网络。
+10. 外接 Skill 可使用 HTTP、本地或 SMB 文件夹；文件夹内文档由程序内置 DeepSeek 执行，不运行外部程序。
+11. 首次使用建议运行 run_self_check.bat；若使用 FastAPI且无法启动，请查看窗口错误和 runtime/reports。

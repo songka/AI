@@ -1,0 +1,7 @@
+{
+  "url": "https://gsc.getac.com/signs/l1/W",
+  "verify_ssl": false,
+  "timeout": 30,
+  "dry_run": false,
+  "submit_when_no_approvals": false
+}

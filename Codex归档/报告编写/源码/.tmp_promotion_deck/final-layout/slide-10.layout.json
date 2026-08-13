@@ -1,0 +1,1366 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/m90b6t0r",
+    "id": "m90b6t0r",
+    "slide": 10,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#5B9BD5",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#4472C4",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Calibri",
+      "Calibri Light",
+      "Helvetica",
+      "Microsoft JhengHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            62.03
+          ],
+          "geometry": "rect",
+          "text": "Click To Edit Master Title",
+          "textPreview": "Click To Edit Master Title",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click To Edit Master Title",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click To Edit Master Title"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Content Placeholder 2",
+          "bbox": [
+            88,
+            114.87,
+            1104,
+            515.99
+          ],
+          "geometry": "rect",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level\n\n\n",
+          "textPreview": "Edit Master text styles | Second level | Third level | Fourth level | Fifth level |  |  |",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Slide Number Placeholder 6",
+          "bbox": [
+            28.76,
+            675.12,
+            59.24,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/6",
+          "id": "6",
+          "name": "Straight Connector 5",
+          "bbox": [
+            0,
+            100.36,
+            1004.51,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "#00467E",
+          "lineWidth": 0.67
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            139.17
+          ],
+          "geometry": "rect",
+          "text": "Click To Edit Master Title Style",
+          "textPreview": "Click To Edit Master Title Style",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click To Edit Master Title Style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click To Edit Master Title Style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            88,
+            191.67,
+            1104,
+            456.83
+          ],
+          "geometry": "rect",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/7",
+          "id": "7",
+          "name": "Rectangle 6",
+          "bbox": [
+            0,
+            654.7,
+            1280,
+            65.3
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/10",
+          "id": "10",
+          "name": "TextBox 9",
+          "bbox": [
+            88,
+            674.43,
+            831,
+            25.85
+          ],
+          "geometry": "rect",
+          "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "textPreview": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "resolvedTextStyle": {
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved.",
+                  "fontSize": 13.33,
+                  "typeface": "Helvetica",
+                  "color": "#021D36"
+                },
+                {
+                  "index": 2,
+                  "text": " CONFIDENTIAL.",
+                  "fontSize": 13.33,
+                  "typeface": "Helvetica",
+                  "color": "#021D36"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/11",
+          "id": "11",
+          "name": "Picture 7",
+          "bbox": [
+            1189.03,
+            666.82,
+            67.28,
+            43.66
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image.png",
+            "contentType": "image/png",
+            "byteLength": 2109
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image.png",
+            "contentType": "image/png",
+            "byteLength": 2109
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3mho32",
+      "id": "2",
+      "name": "Title 1",
+      "bbox": [
+        88,
+        38.33,
+        720,
+        62.03
+      ],
+      "text": "未來工作規劃",
+      "textPreview": "未來工作規劃",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 48,
+        "typeface": "Helvetica",
+        "color": "#00457A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "未來工作規劃"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "未來工作規劃",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "Helvetica",
+            "color": "#00457A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "未來工作規劃",
+              "fontSize": 48,
+              "typeface": "Helvetica",
+              "color": "#00457A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zelojyl8",
+      "id": "4",
+      "name": "Slide Number Placeholder 3",
+      "bbox": [
+        28.76,
+        675.12,
+        59.24,
+        38.33
+      ],
+      "text": "10",
+      "textPreview": "10",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "fontSize": 13.33,
+        "typeface": "Helvetica",
+        "color": "#021D36",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10",
+          "runs": [
+            {
+              "index": 1,
+              "text": "10"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cru1g3y",
+      "id": "15",
+      "name": "AutoShape 3",
+      "bbox": [
+        88,
+        169.94,
+        312.8,
+        435.6
+      ],
+      "geometry": "rect",
+      "text": "🏭\n01\n裝配技術專精\n行動｜研究各類設備裝配\n沉澱｜歸納方法與驗證\n價值｜提升複雜設備交付力",
+      "textPreview": "🏭 | 01 | 裝配技術專精 | 行動｜研究各類設備裝配 | 沉澱｜歸納方法與驗證 | 價值｜提升複雜設備交付力",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 21.33,
+        "typeface": "Microsoft JhengHei",
+        "color": "#17324A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 28,
+          "right": 26,
+          "bottom": 28,
+          "left": 26
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "🏭"
+          },
+          {
+            "index": 2,
+            "text": "01"
+          },
+          {
+            "index": 3,
+            "text": "裝配技術專精"
+          },
+          {
+            "index": 4,
+            "text": "行動｜研究各類設備裝配"
+          },
+          {
+            "index": 5,
+            "text": "沉澱｜歸納方法與驗證"
+          },
+          {
+            "index": 6,
+            "text": "價值｜提升複雜設備交付力"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "🏭",
+          "spaceAfter": 4,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "🏭",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "01",
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "裝配技術專精",
+          "spaceAfter": 18,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "裝配技術專精",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "行動｜研究各類設備裝配",
+          "spaceAfter": 12,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "行動｜研究各類設備裝配",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "沉澱｜歸納方法與驗證",
+          "spaceAfter": 12,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "沉澱｜歸納方法與驗證",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "價值｜提升複雜設備交付力",
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "價值｜提升複雜設備交付力",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#EEF8FC",
+      "lineColor": "#8FC9DE",
+      "lineWidth": 1.4
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e9gb61k7",
+      "id": "16",
+      "name": "AutoShape 11",
+      "bbox": [
+        437.73,
+        169.94,
+        343.47,
+        435.6
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 26.67,
+          "right": 26.67,
+          "bottom": 26.67,
+          "left": 26.67
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#E5F5FA",
+      "lineColor": "#8FC9DE",
+      "lineWidth": 1.4
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/nidcv6po",
+      "id": "21",
+      "name": "Picture 12",
+      "bbox": [
+        594,
+        205,
+        92,
+        80
+      ],
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "/ppt/media/image.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 732
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 732
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ozitcv29",
+      "id": "18",
+      "name": "AutoShape 13",
+      "bbox": [
+        496,
+        302,
+        288,
+        62
+      ],
+      "geometry": "rect",
+      "text": "02  標準沉澱",
+      "textPreview": "02  標準沉澱",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Microsoft JhengHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02  標準沉澱"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02  標準沉澱",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "typeface": "Microsoft JhengHei",
+            "alignment": "left",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02  標準沉澱",
+              "fontSize": 32,
+              "typeface": "Microsoft JhengHei",
+              "color": "#00457A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 1.33
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p0ru503u",
+      "id": "19",
+      "name": "AutoShape 15",
+      "bbox": [
+        496,
+        370,
+        288,
+        202
+      ],
+      "geometry": "rect",
+      "text": "行動｜深化製程標準\n制度｜統一作業規範\n價值｜降低人為差異",
+      "textPreview": "行動｜深化製程標準 | 制度｜統一作業規範 | 價值｜降低人為差異",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 21.33,
+        "typeface": "Microsoft JhengHei",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 8,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "行動｜深化製程標準"
+          },
+          {
+            "index": 2,
+            "text": "制度｜統一作業規範"
+          },
+          {
+            "index": 3,
+            "text": "價值｜降低人為差異"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "行動｜深化製程標準",
+          "spaceAfter": 12,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "alignment": "left",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "行動｜深化製程標準",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#455867",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "制度｜統一作業規範",
+          "spaceAfter": 12,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "alignment": "left",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "制度｜統一作業規範",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#455867",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "價值｜降低人為差異",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "alignment": "left",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "價值｜降低人為差異",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#00457A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 1.33
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xwnupgvy",
+      "id": "20",
+      "name": "AutoShape 4",
+      "bbox": [
+        818.13,
+        169.94,
+        354.27,
+        435.35
+      ],
+      "geometry": "rect",
+      "text": "🤖\n03\n數位提效（AI 化）\n辦公｜Routing、工時 KEY IN\n服務｜LFAF 售後管理小程式\n價值｜客戶聲音形成改善閉環",
+      "textPreview": "🤖 | 03 | 數位提效（AI 化） | 辦公｜Routing、工時 KEY IN | 服務｜LFAF 售後管理小程式 | 價值｜客戶聲音形成改善閉環",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 21.33,
+        "typeface": "Microsoft JhengHei",
+        "color": "#17324A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 28,
+          "right": 26,
+          "bottom": 28,
+          "left": 26
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "🤖"
+          },
+          {
+            "index": 2,
+            "text": "03"
+          },
+          {
+            "index": 3,
+            "text": "數位提效（AI 化）"
+          },
+          {
+            "index": 4,
+            "text": "辦公｜Routing、工時 KEY IN"
+          },
+          {
+            "index": 5,
+            "text": "服務｜LFAF 售後管理小程式"
+          },
+          {
+            "index": 6,
+            "text": "價值｜客戶聲音形成改善閉環"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "🤖",
+          "spaceAfter": 4,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "🤖",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "03",
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "數位提效（AI 化）",
+          "spaceAfter": 18,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "數位提效（AI 化）",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "辦公｜Routing、工時 KEY IN",
+          "spaceAfter": 12,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "辦公｜Routing、工時 KEY IN",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "服務｜LFAF 售後管理小程式",
+          "spaceAfter": 12,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "服務｜LFAF 售後管理小程式",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "價值｜客戶聲音形成改善閉環",
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "價值｜客戶聲音形成改善閉環",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#DDF0F7",
+      "lineColor": "#8FC9DE",
+      "lineWidth": 1.4
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,903 @@
+{
+  "deck": "AI大赛_时序图自动生成工具_CyberPPT04",
+  "delivery_mode": "single_page_verified_then_merge",
+  "slides": [
+    {
+      "slide": 1,
+      "logical_slide": 2,
+      "role": "Situation",
+      "layout_reference": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage2/blueprints/slide-02.png",
+      "slide_content_lock": {
+        "path": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage2/slide_content_lock.json",
+        "sha256": "B699FB675B2A48F410796B4F220EFD472B3A48106586BAB66EF786DEE9618322",
+        "locked": true
+      },
+      "blueprint_component_signature": {
+        "path": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage3/frozen/slide-02-component-signature.json",
+        "sha256": "F2463163E9B5F3A35298AC713E066CAB2DAFE27A0E0F5E07311AAF361E605F40",
+        "locked": true,
+        "components": [
+          {
+            "id": "s02_title_stack",
+            "type": "title-subtitle-stack",
+            "priority": "P0",
+            "required_subcomponents": [
+              "page_tab",
+              "title",
+              "subtitle"
+            ],
+            "content_lock_refs": [
+              "slides[1].title",
+              "slides[1].subtitle"
+            ],
+            "must_preserve_type": true
+          },
+          {
+            "id": "s02_fragmented_chain",
+            "type": "five-step-fragmented-workflow",
+            "priority": "P0",
+            "required_subcomponents": [
+              "five_steps",
+              "breakpoints",
+              "icons",
+              "consequence_strip"
+            ],
+            "content_lock_refs": [
+              "slides[1].required_components[0]",
+              "slides[1].required_components[2]"
+            ],
+            "must_preserve_type": true
+          },
+          {
+            "id": "s02_root_causes",
+            "type": "three-root-cause-stack",
+            "priority": "P0",
+            "required_subcomponents": [
+              "information_separation",
+              "semantic_ambiguity",
+              "reuse_difficulty"
+            ],
+            "content_lock_refs": [
+              "slides[1].required_components[1]"
+            ],
+            "must_preserve_type": true
+          },
+          {
+            "id": "s02_conclusion",
+            "type": "so-what-conclusion-band",
+            "priority": "P0",
+            "required_subcomponents": [
+              "target_icon",
+              "conclusion_text"
+            ],
+            "content_lock_refs": [
+              "slides[1].so_what"
+            ],
+            "must_preserve_type": true
+          },
+          {
+            "id": "s02_footer",
+            "type": "evidence-footer-page-badge",
+            "priority": "P1",
+            "required_subcomponents": [
+              "evidence_ids",
+              "page_badge"
+            ],
+            "content_lock_refs": [
+              "slides[1].evidence_ids"
+            ],
+            "must_preserve_type": true
+          }
+        ]
+      },
+      "visual_element_registry": [
+        {
+          "element_id": "s02_bg",
+          "priority": "P0",
+          "element_type": "background",
+          "source_component_id": "s02_title_stack",
+          "blueprint_bbox_px": {
+            "x": 0,
+            "y": 0,
+            "w": 1672,
+            "h": 941
+          },
+          "measurement_mode": "individual_bbox",
+          "must_reproduce": true,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 0,
+            "y": 0,
+            "w": 13.333,
+            "h": 7.5
+          },
+          "render_bbox_px": {
+            "x": 0,
+            "y": 0,
+            "w": 1672,
+            "h": 941
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 30
+        },
+        {
+          "element_id": "s02_title",
+          "priority": "P0",
+          "element_type": "text",
+          "source_component_id": "s02_title_stack",
+          "blueprint_bbox_px": {
+            "x": 75,
+            "y": 75,
+            "w": 1270,
+            "h": 120
+          },
+          "measurement_mode": "individual_bbox",
+          "must_reproduce": true,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 0.5981,
+            "y": 0.5978,
+            "w": 10.1273,
+            "h": 0.9564
+          },
+          "render_bbox_px": {
+            "x": 75,
+            "y": 75,
+            "w": 1270,
+            "h": 120
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 150
+        },
+        {
+          "element_id": "s02_chain",
+          "priority": "P0",
+          "element_type": "workflow_group",
+          "source_component_id": "s02_fragmented_chain",
+          "blueprint_bbox_px": {
+            "x": 66,
+            "y": 213,
+            "w": 1014,
+            "h": 525
+          },
+          "measurement_mode": "individual_bbox",
+          "must_reproduce": true,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 0.5263,
+            "y": 1.6977,
+            "w": 8.0859,
+            "h": 4.1844
+          },
+          "render_bbox_px": {
+            "x": 66,
+            "y": 213,
+            "w": 1014,
+            "h": 525
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 150
+        },
+        {
+          "element_id": "s02_consequence",
+          "priority": "P1",
+          "element_type": "consequence_strip",
+          "source_component_id": "s02_fragmented_chain",
+          "blueprint_bbox_px": {
+            "x": 67,
+            "y": 658,
+            "w": 980,
+            "h": 78
+          },
+          "measurement_mode": "individual_bbox",
+          "must_reproduce": true,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.5343,
+            "y": 5.2444,
+            "w": 7.8148,
+            "h": 0.6217
+          },
+          "render_bbox_px": {
+            "x": 67,
+            "y": 658,
+            "w": 980,
+            "h": 78
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 180
+        },
+        {
+          "element_id": "s02_roots",
+          "priority": "P0",
+          "element_type": "root_cause_group",
+          "source_component_id": "s02_root_causes",
+          "blueprint_bbox_px": {
+            "x": 1120,
+            "y": 216,
+            "w": 500,
+            "h": 545
+          },
+          "measurement_mode": "individual_bbox",
+          "must_reproduce": true,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 8.9312,
+            "y": 1.7216,
+            "w": 3.9871,
+            "h": 4.3438
+          },
+          "render_bbox_px": {
+            "x": 1120,
+            "y": 216,
+            "w": 500,
+            "h": 545
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 170
+        },
+        {
+          "element_id": "s02_conclusion",
+          "priority": "P0",
+          "element_type": "conclusion_band",
+          "source_component_id": "s02_conclusion",
+          "blueprint_bbox_px": {
+            "x": 66,
+            "y": 772,
+            "w": 1536,
+            "h": 92
+          },
+          "measurement_mode": "individual_bbox",
+          "must_reproduce": true,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 0.5263,
+            "y": 6.153,
+            "w": 12.2485,
+            "h": 0.7333
+          },
+          "render_bbox_px": {
+            "x": 66,
+            "y": 772,
+            "w": 1536,
+            "h": 92
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 120
+        },
+        {
+          "element_id": "s02_evidence",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "s02_footer",
+          "blueprint_bbox_px": {
+            "x": 68,
+            "y": 884,
+            "w": 330,
+            "h": 36
+          },
+          "measurement_mode": "individual_bbox",
+          "must_reproduce": true,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.5423,
+            "y": 7.0457,
+            "w": 2.6315,
+            "h": 0.2869
+          },
+          "render_bbox_px": {
+            "x": 68,
+            "y": 884,
+            "w": 330,
+            "h": 36
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 160
+        },
+        {
+          "element_id": "s02_page_badge",
+          "priority": "P1",
+          "element_type": "page_badge",
+          "source_component_id": "s02_footer",
+          "blueprint_bbox_px": {
+            "x": 1572,
+            "y": 884,
+            "w": 60,
+            "h": 40
+          },
+          "measurement_mode": "individual_bbox",
+          "must_reproduce": true,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 12.5356,
+            "y": 7.0457,
+            "w": 0.4785,
+            "h": 0.3188
+          },
+          "render_bbox_px": {
+            "x": 1572,
+            "y": 884,
+            "w": 60,
+            "h": 40
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 130
+        }
+      ],
+      "visual_element_inventory": [
+        {
+          "element_id": "s02_bg",
+          "priority": "P0",
+          "element_type": "background",
+          "source_component_id": "s02_title_stack",
+          "blueprint_bbox_px": {
+            "x": 0,
+            "y": 0,
+            "w": 1672,
+            "h": 941
+          },
+          "ppt_target_bbox_in": {
+            "x": 0,
+            "y": 0,
+            "w": 13.333,
+            "h": 7.5
+          },
+          "tolerance_px": 3,
+          "must_reproduce": true,
+          "measurement_mode": "individual_bbox"
+        },
+        {
+          "element_id": "s02_title",
+          "priority": "P0",
+          "element_type": "text",
+          "source_component_id": "s02_title_stack",
+          "blueprint_bbox_px": {
+            "x": 75,
+            "y": 75,
+            "w": 1270,
+            "h": 120
+          },
+          "ppt_target_bbox_in": {
+            "x": 0.5981,
+            "y": 0.5978,
+            "w": 10.1273,
+            "h": 0.9564
+          },
+          "tolerance_px": 3,
+          "must_reproduce": true,
+          "measurement_mode": "individual_bbox"
+        },
+        {
+          "element_id": "s02_chain",
+          "priority": "P0",
+          "element_type": "workflow_group",
+          "source_component_id": "s02_fragmented_chain",
+          "blueprint_bbox_px": {
+            "x": 66,
+            "y": 213,
+            "w": 1014,
+            "h": 525
+          },
+          "ppt_target_bbox_in": {
+            "x": 0.5263,
+            "y": 1.6977,
+            "w": 8.0859,
+            "h": 4.1844
+          },
+          "tolerance_px": 3,
+          "must_reproduce": true,
+          "measurement_mode": "individual_bbox"
+        },
+        {
+          "element_id": "s02_consequence",
+          "priority": "P1",
+          "element_type": "consequence_strip",
+          "source_component_id": "s02_fragmented_chain",
+          "blueprint_bbox_px": {
+            "x": 67,
+            "y": 658,
+            "w": 980,
+            "h": 78
+          },
+          "ppt_target_bbox_in": {
+            "x": 0.5343,
+            "y": 5.2444,
+            "w": 7.8148,
+            "h": 0.6217
+          },
+          "tolerance_px": 4,
+          "must_reproduce": true,
+          "measurement_mode": "individual_bbox"
+        },
+        {
+          "element_id": "s02_roots",
+          "priority": "P0",
+          "element_type": "root_cause_group",
+          "source_component_id": "s02_root_causes",
+          "blueprint_bbox_px": {
+            "x": 1120,
+            "y": 216,
+            "w": 500,
+            "h": 545
+          },
+          "ppt_target_bbox_in": {
+            "x": 8.9312,
+            "y": 1.7216,
+            "w": 3.9871,
+            "h": 4.3438
+          },
+          "tolerance_px": 3,
+          "must_reproduce": true,
+          "measurement_mode": "individual_bbox"
+        },
+        {
+          "element_id": "s02_conclusion",
+          "priority": "P0",
+          "element_type": "conclusion_band",
+          "source_component_id": "s02_conclusion",
+          "blueprint_bbox_px": {
+            "x": 66,
+            "y": 772,
+            "w": 1536,
+            "h": 92
+          },
+          "ppt_target_bbox_in": {
+            "x": 0.5263,
+            "y": 6.153,
+            "w": 12.2485,
+            "h": 0.7333
+          },
+          "tolerance_px": 3,
+          "must_reproduce": true,
+          "measurement_mode": "individual_bbox"
+        },
+        {
+          "element_id": "s02_evidence",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "s02_footer",
+          "blueprint_bbox_px": {
+            "x": 68,
+            "y": 884,
+            "w": 330,
+            "h": 36
+          },
+          "ppt_target_bbox_in": {
+            "x": 0.5423,
+            "y": 7.0457,
+            "w": 2.6315,
+            "h": 0.2869
+          },
+          "tolerance_px": 4,
+          "must_reproduce": true,
+          "measurement_mode": "individual_bbox"
+        },
+        {
+          "element_id": "s02_page_badge",
+          "priority": "P1",
+          "element_type": "page_badge",
+          "source_component_id": "s02_footer",
+          "blueprint_bbox_px": {
+            "x": 1572,
+            "y": 884,
+            "w": 60,
+            "h": 40
+          },
+          "ppt_target_bbox_in": {
+            "x": 12.5356,
+            "y": 7.0457,
+            "w": 0.4785,
+            "h": 0.3188
+          },
+          "tolerance_px": 4,
+          "must_reproduce": true,
+          "measurement_mode": "individual_bbox"
+        }
+      ],
+      "blueprint_measurement_table": {
+        "blueprint_canvas_px": {
+          "w": 1672,
+          "h": 941
+        },
+        "ppt_canvas_in": {
+          "w": 13.333,
+          "h": 7.5
+        },
+        "scale_x": 0.007974282296650717,
+        "scale_y": 0.007970244420828906,
+        "regions": [
+          {
+            "element_id": "s02_bg",
+            "blueprint_bbox_px": {
+              "x": 0,
+              "y": 0,
+              "w": 1672,
+              "h": 941
+            },
+            "ppt_target_bbox_in": {
+              "x": 0,
+              "y": 0,
+              "w": 13.333,
+              "h": 7.5
+            }
+          },
+          {
+            "element_id": "s02_title",
+            "blueprint_bbox_px": {
+              "x": 75,
+              "y": 75,
+              "w": 1270,
+              "h": 120
+            },
+            "ppt_target_bbox_in": {
+              "x": 0.5981,
+              "y": 0.5978,
+              "w": 10.1273,
+              "h": 0.9564
+            }
+          },
+          {
+            "element_id": "s02_chain",
+            "blueprint_bbox_px": {
+              "x": 66,
+              "y": 213,
+              "w": 1014,
+              "h": 525
+            },
+            "ppt_target_bbox_in": {
+              "x": 0.5263,
+              "y": 1.6977,
+              "w": 8.0859,
+              "h": 4.1844
+            }
+          },
+          {
+            "element_id": "s02_consequence",
+            "blueprint_bbox_px": {
+              "x": 67,
+              "y": 658,
+              "w": 980,
+              "h": 78
+            },
+            "ppt_target_bbox_in": {
+              "x": 0.5343,
+              "y": 5.2444,
+              "w": 7.8148,
+              "h": 0.6217
+            }
+          },
+          {
+            "element_id": "s02_roots",
+            "blueprint_bbox_px": {
+              "x": 1120,
+              "y": 216,
+              "w": 500,
+              "h": 545
+            },
+            "ppt_target_bbox_in": {
+              "x": 8.9312,
+              "y": 1.7216,
+              "w": 3.9871,
+              "h": 4.3438
+            }
+          },
+          {
+            "element_id": "s02_conclusion",
+            "blueprint_bbox_px": {
+              "x": 66,
+              "y": 772,
+              "w": 1536,
+              "h": 92
+            },
+            "ppt_target_bbox_in": {
+              "x": 0.5263,
+              "y": 6.153,
+              "w": 12.2485,
+              "h": 0.7333
+            }
+          },
+          {
+            "element_id": "s02_evidence",
+            "blueprint_bbox_px": {
+              "x": 68,
+              "y": 884,
+              "w": 330,
+              "h": 36
+            },
+            "ppt_target_bbox_in": {
+              "x": 0.5423,
+              "y": 7.0457,
+              "w": 2.6315,
+              "h": 0.2869
+            }
+          },
+          {
+            "element_id": "s02_page_badge",
+            "blueprint_bbox_px": {
+              "x": 1572,
+              "y": 884,
+              "w": 60,
+              "h": 40
+            },
+            "ppt_target_bbox_in": {
+              "x": 12.5356,
+              "y": 7.0457,
+              "w": 0.4785,
+              "h": 0.3188
+            }
+          }
+        ]
+      },
+      "generation_engine": {
+        "tool": "artifact-tool / pptx-generator",
+        "formal_export": "PresentationFile.exportPptx",
+        "fallback_reason": null,
+        "visual_fidelity_not_reduced": true
+      },
+      "qa_expectations": {
+        "dual_gate_required": true,
+        "visual_semantics_required": true,
+        "all_key_text_editable": true,
+        "visual_qa_required": true,
+        "blueprint_background_forbidden": true
+      },
+      "blueprint_reconstruction_plan": {
+        "blueprint_path": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage2/blueprints/slide-02.png",
+        "canvas_size": {
+          "blueprint_px": {
+            "w": 1672,
+            "h": 941
+          },
+          "ppt_pixels": {
+            "w": 1280,
+            "h": 720
+          }
+        },
+        "background_color_sample": "#F7F6F0",
+        "surface_system": "continuous ivory paper surface with deep navy technical accents",
+        "layout_regions": [
+          "title_stack",
+          "five_step_workflow",
+          "root_cause_sidebar",
+          "consequence_strip",
+          "conclusion_band",
+          "footer"
+        ],
+        "header_footer_system": "left page tab, top rule, evidence footer and deep-navy page badge",
+        "so_what_region": "full-width deep-navy conclusion band",
+        "main_chart_semantics": "five fragmented handoff stages resolve into three root causes",
+        "density_targets": "medium-high; left 65 percent workflow, right 35 percent root-cause stack",
+        "anchor_targets": [
+          "page_tab",
+          "title_baseline",
+          "workflow_axis",
+          "sidebar_divider",
+          "conclusion_band",
+          "page_badge"
+        ],
+        "native_rebuild_targets": [
+          "all text",
+          "icons",
+          "workflow separators",
+          "cause stack",
+          "conclusion band"
+        ],
+        "allowed_visual_assets": [],
+        "complex_visual_scan": {
+          "completed": true,
+          "complex_visual_candidates": [],
+          "triggered_gates": [],
+          "pictures_zero_is_not_goal": true,
+          "native_only_rationale": "The page consists of flat workflow icons, rules, labels and container bands that remain higher fidelity and fully editable as native PowerPoint geometry."
+        }
+      },
+      "page_execution": {
+        "mode": "single_page",
+        "single_page_pptx_path": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage3/pages/slide-02.pptx",
+        "blueprint_render_path": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage2/blueprints/slide-02.png",
+        "ppt_render_path": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage3/renders/slide-02.png",
+        "side_by_side_path": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage3/qa/slide-02-side-by-side.png",
+        "local_comparison_artifacts": [
+          "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage3/qa/slide-02-title-comparison.png",
+          "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage3/qa/slide-02-workflow-comparison.png",
+          "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage3/qa/slide-02-root-comparison.png"
+        ],
+        "page_status": "awaiting_user_confirmation",
+        "user_confirmed": false,
+        "made_before_next_slide": true
+      },
+      "native_components": [
+        {
+          "id": "s02_title_stack",
+          "type": "title-subtitle-stack",
+          "trace_required": false,
+          "native_reconstruction": true
+        },
+        {
+          "id": "s02_fragmented_chain",
+          "type": "five-step-fragmented-workflow",
+          "trace_required": false,
+          "native_reconstruction": true
+        },
+        {
+          "id": "s02_root_causes",
+          "type": "three-root-cause-stack",
+          "trace_required": false,
+          "native_reconstruction": true
+        },
+        {
+          "id": "s02_conclusion",
+          "type": "so-what-conclusion-band",
+          "trace_required": false,
+          "native_reconstruction": true
+        },
+        {
+          "id": "s02_footer",
+          "type": "evidence-footer-page-badge",
+          "trace_required": false,
+          "native_reconstruction": true
+        }
+      ],
+      "blueprint_background_used": false,
+      "label_collision_check": {
+        "passed": true,
+        "checked_regions": [
+          "title",
+          "workflow",
+          "root_causes",
+          "conclusion"
+        ],
+        "collisions": [],
+        "allowed_overlaps": []
+      },
+      "spatial_registration_check": {
+        "passed": true,
+        "checked_groups": [
+          {
+            "group_id": "title_group",
+            "status": "passed",
+            "anchor_points": [
+              {
+                "anchor": "title_baseline",
+                "label": "主标题基线",
+                "status": "passed",
+                "blueprint_bbox_px": {
+                  "x": 75,
+                  "y": 75,
+                  "w": 1270,
+                  "h": 120
+                },
+                "render_bbox_px": {
+                  "x": 75,
+                  "y": 75,
+                  "w": 1270,
+                  "h": 120
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3
+              }
+            ]
+          },
+          {
+            "group_id": "workflow_group",
+            "status": "passed",
+            "anchor_points": [
+              {
+                "anchor": "workflow_label_baseline",
+                "label": "五步流程标签基线",
+                "status": "passed",
+                "blueprint_bbox_px": {
+                  "x": 66,
+                  "y": 213,
+                  "w": 1014,
+                  "h": 525
+                },
+                "render_bbox_px": {
+                  "x": 66,
+                  "y": 213,
+                  "w": 1014,
+                  "h": 525
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3
+              }
+            ]
+          }
+        ]
+      },
+      "container_overflow_check": {
+        "passed": true,
+        "checked_regions": [
+          "slide_canvas",
+          "workflow",
+          "root_causes",
+          "conclusion"
+        ],
+        "overflow_regions": []
+      },
+      "continuous_text_flow_check": {
+        "passed": true,
+        "checked_text_runs": [
+          {
+            "run_id": "title",
+            "status": "passed",
+            "lines": 1
+          },
+          {
+            "run_id": "workflow_labels",
+            "status": "passed",
+            "lines": 18
+          },
+          {
+            "run_id": "root_cause_labels",
+            "status": "passed",
+            "lines": 12
+          },
+          {
+            "run_id": "conclusion",
+            "status": "passed",
+            "lines": 1
+          }
+        ]
+      }
+    }
+  ]
+}

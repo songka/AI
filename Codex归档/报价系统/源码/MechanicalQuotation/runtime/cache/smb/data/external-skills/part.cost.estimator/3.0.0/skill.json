@@ -1,0 +1,21 @@
+{
+  "skill_id": "part.cost.estimator",
+  "skill_name_zh": "LFAF机械零件报价分析 Skill",
+  "skill_version": "3.0.0",
+  "protocol_version": "1.0",
+  "supported_steps": [
+    "DOCUMENT_UNDERSTANDING",
+    "FEATURE_EXTRACTION",
+    "MATERIAL_CLASSIFICATION",
+    "PROCESS_PLANNING",
+    "TIME_ESTIMATION",
+    "LINE_ITEM_PRICING",
+    "UNKNOWN_ESTIMATION",
+    "PRICE_AUDIT",
+    "REVIEW_RECOMMENDATION",
+    "QUOTE_ASSEMBLY"
+  ],
+  "supports_full_quotation": false,
+  "instruction_file": "SKILL.md",
+  "reference_files": ["references/four-category-inputs.md"]
+}

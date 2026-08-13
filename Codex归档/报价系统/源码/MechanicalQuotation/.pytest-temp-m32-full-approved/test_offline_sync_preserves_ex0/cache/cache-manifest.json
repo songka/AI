@@ -1,0 +1,11 @@
+{
+  "cache_version": 1,
+  "source_root": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\.pytest-temp-m32-full-approved\\test_offline_sync_preserves_ex0\\公共槽",
+  "last_sync": "2026-08-06T04:30:21.882015+00:00",
+  "files": {
+    "rules/published/quotation-rules.yaml": {
+      "sha256": "ec7fcf01899b0f1deb51ab65072c4415ceff90a48f53e22f7946e23f7bdc8806",
+      "cached_at": "2026-08-06T04:30:21.882015+00:00"
+    }
+  }
+}

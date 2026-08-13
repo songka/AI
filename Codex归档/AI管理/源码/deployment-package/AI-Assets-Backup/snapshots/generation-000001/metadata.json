@@ -1,0 +1,19 @@
+{
+  "generation": 1,
+  "createdAt": "2026-07-25T00:00:00Z",
+  "description": "AI Assets 双 SMB 仓库初始基线",
+  "publicRepository": "\\\\10.97.0.210\\lfaf_Engineer\\电控历史资料\\7-内部运算公式\\014-AI\\data\\AI-Assets",
+  "backupRepository": "\\\\10.97.0.210\\lfaf_Engineer\\电控历史资料\\7-内部运算公式\\014-AI\\data\\AI-Assets-Backup",
+  "rolesConfigured": true,
+  "initialAdministrators": [
+    "GETACAD\\lfaf-test",
+    "lfaf-test\\lfaf-test"
+  ],
+  "signatureConfigured": false,
+  "nextActions": [
+    "由初始管理员确认并分配审核者、发布者和使用者账户",
+    "配置发布证书并启用 registry 数字签名",
+    "使用不同审核者和发布者账户完成首次发布演练",
+    "配置备份槽历史快照或离线备份"
+  ]
+}

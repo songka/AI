@@ -1,0 +1,28 @@
+{
+  "bom_item": "UC1002009712",
+  "bounding_box": {
+    "length_min": 54.0,
+    "length_max": 66.0,
+    "width_min": 63.0,
+    "width_max": 77.0,
+    "height_min": 18.0,
+    "height_max": 22.0
+  },
+  "material": {
+    "text_contains": [
+      "A6061-T6"
+    ],
+    "source": "DRAWING_TEXT",
+    "confidence_min": 0.5
+  },
+  "surface_treatment": {
+    "present": true,
+    "source": "DRAWING_TEXT"
+  },
+  "holes": {
+    "count_min": 2
+  },
+  "threads": {
+    "present": false
+  }
+}

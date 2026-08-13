@@ -1,0 +1,1 @@
+"""Excel I/O infrastructure — BOM reader and quotation writer."""

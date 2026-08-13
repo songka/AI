@@ -1,0 +1,7 @@
+interface:
+  display_name: "外购件第6-8步"
+  short_description: "查找官网图片并合并图片清单。"
+  default_prompt: "使用 $external-part-step-06-08-asset-research-merge 导出 asset_pending、查找官网图片并合并结果。"
+
+policy:
+  allow_implicit_invocation: true

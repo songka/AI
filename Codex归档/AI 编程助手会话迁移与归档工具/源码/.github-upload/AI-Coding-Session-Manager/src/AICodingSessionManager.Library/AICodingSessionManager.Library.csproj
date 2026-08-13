@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\AICodingSessionManager.Backup\AICodingSessionManager.Backup.csproj" />
+  </ItemGroup>
+</Project>

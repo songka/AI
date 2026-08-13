@@ -1,0 +1,863 @@
+{
+  "total_parts": 20,
+  "ok_parts": 7,
+  "parts_with_unknown": 10,
+  "avg_abs_deviation": 241.2,
+  "issue_breakdown": {
+    "OK": 7,
+    "A": 13,
+    "C": 10
+  },
+  "parts": [
+    {
+      "item": "UC1000005854",
+      "code": "J003",
+      "material": "S50C",
+      "dims": "928*796*15",
+      "surface": "表面鍍鉻",
+      "historical_price": 1425.0,
+      "feature": {
+        "bbox": "928x796",
+        "holes_detected": 4,
+        "holes_expected": 4,
+        "material_detected": "S50C",
+        "surface_detected": "表面鍍鉻"
+      },
+      "quote_items": [
+        {
+          "name": "S50C 材料費",
+          "amount": 821.97,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 88.0,
+          "source": "C"
+        },
+        {
+          "name": "TAP 加工費",
+          "amount": 17.6,
+          "source": "C"
+        },
+        {
+          "name": "表面鍍鉻",
+          "amount": 434.9,
+          "source": "C"
+        }
+      ],
+      "total": 1362.47,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "deviation_pct": -4.4,
+      "issues": [
+        "OK"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1000005855",
+      "code": "J005",
+      "material": "S50C",
+      "dims": "1400*250*15",
+      "surface": "熱處理",
+      "historical_price": 712.0,
+      "feature": {
+        "bbox": "1400x250",
+        "holes_detected": 2,
+        "holes_expected": 2,
+        "material_detected": "S50C",
+        "surface_detected": "熱處理"
+      },
+      "quote_items": [
+        {
+          "name": "S50C 材料費",
+          "amount": 389.45,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 56.0,
+          "source": "C"
+        },
+        {
+          "name": "熱處理",
+          "amount": 453.33,
+          "source": "C"
+        }
+      ],
+      "total": 898.78,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "deviation_pct": 26.2,
+      "issues": [
+        "OK"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1000005856",
+      "code": "J006",
+      "material": "S50C",
+      "dims": "798*530*15",
+      "surface": "熱處理",
+      "historical_price": 874.0,
+      "feature": {
+        "bbox": "798x530",
+        "holes_detected": 4,
+        "holes_expected": 4,
+        "material_detected": "S50C",
+        "surface_detected": "熱處理"
+      },
+      "quote_items": [
+        {
+          "name": "S50C 材料費",
+          "amount": 470.62,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 88.0,
+          "source": "C"
+        },
+        {
+          "name": "TAP 加工費",
+          "amount": 17.6,
+          "source": "C"
+        },
+        {
+          "name": "熱處理",
+          "amount": 547.81,
+          "source": "C"
+        }
+      ],
+      "total": 1124.03,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "deviation_pct": 28.6,
+      "issues": [
+        "OK"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1000005857",
+      "code": "J007",
+      "material": "S50C",
+      "dims": "1400*250*15",
+      "surface": "熱處理",
+      "historical_price": 693.0,
+      "feature": {
+        "bbox": "1400x250",
+        "holes_detected": 2,
+        "holes_expected": 2,
+        "material_detected": "S50C",
+        "surface_detected": "熱處理"
+      },
+      "quote_items": [
+        {
+          "name": "S50C 材料費",
+          "amount": 389.45,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 64.0,
+          "source": "C"
+        },
+        {
+          "name": "TAP 加工費",
+          "amount": 17.6,
+          "source": "C"
+        },
+        {
+          "name": "熱處理",
+          "amount": 453.33,
+          "source": "C"
+        }
+      ],
+      "total": 924.3799999999999,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "deviation_pct": 33.4,
+      "issues": [
+        "A: price deviation +33%"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1002006858",
+      "code": "J026",
+      "material": "A6061-T6",
+      "dims": "92*20*92",
+      "surface": "表面噴砂陽極銀色",
+      "historical_price": 71.0,
+      "feature": {
+        "bbox": "92x20",
+        "holes_detected": 2,
+        "holes_expected": 2,
+        "material_detected": "A6061-T6",
+        "surface_detected": "表面噴砂陽極銀色"
+      },
+      "quote_items": [
+        {
+          "name": "A6061-T6 材料費",
+          "amount": 18.23,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 56.0,
+          "source": "C"
+        },
+        {
+          "name": "表面噴砂陽極銀色",
+          "amount": 9.14,
+          "source": "C"
+        }
+      ],
+      "total": 83.37,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "deviation_pct": 17.4,
+      "issues": [
+        "OK"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1002009711",
+      "code": "R001",
+      "material": "A6061-T6",
+      "dims": "φ250x15",
+      "surface": "表面噴砂陽極銀色",
+      "historical_price": 209.0,
+      "feature": {
+        "bbox": "250x250",
+        "holes_detected": 4,
+        "holes_expected": 4,
+        "material_detected": "A6061-T6",
+        "surface_detected": "表面噴砂陽極銀色"
+      },
+      "quote_items": [
+        {
+          "name": "A6061-T6 材料費",
+          "amount": 100.99,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 72.0,
+          "source": "C"
+        },
+        {
+          "name": "表面噴砂陽極銀色",
+          "amount": 50.62,
+          "source": "C"
+        }
+      ],
+      "total": 223.61,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "deviation_pct": 7.0,
+      "issues": [
+        "OK"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1002009712",
+      "code": "R002",
+      "material": "A6061-T6",
+      "dims": "60*70*20",
+      "surface": "表面噴砂陽極銀色",
+      "historical_price": 61.0,
+      "feature": {
+        "bbox": "60x70",
+        "holes_detected": 2,
+        "holes_expected": 2,
+        "material_detected": "A6061-T6",
+        "surface_detected": "表面噴砂陽極銀色"
+      },
+      "quote_items": [
+        {
+          "name": "A6061-T6 材料費",
+          "amount": 9.06,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 56.0,
+          "source": "C"
+        },
+        {
+          "name": "表面噴砂陽極銀色",
+          "amount": 4.54,
+          "source": "C"
+        }
+      ],
+      "total": 69.60000000000001,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "deviation_pct": 14.1,
+      "issues": [
+        "OK"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1002009713",
+      "code": "R003",
+      "material": "A6061-T6",
+      "dims": "60*30*10",
+      "surface": "表面噴砂陽極銀色",
+      "historical_price": 38.0,
+      "feature": {
+        "bbox": "60x30",
+        "holes_detected": 2,
+        "holes_expected": 2,
+        "material_detected": "A6061-T6",
+        "surface_detected": "表面噴砂陽極銀色"
+      },
+      "quote_items": [
+        {
+          "name": "A6061-T6 材料費",
+          "amount": 1.96,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 56.0,
+          "source": "C"
+        },
+        {
+          "name": "表面噴砂陽極銀色",
+          "amount": 0.98,
+          "source": "C"
+        }
+      ],
+      "total": 58.94,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "deviation_pct": 55.1,
+      "issues": [
+        "A: price deviation +55%"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1002009718",
+      "code": "R004",
+      "material": "A6061-T6",
+      "dims": "40*16*13",
+      "surface": "表面噴砂陽極銀色",
+      "historical_price": 66.0,
+      "feature": {
+        "bbox": "40x16",
+        "holes_detected": 1,
+        "holes_expected": 1,
+        "material_detected": "A6061-T6",
+        "surface_detected": "表面噴砂陽極銀色"
+      },
+      "quote_items": [
+        {
+          "name": "A6061-T6 材料費",
+          "amount": 0.88,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 48.0,
+          "source": "C"
+        },
+        {
+          "name": "表面噴砂陽極銀色",
+          "amount": 0.44,
+          "source": "C"
+        }
+      ],
+      "total": 49.32,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "deviation_pct": -25.3,
+      "issues": [
+        "OK"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1003000436",
+      "code": "J001",
+      "material": "普通鋼",
+      "dims": "1400*1300*785",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 7000.0,
+      "feature": {
+        "bbox": "1400x1300",
+        "holes_detected": 8,
+        "holes_expected": 8,
+        "material_detected": "普通鋼",
+        "surface_detected": "表面噴塗,RAL9003"
+      },
+      "quote_items": [
+        {
+          "name": "普通鋼 材料費",
+          "amount": 94208.48,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 136.0,
+          "source": "C"
+        },
+        {
+          "name": "TAP 加工費",
+          "amount": 35.2,
+          "source": "C"
+        },
+        {
+          "name": "表面噴塗,RAL9003 (未定價)",
+          "amount": 0.0,
+          "source": "U"
+        }
+      ],
+      "total": 94379.68,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "deviation_pct": 1248.3,
+      "issues": [
+        "C: price rule missing",
+        "A: price deviation +1248%"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1004001529",
+      "code": "W002",
+      "material": "SPCC",
+      "dims": "56*50*44",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 16.0,
+      "feature": {
+        "bbox": "56x50",
+        "holes_detected": 0,
+        "holes_expected": 0,
+        "material_detected": "SPCC",
+        "surface_detected": "表面噴塗,RAL9003"
+      },
+      "quote_items": [
+        {
+          "name": "SPCC 材料費",
+          "amount": 8.12,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 40.0,
+          "source": "C"
+        },
+        {
+          "name": "表面噴塗,RAL9003 (未定價)",
+          "amount": 0.0,
+          "source": "U"
+        }
+      ],
+      "total": 48.12,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "deviation_pct": 200.7,
+      "issues": [
+        "C: price rule missing",
+        "A: price deviation +201%"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1004001886",
+      "code": "J036",
+      "material": "SPCC",
+      "dims": "1208*103.5*2",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 28.0,
+      "feature": {
+        "bbox": "1208x104",
+        "holes_detected": 4,
+        "holes_expected": 4,
+        "material_detected": "SPCC",
+        "surface_detected": "表面噴塗,RAL9003"
+      },
+      "quote_items": [
+        {
+          "name": "SPCC 材料費",
+          "amount": 16.49,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 72.0,
+          "source": "C"
+        },
+        {
+          "name": "表面噴塗,RAL9003 (未定價)",
+          "amount": 0.0,
+          "source": "U"
+        }
+      ],
+      "total": 88.49,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "deviation_pct": 216.0,
+      "issues": [
+        "C: price rule missing",
+        "A: price deviation +216%"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1004001887",
+      "code": "F002",
+      "material": "SPCC",
+      "dims": "794*200*15",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 38.0,
+      "feature": {
+        "bbox": "794x200",
+        "holes_detected": 2,
+        "holes_expected": 2,
+        "material_detected": "SPCC",
+        "surface_detected": "表面噴塗,RAL9003"
+      },
+      "quote_items": [
+        {
+          "name": "SPCC 材料費",
+          "amount": 157.07,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 56.0,
+          "source": "C"
+        },
+        {
+          "name": "表面噴塗,RAL9003 (未定價)",
+          "amount": 0.0,
+          "source": "U"
+        }
+      ],
+      "total": 213.07,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "deviation_pct": 460.7,
+      "issues": [
+        "C: price rule missing",
+        "A: price deviation +461%"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1004001888",
+      "code": "J050",
+      "material": "SPCC",
+      "dims": "798*50*15",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 47.0,
+      "feature": {
+        "bbox": "798x50",
+        "holes_detected": 2,
+        "holes_expected": 2,
+        "material_detected": "SPCC",
+        "surface_detected": "表面噴塗,RAL9003"
+      },
+      "quote_items": [
+        {
+          "name": "SPCC 材料費",
+          "amount": 39.46,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 56.0,
+          "source": "C"
+        },
+        {
+          "name": "表面噴塗,RAL9003 (未定價)",
+          "amount": 0.0,
+          "source": "U"
+        }
+      ],
+      "total": 95.46000000000001,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "deviation_pct": 103.1,
+      "issues": [
+        "C: price rule missing",
+        "A: price deviation +103%"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1004001889",
+      "code": "J027",
+      "material": "SPCC",
+      "dims": "1300*117.2*2",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 38.0,
+      "feature": {
+        "bbox": "1300x117",
+        "holes_detected": 2,
+        "holes_expected": 2,
+        "material_detected": "SPCC",
+        "surface_detected": "表面噴塗,RAL9003"
+      },
+      "quote_items": [
+        {
+          "name": "SPCC 材料費",
+          "amount": 20.09,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 64.0,
+          "source": "C"
+        },
+        {
+          "name": "TAP 加工費",
+          "amount": 17.6,
+          "source": "C"
+        },
+        {
+          "name": "表面噴塗,RAL9003 (未定價)",
+          "amount": 0.0,
+          "source": "U"
+        }
+      ],
+      "total": 101.69,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "deviation_pct": 167.6,
+      "issues": [
+        "C: price rule missing",
+        "A: price deviation +168%"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1004001890",
+      "code": "J035",
+      "material": "SPCC",
+      "dims": "1300*117.2*88",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 95.0,
+      "feature": {
+        "bbox": "1300x117",
+        "holes_detected": 4,
+        "holes_expected": 4,
+        "material_detected": "SPCC",
+        "surface_detected": "表面噴塗,RAL9003"
+      },
+      "quote_items": [
+        {
+          "name": "SPCC 材料費",
+          "amount": 884.1,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 88.0,
+          "source": "C"
+        },
+        {
+          "name": "TAP 加工費",
+          "amount": 17.6,
+          "source": "C"
+        },
+        {
+          "name": "表面噴塗,RAL9003 (未定價)",
+          "amount": 0.0,
+          "source": "U"
+        }
+      ],
+      "total": 989.7,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "deviation_pct": 941.8,
+      "issues": [
+        "C: price rule missing",
+        "A: price deviation +942%"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1004001904",
+      "code": "F003",
+      "material": "SPCC",
+      "dims": "818*200*21",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 57.0,
+      "feature": {
+        "bbox": "818x200",
+        "holes_detected": 4,
+        "holes_expected": 4,
+        "material_detected": "SPCC",
+        "surface_detected": "表面噴塗,RAL9003"
+      },
+      "quote_items": [
+        {
+          "name": "SPCC 材料費",
+          "amount": 226.54,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 88.0,
+          "source": "C"
+        },
+        {
+          "name": "TAP 加工費",
+          "amount": 17.6,
+          "source": "C"
+        },
+        {
+          "name": "表面噴塗,RAL9003 (未定價)",
+          "amount": 0.0,
+          "source": "U"
+        }
+      ],
+      "total": 332.14,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "deviation_pct": 482.7,
+      "issues": [
+        "C: price rule missing",
+        "A: price deviation +483%"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1004001905",
+      "code": "F001",
+      "material": "SPCC",
+      "dims": "818*200*21",
+      "surface": "表面噴塗,RAL9003",
+      "historical_price": 57.0,
+      "feature": {
+        "bbox": "818x200",
+        "holes_detected": 4,
+        "holes_expected": 4,
+        "material_detected": "SPCC",
+        "surface_detected": "表面噴塗,RAL9003"
+      },
+      "quote_items": [
+        {
+          "name": "SPCC 材料費",
+          "amount": 226.54,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 88.0,
+          "source": "C"
+        },
+        {
+          "name": "TAP 加工費",
+          "amount": 17.6,
+          "source": "C"
+        },
+        {
+          "name": "表面噴塗,RAL9003 (未定價)",
+          "amount": 0.0,
+          "source": "U"
+        }
+      ],
+      "total": 332.14,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "deviation_pct": 482.7,
+      "issues": [
+        "C: price rule missing",
+        "A: price deviation +483%"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC1007000773",
+      "code": "J029",
+      "material": "SUS304",
+      "dims": "80*90*2",
+      "surface": null,
+      "historical_price": 14.0,
+      "feature": {
+        "bbox": "80x90",
+        "holes_detected": 0,
+        "holes_expected": 0,
+        "material_detected": "SUS304",
+        "surface_detected": null
+      },
+      "quote_items": [
+        {
+          "name": "SUS304 材料費",
+          "amount": 3.35,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 40.0,
+          "source": "C"
+        }
+      ],
+      "total": 43.35,
+      "status": "COMPLETE",
+      "unknown_count": 0,
+      "deviation_pct": 209.6,
+      "issues": [
+        "A: price deviation +210%"
+      ],
+      "cost_completion": 100
+    },
+    {
+      "item": "UC2020083221",
+      "code": "W001",
+      "material": "鋁型材",
+      "dims": "40*40",
+      "surface": "白色透明",
+      "historical_price": 2900.0,
+      "feature": {
+        "bbox": "40x40",
+        "holes_detected": 0,
+        "holes_expected": 0,
+        "material_detected": "鋁型材",
+        "surface_detected": "白色透明"
+      },
+      "quote_items": [
+        {
+          "name": "鋁型材 材料費",
+          "amount": 2.96,
+          "source": "C"
+        },
+        {
+          "name": "CNC 加工費",
+          "amount": 40.0,
+          "source": "C"
+        },
+        {
+          "name": "白色透明 (未定價)",
+          "amount": 0.0,
+          "source": "U"
+        },
+        {
+          "name": "連接件",
+          "amount": 0.0,
+          "source": "E"
+        }
+      ],
+      "total": 42.96,
+      "status": "INCOMPLETE",
+      "unknown_count": 1,
+      "deviation_pct": -98.5,
+      "issues": [
+        "C: price rule missing",
+        "A: price deviation -99%"
+      ],
+      "cost_completion": 100
+    }
+  ]
+}

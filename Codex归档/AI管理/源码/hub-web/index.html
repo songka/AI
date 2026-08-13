@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Assets Hub</title>
+  <meta name="description" content="团队 Skill、CLI 与 Agent 资产版本看板">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">AI</span><span>Assets Hub</span></div>
+    <div class="status"><span class="dot"></span><span id="freshness">读取本地数据…</span></div>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">GETACAD · INTERNAL DISTRIBUTION</p>
+      <h1>团队 AI 资产，一处看清。</h1>
+      <p class="lead">Skill、CLI、Agent 的稳定版本、依赖关系、更新说明与候选状态。</p>
+      <div class="actions">
+        <button id="refresh" type="button">刷新数据</button>
+        <label class="search"><span>搜索</span><input id="query" placeholder="名称、Owner 或版本" autocomplete="off"></label>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Hub 概览">
+      <article><span>资产</span><strong id="package-count">—</strong></article>
+      <article><span>版本</span><strong id="release-count">—</strong></article>
+      <article><span>依赖关系</span><strong id="dependency-count">—</strong></article>
+      <article><span>仓库代次</span><strong id="generation">—</strong></article>
+    </section>
+
+    <section class="content">
+      <div class="section-heading">
+        <div><p class="eyebrow">CATALOG</p><h2>当前 Hub</h2></div>
+        <div id="filters" class="filters" aria-label="资产类型筛选"></div>
+      </div>
+      <div id="asset-list" class="asset-list"></div>
+      <div id="empty" class="empty" hidden>没有匹配的资产。</div>
+    </section>
+
+    <aside class="notice">
+      <strong>静态安全模式</strong>
+      <span>页面不收集凭据、不显示账户清单，也不直接执行发布。数据在 Hub 发布或镜像时更新。</span>
+    </aside>
+  </main>
+  <footer><span>AI Assets Hub</span><span id="exported-at"></span></footer>
+  <script src="hub-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

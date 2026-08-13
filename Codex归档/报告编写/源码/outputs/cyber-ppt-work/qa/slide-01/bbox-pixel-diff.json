@@ -1,0 +1,266 @@
+{
+  "schema": "cyberppt.render_compare.v1",
+  "blueprint_path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\outputs\\cyber-ppt-work\\blueprints\\slide-01.png",
+  "render_path": "C:\\Users\\lfaf-test\\AppData\\Local\\Temp\\codex-presentations\\visual-random-pick-cyber-final\\tmp\\pages\\slide-01-preview\\starter-slide-01.png",
+  "registry_path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\outputs\\cyber-ppt-work\\visual-element-registries\\slide-01.json",
+  "elements_checked": 9,
+  "passed": false,
+  "results": [
+    {
+      "element_id": "cover_brand_frame",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "render_bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 6.453,
+      "pixel_mean_abs_tolerance": 18.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "vision_label",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 310,
+        "y": 210,
+        "w": 300,
+        "h": 95
+      },
+      "render_bbox_px": {
+        "x": 310,
+        "y": 210,
+        "w": 300,
+        "h": 95
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 6,
+      "pixel_mean_abs_diff": 6.313,
+      "pixel_mean_abs_tolerance": 18.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "cover_title",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 790,
+        "y": 79,
+        "w": 720,
+        "h": 77
+      },
+      "render_bbox_px": {
+        "x": 790,
+        "y": 79,
+        "w": 720,
+        "h": 77
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 6,
+      "pixel_mean_abs_diff": 67.726,
+      "pixel_mean_abs_tolerance": 18.0,
+      "status": "failed"
+    },
+    {
+      "element_id": "cover_date",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 793,
+        "y": 184,
+        "w": 300,
+        "h": 42
+      },
+      "render_bbox_px": {
+        "x": 793,
+        "y": 184,
+        "w": 300,
+        "h": 42
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 8,
+      "pixel_mean_abs_diff": 18.352,
+      "pixel_mean_abs_tolerance": 18.0,
+      "status": "failed"
+    },
+    {
+      "element_id": "context_line_1",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 740,
+        "y": 278,
+        "w": 620,
+        "h": 50
+      },
+      "render_bbox_px": {
+        "x": 740,
+        "y": 278,
+        "w": 620,
+        "h": 50
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 8,
+      "pixel_mean_abs_diff": 13.313,
+      "pixel_mean_abs_tolerance": 18.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "context_line_2",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 740,
+        "y": 376,
+        "w": 720,
+        "h": 50
+      },
+      "render_bbox_px": {
+        "x": 740,
+        "y": 376,
+        "w": 720,
+        "h": 50
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 8,
+      "pixel_mean_abs_diff": 35.727,
+      "pixel_mean_abs_tolerance": 18.0,
+      "status": "failed"
+    },
+    {
+      "element_id": "context_line_3",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 740,
+        "y": 469,
+        "w": 760,
+        "h": 50
+      },
+      "render_bbox_px": {
+        "x": 740,
+        "y": 469,
+        "w": 760,
+        "h": 50
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 8,
+      "pixel_mean_abs_diff": 33.452,
+      "pixel_mean_abs_tolerance": 18.0,
+      "status": "failed"
+    },
+    {
+      "element_id": "mpt_logo",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 1464,
+        "y": 807,
+        "w": 160,
+        "h": 92
+      },
+      "render_bbox_px": {
+        "x": 1464,
+        "y": 807,
+        "w": 160,
+        "h": 92
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 6,
+      "pixel_mean_abs_diff": 9.722,
+      "pixel_mean_abs_tolerance": 18.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "copyright",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 770,
+        "y": 907,
+        "w": 695,
+        "h": 18
+      },
+      "render_bbox_px": {
+        "x": 770,
+        "y": 907,
+        "w": 695,
+        "h": 18
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 8,
+      "pixel_mean_abs_diff": 4.021,
+      "pixel_mean_abs_tolerance": 18.0,
+      "status": "passed"
+    }
+  ],
+  "failures": [
+    {
+      "element_id": "cover_title",
+      "code": "PIXEL_DIFF_EXCEEDED",
+      "severity": "High"
+    },
+    {
+      "element_id": "cover_date",
+      "code": "PIXEL_DIFF_EXCEEDED",
+      "severity": "High"
+    },
+    {
+      "element_id": "context_line_2",
+      "code": "PIXEL_DIFF_EXCEEDED",
+      "severity": "High"
+    },
+    {
+      "element_id": "context_line_3",
+      "code": "PIXEL_DIFF_EXCEEDED",
+      "severity": "High"
+    }
+  ]
+}

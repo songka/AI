@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-head">
+    <div>
+        <h1>{{ record.part_no }}</h1>
+        <p>{{ record.description }}</p>
+    </div>
+    <a href="/query" class="secondary-button">返回查询</a>
+</section>
+
+<div class="panel">
+    <div class="section-title">
+        <h2>料号信息</h2>
+        <span>{{ record.categories | join(' / ') }}</span>
+    </div>
+    <dl class="detail-grid">
+        <div><dt>描述</dt><dd>{{ record.description }}</dd></div>
+        <div><dt>单位</dt><dd>{{ record.unit or '-' }}</dd></div>
+        <div><dt>申请人</dt><dd>{{ record.applicant or '-' }}</dd></div>
+        <div><dt>库存</dt><dd>{{ record.inventory_display or '-' }}</dd></div>
+        <div><dt>分类</dt><dd>{{ record.categories | join(' / ') }}</dd></div>
+    </dl>
+</div>
+
+<div class="panel">
+    <div class="section-title">
+        <h2>料号资源</h2>
+        <span>{{ '可访问' if assets.available else '未配置/不可访问' }}</span>
+    </div>
+    {% if assets.available %}
+        <dl class="detail-grid compact">
+            <div><dt>网络地址</dt><dd>{{ assets.network_path or '-' }}</dd></div>
+            <div><dt>本地地址</dt><dd>{{ assets.local_path or '-' }}</dd></div>
+        </dl>
+        {% if assets.images %}
+            <div class="image-grid">
+                {% for image in assets.images %}
+                    <div class="image-item">
+                        <img src="/assets/{{ record.part_no }}/{{ image }}" alt="{{ image }}">
+                        <div>{{ image }}</div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+        {% if assets.other_files %}
+            <ul>
+                {% for file in assets.other_files %}
+                    <li><a href="/assets/{{ record.part_no }}/{{ file }}" target="_blank">{{ file }}</a></li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        {% if not assets.images and not assets.other_files %}
+            <div class="empty-state">暂无资源文件</div>
+        {% endif %}
+    {% else %}
+        <div class="empty-state">资源目录未配置或当前不可访问</div>
+    {% endif %}
+</div>
+{% endblock %}

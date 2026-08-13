@@ -1,0 +1,97 @@
+{
+  "deck_title": "内部 AI 框架与五类 Skill 建设规划",
+  "version": "v2-7slides",
+  "target_language": "中文",
+  "selected_style_id": 4,
+  "selected_style_name": "象牙白 + 深蓝强调",
+  "allowed_foreign_terms": ["AI", "Skill", "SMB", "DeepSeek", "opencode", "Claude Code", "PLC", "AS228T", "ST", "ISPSoft", "Robot", "PC", "Fanuc", "SKILL.md", "references", "templates", "examples", "evals"],
+  "slides": [
+    {
+      "slide_number": 1,
+      "role": "封面",
+      "title": "内部 AI 框架与五类 Skill 建设规划",
+      "subtitle": "以 SMB 公共槽共享工程能力，先形成可用闭环，再逐步完善治理",
+      "required_components": ["标题", "副标题", "个人 PC—公共 DeepSeek—SMB 公共槽抽象主视觉", "老板汇报版与日期"],
+      "so_what": "轻量共享、五类建设、专精改写",
+      "evidence_ids": ["E01", "E02", "用户修正-2026-07-14"]
+    },
+    {
+      "slide_number": 2,
+      "role": "目录",
+      "title": "本次汇报聚焦三个问题",
+      "sections": ["01 如何构建内部可用的 AI 框架", "02 需要开发哪五大类 Skill", "03 为什么网络下载的 Skill 必须改写"],
+      "required_components": ["三段式目录路径", "章节编号", "框架—能力—改写的递进关系"],
+      "so_what": "先解决共享框架，再建设能力，最后以 AS228T 完成落地",
+      "evidence_ids": ["用户确认-v2"]
+    },
+    {
+      "slide_number": 3,
+      "role": "构建框架",
+      "title": "先用公共 DeepSeek + SMB Skill 公共槽搭建轻量框架，让个人电脑共享同一套能力",
+      "subtitle": "Skill Hub 尚未建立，SMB 是第一阶段的共享、发布和版本载体",
+      "content": {
+        "个人入口": ["个人 PC ×3", "opencode / Claude Code", "工程师在本地发起任务"],
+        "公共模型": ["公共电脑 DeepSeek", "提供统一模型能力"],
+        "公共槽": ["SMB Skill 公共槽", "存放批准后的 Skill、公司规则、模板和示例", "个人 PC 共同读取同一版本"],
+        "管理": ["管理员发布", "权限", "版本", "备份", "回滚"],
+        "后续": ["Skill Hub 为后续平台化目标，当前尚未建设"]
+      },
+      "required_components": ["三台个人 PC", "公共 DeepSeek", "SMB Skill 公共槽", "管理员", "实线数据流", "虚线后续治理", "图例", "SO WHAT"],
+      "so_what": "先低成本解决大家都能用同一套 Skill，再考虑平台化",
+      "evidence_ids": ["E01", "用户修正-2026-07-14"]
+    },
+    {
+      "slide_number": 4,
+      "role": "五类 Skill",
+      "title": "首批建设五大类 Skill，覆盖工程开发与日常办公的核心场景",
+      "content": {
+        "PLC": "台达 AS228T；输出全局变量、局部变量和 ST 程序",
+        "Robot": "那智、Fanuc、川崎；按品牌分别专精",
+        "PC程序": "公司标准程序框架、通信、日志、异常和测试规范",
+        "视觉程序": "相机、算法平台及 PLC/PC 接口二次开发",
+        "办公类": "报告、表格、PPT、会议纪要和知识检索"
+      },
+      "required_components": ["五分支能力树或五条泳道", "每类 Skill 的对象", "每类 Skill 的关键输出", "共用 SMB 发布底座", "SO WHAT"],
+      "so_what": "Skill 不是通用问答，而是把公司做法变成可重复调用的能力",
+      "evidence_ids": ["E02", "E03", "用户确认-v2"]
+    },
+    {
+      "slide_number": 5,
+      "role": "开发维护",
+      "title": "每类 Skill 都必须有负责人、公司规则、示例和验收标准",
+      "content": {
+        "角色": ["领域 Owner：决定规则和边界", "Skill 编写人：沉淀规则模板流程", "验收人：真实项目验收", "SMB 管理员：发布、权限、版本、备份、回滚", "使用者：反馈错误和新场景"],
+        "最小交付包": ["SKILL.md", "references", "templates / examples", "evals"]
+      },
+      "required_components": ["五角色责任链", "最小交付包结构", "发布至 SMB 的准入门", "SO WHAT"],
+      "so_what": "没有负责人和真实项目验收的 Skill 不进入 SMB 公共槽",
+      "evidence_ids": ["E11", "Skill Creator 结构规范"]
+    },
+    {
+      "slide_number": 6,
+      "role": "网络 Skill 诊断",
+      "title": "网络下载的 PLC Skill 只能作为素材库，不能直接作为公司生产 Skill",
+      "content": {
+        "关键数字": ["111 个文件", "110 个 Markdown", "10 个厂商目录", "台达仅 3 个文件", "AS228T 专属内容 0"],
+        "问题": ["覆盖过宽、上下文杂", "台达规则主体偏 DVP", "ST 风格面向三菱 FX3U/GX Works2", "缺少公司地址、命名和程序框架规则"],
+        "动作": ["保留：通用结构、模板、检查表", "删除：无关厂商和冲突规则", "重写：AS228T、ISPSoft、公司工程标准"]
+      },
+      "required_components": ["关键数字证据带", "网络通用包宽而杂", "公司专精 Skill 窄而深", "保留/删除/重写三类动作", "SO WHAT"],
+      "so_what": "网络 Skill 可复用结构，但厂商、型号和公司规则必须重新校准",
+      "evidence_ids": ["E04", "E05", "E06", "E07", "E08", "E11"]
+    },
+    {
+      "slide_number": 7,
+      "role": "AS228T 改写与决策",
+      "title": "将网络 PLC Skill 改写为只服务台达 AS228T 的公司专精 Skill",
+      "content": {
+        "改写": ["删除其他 9 个厂商及 DVP/三菱相关规则", "补充 AS228T、ISPSoft、ST 语法与工程结构", "加入地址分配、变量命名、程序框架、报警/互锁/复位规则", "固定输出全局变量、局部变量、ST 程序", "加入静态检查和回归测试"],
+        "流程": ["网络 Skill", "裁剪/重写", "AS228T 三件套", "真实工程验收", "发布至 SMB"],
+        "老板支持": ["指定 PLC Owner 与验收人", "提供公司规则和 AS228T/ISPSoft 工程样例", "批准 SMB 权限与版本管理方式"]
+      },
+      "required_components": ["单一改写流水线", "三件套输出", "公司规则注入", "真实工程验收", "三项支持请求", "最终 SO WHAT"],
+      "so_what": "先把一个 PLC Skill 做深做实，再复制到其他四类 Skill",
+      "evidence_ids": ["E06", "E07", "E08", "E09", "E10", "E11", "用户要求"]
+    }
+  ]
+}

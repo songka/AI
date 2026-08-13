@@ -1,0 +1,7 @@
+interface:
+  display_name: "外购件品牌识别"
+  short_description: "识别品牌、规范型号并输出置信度。"
+  default_prompt: "使用 $external-part-brand-id 读取 brand_pending CSV，按固定字段输出 brand_result CSV，并为每条记录保留 evidence_url。"
+
+policy:
+  allow_implicit_invocation: true

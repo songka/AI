@@ -1,0 +1,22 @@
+{
+  "outputSlides": [
+    {"outputSlide":1,"sourceSlide":1,"narrativeRole":"项目事实封面","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":2,"sourceSlide":2,"narrativeRole":"AI占比","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":3,"sourceSlide":3,"narrativeRole":"AI应用结论","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":4,"sourceSlide":4,"narrativeRole":"AI工具与开发方法","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":5,"sourceSlide":5,"narrativeRole":"人机责任边界","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":6,"sourceSlide":7,"narrativeRole":"业务痛点","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":7,"sourceSlide":8,"narrativeRole":"已实现功能","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":8,"sourceSlide":10,"narrativeRole":"规则工程化创新","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":9,"sourceSlide":12,"narrativeRole":"日常工作台落地","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":10,"sourceSlide":15,"narrativeRole":"AI解决共享盘部署问题","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":11,"sourceSlide":16,"narrativeRole":"AI参与最后一公里","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":12,"sourceSlide":13,"narrativeRole":"四层扩展架构","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":13,"sourceSlide":18,"narrativeRole":"成果与综合效益","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":14,"sourceSlide":19,"narrativeRole":"可复制方法","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":15,"sourceSlide":20,"narrativeRole":"结论","reuseMode":"duplicate-slide","editTargets":[]}
+  ],
+  "omittedSourceSlides": [
+    {"sourceSlide":6,"reason":"章节页不增加事实"},{"sourceSlide":9,"reason":"章节页不增加事实"},{"sourceSlide":11,"reason":"与工作台页面信息部分重复"},{"sourceSlide":14,"reason":"章节页不增加事实"},{"sourceSlide":17,"reason":"章节页不增加事实"}
+  ]
+}

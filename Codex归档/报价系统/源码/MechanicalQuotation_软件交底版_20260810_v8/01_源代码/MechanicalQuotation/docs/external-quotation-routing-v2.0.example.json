@@ -1,0 +1,27 @@
+{
+  "schema_version": "2.0",
+  "config_version": 1,
+  "mode": "DISTRIBUTED",
+  "skills": [],
+  "agents": [],
+  "step_routes": {
+    "DOCUMENT_UNDERSTANDING": {"provider": "builtin", "agent_id": "builtin.note-understanding"},
+    "PART_CLASSIFICATION": {"provider": "builtin", "agent_id": "builtin.part-classification"}
+  },
+  "category_routes": {
+    "MACHINING": {
+      "mode": "DISTRIBUTED",
+      "step_routes": {
+        "PROCESS_PLANNING": {"provider": "builtin", "agent_id": "builtin.process-planning"}
+      },
+      "process_routes": {
+        "GRIND": {
+          "step_routes": {
+            "TIME_ESTIMATION": {"provider": "company.machining-time", "agent_id": "company.machining-time-agent"}
+          }
+        }
+      }
+    }
+  },
+  "debug_mode": true
+}

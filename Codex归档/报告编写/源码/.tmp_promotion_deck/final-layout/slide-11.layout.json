@@ -1,0 +1,1291 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/jetc3ut0",
+    "id": "jetc3ut0",
+    "slide": 11,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#5B9BD5",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#4472C4",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Calibri",
+      "Calibri Light",
+      "Helvetica",
+      "Microsoft JhengHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            62.03
+          ],
+          "geometry": "rect",
+          "text": "Click To Edit Master Title",
+          "textPreview": "Click To Edit Master Title",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click To Edit Master Title",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click To Edit Master Title"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Content Placeholder 2",
+          "bbox": [
+            88,
+            114.87,
+            1104,
+            515.99
+          ],
+          "geometry": "rect",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level\n\n\n",
+          "textPreview": "Edit Master text styles | Second level | Third level | Fourth level | Fifth level |  |  |",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Slide Number Placeholder 6",
+          "bbox": [
+            28.76,
+            675.12,
+            59.24,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/6",
+          "id": "6",
+          "name": "Straight Connector 5",
+          "bbox": [
+            0,
+            100.36,
+            1004.51,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "#00467E",
+          "lineWidth": 0.67
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            139.17
+          ],
+          "geometry": "rect",
+          "text": "Click To Edit Master Title Style",
+          "textPreview": "Click To Edit Master Title Style",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click To Edit Master Title Style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click To Edit Master Title Style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            88,
+            191.67,
+            1104,
+            456.83
+          ],
+          "geometry": "rect",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/7",
+          "id": "7",
+          "name": "Rectangle 6",
+          "bbox": [
+            0,
+            654.7,
+            1280,
+            65.3
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/10",
+          "id": "10",
+          "name": "TextBox 9",
+          "bbox": [
+            88,
+            674.43,
+            831,
+            25.85
+          ],
+          "geometry": "rect",
+          "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "textPreview": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "resolvedTextStyle": {
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved.",
+                  "fontSize": 13.33,
+                  "typeface": "Helvetica",
+                  "color": "#021D36"
+                },
+                {
+                  "index": 2,
+                  "text": " CONFIDENTIAL.",
+                  "fontSize": 13.33,
+                  "typeface": "Helvetica",
+                  "color": "#021D36"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/11",
+          "id": "11",
+          "name": "Picture 7",
+          "bbox": [
+            1189.03,
+            666.82,
+            67.28,
+            43.66
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image.png",
+            "contentType": "image/png",
+            "byteLength": 2109
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image.png",
+            "contentType": "image/png",
+            "byteLength": 2109
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xcryxg7y",
+      "id": "2",
+      "name": "Title 1",
+      "bbox": [
+        88,
+        38.33,
+        720,
+        62.03
+      ],
+      "text": "人才與組織發展",
+      "textPreview": "人才與組織發展",
+      "resolvedFontSize": 45.99,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 48,
+        "typeface": "Helvetica",
+        "color": "#00457A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.96,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "人才與組織發展"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "人才與組織發展",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "Helvetica",
+            "color": "#00457A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "人才與組織發展",
+              "fontSize": 48,
+              "typeface": "Helvetica",
+              "color": "#00457A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": ""
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xgnehwri",
+      "id": "73",
+      "name": "AutoShape 2",
+      "bbox": [
+        88,
+        160,
+        340,
+        444
+      ],
+      "geometry": "rect",
+      "text": "👥\n01\n人才多能\n建立技能矩陣，掌握能力缺口\n培養電工、鉗工、調試多技能\n成果｜形成可彈性調度的多能工梯隊",
+      "textPreview": "👥 | 01 | 人才多能 | 建立技能矩陣，掌握能力缺口 | 培養電工、鉗工、調試多技能 | 成果｜形成可彈性調度的多能工梯隊",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 21.33,
+        "typeface": "Microsoft JhengHei",
+        "color": "#17324A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 28,
+          "right": 26,
+          "bottom": 28,
+          "left": 26
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "👥"
+          },
+          {
+            "index": 2,
+            "text": "01"
+          },
+          {
+            "index": 3,
+            "text": "人才多能"
+          },
+          {
+            "index": 4,
+            "text": "建立技能矩陣，掌握能力缺口"
+          },
+          {
+            "index": 5,
+            "text": "培養電工、鉗工、調試多技能"
+          },
+          {
+            "index": 6,
+            "text": "成果｜形成可彈性調度的多能"
+          },
+          {
+            "index": 7,
+            "text": "工梯隊"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "👥",
+          "spaceAfter": 4,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "👥",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "01",
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "人才多能",
+          "spaceAfter": 18,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "人才多能",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "建立技能矩陣，掌握能力缺口",
+          "spaceAfter": 12,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "建立技能矩陣，掌握能力缺口",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "培養電工、鉗工、調試多技能",
+          "spaceAfter": 12,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "培養電工、鉗工、調試多技能",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "成果｜形成可彈性調度的多能工梯隊",
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "成果｜形成可彈性調度的多能工梯隊",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#EEF8FC",
+      "lineColor": "#8FC9DE",
+      "lineWidth": 1.4
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fmlw729k",
+      "id": "79",
+      "name": "AutoShape 2",
+      "bbox": [
+        470,
+        160,
+        340,
+        444
+      ],
+      "geometry": "rect",
+      "text": "🧰\n02\n售後整合\n培養售後人員的 PLC 與電控能力\n逐步承接現場調試工作\n成果｜提升響應速度，釋放電控人力",
+      "textPreview": "🧰 | 02 | 售後整合 | 培養售後人員的 PLC 與電控能力 | 逐步承接現場調試工作 | 成果｜提升響應速度，釋放電控人力",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 21.33,
+        "typeface": "Microsoft JhengHei",
+        "color": "#17324A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 28,
+          "right": 26,
+          "bottom": 28,
+          "left": 26
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "🧰"
+          },
+          {
+            "index": 2,
+            "text": "02"
+          },
+          {
+            "index": 3,
+            "text": "售後整合"
+          },
+          {
+            "index": 4,
+            "text": "培養售後人員的 PLC"
+          },
+          {
+            "index": 5,
+            "text": "與電控能力"
+          },
+          {
+            "index": 6,
+            "text": "逐步承接現場調試工作"
+          },
+          {
+            "index": 7,
+            "text": "成果｜提升響應速度，釋放電"
+          },
+          {
+            "index": 8,
+            "text": "控人力"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "🧰",
+          "spaceAfter": 4,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "🧰",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "02",
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "售後整合",
+          "spaceAfter": 18,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "售後整合",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "培養售後人員的 PLC 與電控能力",
+          "spaceAfter": 12,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "培養售後人員的 PLC 與電控能力",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "逐步承接現場調試工作",
+          "spaceAfter": 12,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "逐步承接現場調試工作",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "成果｜提升響應速度，釋放電控人力",
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "成果｜提升響應速度，釋放電控人力",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E5F5FA",
+      "lineColor": "#8FC9DE",
+      "lineWidth": 1.4
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jutoj2lk",
+      "id": "80",
+      "name": "AutoShape 2",
+      "bbox": [
+        852,
+        160,
+        340,
+        444
+      ],
+      "geometry": "rect",
+      "text": "🤖\n03\n自動化生產\n推進「機器組裝機器」\n將設備組裝方法導入精益生產\n成果｜建立可複製的自動化裝配模式",
+      "textPreview": "🤖 | 03 | 自動化生產 | 推進「機器組裝機器」 | 將設備組裝方法導入精益生產 | 成果｜建立可複製的自動化裝配模式",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 21.33,
+        "typeface": "Microsoft JhengHei",
+        "color": "#17324A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 28,
+          "right": 26,
+          "bottom": 28,
+          "left": 26
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "🤖"
+          },
+          {
+            "index": 2,
+            "text": "03"
+          },
+          {
+            "index": 3,
+            "text": "自動化生產"
+          },
+          {
+            "index": 4,
+            "text": "推進「機器組裝機器」"
+          },
+          {
+            "index": 5,
+            "text": "將設備組裝方法導入精益生產"
+          },
+          {
+            "index": 6,
+            "text": "成果｜建立可複製的自動化裝"
+          },
+          {
+            "index": 7,
+            "text": "配模式"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "🤖",
+          "spaceAfter": 4,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "🤖",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "03",
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "自動化生產",
+          "spaceAfter": 18,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "自動化生產",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "推進「機器組裝機器」",
+          "spaceAfter": 12,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "推進「機器組裝機器」",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "將設備組裝方法導入精益生產",
+          "spaceAfter": 12,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "將設備組裝方法導入精益生產",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "成果｜建立可複製的自動化裝配模式",
+          "spaceAfter": 0,
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "fontSize": 21.33,
+            "typeface": "Microsoft JhengHei",
+            "color": "#17324A",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "insets": {
+              "top": 26.67,
+              "right": 26.67,
+              "bottom": 26.67,
+              "left": 26.67
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "成果｜建立可複製的自動化裝配模式",
+              "fontSize": 21.33,
+              "typeface": "Microsoft JhengHei",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#DDF0F7",
+      "lineColor": "#8FC9DE",
+      "lineWidth": 1.4
+    }
+  ],
+  "composeRuns": []
+}

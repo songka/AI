@@ -1,0 +1,1246 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/os4846",
+    "id": "os4846",
+    "slide": 5,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#5B9BD5",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#4472C4",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Calibri",
+      "Calibri Light",
+      "Helvetica",
+      "微軟正黑體"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            62.03
+          ],
+          "geometry": "rect",
+          "text": "Click To Edit Master Title",
+          "textPreview": "Click To Edit Master Title",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click To Edit Master Title",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click To Edit Master Title"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Content Placeholder 2",
+          "bbox": [
+            88,
+            114.87,
+            1104,
+            515.99
+          ],
+          "geometry": "rect",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level\n\n\n",
+          "textPreview": "Edit Master text styles | Second level | Third level | Fourth level | Fifth level |  |  |",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Slide Number Placeholder 6",
+          "bbox": [
+            28.76,
+            675.12,
+            59.24,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/6",
+          "id": "6",
+          "name": "Straight Connector 5",
+          "bbox": [
+            0,
+            100.36,
+            1004.51,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "#00467E",
+          "lineWidth": 0.67
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            139.17
+          ],
+          "geometry": "rect",
+          "text": "Click To Edit Master Title Style",
+          "textPreview": "Click To Edit Master Title Style",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click To Edit Master Title Style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click To Edit Master Title Style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            88,
+            191.67,
+            1104,
+            456.83
+          ],
+          "geometry": "rect",
+          "text": "Edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/7",
+          "id": "7",
+          "name": "Rectangle 6",
+          "bbox": [
+            0,
+            654.7,
+            1280,
+            65.3
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          },
+          "lineWidth": 0
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/10",
+          "id": "10",
+          "name": "TextBox 9",
+          "bbox": [
+            88,
+            674.43,
+            831,
+            25.85
+          ],
+          "geometry": "rect",
+          "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "textPreview": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+          "resolvedTextStyle": {
+            "wrap": "square",
+            "autoFit": "resizeShapeToFitText"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved. CONFIDENTIAL.",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Copyright © 2021 MPT Solution and / or any of its affiliates. All Rights Reserved.",
+                  "fontSize": 13.33,
+                  "typeface": "Helvetica",
+                  "color": "#021D36"
+                },
+                {
+                  "index": 2,
+                  "text": " CONFIDENTIAL.",
+                  "fontSize": 13.33,
+                  "typeface": "Helvetica",
+                  "color": "#021D36"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "kind": "image",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/11",
+          "id": "11",
+          "name": "Picture 7",
+          "bbox": [
+            1189.03,
+            666.82,
+            67.28,
+            43.66
+          ],
+          "contentType": "image/png",
+          "asset": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 2109
+          },
+          "fillImage": {
+            "assetId": "/ppt/media/image1.png",
+            "contentType": "image/png",
+            "byteLength": 2109
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/jqxsrq5s",
+      "id": "32",
+      "name": "圖片 8",
+      "bbox": [
+        481.88,
+        431.44,
+        341.07,
+        220.29
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image5.png",
+        "contentType": "image/png",
+        "byteLength": 818643
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image5.png",
+        "contentType": "image/png",
+        "byteLength": 818643
+      }
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/iporylo7",
+      "id": "33",
+      "name": "圖片 6",
+      "bbox": [
+        92.88,
+        431.44,
+        373.84,
+        222.56
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image6.png",
+        "contentType": "image/png",
+        "byteLength": 837499
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image6.png",
+        "contentType": "image/png",
+        "byteLength": 837499
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d072pc32",
+      "id": "2",
+      "name": "Title 1",
+      "bbox": [
+        88,
+        38.33,
+        1104,
+        62.03
+      ],
+      "text": "績效達成狀況",
+      "textPreview": "績效達成狀況",
+      "resolvedFontSize": 43.2,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 48,
+        "typeface": "Helvetica",
+        "color": "#00457A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "textTransform": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.9,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "績效達成狀況"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "績效達成狀況",
+          "lineSpacingPercent": 95000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "績效"
+            },
+            {
+              "index": 2,
+              "text": "達成狀況"
+            }
+          ],
+          "bulletCharacter": ""
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f2pkrmls",
+      "id": "4",
+      "name": "Slide Number Placeholder 3",
+      "bbox": [
+        28.76,
+        675.12,
+        59.24,
+        38.33
+      ],
+      "text": "5",
+      "textPreview": "5",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "fontSize": 13.33,
+        "typeface": "Helvetica",
+        "color": "#021D36",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5",
+          "runs": [
+            {
+              "index": 1,
+              "text": "5"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83ixgzmt",
+      "id": "14",
+      "name": "文本框 7",
+      "bbox": [
+        83.05,
+        117.2,
+        723.35,
+        54.92
+      ],
+      "geometry": "rect",
+      "text": "1. 帶領製造團隊，完成了多個重大專案；",
+      "textPreview": "1. 帶領製造團隊，完成了多個重大專案；",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. 帶領製造團隊，完成了多個重大專案；"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1. 帶領製造團隊，完成了多個重大專案；",
+          "lineSpacingPercent": 130000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. ",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "color": "#0000FF",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "帶領",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "color": "#0000FF",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "製造",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "color": "#0000FF",
+              "bold": true
+            },
+            {
+              "index": 4,
+              "text": "團隊，完成了多個重大專案",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "color": "#0000FF",
+              "bold": true
+            },
+            {
+              "index": 5,
+              "text": "；",
+              "fontSize": 32,
+              "typeface": "微軟正黑體",
+              "color": "#0000FF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2ts3ido",
+      "id": "31",
+      "name": "矩形 30",
+      "bbox": [
+        485.48,
+        614.63,
+        215.32,
+        35.54
+      ],
+      "geometry": "rect",
+      "text": "K21Altis組裝線4條",
+      "textPreview": "K21Altis組裝線4條",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "K21Altis組裝線4條"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "K21Altis組裝線4條",
+          "runs": [
+            {
+              "index": 1,
+              "text": "K21Altis",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 2,
+              "text": "組裝線",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 3,
+              "text": "4",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 4,
+              "text": "條",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#92D050"
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/twzax0nu",
+      "id": "34",
+      "name": "Picture 6",
+      "bbox": [
+        833.75,
+        184.6,
+        342.27,
+        239.51
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "asset": {
+        "assetId": "/ppt/media/image7.png",
+        "contentType": "image/png",
+        "byteLength": 647058
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image7.png",
+        "contentType": "image/png",
+        "byteLength": 647058
+      }
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3mxcz6x8",
+      "id": "22",
+      "name": "矩形 21",
+      "bbox": [
+        837.35,
+        385.96,
+        226.05,
+        35.54
+      ],
+      "geometry": "rect",
+      "text": "K41B&D件自動線2條",
+      "textPreview": "K41B&D件自動線2條",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "K41B&D件自動線2條"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "K41B&D件自動線2條",
+          "runs": [
+            {
+              "index": 1,
+              "text": "K41B&D",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 2,
+              "text": "件自動線",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 3,
+              "text": "2",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 4,
+              "text": "條",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#92D050"
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/21ovq1gn",
+      "id": "23",
+      "name": "矩形 22",
+      "bbox": [
+        93.18,
+        617.62,
+        372.12,
+        36.38
+      ],
+      "geometry": "rect",
+      "text": "K41&K7&MPTV太魯閣組裝線12條",
+      "textPreview": "K41&K7&MPTV太魯閣組裝線12條",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "K41&K7&MPTV太魯閣組裝線12條"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "K41&K7&MPTV太魯閣組裝線12條",
+          "runs": [
+            {
+              "index": 1,
+              "text": "K41&K7&MPTV",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 2,
+              "text": "太魯閣組裝線",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 3,
+              "text": "12",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 4,
+              "text": "條",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#92D050"
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/svq94v69",
+      "id": "35",
+      "name": "圖片 9",
+      "bbox": [
+        833.75,
+        430.24,
+        342.27,
+        221.36
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image8.png",
+        "contentType": "image/png",
+        "byteLength": 1199290
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image8.png",
+        "contentType": "image/png",
+        "byteLength": 1199290
+      }
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ruhsva5o",
+      "id": "36",
+      "name": "圖片 10",
+      "bbox": [
+        479.51,
+        184.16,
+        341.07,
+        237.21
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image9.png",
+        "contentType": "image/png",
+        "byteLength": 684975
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image9.png",
+        "contentType": "image/png",
+        "byteLength": 684975
+      }
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dszu5gfa",
+      "id": "24",
+      "name": "矩形 23",
+      "bbox": [
+        836.15,
+        612.23,
+        206.65,
+        35.54
+      ],
+      "geometry": "rect",
+      "text": "K21NIF組裝線2條",
+      "textPreview": "K21NIF組裝線2條",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "K21NIF組裝線2條"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "K21NIF組裝線2條",
+          "runs": [
+            {
+              "index": 1,
+              "text": "K21NIF",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 2,
+              "text": "組裝線",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 3,
+              "text": "2",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 4,
+              "text": "條",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#92D050"
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/6t8r25o3",
+      "id": "37",
+      "name": "圖片 12",
+      "bbox": [
+        94.29,
+        182.88,
+        371.01,
+        234.72
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 495341
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 495341
+      }
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0vqd0vyl",
+      "id": "29",
+      "name": "矩形 28",
+      "bbox": [
+        485.48,
+        382.12,
+        156.38,
+        35.54
+      ],
+      "geometry": "rect",
+      "text": "K35打磨線1條",
+      "textPreview": "K35打磨線1條",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "K35打磨線1條"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "K35打磨線1條",
+          "runs": [
+            {
+              "index": 1,
+              "text": "K35",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 2,
+              "text": "打磨線",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 3,
+              "text": "1",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 4,
+              "text": "條",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#92D050"
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sze1g72h",
+      "id": "3",
+      "name": "矩形 2",
+      "bbox": [
+        107,
+        383.07,
+        287.8,
+        35.54
+      ],
+      "geometry": "rect",
+      "text": "K41&MPTV衝壓線 15條",
+      "textPreview": "K41&MPTV衝壓線 15條",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "K41&MPTV衝壓線 15條"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "K41&MPTV衝壓線 15條",
+          "runs": [
+            {
+              "index": 1,
+              "text": "K41&MPTV",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 2,
+              "text": "衝壓線 ",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 3,
+              "text": "15",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            },
+            {
+              "index": 4,
+              "text": "條",
+              "fontSize": 21.33,
+              "typeface": "微軟正黑體"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#92D050"
+    }
+  ],
+  "composeRuns": []
+}

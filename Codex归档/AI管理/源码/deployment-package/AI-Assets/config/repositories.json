@@ -1,0 +1,9 @@
+{
+  "publicRepository": "\\\\10.97.0.210\\lfaf_Engineer\\电控历史资料\\7-内部运算公式\\014-AI\\data\\AI-Assets",
+  "backupRepository": "\\\\10.97.0.210\\lfaf_Engineer\\电控历史资料\\7-内部运算公式\\014-AI\\data\\AI-Assets-Backup",
+  "localInstallRoot": "%LOCALAPPDATA%\\AIAssetHub\\installed",
+  "publicPurpose": "用户提交、版本查询和制品分发",
+  "backupPurpose": "已审核版本的权威源、恢复源和历史快照",
+  "syncDirection": "backup-to-public-only",
+  "requireSignatureBeforeProduction": true
+}

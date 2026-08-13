@@ -1,0 +1,15 @@
+{
+  "cache_version": 3,
+  "source_root": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\.codex-ai-flow-full\\test_sync_copies_only_changed_0\\公共槽",
+  "last_sync": "2026-08-07T03:26:42.574585+00:00",
+  "files": {
+    "rules/published/quotation-rules.yaml": {
+      "sha256": "ec7fcf01899b0f1deb51ab65072c4415ceff90a48f53e22f7946e23f7bdc8806",
+      "cached_at": "2026-08-07T03:26:42.466283+00:00"
+    },
+    "prices/published/current-version-pointer.json": {
+      "sha256": "0b3a178d3458979eb4524c685a11f329077b77c0b98c630b02b928918d1b4f11",
+      "cached_at": "2026-08-07T03:26:42.574585+00:00"
+    }
+  }
+}

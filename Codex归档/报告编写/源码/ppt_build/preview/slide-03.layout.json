@@ -1,0 +1,1562 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/yghe7j",
+    "id": "yghe7j",
+    "slide": 3,
+    "layoutId": "bae1f76f-7a5d-4d27-9386-6f99358d6cfd",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bae1f76f-7a5d-4d27-9386-6f99358d6cfd",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7u5g3y5",
+      "id": "1",
+      "name": "Slide-Number-Placeholder-3-2",
+      "bbox": [
+        1184.18,
+        659.24,
+        54.48,
+        25.33
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "fontSize": 13.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "right",
+        "verticalAlignment": "bottom",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "fontSize": 13.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "right",
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6l4nyhk",
+      "id": "2",
+      "name": "Title-10-3",
+      "bbox": [
+        41.33,
+        36.12,
+        1197.33,
+        109.97
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "text": "AI把“记住路径”改造成“描述问题”",
+      "textPreview": "AI把“记住路径”改造成“描述问题”",
+      "resolvedFontSize": 38.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38.67,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI把“记住路径”改造成“描述问题”"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI把“记住路径”改造成“描述问题”",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 38.67,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI把“记住路径”改造成“描述问题”",
+              "fontSize": 48,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e5cnetgz",
+      "id": "3",
+      "name": "Google-Shape-2259-p159-4",
+      "bbox": [
+        35.46,
+        354.2,
+        1244.54,
+        0.03
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "straightConnector1",
+      "lineColor": "#000000",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t43mlozu",
+      "id": "4",
+      "name": "Google-Shape-2260-p159-5",
+      "bbox": [
+        35.46,
+        348.58,
+        11.24,
+        11.24
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "ellipse",
+      "fillColor": "#000000"
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s3u5cjy9",
+      "id": "5",
+      "name": "Google-Shape-2261-p159-6",
+      "bbox": [
+        446.38,
+        348.58,
+        11.24,
+        11.24
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4"
+      },
+      "geometry": "ellipse",
+      "fillColor": "#000000"
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2l4jeho",
+      "id": "6",
+      "name": "Google-Shape-2262-p159-7",
+      "bbox": [
+        858.38,
+        348.58,
+        11.24,
+        11.24
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.5"
+      },
+      "geometry": "ellipse",
+      "fillColor": "#000000"
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61sna9g3",
+      "id": "7",
+      "name": "Content-Placeholder-15-8",
+      "bbox": [
+        41.33,
+        298.51,
+        169.33,
+        27.55
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.6"
+      },
+      "geometry": "rect",
+      "text": "01 资料进入",
+      "textPreview": "01 资料进入",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "fontSize": 21.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01 资料进入"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01 资料进入",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01 资料进入",
+              "fontSize": 21,
+              "typeface": "Microsoft YaHei",
+              "color": "#3D8DFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0n6xsfy",
+      "id": "8",
+      "name": "Content-Placeholder-15-9",
+      "bbox": [
+        450.83,
+        298.51,
+        169.33,
+        27.55
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.7"
+      },
+      "geometry": "rect",
+      "text": "02 工程师提问",
+      "textPreview": "02 工程师提问",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "fontSize": 21.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02 工程师提问"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02 工程师提问",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02 工程师提问",
+              "fontSize": 21,
+              "typeface": "Microsoft YaHei",
+              "color": "#3D8DFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cze5onyd",
+      "id": "9",
+      "name": "Content-Placeholder-15-10",
+      "bbox": [
+        863.33,
+        298.51,
+        169.33,
+        27.55
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.8"
+      },
+      "geometry": "rect",
+      "text": "03 AI联想与匹配",
+      "textPreview": "03 AI联想与匹配",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "fontSize": 21.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03 AI联想与匹配"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03 AI联想与匹配",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03 AI联想与匹配",
+              "fontSize": 21,
+              "typeface": "Microsoft YaHei",
+              "color": "#3D8DFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/upon2lsb",
+      "id": "10",
+      "name": "Text-Placeholder-16-11",
+      "bbox": [
+        453.24,
+        401.33,
+        331.35,
+        166.54
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.9"
+      },
+      "geometry": "rect",
+      "text": "自然表达\n输入报警代码、设备名称、异常现象或相关提示词。",
+      "textPreview": "自然表达 | 输入报警代码、设备名称、异常现象或相关提示词。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "自然表达"
+          },
+          {
+            "index": 2,
+            "text": "输入报警代码、设备名称、异常现象"
+          },
+          {
+            "index": 3,
+            "text": "或相关提示词。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "自然表达",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 650,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "自然表达",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "输入报警代码、设备名称、异常现象或相关提示词。",
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "输入报警代码、设备名称、异常现象或相关提示词。",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vax4bq9g",
+      "id": "11",
+      "name": "Text-Placeholder-16-12",
+      "bbox": [
+        41.98,
+        401.33,
+        331.35,
+        166.54
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.10"
+      },
+      "geometry": "rect",
+      "text": "多格式入库\n上传Excel、PPT等历史专案资料，形成统一知识入口。",
+      "textPreview": "多格式入库 | 上传Excel、PPT等历史专案资料，形成统一知识入口。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "多格式入库"
+          },
+          {
+            "index": 2,
+            "text": "上传Excel、PPT等历史专案资料，形"
+          },
+          {
+            "index": 3,
+            "text": "成统一知识入口。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "多格式入库",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 650,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "多格式入库",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "上传Excel、PPT等历史专案资料，形成统一知识入口。",
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "上传Excel、PPT等历史专案资料，形成统一知识入口。",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wbq54ba1",
+      "id": "12",
+      "name": "Text-Placeholder-16-13",
+      "bbox": [
+        858.57,
+        401.33,
+        331.35,
+        166.54
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.11"
+      },
+      "geometry": "rect",
+      "text": "返回资料线索\nAI缩小检索范围；工程师查看原始资料并作专业确认。",
+      "textPreview": "返回资料线索 | AI缩小检索范围；工程师查看原始资料并作专业确认。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "返回资料线索"
+          },
+          {
+            "index": 2,
+            "text": "AI缩小检索范围；工程师查看原始资"
+          },
+          {
+            "index": 3,
+            "text": "料并作专业确认。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "返回资料线索",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 650,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "返回资料线索",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "AI缩小检索范围；工程师查看原始资料并作专业确认。",
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI缩小检索范围；工程师查看原始资料并作专业确认。",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcz6dgrm",
+      "id": "13",
+      "bbox": [
+        41.33,
+        145,
+        130,
+        7
+      ],
+      "geometry": "rect",
+      "fillColor": "#3D8DFF",
+      "lineColor": "#3D8DFF",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "codex-grid-layout-library#slide-17",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1280,
+          "height": 684.57
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "text",
+            "name": "Slide-Number-Placeholder-3-2",
+            "position": {
+              "left": 1184.18,
+              "top": 659.24
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 54.48
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 25.33
+              }
+            },
+            "intrinsicSize": {
+              "width": 54.48,
+              "height": 25.33
+            },
+            "frame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            },
+            "snappedFrame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            },
+            "children": [],
+            "text": "03",
+            "transform": "none",
+            "element": {
+              "aid": "sh/g7u5g3y5",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "text",
+            "name": "Title-10-3",
+            "position": {
+              "left": 41.33,
+              "top": 36.12
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1197.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 109.97
+              }
+            },
+            "intrinsicSize": {
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "children": [],
+            "text": "AI把“记住路径”改造成“描述问题”",
+            "transform": "none",
+            "element": {
+              "aid": "sh/f6l4nyhk",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "shape",
+            "name": "Google-Shape-2259-p159-4",
+            "position": {
+              "left": 35.46,
+              "top": 354.2
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1244.54
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 0.03
+              }
+            },
+            "intrinsicSize": {
+              "width": 1244.54,
+              "height": 0.03
+            },
+            "frame": {
+              "left": 35.46,
+              "top": 354.2,
+              "width": 1244.54,
+              "height": 0.03
+            },
+            "snappedFrame": {
+              "left": 35.46,
+              "top": 354.2,
+              "width": 1244.54,
+              "height": 0.03
+            },
+            "children": [],
+            "geometry": "straightConnector1",
+            "element": {
+              "aid": "sh/e5cnetgz",
+              "id": "3",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.3",
+            "kind": "shape",
+            "name": "Google-Shape-2260-p159-5",
+            "position": {
+              "left": 35.46,
+              "top": 348.58
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 11.24
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 11.24
+              }
+            },
+            "intrinsicSize": {
+              "width": 11.24,
+              "height": 11.24
+            },
+            "frame": {
+              "left": 35.46,
+              "top": 348.58,
+              "width": 11.24,
+              "height": 11.24
+            },
+            "snappedFrame": {
+              "left": 35.46,
+              "top": 348.58,
+              "width": 11.24,
+              "height": 11.24
+            },
+            "children": [],
+            "geometry": "ellipse",
+            "element": {
+              "aid": "sh/t43mlozu",
+              "id": "4",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.4",
+            "kind": "shape",
+            "name": "Google-Shape-2261-p159-6",
+            "position": {
+              "left": 446.38,
+              "top": 348.58
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 11.24
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 11.24
+              }
+            },
+            "intrinsicSize": {
+              "width": 11.24,
+              "height": 11.24
+            },
+            "frame": {
+              "left": 446.38,
+              "top": 348.58,
+              "width": 11.24,
+              "height": 11.24
+            },
+            "snappedFrame": {
+              "left": 446.38,
+              "top": 348.58,
+              "width": 11.24,
+              "height": 11.24
+            },
+            "children": [],
+            "geometry": "ellipse",
+            "element": {
+              "aid": "sh/s3u5cjy9",
+              "id": "5",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.5",
+            "kind": "shape",
+            "name": "Google-Shape-2262-p159-7",
+            "position": {
+              "left": 858.38,
+              "top": 348.58
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 11.24
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 11.24
+              }
+            },
+            "intrinsicSize": {
+              "width": 11.24,
+              "height": 11.24
+            },
+            "frame": {
+              "left": 858.38,
+              "top": 348.58,
+              "width": 11.24,
+              "height": 11.24
+            },
+            "snappedFrame": {
+              "left": 858.38,
+              "top": 348.58,
+              "width": 11.24,
+              "height": 11.24
+            },
+            "children": [],
+            "geometry": "ellipse",
+            "element": {
+              "aid": "sh/r2l4jeho",
+              "id": "6",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.6",
+            "kind": "text",
+            "name": "Content-Placeholder-15-8",
+            "position": {
+              "left": 41.33,
+              "top": 298.51
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 169.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 27.55
+              }
+            },
+            "intrinsicSize": {
+              "width": 169.33,
+              "height": 27.55
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 298.51,
+              "width": 169.33,
+              "height": 27.55
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 298.51,
+              "width": 169.33,
+              "height": 27.55
+            },
+            "children": [],
+            "text": "01 资料进入",
+            "transform": "none",
+            "element": {
+              "aid": "sh/61sna9g3",
+              "id": "7",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.7",
+            "kind": "text",
+            "name": "Content-Placeholder-15-9",
+            "position": {
+              "left": 450.83,
+              "top": 298.51
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 169.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 27.55
+              }
+            },
+            "intrinsicSize": {
+              "width": 169.33,
+              "height": 27.55
+            },
+            "frame": {
+              "left": 450.83,
+              "top": 298.51,
+              "width": 169.33,
+              "height": 27.55
+            },
+            "snappedFrame": {
+              "left": 450.83,
+              "top": 298.51,
+              "width": 169.33,
+              "height": 27.55
+            },
+            "children": [],
+            "text": "02 工程师提问",
+            "transform": "none",
+            "element": {
+              "aid": "sh/x0n6xsfy",
+              "id": "8",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.8",
+            "kind": "text",
+            "name": "Content-Placeholder-15-10",
+            "position": {
+              "left": 863.33,
+              "top": 298.51
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 169.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 27.55
+              }
+            },
+            "intrinsicSize": {
+              "width": 169.33,
+              "height": 27.55
+            },
+            "frame": {
+              "left": 863.33,
+              "top": 298.51,
+              "width": 169.33,
+              "height": 27.55
+            },
+            "snappedFrame": {
+              "left": 863.33,
+              "top": 298.51,
+              "width": 169.33,
+              "height": 27.55
+            },
+            "children": [],
+            "text": "03 AI联想与匹配",
+            "transform": "none",
+            "element": {
+              "aid": "sh/cze5onyd",
+              "id": "9",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.9",
+            "kind": "text",
+            "name": "Text-Placeholder-16-11",
+            "position": {
+              "left": 453.24,
+              "top": 401.33
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 331.35
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 166.54
+              }
+            },
+            "intrinsicSize": {
+              "width": 331.35,
+              "height": 166.54
+            },
+            "frame": {
+              "left": 453.24,
+              "top": 401.33,
+              "width": 331.35,
+              "height": 166.54
+            },
+            "snappedFrame": {
+              "left": 453.24,
+              "top": 401.33,
+              "width": 331.35,
+              "height": 166.54
+            },
+            "children": [],
+            "text": "自然表达\n输入报警代码、设备名称、异常现象或相关提示词。",
+            "transform": "none",
+            "element": {
+              "aid": "sh/upon2lsb",
+              "id": "10",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.10",
+            "kind": "text",
+            "name": "Text-Placeholder-16-12",
+            "position": {
+              "left": 41.98,
+              "top": 401.33
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 331.35
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 166.54
+              }
+            },
+            "intrinsicSize": {
+              "width": 331.35,
+              "height": 166.54
+            },
+            "frame": {
+              "left": 41.98,
+              "top": 401.33,
+              "width": 331.35,
+              "height": 166.54
+            },
+            "snappedFrame": {
+              "left": 41.98,
+              "top": 401.33,
+              "width": 331.35,
+              "height": 166.54
+            },
+            "children": [],
+            "text": "多格式入库\n上传Excel、PPT等历史专案资料，形成统一知识入口。",
+            "transform": "none",
+            "element": {
+              "aid": "sh/vax4bq9g",
+              "id": "11",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.11",
+            "kind": "text",
+            "name": "Text-Placeholder-16-13",
+            "position": {
+              "left": 858.57,
+              "top": 401.33
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 331.35
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 166.54
+              }
+            },
+            "intrinsicSize": {
+              "width": 331.35,
+              "height": 166.54
+            },
+            "frame": {
+              "left": 858.57,
+              "top": 401.33,
+              "width": 331.35,
+              "height": 166.54
+            },
+            "snappedFrame": {
+              "left": 858.57,
+              "top": 401.33,
+              "width": 331.35,
+              "height": 166.54
+            },
+            "children": [],
+            "text": "返回资料线索\nAI缩小检索范围；工程师查看原始资料并作专业确认。",
+            "transform": "none",
+            "element": {
+              "aid": "sh/wbq54ba1",
+              "id": "12",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 35.46,
+              "top": 354.2,
+              "width": 1244.54,
+              "height": 0.03
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 35.46,
+              "top": 348.58,
+              "width": 11.24,
+              "height": 11.24
+            }
+          },
+          {
+            "path": "0.4",
+            "frame": {
+              "left": 446.38,
+              "top": 348.58,
+              "width": 11.24,
+              "height": 11.24
+            }
+          },
+          {
+            "path": "0.5",
+            "frame": {
+              "left": 858.38,
+              "top": 348.58,
+              "width": 11.24,
+              "height": 11.24
+            }
+          },
+          {
+            "path": "0.6",
+            "frame": {
+              "left": 41.33,
+              "top": 298.51,
+              "width": 169.33,
+              "height": 27.55
+            }
+          },
+          {
+            "path": "0.7",
+            "frame": {
+              "left": 450.83,
+              "top": 298.51,
+              "width": 169.33,
+              "height": 27.55
+            }
+          },
+          {
+            "path": "0.8",
+            "frame": {
+              "left": 863.33,
+              "top": 298.51,
+              "width": 169.33,
+              "height": 27.55
+            }
+          },
+          {
+            "path": "0.9",
+            "frame": {
+              "left": 453.24,
+              "top": 401.33,
+              "width": 331.35,
+              "height": 166.54
+            }
+          },
+          {
+            "path": "0.10",
+            "frame": {
+              "left": 41.98,
+              "top": 401.33,
+              "width": 331.35,
+              "height": 166.54
+            }
+          },
+          {
+            "path": "0.11",
+            "frame": {
+              "left": 858.57,
+              "top": 401.33,
+              "width": 331.35,
+              "height": 166.54
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

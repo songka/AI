@@ -1,0 +1,16 @@
+请使用 external-part-brand-id 处理附件：
+handoff/chatgpt/brand_pending/brand_pending_uc3_20260701_0015.csv
+
+只做品牌识别，不要查官网图片。
+输出文件名必须是：
+handoff/chatgpt/brand_result/brand_result_uc3_20260701_0015.csv
+
+输出 CSV，不要输出 Markdown 表格。CSV 字段必须严格为：
+part_no,name_or_type,original_model,normalized_model,brand,confidence,evidence_url,evidence_type,model_issue,note
+
+正式批次规则：
+- 原始 brand_raw 可作为重要线索，但如果要写 confirmed，必须给真实 http/https 网页证据 URL。
+- evidence_url 不能使用 source:、搜索词、本地文件名、空值或伪 URL。
+- 如果只有原始表品牌、没有联网证据，不要 confirmed；优先保持 unknown 或 suspected，并在 note 说明待官网/公开网页核验。
+- 当前批次包含大量“纽立得”气动接头；本地检索未找到可靠公开证据，请重点核验，不要编造 URL。
+- 型号可能有 0/O、1/I/l、缺少连接符、型号不全等问题，必须保留 original_model 和 normalized_model。

@@ -1,0 +1,169 @@
+version: '1.3-DRAFT'
+source: "3.0報價表-R01（機構預估價格）+ 供應商報價(工作表2)"
+status: "DRAFT_REQUIRES_CORRECTION"
+note: "V1.3 contains extraction errors. Do NOT use for production quotation. See docs/pricing-source-audit-report.md"
+
+# ============================================================
+# Material Prices
+# source=C: company confirmed, source=M: manual confirm
+# ============================================================
+material:
+  A6061-T6:
+    price: 38
+    unit: kg
+    density: 2.70
+    source: C
+  S50C:
+    price: 9
+    unit: kg
+    density: 7.85
+    source: C
+  SKD61:
+    price: 55
+    unit: kg
+    density: 7.85
+    source: C
+  SKD11:
+    price: 55
+    unit: kg
+    density: 7.85
+    source: C
+  SUS304:
+    price: 28
+    unit: kg
+    density: 7.93
+    source: C
+
+  # -- New materials from supplier price table (工作表2) --
+  SPCC:
+    price: 8
+    unit: kg
+    density: 7.85
+    source: M
+    note: "冷軋鋼板，供應商參考價"
+  普通鋼:
+    price: 8
+    unit: kg
+    density: 7.85
+    source: M
+    note: "普通碳鋼，供應商參考價"
+  4Cr13:
+    price: 28
+    unit: kg
+    density: 7.75
+    source: M
+    note: "不鏽鋼模具鋼"
+  黃銅:
+    price: 55
+    unit: kg
+    density: 8.50
+    source: M
+    note: "黃銅，供應商參考價"
+  鈹銅:
+    price: 120
+    unit: kg
+    density: 8.25
+    source: M
+    note: "鈹銅合金，供應商參考價"
+
+  # -- Non-metal materials (kg pricing) --
+  電木:
+    price: 25
+    unit: kg
+    density: 1.35
+    source: M
+    note: "酚醛樹脂"
+  POM:
+    price: 35
+    unit: kg
+    density: 1.41
+    source: M
+    note: "聚甲醛/賽鋼"
+  PC:
+    price: 30
+    unit: kg
+    density: 1.20
+    source: M
+    note: "聚碳酸酯"
+  亞克力:
+    price: 25
+    unit: kg
+    density: 1.19
+    source: M
+    note: "PMMA有機玻璃"
+
+  # -- Aluminum profiles (meter pricing, NOT kg) --
+  鋁型材20x20:
+    price: 15
+    unit: m
+    density: 2.70
+    source: M
+    note: "鋁型材 20x20，按米計價"
+  鋁型材30x30:
+    price: 22
+    unit: m
+    density: 2.70
+    source: M
+    note: "鋁型材 30x30，按米計價"
+  鋁型材40x40:
+    price: 30
+    unit: m
+    density: 2.70
+    source: M
+    note: "鋁型材 40x40，按米計價"
+
+# ============================================================
+# Process Prices (CNY/hour)
+# ============================================================
+process:
+  車床:
+    rate: 40
+    unit: hour
+  銑床:
+    rate: 40
+    unit: hour
+  磨床:
+    rate: 55
+    unit: hour
+  鉗工:
+    rate: 88
+    unit: hour
+  放電:
+    rate: 30
+    unit: hour
+  快絲:
+    rate: 30
+    unit: hour
+  慢絲:
+    rate: 100
+    unit: hour
+  CNC:
+    rate: 80
+    unit: hour
+
+# ============================================================
+# Surface Treatment Prices
+# ============================================================
+surface:
+  鍍鉻:
+    price: 5
+    unit: kg
+  熱處理:
+    price: 11
+    unit: kg
+  陽極:
+    price: 20
+    unit: kg
+  發黑:
+    price: 2.5
+    unit: kg
+
+# ============================================================
+# Tax Model
+# ============================================================
+tax:
+  enabled: true
+  rate: 0.17
+  type: "VAT"
+  price_basis: "EXCLUDING_TAX"
+  note: "增值稅17%，默認報價為未稅價"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "物料进度"
+  short_description: "汇总物料全流程进度，识别逾期、缺料、短缺和数据风险，生成责任人跟进清单"
+  default_prompt: "使用 $material-progress 分析物料进度，标记逾期与风险，并生成下一步跟进清单。"

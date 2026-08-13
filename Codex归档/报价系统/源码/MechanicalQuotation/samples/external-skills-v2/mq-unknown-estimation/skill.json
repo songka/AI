@@ -1,0 +1,1 @@
+{"skill_id":"sample.unknown-estimation","skill_name_zh":"示例-待确认项AI估价","skill_version":"1.0.0","protocol_version":"1.0","supported_steps":["UNKNOWN_ESTIMATION"],"supports_full_quotation":false,"instruction_file":"SKILL.md","reference_files":[],"commands":[]}

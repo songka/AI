@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\AICodingSessionManager.Domain\AICodingSessionManager.Domain.csproj" />
+  </ItemGroup>
+</Project>

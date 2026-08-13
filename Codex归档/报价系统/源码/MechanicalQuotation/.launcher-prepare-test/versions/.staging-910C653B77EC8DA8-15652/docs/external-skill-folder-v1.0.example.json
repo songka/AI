@@ -1,0 +1,17 @@
+{
+  "skill_id": "company.quotation.skill",
+  "skill_name_zh": "公司报价智能体",
+  "skill_version": "1.0.0",
+  "protocol_version": "1.0",
+  "supported_steps": [
+    "DOCUMENT_UNDERSTANDING",
+    "PROCESS_PLANNING",
+    "PRICE_AUDIT"
+  ],
+  "supports_full_quotation": false,
+  "instruction_file": "SKILL.md",
+  "reference_files": [
+    "公司工艺规则.md",
+    "审核注意事项.yaml"
+  ]
+}

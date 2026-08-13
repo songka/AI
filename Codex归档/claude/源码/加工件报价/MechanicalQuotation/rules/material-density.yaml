@@ -1,0 +1,49 @@
+# 材料物理屬性 — Material Physical Properties
+#
+# 密度數據來源：工程材料手冊（常用理論值）
+# 注意：此文件僅包含物理屬性，不涉及價格。
+#       價格規則請參見 quotation-rules.yaml
+#
+# 密度用於：重量 = 體積 × 密度
+# 單位：g/cm³
+
+version: "1.0"
+source: "工程材料手冊（常用理論值）"
+note: "密度為理論值，實際可能有 ±2% 偏差。此文件不含價格數據。"
+
+materials:
+  A6061-T6:
+    density: 2.70
+    category: "鋁合金"
+    grade: "6061-T6"
+
+  S50C:
+    density: 7.85
+    category: "碳素鋼"
+    grade: "S50C"
+
+  SUS304:
+    density: 7.93
+    category: "不鏽鋼"
+    grade: "SUS304"
+
+  SKD11:
+    density: 7.85
+    category: "工具鋼"
+    grade: "SKD11"
+
+  SKD61:
+    density: 7.85
+    category: "熱作模具鋼"
+    grade: "SKD61"
+
+  SPCC:
+    density: 7.85
+    category: "冷軋鋼板"
+    grade: "SPCC"
+
+  普通鋼:
+    density: 7.85
+    category: "普通碳鋼"
+    grade: "通用"
+    note: "通用值，用於未標明具體牌號的鋼件"

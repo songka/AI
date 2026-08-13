@@ -1,0 +1,27 @@
+{
+  "slide_id": "slide-01",
+  "method": "native_custom_polyline",
+  "curves": [
+    {
+      "id": "upper_signal",
+      "point_count": 24,
+      "role": "signal_trace"
+    },
+    {
+      "id": "middle_signal",
+      "point_count": 24,
+      "role": "signal_trace"
+    },
+    {
+      "id": "lower_signal",
+      "point_count": 24,
+      "role": "signal_trace"
+    },
+    {
+      "id": "return_arc",
+      "point_count": 24,
+      "role": "feedback_trace"
+    }
+  ],
+  "source": "cyberppt_stage3/build/slide-01.mjs"
+}

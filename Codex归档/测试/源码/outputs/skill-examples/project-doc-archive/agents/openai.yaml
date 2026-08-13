@@ -1,0 +1,6 @@
+interface:
+  display_name: "Project Doc Archive"
+  short_description: "Organize automation project documents and follow-up actions"
+  default_prompt: "Use $project-doc-archive to organize these project documents into a standard archive checklist."
+policy:
+  allow_implicit_invocation: true

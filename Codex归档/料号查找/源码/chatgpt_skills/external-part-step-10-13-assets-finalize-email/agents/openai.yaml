@@ -1,0 +1,7 @@
+interface:
+  display_name: "外购件第10-13步"
+  short_description: "导入复核、更新资产并发送完成提醒。"
+  default_prompt: "使用 $external-part-step-10-13-assets-finalize-email 导入人工复核、更新 assets.json 并准备 Gmail 完成提醒。"
+
+policy:
+  allow_implicit_invocation: true

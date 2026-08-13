@@ -1,0 +1,7 @@
+interface:
+  display_name: "外购件第1-3步"
+  short_description: "索引物料表并导出品牌待查批次。"
+  default_prompt: "使用 $external-part-step-01-03-prepare-brand-batch 索引物料表、筛选目标料号并导出 brand_pending 批次。"
+
+policy:
+  allow_implicit_invocation: true

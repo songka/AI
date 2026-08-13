@@ -1,0 +1,48 @@
+{
+  "pptx": "C:\\Users\\lfaf-test\\Documents\\报告编写\\AI规划\\内部AI框架与五类Skill建设规划_老板汇报精简版.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "shapes": 51,
+      "pictures": 9,
+      "full_slide_pictures": 0
+    },
+    {
+      "slide": 2,
+      "shapes": 28,
+      "pictures": 3,
+      "full_slide_pictures": 0
+    },
+    {
+      "slide": 3,
+      "shapes": 62,
+      "pictures": 6,
+      "full_slide_pictures": 0
+    },
+    {
+      "slide": 4,
+      "shapes": 65,
+      "pictures": 6,
+      "full_slide_pictures": 0
+    },
+    {
+      "slide": 5,
+      "shapes": 57,
+      "pictures": 0,
+      "full_slide_pictures": 0
+    },
+    {
+      "slide": 6,
+      "shapes": 55,
+      "pictures": 1,
+      "full_slide_pictures": 0
+    },
+    {
+      "slide": 7,
+      "shapes": 80,
+      "pictures": 6,
+      "full_slide_pictures": 0
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "cyberppt.component_signature_check.v1",
+  "slide": 1,
+  "signature_path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\AI规划\\_cyberppt_work\\v2\\metadata\\slide-01-component-signature.json",
+  "signature_locked": true,
+  "expected_component_count": 5,
+  "pptx_object_report_path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\AI规划\\_cyberppt_work\\v2\\pages\\slide-01\\qa\\pptx-object-report.json",
+  "actual_shapes": 51,
+  "actual_pictures": 9,
+  "full_slide_pictures": 0,
+  "passed": true
+}

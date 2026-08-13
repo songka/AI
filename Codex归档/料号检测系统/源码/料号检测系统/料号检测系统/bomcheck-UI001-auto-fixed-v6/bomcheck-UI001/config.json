@@ -1,0 +1,12 @@
+{
+  "invalid_part_db": "失效料号.xlsx",
+  "binding_library": "绑定料号.js",
+  "important_materials": "重要物料.txt",
+  "system_part_db": "系统料号.xlsx",
+  "blocked_applicants": "屏蔽申请人.txt",
+  "part_asset_dir": "料号资源",
+  "asset_unc_prefix": "",
+  "asset_local_prefix": "",
+  "account_store": "accounts.json",
+  "ua_lookup_dir": ""
+}

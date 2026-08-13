@@ -1,0 +1,1 @@
+{"agent_id": "agent.grind", "agent_name_zh": "磨床工时智能体", "agent_version": "2.0.0", "protocol_version": "1.0", "supported_steps": ["TIME_ESTIMATION"], "supported_processes": ["GRIND"], "description_zh": "估算磨削工时", "instruction_file": "AGENT.md", "reference_files": ["references/rules.md"]}

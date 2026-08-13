@@ -1,0 +1,56 @@
+{
+  "file": "slide-01.pptx",
+  "summary": {
+    "slide_count": 1,
+    "width_emu": 12192000,
+    "height_emu": 6858000,
+    "aspect_ratio": 1.7778,
+    "native_text_shapes": 12,
+    "native_graphic_shapes": 51,
+    "pictures": 9,
+    "charts": 0,
+    "tables": 0
+  },
+  "errors": [
+    {
+      "code": "MANIFEST_PAGE_APPROVAL_MISSING",
+      "message": "A page must be approved by the user before the next page is made or final merge begins.",
+      "slide": 1,
+      "strict_failure": true
+    }
+  ],
+  "warnings": [
+    {
+      "code": "MANIFEST_PAGE_APPROVAL_MISSING",
+      "message": "A page must be approved by the user before the next page is made or final merge begins.",
+      "slide": 1
+    }
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "native_text_shapes": 12,
+      "native_graphic_shapes": 51,
+      "pictures": 9,
+      "charts": 0,
+      "tables": 0,
+      "element_count": 60,
+      "coverage_ratio": 0.8943,
+      "picture_area_ratio": 0.0423,
+      "max_picture_area_ratio": 0.0077,
+      "min_font_size_pt": 8.25,
+      "max_font_size_pt": 41.25,
+      "text_characters": 185
+    }
+  ],
+  "manifest": {
+    "file": "slide_manifest.json",
+    "loaded": true,
+    "slide_entries": 1
+  },
+  "visual_qa": {
+    "file": "visual_qa_gate.json",
+    "loaded": true,
+    "slide_entries": 1
+  }
+}

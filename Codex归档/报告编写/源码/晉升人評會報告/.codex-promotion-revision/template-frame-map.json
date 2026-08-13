@@ -1,0 +1,14 @@
+{
+  "outputSlides": [
+    {"outputSlide": 1, "sourceSlide": 1, "narrativeRole": "封面", "reuseMode": "duplicate-slide", "editTargets": []},
+    {"outputSlide": 2, "sourceSlide": 2, "narrativeRole": "五项规定目录", "reuseMode": "duplicate-slide", "editTargets": [{"sourceElementIds": ["sh/b29kza94", "sh/a10jqpsj", "sh/x4r21kru", "sh/w3i1sfa9"], "action": "rewrite"}]},
+    {"outputSlide": 3, "sourceSlide": 3, "narrativeRole": "个人简介与管理跨度", "reuseMode": "duplicate-slide", "editTargets": [{"sourceElementIds": ["sh/cza94vmx", "sh/d0jax03i"], "action": "rewrite-and-reposition"}]},
+    {"outputSlide": 4, "sourceSlide": 4, "narrativeRole": "技术标准化绩效", "reuseMode": "duplicate-slide", "editTargets": [{"sourceElementIds": ["sh/1cj2d8b6", "sh/0ba143al"], "action": "rewrite-and-reposition"}, {"action": "add", "zone": [500, 150, 692, 430], "reason": "加入周期对比图和Altis设备图片占位"}]},
+    {"outputSlide": 5, "sourceSlide": 5, "narrativeRole": "团队建设与跨厂交付绩效", "reuseMode": "duplicate-slide", "editTargets": [{"sourceElementIds": ["sh/dgbulwnm", "sh/cf2tcr61"], "action": "rewrite-and-reposition"}, {"action": "add", "zone": [460, 150, 732, 430], "reason": "加入团队能力图与AIDC设备图片占位"}]},
+    {"outputSlide": 6, "sourceSlide": 6, "narrativeRole": "未来工作规划", "reuseMode": "duplicate-slide", "editTargets": [{"sourceElementIds": ["sh/yhg7epsj", "sh/zi98nu94"], "action": "rewrite-and-reposition"}, {"action": "add", "zone": [88, 210, 1104, 270], "reason": "加入三阶段时间轴"}]},
+    {"outputSlide": 7, "sourceSlide": 7, "narrativeRole": "个人发展规划", "reuseMode": "duplicate-slide", "editTargets": [{"sourceElementIds": ["sh/cb2tkvap", "sh/dcbud0ra"], "action": "rewrite-and-reposition"}, {"action": "add", "zone": [88, 220, 1104, 300], "reason": "展开沟通与推动行动"}]},
+    {"outputSlide": 8, "sourceSlide": 7, "narrativeRole": "组织发展规划", "reuseMode": "duplicate-slide", "editTargets": [{"sourceElementIds": ["sh/cb2tkvap", "sh/dcbud0ra"], "action": "rewrite-and-reposition"}, {"action": "add", "zone": [88, 220, 1104, 300], "reason": "展开人才梯队和技术承接机制"}]},
+    {"outputSlide": 9, "sourceSlide": 8, "narrativeRole": "结束与晋升承诺", "reuseMode": "duplicate-slide", "editTargets": []}
+  ],
+  "omittedSourceSlides": []
+}

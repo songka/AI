@@ -1,0 +1,532 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/7qpbdu",
+    "id": "7qpbdu",
+    "slide": 1,
+    "layoutId": "bae1f76f-7a5d-4d27-9386-6f99358d6cfd",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bae1f76f-7a5d-4d27-9386-6f99358d6cfd",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x87ex0ny",
+      "id": "1",
+      "name": "Title-3-1",
+      "bbox": [
+        41.33,
+        270.86,
+        992,
+        380.5
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "text": "LFAF小助手\n让历史专案资料\n找得到、用得上",
+      "textPreview": "LFAF小助手 | 让历史专案资料 | 找得到、用得上",
+      "resolvedFontSize": 80,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "fontSize": 80,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "bottom",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LFAF小助手"
+          },
+          {
+            "index": 2,
+            "text": "让历史专案资料"
+          },
+          {
+            "index": 3,
+            "text": "找得到、用得上"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LFAF小助手\n让历史专案资料\n找得到、用得上",
+          "lineSpacingPercent": 95000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "fontSize": 80,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "verticalAlignment": "bottom",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LFAF小助手\n让历史专案资料\n找得到、用得上",
+              "fontSize": 66,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5wfmlon",
+      "id": "2",
+      "name": "Subtitle-4-2",
+      "bbox": [
+        41.33,
+        41.18,
+        646.49,
+        68.15
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "text": "AI大赛参赛成果｜LFAF × IIC",
+      "textPreview": "AI大赛参赛成果｜LFAF × IIC",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI大赛参赛成果｜LFAF × IIC"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI大赛参赛成果｜LFAF × IIC",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI大赛参赛成果｜LFAF × IIC",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#3D8DFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b65wvq5s",
+      "id": "3",
+      "name": "Subtitle-4-3",
+      "bbox": [
+        828,
+        41.18,
+        410.67,
+        68.15
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "rect",
+      "text": "非标自动化知识应用",
+      "textPreview": "非标自动化知识应用",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "非标自动化知识应用"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "非标自动化知识应用",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "非标自动化知识应用",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kbyxsv6p",
+      "id": "4",
+      "bbox": [
+        41.33,
+        655,
+        1197,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#3D8DFF",
+      "lineColor": "#3D8DFF",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "codex-grid-layout-library#slide-02",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1238.67,
+          "height": 651.36
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "text",
+            "name": "Title-3-1",
+            "position": {
+              "left": 41.33,
+              "top": 270.86
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 992
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 380.5
+              }
+            },
+            "intrinsicSize": {
+              "width": 992,
+              "height": 380.5
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 270.86,
+              "width": 992,
+              "height": 380.5
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 270.86,
+              "width": 992,
+              "height": 380.5
+            },
+            "children": [],
+            "text": "LFAF小助手\n让历史专案资料\n找得到、用得上",
+            "transform": "none",
+            "element": {
+              "aid": "sh/x87ex0ny",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "text",
+            "name": "Subtitle-4-2",
+            "position": {
+              "left": 41.33,
+              "top": 41.18
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 646.49
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 68.15
+              }
+            },
+            "intrinsicSize": {
+              "width": 646.49,
+              "height": 68.15
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 41.18,
+              "width": 646.49,
+              "height": 68.15
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 41.18,
+              "width": 646.49,
+              "height": 68.15
+            },
+            "children": [],
+            "text": "AI大赛参赛成果｜LFAF × IIC",
+            "transform": "none",
+            "element": {
+              "aid": "sh/a5wfmlon",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "text",
+            "name": "Subtitle-4-3",
+            "position": {
+              "left": 828,
+              "top": 41.18
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 410.67
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 68.15
+              }
+            },
+            "intrinsicSize": {
+              "width": 410.67,
+              "height": 68.15
+            },
+            "frame": {
+              "left": 828,
+              "top": 41.18,
+              "width": 410.67,
+              "height": 68.15
+            },
+            "snappedFrame": {
+              "left": 828,
+              "top": 41.18,
+              "width": 410.67,
+              "height": 68.15
+            },
+            "children": [],
+            "text": "非标自动化知识应用",
+            "transform": "none",
+            "element": {
+              "aid": "sh/b65wvq5s",
+              "id": "3",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 41.33,
+              "top": 270.86,
+              "width": 992,
+              "height": 380.5
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 41.33,
+              "top": 41.18,
+              "width": 646.49,
+              "height": 68.15
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 828,
+              "top": 41.18,
+              "width": 410.67,
+              "height": 68.15
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

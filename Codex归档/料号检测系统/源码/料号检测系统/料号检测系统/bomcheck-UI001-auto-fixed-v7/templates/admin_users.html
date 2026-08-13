@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h2>用户管理</h2>
+    <p>本地账号库：<code>{{ account_store_path }}</code></p>
+    <p>公共槽账号库：<code>{{ public_account_store_path if public_account_store_path else "未配置" }}</code></p>
+    {% if account_sync_status %}<div class="alert alert-info">{{ account_sync_status }}</div>{% endif %}
+    {% if account_warning %}<div class="alert alert-warning">{{ account_warning }}</div>{% endif %}
+    {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+    <h3>现有用户</h3>
+    {% for account in users %}
+    <div class="card">
+        <form method="post" class="form-grid">
+            <input type="hidden" name="action" value="update" />
+            <input type="hidden" name="username" value="{{ account.username }}" />
+            <strong>{{ account.username }}</strong>
+            <label>新密码（留空则不变）<input type="password" name="password" /></label>
+            <label><input type="checkbox" name="is_admin" {% if account.is_admin %}checked{% endif %}/> 管理员</label>
+            <div>
+                权限：
+                {% for key, label in permissions.items() %}
+                <label style="margin-right:8px;">
+                    <input type="checkbox" name="permissions" value="{{ key }}" {% if account.is_admin or key in account.permissions %}checked{% endif %}/> {{ label }}
+                </label>
+                {% endfor %}
+            </div>
+            <div>
+                <button type="submit">保存</button>
+            </div>
+        </form>
+        <form method="post" onsubmit="return confirm('确认删除用户 {{ account.username }}?');">
+            <input type="hidden" name="action" value="delete" />
+            <input type="hidden" name="username" value="{{ account.username }}" />
+            <button type="submit" class="button" style="background: var(--danger);">删除</button>
+        </form>
+    </div>
+    {% endfor %}
+
+    <h3>创建新用户</h3>
+    <form method="post" class="form-grid">
+        <input type="hidden" name="action" value="create" />
+        <label>用户名 <input type="text" name="username" required /></label>
+        <label>密码 <input type="password" name="password" required /></label>
+        <label><input type="checkbox" name="is_admin" /> 管理员</label>
+        <div>
+            权限：
+            {% for key, label in permissions.items() %}
+            <label style="margin-right:8px;">
+                <input type="checkbox" name="permissions" value="{{ key }}" /> {{ label }}
+            </label>
+            {% endfor %}
+        </div>
+        <button type="submit">创建</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,61 @@
+version: "1.2"
+source: "3.0報價表-R01（機構預估價格）"
+
+material:
+  A6061T6:
+    price: 38
+    unit: kg
+  S50C:
+    price: 9
+    unit: kg
+  SUS304:
+    price: 28
+    unit: kg
+  SKD11:
+    price: 55
+    unit: kg
+  SKD61:
+    price: 55
+    unit: kg
+
+process:
+  CNC:
+    rate: 80
+    unit: hour
+  車床:
+    rate: 40
+    unit: hour
+  銑床:
+    rate: 40
+    unit: hour
+  磨床:
+    rate: 55
+    unit: hour
+  鉗工:
+    rate: 88
+    unit: hour
+  放電:
+    rate: 30
+    unit: hour
+  快絲:
+    rate: 30
+    unit: hour
+  慢絲:
+    rate: 100
+    unit: hour
+
+labor:
+  機構評估:
+    type: hour
+  機構設計:
+    type: hour
+  電控:
+    type: hour
+  鉗工:
+    type: hour
+  電工:
+    type: hour
+  內調:
+    type: hour
+  外調:
+    type: hour

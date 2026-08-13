@@ -1,0 +1,7 @@
+{
+  "current_version": "R01-COMPANY-PRICE-V1.0",
+  "snapshot_path": "company-pricebook-r01-v1.0-snapshot.json",
+  "activated_at": "2026-08-01T07:03:04.583800+00:00",
+  "activated_by": "songka",
+  "notes": "Published from admin review v1.2. All prices EXCLUDING_TAX."
+}

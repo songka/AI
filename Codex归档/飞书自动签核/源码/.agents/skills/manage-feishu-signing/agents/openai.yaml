@@ -1,0 +1,4 @@
+interface:
+  display_name: "飞书签核管理"
+  short_description: "安全维护飞书签核，并同步代码、Skill、测试与发布门禁"
+  default_prompt: "Use $manage-feishu-signing to update the Feishu signing project, synchronize its Skill contract, run validation, and package only after every gate passes."

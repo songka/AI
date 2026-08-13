@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "checked_groups": [
+    {
+      "group_id": "title_group",
+      "status": "passed",
+      "anchor_points": [
+        {
+          "anchor": "title_baseline",
+          "label": "主标题基线",
+          "status": "passed",
+          "blueprint_bbox_px": {
+            "x": 78,
+            "y": 177,
+            "w": 900,
+            "h": 179
+          },
+          "render_bbox_px": {
+            "x": 78,
+            "y": 177,
+            "w": 900,
+            "h": 179
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3
+        }
+      ]
+    },
+    {
+      "group_id": "hero_visual_group",
+      "status": "passed",
+      "anchor_points": [
+        {
+          "anchor": "visual_label_baseline",
+          "label": "AI 核心视觉标签基线",
+          "status": "passed",
+          "blueprint_bbox_px": {
+            "x": 1436,
+            "y": 542,
+            "w": 167,
+            "h": 177
+          },
+          "render_bbox_px": {
+            "x": 1436,
+            "y": 542,
+            "w": 167,
+            "h": 177
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3
+        }
+      ]
+    }
+  ]
+}

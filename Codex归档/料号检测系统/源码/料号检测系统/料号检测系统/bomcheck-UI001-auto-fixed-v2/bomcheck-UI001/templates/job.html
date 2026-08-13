@@ -1,0 +1,179 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card">
+    <div class="job-header">
+        <div>
+            <h2>原文件：{{ job.filename }}</h2>
+            <p>任务 ID：{{ job.job_id }}</p>
+            <p>开始时间：{{ job.started_at }}</p>
+            <p>完成时间：{{ job.finished_at or '处理中' }}</p>
+        </div>
+        <div class="job-status">
+            <p>状态：<span id="status" class="{{ 'status-ok' if job.ok else 'status-ng' if job.ok is not none else '' }}">{{ job.status }}</span></p>
+            <p>判定：<strong id="result-ok">{% if job.ok is sameas false %}NG{% elif job.ok is sameas true %}OK{% else %}-{% endif %}</strong></p>
+            <p>耗时：<span id="duration">{{ '%.2f' % job.duration_seconds if job.duration_seconds else '-' }} 秒</span></p>
+            <div id="download" style="display: {% if job.status == 'DONE' %}block{% else %}none{% endif %};">
+                <a class="button" id="download-link" href="/jobs/{{ job.job_id }}/download">下载处理结果</a>
+            </div>
+        </div>
+    </div>
+    <p>摘要：</p>
+    <pre id="message" class="{{ 'missing-highlight' if job.ok is sameas false else '' }}">{{ job.message }}</pre>
+</section>
+
+<section class="card">
+    <h3>统计</h3>
+    <div id="summary-section">
+        {% if job.summary_data %}
+        <ul>
+            <li>失效料号：找到 {{ job.summary_data.invalid_found }} / 已标记 {{ job.summary_data.invalid_marked }} / 已替换 {{ job.summary_data.invalid_replaced }}</li>
+            <li>缺料条数：{{ job.summary_data.missing_count }}</li>
+            <li>重要物料命中条数：{{ job.summary_data.important_count }}</li>
+        </ul>
+        {% else %}
+        <p>正在处理中...</p>
+        {% endif %}
+    </div>
+</section>
+
+<section class="card" id="missing-section">
+    <h3>缺料明细</h3>
+    {% if job.summary_data.missing_preview %}
+    <table>
+        <thead><tr><th>料号</th><th>描述</th><th>缺少数量</th></tr></thead>
+        <tbody>
+        {% for item in job.summary_data.missing_preview %}
+            <tr><td>{{ item.part_no }}</td><td>{{ item.desc }}</td><td>{{ item.missing_qty }}</td></tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% if job.summary_data.missing_overflow %}<p>仅显示前 200 条，更多请下载结果文件。</p>{% endif %}
+    {% else %}
+    <p>无缺料。</p>
+    {% endif %}
+</section>
+
+<section class="card" id="important-section">
+    <h3>重要物料命中</h3>
+    {% if job.summary_data.important_hits %}
+        {% for hit in job.summary_data.important_hits %}
+            <h4>{{ hit.keyword }}（{{ hit.converted_keyword }}） - 总量 {{ hit.total_quantity }}</h4>
+            <table>
+                <thead><tr><th>料号</th><th>描述</th><th>数量</th></tr></thead>
+                <tbody>
+                {% for item in hit.items %}
+                    <tr><td>{{ item.part_no }}</td><td>{{ item.desc }}</td><td>{{ item.qty }}</td></tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        {% endfor %}
+        {% if job.summary_data.important_overflow %}<p>仅显示前 200 条。</p>{% endif %}
+    {% else %}
+        <p>暂无命中。</p>
+    {% endif %}
+</section>
+
+<script>
+    const jobId = "{{ job.job_id }}";
+    const statusEl = document.getElementById('status');
+    const messageEl = document.getElementById('message');
+    const downloadEl = document.getElementById('download');
+    const downloadLink = document.getElementById('download-link');
+    const resultOkEl = document.getElementById('result-ok');
+    const durationEl = document.getElementById('duration');
+    const summarySection = document.getElementById('summary-section');
+    const missingSection = document.getElementById('missing-section');
+    const importantSection = document.getElementById('important-section');
+
+    function escapeHtml(value) {
+        return String(value ?? '').replace(/[&<>"']/g, ch => ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#39;'
+        }[ch]));
+    }
+
+    function renderSummary(summary) {
+        if (!summary) return;
+        summarySection.innerHTML = `
+            <ul>
+                <li>失效料号：找到 ${escapeHtml(summary.invalid_found)} / 已标记 ${escapeHtml(summary.invalid_marked)} / 已替换 ${escapeHtml(summary.invalid_replaced)}</li>
+                <li>缺料条数：${escapeHtml(summary.missing_count)}</li>
+                <li>重要物料命中条数：${escapeHtml(summary.important_count)}</li>
+            </ul>`;
+
+        let missingHtml = '';
+        if (summary.missing_preview && summary.missing_preview.length) {
+            missingHtml += '<table><thead><tr><th>料号</th><th>描述</th><th>缺少数量</th></tr></thead><tbody>';
+            summary.missing_preview.forEach(item => {
+                missingHtml += `<tr><td>${escapeHtml(item.part_no)}</td><td>${escapeHtml(item.desc)}</td><td>${escapeHtml(item.missing_qty)}</td></tr>`;
+            });
+            missingHtml += '</tbody></table>';
+            if (summary.missing_overflow) {
+                missingHtml += '<p>仅显示前 200 条，更多请下载结果文件。</p>';
+            }
+        } else {
+            missingHtml = '<p>无缺料。</p>';
+        }
+        missingSection.innerHTML = '<h3>缺料明细</h3>' + missingHtml;
+
+        let importantHtml = '';
+        if (summary.important_hits && summary.important_hits.length) {
+            summary.important_hits.forEach(hit => {
+                importantHtml += `<h4>${escapeHtml(hit.keyword)}（${escapeHtml(hit.converted_keyword)}） - 总量 ${escapeHtml(hit.total_quantity)}</h4>`;
+                importantHtml += '<table><thead><tr><th>料号</th><th>描述</th><th>数量</th></tr></thead><tbody>';
+                (hit.items || []).forEach(item => {
+                    importantHtml += `<tr><td>${escapeHtml(item.part_no)}</td><td>${escapeHtml(item.desc)}</td><td>${escapeHtml(item.qty)}</td></tr>`;
+                });
+                importantHtml += '</tbody></table>';
+            });
+            if (summary.important_overflow) {
+                importantHtml += '<p>仅显示前 200 条。</p>';
+            }
+        } else {
+            importantHtml = '<p>暂无命中。</p>';
+        }
+        importantSection.innerHTML = '<h3>重要物料命中</h3>' + importantHtml;
+    }
+
+    function refreshStatus() {
+        fetch(`/jobs/${jobId}/status`, {headers: {"Accept": "application/json"}})
+            .then(resp => resp.json())
+            .then(data => {
+                statusEl.textContent = data.status;
+                messageEl.textContent = data.message || '';
+                statusEl.classList.remove('status-ok', 'status-ng');
+                messageEl.classList.remove('missing-highlight');
+                if (data.ok === true) {
+                    statusEl.classList.add('status-ok');
+                    resultOkEl.textContent = 'OK';
+                } else if (data.ok === false) {
+                    statusEl.classList.add('status-ng');
+                    messageEl.classList.add('missing-highlight');
+                    resultOkEl.textContent = 'NG';
+                }
+                if (data.summary) {
+                    renderSummary(data.summary);
+                }
+                if (data.status === 'DONE' && data.has_file) {
+                    downloadEl.style.display = 'block';
+                    if (data.download_name) {
+                        const url = new URL(downloadLink.href);
+                        downloadLink.href = url.pathname + `?t=${Date.now()}`;
+                        downloadLink.download = data.download_name;
+                    }
+                }
+                if (data.duration_seconds) {
+                    durationEl.textContent = `${data.duration_seconds.toFixed(2)} 秒`;
+                }
+                if (data.status === 'DONE' || data.status === 'FAILED') {
+                    clearInterval(timer);
+                }
+            })
+            .catch(err => console.error('状态获取失败', err));
+    }
+    const timer = setInterval(refreshStatus, 1000);
+</script>
+{% endblock %}

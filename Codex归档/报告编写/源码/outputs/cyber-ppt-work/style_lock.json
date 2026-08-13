@@ -1,0 +1,26 @@
+{
+  "selected_style_id": 4,
+  "selected_style_name": "象牙白 + 深蓝强调",
+  "target_language": "简体中文",
+  "language_source": "conversation",
+  "page_size": "16:9",
+  "palette": {
+    "background": "#F7F6F0",
+    "title": "#101820",
+    "body": "#303030",
+    "secondary": "#6F7275",
+    "line": "#C9CDD1",
+    "accent": "#12355B"
+  },
+  "template_invariant": "必须使用原公司PPT模板；封面结构、内容页标题区、蓝色标题、标题下细线、灰色页脚、MPT Logo位置和版权信息均不得修改",
+  "surface_system": "原公司模板表面系统保持不变；风格4仅用于模板内容区，使用细边框、深蓝栏头、分隔线和轻微色阶分区；不覆盖或重绘模板背景与页脚",
+  "grid": "沿用原模板内容安全区；内容区内部使用12列网格，顶部标题和底部灰色页脚不进入重排范围",
+  "title_hierarchy": "C0 36-40pt；T2 24-28pt；T3 11-12pt；T4 12-14pt；T7/T10 9.5-11pt；T13 22-28pt；T14 7-8pt",
+  "chart_language": "深蓝主数据、灰色比较对象、橙色仅用于风险/例外/当前行动；关键标签直接标注，不依赖图例",
+  "table_language": "深蓝栏头、象牙白/浅灰交替行、细边框、完整判断句使用T7/T10",
+  "header_footer": "原公司Logo、灰色页脚、版权文字与页码位置原样保留，不重新生成、不移动、不改色",
+  "icon_library": "tabler-outline",
+  "density_rule": "内容页每页1个主图或主框架、2-4个证据区、1个caveat、1条SO WHAT；封面保持低密度",
+  "language_overrides": [],
+  "allowed_foreign_terms": ["MPT", "Modbus/TCP", "CANopen", "TCP/IP", "PLC", "PC", "Robot", "CT", "Lens", "K7", "K21", "K41", "KDB10-B", "H-MODEL"]
+}

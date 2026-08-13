@@ -1,0 +1,78 @@
+{
+  "schema": "cyberppt.component_signature.v1",
+  "slide": 2,
+  "blueprint_path": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage2/blueprints/slide-02.png",
+  "components": [
+    {
+      "id": "s02_title_stack",
+      "type": "title-subtitle-stack",
+      "priority": "P0",
+      "required_subcomponents": [
+        "page_tab",
+        "title",
+        "subtitle"
+      ],
+      "content_lock_refs": [
+        "slides[1].title",
+        "slides[1].subtitle"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "s02_fragmented_chain",
+      "type": "five-step-fragmented-workflow",
+      "priority": "P0",
+      "required_subcomponents": [
+        "five_steps",
+        "breakpoints",
+        "icons",
+        "consequence_strip"
+      ],
+      "content_lock_refs": [
+        "slides[1].required_components[0]",
+        "slides[1].required_components[2]"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "s02_root_causes",
+      "type": "three-root-cause-stack",
+      "priority": "P0",
+      "required_subcomponents": [
+        "information_separation",
+        "semantic_ambiguity",
+        "reuse_difficulty"
+      ],
+      "content_lock_refs": [
+        "slides[1].required_components[1]"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "s02_conclusion",
+      "type": "so-what-conclusion-band",
+      "priority": "P0",
+      "required_subcomponents": [
+        "target_icon",
+        "conclusion_text"
+      ],
+      "content_lock_refs": [
+        "slides[1].so_what"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "s02_footer",
+      "type": "evidence-footer-page-badge",
+      "priority": "P1",
+      "required_subcomponents": [
+        "evidence_ids",
+        "page_badge"
+      ],
+      "content_lock_refs": [
+        "slides[1].evidence_ids"
+      ],
+      "must_preserve_type": true
+    }
+  ]
+}

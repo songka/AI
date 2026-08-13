@@ -1,0 +1,4 @@
+interface:
+  display_name: "中国象棋对弈"
+  short_description: "通过自然对话进行中国象棋对弈、提示、局面分析与赛后复盘"
+  default_prompt: "Use $play-xiangqi to start an interactive Chinese chess game with me."

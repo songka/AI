@@ -1,0 +1,16 @@
+{
+  "id": "skill/code-review",
+  "owner": "Developer Experience Team",
+  "release": {
+    "version": "1.2.0",
+    "channel": "preview",
+    "dependencies": [
+      { "id": "cli/codex", "version": "^1.4.0", "required": true }
+    ],
+    "artifact": {
+      "type": "url",
+      "location": "https://artifacts.example.invalid/skills/code-review-1.2.0.zip",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  }
+}

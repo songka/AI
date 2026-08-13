@@ -1,0 +1,427 @@
+{
+  "schema": "cyberppt.render_compare.v1",
+  "blueprint_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage2\\blueprints\\slide-01.png",
+  "render_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\renders\\slide-01.png",
+  "registry_path": "C:\\Users\\lfaf-test\\Documents\\时序图\\cyberppt_stage3\\qa\\slide-01-visual-registry-measured.json",
+  "elements_checked": 16,
+  "passed": true,
+  "results": [
+    {
+      "element_id": "s01_bg",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "render_bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 17.044,
+      "pixel_mean_abs_tolerance": 20.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_top_accent",
+      "priority": "P2",
+      "blueprint_bbox_px": {
+        "x": 74,
+        "y": 84,
+        "w": 91,
+        "h": 8
+      },
+      "render_bbox_px": {
+        "x": 74,
+        "y": 84,
+        "w": 91,
+        "h": 8
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 6,
+      "pixel_mean_abs_diff": 33.854,
+      "pixel_mean_abs_tolerance": 40.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_title",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 78,
+        "y": 177,
+        "w": 900,
+        "h": 179
+      },
+      "render_bbox_px": {
+        "x": 78,
+        "y": 177,
+        "w": 900,
+        "h": 179
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 87.86,
+      "pixel_mean_abs_tolerance": 110.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_title_rule",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 78,
+        "y": 397,
+        "w": 742,
+        "h": 3
+      },
+      "render_bbox_px": {
+        "x": 78,
+        "y": 397,
+        "w": 742,
+        "h": 3
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 30.216,
+      "pixel_mean_abs_tolerance": 40.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_subtitle",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 80,
+        "y": 451,
+        "w": 737,
+        "h": 44
+      },
+      "render_bbox_px": {
+        "x": 80,
+        "y": 451,
+        "w": 737,
+        "h": 44
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 67.243,
+      "pixel_mean_abs_tolerance": 80.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_supporting_line",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 79,
+        "y": 521,
+        "w": 725,
+        "h": 33
+      },
+      "render_bbox_px": {
+        "x": 79,
+        "y": 521,
+        "w": 725,
+        "h": 33
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 41.572,
+      "pixel_mean_abs_tolerance": 50.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_version_icon",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 80,
+        "y": 700,
+        "w": 54,
+        "h": 54
+      },
+      "render_bbox_px": {
+        "x": 80,
+        "y": 700,
+        "w": 54,
+        "h": 54
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 51.257,
+      "pixel_mean_abs_tolerance": 60.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_version_divider",
+      "priority": "P2",
+      "blueprint_bbox_px": {
+        "x": 162,
+        "y": 697,
+        "w": 3,
+        "h": 75
+      },
+      "render_bbox_px": {
+        "x": 162,
+        "y": 697,
+        "w": 3,
+        "h": 75
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 6,
+      "pixel_mean_abs_diff": 68.587,
+      "pixel_mean_abs_tolerance": 80.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_version_label",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 191,
+        "y": 703,
+        "w": 203,
+        "h": 33
+      },
+      "render_bbox_px": {
+        "x": 191,
+        "y": 703,
+        "w": 203,
+        "h": 33
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 56.135,
+      "pixel_mean_abs_tolerance": 70.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_date",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 191,
+        "y": 747,
+        "w": 120,
+        "h": 31
+      },
+      "render_bbox_px": {
+        "x": 191,
+        "y": 747,
+        "w": 120,
+        "h": 31
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 28.145,
+      "pixel_mean_abs_tolerance": 40.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_visual_group",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 988,
+        "y": 292,
+        "w": 612,
+        "h": 474
+      },
+      "render_bbox_px": {
+        "x": 988,
+        "y": 292,
+        "w": 612,
+        "h": 474
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 15.53,
+      "pixel_mean_abs_tolerance": 20.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_visual_left_icons",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 990,
+        "y": 383,
+        "w": 49,
+        "h": 375
+      },
+      "render_bbox_px": {
+        "x": 990,
+        "y": 383,
+        "w": 49,
+        "h": 375
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 23.255,
+      "pixel_mean_abs_tolerance": 35.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_timing_rows",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 1049,
+        "y": 389,
+        "w": 543,
+        "h": 357
+      },
+      "render_bbox_px": {
+        "x": 1049,
+        "y": 389,
+        "w": 543,
+        "h": 357
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 18.965,
+      "pixel_mean_abs_tolerance": 25.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_ai_core",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 1436,
+        "y": 542,
+        "w": 167,
+        "h": 177
+      },
+      "render_bbox_px": {
+        "x": 1436,
+        "y": 542,
+        "w": 167,
+        "h": 177
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 31.406,
+      "pixel_mean_abs_tolerance": 40.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_footer_rule",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 46,
+        "y": 866,
+        "w": 1582,
+        "h": 3
+      },
+      "render_bbox_px": {
+        "x": 46,
+        "y": 866,
+        "w": 1582,
+        "h": 3
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 123.243,
+      "pixel_mean_abs_tolerance": 160.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "s01_page_badge",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 1572,
+        "y": 884,
+        "w": 60,
+        "h": 38
+      },
+      "render_bbox_px": {
+        "x": 1572,
+        "y": 884,
+        "w": 60,
+        "h": 38
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 62.098,
+      "pixel_mean_abs_tolerance": 65.0,
+      "status": "passed"
+    }
+  ],
+  "failures": []
+}

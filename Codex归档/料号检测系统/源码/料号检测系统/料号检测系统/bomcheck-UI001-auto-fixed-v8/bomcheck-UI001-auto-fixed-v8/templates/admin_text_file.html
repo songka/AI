@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h2>{{ title }}</h2>
+    {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+    {% if message %}<div class="alert alert-info">{{ message }}</div>{% endif %}
+    {% if help_text %}<div class="alert alert-warning">{{ help_text }}</div>{% endif %}
+    <form method="post" class="form-grid" onsubmit="return confirm('确认保存 {{ title }}？保存会覆盖当前文件内容。');">
+        <textarea name="content" rows="12" style="width:100%; padding:8px; border:1px solid var(--border); border-radius:4px;">{{ content }}</textarea>
+        <button type="submit">保存</button>
+    </form>
+</div>
+{% endblock %}

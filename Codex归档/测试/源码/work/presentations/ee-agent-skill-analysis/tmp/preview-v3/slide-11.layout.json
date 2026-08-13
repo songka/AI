@@ -1,0 +1,807 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/jgqw9y",
+    "id": "jgqw9y",
+    "slide": 11,
+    "layoutId": "8aa06e24-b55d-4c97-b976-e276929ed650",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d2a4a8fb-57a4-48aa-844f-578457d99e8d",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Consolas",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8aa06e24-b55d-4c97-b976-e276929ed650",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d2a4a8fb-57a4-48aa-844f-578457d99e8d",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d2a4a8fb-57a4-48aa-844f-578457d99e8d",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l87ed8ba",
+      "id": "1",
+      "bbox": [
+        42,
+        34,
+        620,
+        28
+      ],
+      "geometry": "rect",
+      "text": "第五步：向 AI 提问生成 skill",
+      "textPreview": "第五步：向 AI 提问生成 skill",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "第五步：向 AI 提问生成 skill"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "第五步：向 AI 提问生成 skill",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "第五步：向 AI 提问生成 skill",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahoza1gv",
+      "id": "2",
+      "bbox": [
+        42,
+        78,
+        1070,
+        94
+      ],
+      "geometry": "rect",
+      "text": "不要只说“帮我做一个 skill”，要把类别、要素和例子一次讲清楚",
+      "textPreview": "不要只说“帮我做一个 skill”，要把类别、要素和例子一次讲清楚",
+      "resolvedFontSize": 41,
+      "resolvedTextStyle": {
+        "fontSize": 41,
+        "typeface": "Microsoft YaHei",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "不要只说“帮我做一个"
+          },
+          {
+            "index": 2,
+            "text": "skill”，要把类别、要素和例子一次讲清楚"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "不要只说“帮我做一个 skill”，要把类别、要素和例子一次讲清楚",
+          "resolvedTextStyle": {
+            "fontSize": 41,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "不要只说“帮我做一个 skill”，要把类别、要素和例子一次讲清楚",
+              "fontSize": 41,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32lszqtc",
+      "id": "3",
+      "bbox": [
+        42,
+        216,
+        1196,
+        1.5
+      ],
+      "geometry": "rect",
+      "fillColor": "#C7CBD1",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "4",
+      "bbox": [
+        58,
+        238,
+        1128,
+        398
+      ],
+      "geometry": "rect",
+      "text": "请为【电气工程师】创建一个可安装的 skill 包，主题是【填写任务领域】。\n\n一、先判断 skill 类别\n- 它更像：知识库型 / 工具库型 / 流程型 / 专家路由型 / 集成控制型 / 评测守护型？\n- 如果有多种类别，请说明主类别和辅助类别。\n\n二、必须包含 8 个要素\n1. 名称与触发描述：什么时候启用，典型触发词是什么。\n2. 适用边界：覆盖什么，不覆盖什么，安全/合规限制是什么。\n3. 资料地图：资料库里有哪些资料，每份资料解决什么问题。\n4. 工作流程：从用户输入到最终交付的步骤。\n5. 输出模板与示例：至少 3 个输出模板，包含好例子和反例。\n6. 执行脚本与工具：如需脚本，说明输入、输出、依赖和失败处理。\n7. 交付格式：报告、表格、代码、清单的字段和格式。\n8. 安装说明与评测案例：安装步骤、版本信息、正反测试案例。\n\n三、业务背景\n- 使用场景：【例如 PLC 调试 / 电气计算 / 图纸归档】\n- 常见输入：【文件、型号、现场描述、表格】\n- 期望输出：【报告、代码、清单、图表、脚本】\n- 安全限制：【人工复核、现场验证、适用标准】",
+      "textPreview": "请为【电气工程师】创建一个可安装的 skill 包，主题是【填写任务领域】。 |  | 一、先判断 skill 类别 | - 它更像：知识库型 / 工具库型 / 流程型 / 专家路由型 / 集成控制型 / 评测守护型？ | - 如果有多种类别，请说明主类别和辅助类别。 | ...",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Consolas",
+        "color": "#F7F7F7",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 21,
+        "lines": [
+          {
+            "index": 1,
+            "text": "请为【电气工程师】创建一个可安装的 skill 包，主题是【填写任务领域】。"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "一、先判断 skill 类别"
+          },
+          {
+            "index": 4,
+            "text": "- 它更像：知识库型 / 工具库型 / 流程型 / 专家路由型 / 集成控制型 / 评测守护型？"
+          },
+          {
+            "index": 5,
+            "text": "- 如果有多种类别，请说明主类别和辅助类别。"
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "二、必须包含 8 个要素"
+          },
+          {
+            "index": 8,
+            "text": "1. 名称与触发描述：什么时候启用，典型触发词是什么。"
+          },
+          {
+            "index": 9,
+            "text": "2. 适用边界：覆盖什么，不覆盖什么，安全/合规限制是什么。"
+          },
+          {
+            "index": 10,
+            "text": "3. 资料地图：资料库里有哪些资料，每份资料解决什么问题。"
+          },
+          {
+            "index": 11,
+            "text": "4. 工作流程：从用户输入到最终交付的步骤。"
+          },
+          {
+            "index": 12,
+            "text": "5. 输出模板与示例：至少 3 个输出模板，包含好例子和反例。"
+          },
+          {
+            "index": 13,
+            "text": "6. 执行脚本与工具：如需脚本，说明输入、输出、依赖和失败处理。"
+          },
+          {
+            "index": 14,
+            "text": "7. 交付格式：报告、表格、代码、清单的字段和格式。"
+          },
+          {
+            "index": 15,
+            "text": "8. 安装说明与评测案例：安装步骤、版本信息、正反测试案例。"
+          },
+          {
+            "index": 16,
+            "text": ""
+          },
+          {
+            "index": 17,
+            "text": "三、业务背景"
+          },
+          {
+            "index": 18,
+            "text": "- 使用场景：【例如 PLC 调试 / 电气计算 / 图纸归档】"
+          },
+          {
+            "index": 19,
+            "text": "- 常见输入：【文件、型号、现场描述、表格】"
+          },
+          {
+            "index": 20,
+            "text": "- 期望输出：【报告、代码、清单、图表、脚本】"
+          },
+          {
+            "index": 21,
+            "text": "- 安全限制：【人工复核、现场验证、适用标准】"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "请为【电气工程师】创建一个可安装的 skill 包，主题是【填写任务领域】。",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "请为【电气工程师】创建一个可安装的 skill 包，主题是【填写任务领域】。",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "一、先判断 skill 类别",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "一、先判断 skill 类别",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "- 它更像：知识库型 / 工具库型 / 流程型 / 专家路由型 / 集成控制型 / 评测守护型？",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 它更像：知识库型 / 工具库型 / 流程型 / 专家路由型 / 集成控制型 / 评测守护型？",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "- 如果有多种类别，请说明主类别和辅助类别。",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 如果有多种类别，请说明主类别和辅助类别。",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "二、必须包含 8 个要素",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "二、必须包含 8 个要素",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "1. 名称与触发描述：什么时候启用，典型触发词是什么。",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. 名称与触发描述：什么时候启用，典型触发词是什么。",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "2. 适用边界：覆盖什么，不覆盖什么，安全/合规限制是什么。",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. 适用边界：覆盖什么，不覆盖什么，安全/合规限制是什么。",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 10,
+          "text": "3. 资料地图：资料库里有哪些资料，每份资料解决什么问题。",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3. 资料地图：资料库里有哪些资料，每份资料解决什么问题。",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 11,
+          "text": "4. 工作流程：从用户输入到最终交付的步骤。",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4. 工作流程：从用户输入到最终交付的步骤。",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 12,
+          "text": "5. 输出模板与示例：至少 3 个输出模板，包含好例子和反例。",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5. 输出模板与示例：至少 3 个输出模板，包含好例子和反例。",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 13,
+          "text": "6. 执行脚本与工具：如需脚本，说明输入、输出、依赖和失败处理。",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "6. 执行脚本与工具：如需脚本，说明输入、输出、依赖和失败处理。",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 14,
+          "text": "7. 交付格式：报告、表格、代码、清单的字段和格式。",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "7. 交付格式：报告、表格、代码、清单的字段和格式。",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 15,
+          "text": "8. 安装说明与评测案例：安装步骤、版本信息、正反测试案例。",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "8. 安装说明与评测案例：安装步骤、版本信息、正反测试案例。",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 17,
+          "text": "三、业务背景",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "三、业务背景",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 18,
+          "text": "- 使用场景：【例如 PLC 调试 / 电气计算 / 图纸归档】",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 使用场景：【例如 PLC 调试 / 电气计算 / 图纸归档】",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 19,
+          "text": "- 常见输入：【文件、型号、现场描述、表格】",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 常见输入：【文件、型号、现场描述、表格】",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 20,
+          "text": "- 期望输出：【报告、代码、清单、图表、脚本】",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 期望输出：【报告、代码、清单、图表、脚本】",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 21,
+          "text": "- 安全限制：【人工复核、现场验证、适用标准】",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Consolas",
+            "color": "#F7F7F7"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- 安全限制：【人工复核、现场验证、适用标准】",
+              "fontSize": 14,
+              "typeface": "Consolas",
+              "color": "#F7F7F7"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#151515",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkjm1cfa",
+      "id": "5",
+      "bbox": [
+        42,
+        666,
+        620,
+        24
+      ],
+      "geometry": "rect",
+      "text": "电气工程师 Agent Skill 分析与提问方法",
+      "textPreview": "电气工程师 Agent Skill 分析与提问方法",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "电气工程师 Agent Skill 分析与提问方法"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "电气工程师 Agent Skill 分析与提问方法",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "电气工程师 Agent Skill 分析与提问方法",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at47y1kr",
+      "id": "6",
+      "bbox": [
+        1186,
+        660,
+        52,
+        28
+      ],
+      "geometry": "rect",
+      "text": "11",
+      "textPreview": "11",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B5B5B",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "11"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "11",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B5B5B",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "11",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B5B5B",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

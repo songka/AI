@@ -1,0 +1,315 @@
+{
+  "sourcePptx": "C:\\Users\\lfaf-test\\Documents\\报告编写\\晉升人評會報告\\5- PBG 晉升報告範本-楊敏銳R03(1).pptx",
+  "workspace": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck",
+  "outDir": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect",
+  "generatedAt": "2026-07-29T06:30:25.431Z",
+  "slideCount": 12,
+  "slideArtifacts": [
+    {
+      "slide": 1,
+      "previewPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\source-slides\\source-slide-01.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-01.png",
+      "layoutPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\layouts\\source-slide-01.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-01.layout.json"
+    },
+    {
+      "slide": 2,
+      "previewPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\source-slides\\source-slide-02.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-02.png",
+      "layoutPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\layouts\\source-slide-02.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-02.layout.json"
+    },
+    {
+      "slide": 3,
+      "previewPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\source-slides\\source-slide-03.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-03.png",
+      "layoutPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\layouts\\source-slide-03.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-03.layout.json"
+    },
+    {
+      "slide": 4,
+      "previewPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\source-slides\\source-slide-04.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-04.png",
+      "layoutPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\layouts\\source-slide-04.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-04.layout.json"
+    },
+    {
+      "slide": 5,
+      "previewPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\source-slides\\source-slide-05.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-05.png",
+      "layoutPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\layouts\\source-slide-05.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-05.layout.json"
+    },
+    {
+      "slide": 6,
+      "previewPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\source-slides\\source-slide-06.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-06.png",
+      "layoutPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\layouts\\source-slide-06.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-06.layout.json"
+    },
+    {
+      "slide": 7,
+      "previewPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\source-slides\\source-slide-07.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-07.png",
+      "layoutPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\layouts\\source-slide-07.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-07.layout.json"
+    },
+    {
+      "slide": 8,
+      "previewPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\source-slides\\source-slide-08.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-08.png",
+      "layoutPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\layouts\\source-slide-08.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-08.layout.json"
+    },
+    {
+      "slide": 9,
+      "previewPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\source-slides\\source-slide-09.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-09.png",
+      "layoutPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\layouts\\source-slide-09.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-09.layout.json"
+    },
+    {
+      "slide": 10,
+      "previewPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\source-slides\\source-slide-10.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-10.png",
+      "layoutPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\layouts\\source-slide-10.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-10.layout.json"
+    },
+    {
+      "slide": 11,
+      "previewPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\source-slides\\source-slide-11.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-11.png",
+      "layoutPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\layouts\\source-slide-11.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-11.layout.json"
+    },
+    {
+      "slide": 12,
+      "previewPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\source-slides\\source-slide-12.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-12.png",
+      "layoutPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\layouts\\source-slide-12.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-12.layout.json"
+    }
+  ],
+  "inspectPath": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\template-inspect.ndjson",
+  "inspectRelativePath": "template-inspect/template-inspect.ndjson",
+  "inspectTruncated": true,
+  "inspectMetadata": {
+    "revision": "tbnos7",
+    "target": {
+      "id": "pr/ywbjac"
+    },
+    "kind": {
+      "requested": "slide,textbox,shape,image,table,chart",
+      "tokens": [
+        "slide",
+        "textbox",
+        "shape",
+        "image",
+        "table",
+        "chart"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  },
+  "extractedMedia": [
+    {
+      "entry": "ppt/media/image19.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image19.png",
+      "relativePath": "template-inspect/assets/ppt/media/image19.png",
+      "bytes": 481
+    },
+    {
+      "entry": "ppt/media/image6.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image6.png",
+      "relativePath": "template-inspect/assets/ppt/media/image6.png",
+      "bytes": 837499
+    },
+    {
+      "entry": "ppt/media/image7.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image7.png",
+      "relativePath": "template-inspect/assets/ppt/media/image7.png",
+      "bytes": 647058
+    },
+    {
+      "entry": "ppt/media/hdphoto1.wdp",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\hdphoto1.wdp",
+      "relativePath": "template-inspect/assets/ppt/media/hdphoto1.wdp",
+      "bytes": 88149
+    },
+    {
+      "entry": "ppt/media/image8.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image8.png",
+      "relativePath": "template-inspect/assets/ppt/media/image8.png",
+      "bytes": 1199290
+    },
+    {
+      "entry": "ppt/media/image9.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image9.png",
+      "relativePath": "template-inspect/assets/ppt/media/image9.png",
+      "bytes": 684975
+    },
+    {
+      "entry": "ppt/media/image5.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image5.png",
+      "bytes": 818643
+    },
+    {
+      "entry": "ppt/media/image1.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image1.png",
+      "bytes": 2109
+    },
+    {
+      "entry": "ppt/media/image2.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image2.png",
+      "relativePath": "template-inspect/assets/ppt/media/image2.png",
+      "bytes": 689632
+    },
+    {
+      "entry": "ppt/media/image3.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image3.png",
+      "bytes": 16390
+    },
+    {
+      "entry": "ppt/media/image4.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image4.png",
+      "relativePath": "template-inspect/assets/ppt/media/image4.png",
+      "bytes": 7510
+    },
+    {
+      "entry": "ppt/media/image11.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image11.png",
+      "relativePath": "template-inspect/assets/ppt/media/image11.png",
+      "bytes": 1205340
+    },
+    {
+      "entry": "ppt/media/image10.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image10.png",
+      "relativePath": "template-inspect/assets/ppt/media/image10.png",
+      "bytes": 495341
+    },
+    {
+      "entry": "ppt/media/hdphoto2.wdp",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\hdphoto2.wdp",
+      "relativePath": "template-inspect/assets/ppt/media/hdphoto2.wdp",
+      "bytes": 634201
+    },
+    {
+      "entry": "ppt/media/image12.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image12.png",
+      "relativePath": "template-inspect/assets/ppt/media/image12.png",
+      "bytes": 5653666
+    },
+    {
+      "entry": "ppt/media/image18.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image18.png",
+      "relativePath": "template-inspect/assets/ppt/media/image18.png",
+      "bytes": 817216
+    },
+    {
+      "entry": "ppt/media/image17.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image17.png",
+      "relativePath": "template-inspect/assets/ppt/media/image17.png",
+      "bytes": 364527
+    },
+    {
+      "entry": "ppt/media/image16.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image16.png",
+      "relativePath": "template-inspect/assets/ppt/media/image16.png",
+      "bytes": 745484
+    },
+    {
+      "entry": "ppt/media/image15.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image15.png",
+      "relativePath": "template-inspect/assets/ppt/media/image15.png",
+      "bytes": 217256
+    },
+    {
+      "entry": "ppt/media/image13.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image13.png",
+      "relativePath": "template-inspect/assets/ppt/media/image13.png",
+      "bytes": 226689
+    },
+    {
+      "entry": "ppt/media/hdphoto3.wdp",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\hdphoto3.wdp",
+      "relativePath": "template-inspect/assets/ppt/media/hdphoto3.wdp",
+      "bytes": 23015
+    },
+    {
+      "entry": "ppt/media/image14.png",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image14.png",
+      "relativePath": "template-inspect/assets/ppt/media/image14.png",
+      "bytes": 402062
+    },
+    {
+      "entry": "ppt/media/image18.svg",
+      "path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\.tmp_promotion_deck\\template-inspect\\assets\\ppt\\media\\image18.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image18.svg",
+      "bytes": 732
+    }
+  ],
+  "fonts": [
+    "+mj-cs",
+    "+mj-ea",
+    "+mj-lt",
+    "+mn-cs",
+    "+mn-ea",
+    "+mn-lt",
+    "Angsana New",
+    "Arial",
+    "Calibri",
+    "Calibri Light",
+    "Cordia New",
+    "DaunPenh",
+    "DokChampa",
+    "Estrangelo Edessa",
+    "Euphemia",
+    "Gautami",
+    "Helvetica",
+    "Iskoola Pota",
+    "Kalinga",
+    "Kartika",
+    "Latha",
+    "MV Boli",
+    "Mangal",
+    "Microsoft Himalaya",
+    "Microsoft Uighur",
+    "Microsoft Yi Baiti",
+    "Mongolian Baiti",
+    "MoolBoran",
+    "Noto Sans SC",
+    "Nyala",
+    "Plantagenet Cherokee",
+    "Raavi",
+    "Segoe UI",
+    "Segoe UI Emoji",
+    "Shruti",
+    "Sylfaen",
+    "Times New Roman",
+    "Tunga",
+    "Vrinda",
+    "Wingdings",
+    "微軟正黑體",
+    "新細明體",
+    "游ゴシック",
+    "游ゴシック Light",
+    "等线",
+    "等线 Light",
+    "맑은 고딕"
+  ],
+  "packageParts": {
+    "mediaCount": 23,
+    "slideXmlCount": 12,
+    "chartCount": 0,
+    "tableSlideCount": 0
+  }
+}

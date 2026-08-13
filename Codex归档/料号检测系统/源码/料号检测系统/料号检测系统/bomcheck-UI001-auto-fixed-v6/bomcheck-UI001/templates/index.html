@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-head compact">
+    <div>
+        <h1>BOM 执行工作台</h1>
+        <p>上传 Excel 后后台执行失效料号、绑定料号、重要物料和缺料检查。</p>
+    </div>
+    <a class="secondary-button" href="/query">查询料号</a>
+</section>
+
+<section class="dashboard-grid">
+    <div class="command-panel">
+        <div class="command-copy">
+            <span class="eyebrow">BOM CHECK</span>
+            <h2>选择文件后立即开始检测</h2>
+            <p>支持 .xlsx / .xlsm，任务会在后台运行，完成后进入任务页下载结果。</p>
+        </div>
+        {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+        <form id="upload-form" action="/execute" method="post" enctype="multipart/form-data" class="upload-form">
+            <label class="file-dropzone" for="file">
+                <span class="file-icon">XLS</span>
+                <span>
+                    <strong id="selected-file">拖入或选择 BOM Excel 文件</strong>
+                    <small>建议关闭正在编辑的同名结果文件，避免保存冲突。</small>
+                </span>
+                <input type="file" id="file" name="file" accept=".xlsx,.xlsm" required>
+            </label>
+            <button id="upload-submit" type="submit">开始执行</button>
+        </form>
+    </div>
+
+    <aside class="work-rail">
+        <section class="rail-panel">
+            <div class="section-title">
+                <h2>快速料号查询</h2>
+                <span>免登录</span>
+            </div>
+            <form action="/query" method="get" class="quick-query">
+                <input type="text" name="keyword" placeholder="输入料号、描述或申请人">
+                <input type="hidden" name="size" value="50">
+                <button type="submit">查询</button>
+            </form>
+        </section>
+
+        <section class="rail-panel">
+            <div class="section-title">
+                <h2>最近任务</h2>
+                {% if last_job %}
+                <span class="status-pill {{ 'ok' if last_job.ok else 'ng' if last_job.ok is not none else '' }}">{{ last_job.status }}</span>
+                {% else %}
+                <span>暂无</span>
+                {% endif %}
+            </div>
+            {% if last_job %}
+            <dl class="task-brief">
+                <div><dt>文件</dt><dd>{{ last_job.filename or '-' }}</dd></div>
+                <div><dt>状态</dt><dd>{{ last_job.status }}</dd></div>
+                <div><dt>耗时</dt><dd>{{ '%.2f' % last_job.duration_seconds if last_job.duration_seconds else '-' }} 秒</dd></div>
+            </dl>
+            <a class="button full-button" href="/jobs/{{ last_job.job_id }}">查看任务详情</a>
+            {% else %}
+            <div class="empty-state small">上传 BOM 后会在这里显示最近任务。</div>
+            {% endif %}
+        </section>
+    </aside>
+</section>
+
+<section class="workflow-strip">
+    <div>
+        <span class="step-num">01</span>
+        <strong>读取公共配置</strong>
+        <small>网络配置优先，后台校验最新数据源。</small>
+    </div>
+    <div>
+        <span class="step-num">02</span>
+        <strong>执行 BOM 检测</strong>
+        <small>失效、绑定、重要物料和缺料结果统一汇总。</small>
+    </div>
+    <div>
+        <span class="step-num">03</span>
+        <strong>下载结果文件</strong>
+        <small>任务页显示摘要、明细和可下载结果。</small>
+    </div>
+</section>
+
+<script>
+    const uploadForm = document.getElementById('upload-form');
+    const fileInput = document.getElementById('file');
+    const selectedFile = document.getElementById('selected-file');
+    const uploadSubmit = document.getElementById('upload-submit');
+
+    if (fileInput && selectedFile) {
+        fileInput.addEventListener('change', () => {
+            selectedFile.textContent = fileInput.files && fileInput.files.length
+                ? fileInput.files[0].name
+                : '拖入或选择 BOM Excel 文件';
+        });
+    }
+
+    if (uploadForm && uploadSubmit) {
+        uploadForm.addEventListener('submit', () => {
+            uploadSubmit.disabled = true;
+            uploadSubmit.textContent = '正在提交...';
+        });
+    }
+</script>
+{% endblock %}

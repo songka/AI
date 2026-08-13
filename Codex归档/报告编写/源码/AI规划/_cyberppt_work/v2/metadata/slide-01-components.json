@@ -1,0 +1,9 @@
+{
+  "components": [
+    {"id":"header","type":"header-band","priority":"P1","must_preserve_type":true,"required_subcomponents":["left-eyebrow","right-tagline","divider"]},
+    {"id":"title-block","type":"native-text-group","priority":"P0","must_preserve_type":true,"required_subcomponents":["title-line-1","title-line-2","subtitle-line-1","subtitle-line-2","accent-rule","report-date"]},
+    {"id":"framework-hero","type":"native-architecture-illustration","priority":"P0","must_preserve_type":true,"required_subcomponents":["pc-1","pc-2","pc-3","connectors","deepseek-core","smb-share","share-node"]},
+    {"id":"technical-decoration","type":"decorative-linework","priority":"P2","must_preserve_type":true,"required_subcomponents":["orbit","robot-arm","plc","gears","construction-lines"]},
+    {"id":"footer","type":"footer-band","priority":"P1","must_preserve_type":true,"required_subcomponents":["footer-rule","source","page-number"]}
+  ]
+}

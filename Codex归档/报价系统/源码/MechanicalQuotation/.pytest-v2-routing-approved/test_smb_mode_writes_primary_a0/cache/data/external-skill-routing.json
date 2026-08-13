@@ -1,0 +1,14 @@
+{
+  "schema_version": "2.0",
+  "config_version": 2,
+  "mode": "DISTRIBUTED",
+  "skills": [],
+  "agents": [],
+  "full_skill_id": null,
+  "step_routes": {},
+  "category_routes": {},
+  "debug_mode": false,
+  "excel_export_skill_id": null,
+  "updated_at": "2026-08-10T02:37:28.432542+00:00",
+  "updated_by": "64670349-9d7c-4e19-9d46-a387784192a5"
+}

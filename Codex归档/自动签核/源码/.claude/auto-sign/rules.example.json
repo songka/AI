@@ -1,0 +1,23 @@
+{
+  "auto_reject": [
+    {
+      "name": "料号描述含简体字或为空 → 拒签",
+      "conditions": [
+        {"field": "描述", "op": "has_cn", "value": ""},
+        {"field": "描述", "op": "is_empty", "value": ""}
+      ],
+      "logic": "OR"
+    }
+  ],
+  "auto_approve": [
+    {
+      "name": "描述匹配content_whitelist + 白名单申请人 → 签核",
+      "conditions": [
+        {"field": "描述", "op": "starts_with_content_wl", "value": ""},
+        {"field": "申请人", "op": "in_whitelist", "value": ""}
+      ],
+      "logic": "AND"
+    }
+  ],
+  "notify": []
+}

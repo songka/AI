@@ -1,0 +1,1694 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/5guzai",
+    "id": "5guzai",
+    "slide": 7,
+    "layoutId": "bae1f76f-7a5d-4d27-9386-6f99358d6cfd",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bae1f76f-7a5d-4d27-9386-6f99358d6cfd",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "52ae872a-e6a3-401e-9ddc-37e008e06e87",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1czelkzq",
+      "id": "1",
+      "name": "Slide-Number-Placeholder-3-2",
+      "bbox": [
+        1184.18,
+        659.24,
+        54.48,
+        25.33
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "text": "07",
+      "textPreview": "07",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "fontSize": 13.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "right",
+        "verticalAlignment": "bottom",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "fontSize": 13.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "right",
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e9ofa50f",
+      "id": "2",
+      "name": "Title-10-3",
+      "bbox": [
+        41.33,
+        36.12,
+        1197.33,
+        109.97
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "text": "创新不在“聊天”，而在重构资料使用方式",
+      "textPreview": "创新不在“聊天”，而在重构资料使用方式",
+      "resolvedFontSize": 38.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38.67,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "创新不在“聊天”，而在重构资料使用方式"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "创新不在“聊天”，而在重构资料使用方式",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 38.67,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "创新不在“聊天”，而在重构资料使用方式",
+              "fontSize": 48,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zaxwjah0",
+      "id": "3",
+      "name": "Content-Placeholder-15-4",
+      "bbox": [
+        41.33,
+        436.86,
+        272.54,
+        148.62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "rect",
+      "text": "高频切入\n先落地报警代码查询。",
+      "textPreview": "高频切入 | 先落地报警代码查询。",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "fontSize": 21.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "高频切入"
+          },
+          {
+            "index": 2,
+            "text": "先落地报警代码查询。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "高频切入",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 650,
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "高频切入",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "先落地报警代码查询。",
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "先落地报警代码查询。",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cn6x8vi9",
+      "id": "4",
+      "name": "Text-Placeholder-16-5",
+      "bbox": [
+        350.13,
+        436.86,
+        272.54,
+        148.62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "rect",
+      "text": "经验复用\n未参与原专案者也能找资料。",
+      "textPreview": "经验复用 | 未参与原专案者也能找资料。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "经验复用"
+          },
+          {
+            "index": 2,
+            "text": "未参与原专案者也能找资料。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "经验复用",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 650,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "经验复用",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "未参与原专案者也能找资料。",
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "未参与原专案者也能找资料。",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dofeh0zu",
+      "id": "5",
+      "name": "Content-Placeholder-17-6",
+      "bbox": [
+        657.68,
+        436.86,
+        272.54,
+        148.62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4"
+      },
+      "geometry": "rect",
+      "text": "人机协同\nAI导航，工程师审核与判断。",
+      "textPreview": "人机协同 | AI导航，工程师审核与判断。",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "fontSize": 21.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "人机协同"
+          },
+          {
+            "index": 2,
+            "text": "AI导航，工程师审核与判断。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "人机协同",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 650,
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "人机协同",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "AI导航，工程师审核与判断。",
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI导航，工程师审核与判断。",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qlof6503",
+      "id": "6",
+      "name": "Text-Placeholder-18-7",
+      "bbox": [
+        966.48,
+        436.86,
+        272.54,
+        148.62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.5"
+      },
+      "geometry": "rect",
+      "text": "持续扩展\n从检索走向总结与生成。",
+      "textPreview": "持续扩展 | 从检索走向总结与生成。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "持续扩展"
+          },
+          {
+            "index": 2,
+            "text": "从检索走向总结与生成。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "持续扩展",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 650,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "持续扩展",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "从检索走向总结与生成。",
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "从检索走向总结与生成。",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmxwfqho",
+      "id": "7",
+      "name": "Content-Placeholder-15-8",
+      "bbox": [
+        41.33,
+        231.82,
+        272.54,
+        148.62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.6"
+      },
+      "geometry": "rect",
+      "text": "问题驱动\n从报警和异常出发，而非从目录出发。",
+      "textPreview": "问题驱动 | 从报警和异常出发，而非从目录出发。",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "fontSize": 21.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "问题驱动"
+          },
+          {
+            "index": 2,
+            "text": "从报警和异常出发，而非从目"
+          },
+          {
+            "index": 3,
+            "text": "录出发。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "问题驱动",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 650,
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "问题驱动",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "从报警和异常出发，而非从目录出发。",
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "从报警和异常出发，而非从目录出发。",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4jmx4vid",
+      "id": "8",
+      "name": "Text-Placeholder-16-9",
+      "bbox": [
+        350.13,
+        231.82,
+        272.54,
+        148.62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.7"
+      },
+      "geometry": "rect",
+      "text": "真实流程\n直接服务工程资料查询与异常处理。",
+      "textPreview": "真实流程 | 直接服务工程资料查询与异常处理。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "真实流程"
+          },
+          {
+            "index": 2,
+            "text": "直接服务工程资料查询与异常"
+          },
+          {
+            "index": 3,
+            "text": "处理。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "真实流程",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 650,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "真实流程",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "直接服务工程资料查询与异常处理。",
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "直接服务工程资料查询与异常处理。",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkved0zi",
+      "id": "9",
+      "name": "Content-Placeholder-17-10",
+      "bbox": [
+        657.68,
+        231.82,
+        272.54,
+        148.62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.8"
+      },
+      "geometry": "rect",
+      "text": "多格式连接\n汇集Excel、PPT等分散资料。",
+      "textPreview": "多格式连接 | 汇集Excel、PPT等分散资料。",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "fontSize": 21.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "多格式连接"
+          },
+          {
+            "index": 2,
+            "text": "汇集Excel、PPT等分散资料。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "多格式连接",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 650,
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "多格式连接",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "汇集Excel、PPT等分散资料。",
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 21.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "汇集Excel、PPT等分散资料。",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h83q5o7u",
+      "id": "10",
+      "name": "Text-Placeholder-18-11",
+      "bbox": [
+        966.48,
+        231.82,
+        272.54,
+        148.62
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.9"
+      },
+      "geometry": "rect",
+      "text": "统一入口\n降低文件名和路径记忆门槛。",
+      "textPreview": "统一入口 | 降低文件名和路径记忆门槛。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "统一入口"
+          },
+          {
+            "index": 2,
+            "text": "降低文件名和路径记忆门槛。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "统一入口",
+          "lineSpacingPercent": 112000,
+          "spaceAfter": 650,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "统一入口",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#111827",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "降低文件名和路径记忆门槛。",
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 300,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "降低文件名和路径记忆门槛。",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#536171"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7apcjq9",
+      "id": "11",
+      "bbox": [
+        41.33,
+        145,
+        130,
+        7
+      ],
+      "geometry": "rect",
+      "fillColor": "#3D8DFF",
+      "lineColor": "#3D8DFF",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "codex-grid-layout-library#slide-16",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1239.02,
+          "height": 684.57
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "text",
+            "name": "Slide-Number-Placeholder-3-2",
+            "position": {
+              "left": 1184.18,
+              "top": 659.24
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 54.48
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 25.33
+              }
+            },
+            "intrinsicSize": {
+              "width": 54.48,
+              "height": 25.33
+            },
+            "frame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            },
+            "snappedFrame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            },
+            "children": [],
+            "text": "07",
+            "transform": "none",
+            "element": {
+              "aid": "sh/1czelkzq",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "text",
+            "name": "Title-10-3",
+            "position": {
+              "left": 41.33,
+              "top": 36.12
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1197.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 109.97
+              }
+            },
+            "intrinsicSize": {
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "children": [],
+            "text": "创新不在“聊天”，而在重构资料使用方式",
+            "transform": "none",
+            "element": {
+              "aid": "sh/e9ofa50f",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "text",
+            "name": "Content-Placeholder-15-4",
+            "position": {
+              "left": 41.33,
+              "top": 436.86
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 272.54
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 148.62
+              }
+            },
+            "intrinsicSize": {
+              "width": 272.54,
+              "height": 148.62
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 436.86,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 436.86,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "children": [],
+            "text": "高频切入\n先落地报警代码查询。",
+            "transform": "none",
+            "element": {
+              "aid": "sh/zaxwjah0",
+              "id": "3",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.3",
+            "kind": "text",
+            "name": "Text-Placeholder-16-5",
+            "position": {
+              "left": 350.13,
+              "top": 436.86
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 272.54
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 148.62
+              }
+            },
+            "intrinsicSize": {
+              "width": 272.54,
+              "height": 148.62
+            },
+            "frame": {
+              "left": 350.13,
+              "top": 436.86,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "snappedFrame": {
+              "left": 350.13,
+              "top": 436.86,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "children": [],
+            "text": "经验复用\n未参与原专案者也能找资料。",
+            "transform": "none",
+            "element": {
+              "aid": "sh/cn6x8vi9",
+              "id": "4",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.4",
+            "kind": "text",
+            "name": "Content-Placeholder-17-6",
+            "position": {
+              "left": 657.68,
+              "top": 436.86
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 272.54
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 148.62
+              }
+            },
+            "intrinsicSize": {
+              "width": 272.54,
+              "height": 148.62
+            },
+            "frame": {
+              "left": 657.68,
+              "top": 436.86,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "snappedFrame": {
+              "left": 657.68,
+              "top": 436.86,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "children": [],
+            "text": "人机协同\nAI导航，工程师审核与判断。",
+            "transform": "none",
+            "element": {
+              "aid": "sh/dofeh0zu",
+              "id": "5",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.5",
+            "kind": "text",
+            "name": "Text-Placeholder-18-7",
+            "position": {
+              "left": 966.48,
+              "top": 436.86
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 272.54
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 148.62
+              }
+            },
+            "intrinsicSize": {
+              "width": 272.54,
+              "height": 148.62
+            },
+            "frame": {
+              "left": 966.48,
+              "top": 436.86,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "snappedFrame": {
+              "left": 966.48,
+              "top": 436.86,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "children": [],
+            "text": "持续扩展\n从检索走向总结与生成。",
+            "transform": "none",
+            "element": {
+              "aid": "sh/qlof6503",
+              "id": "6",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.6",
+            "kind": "text",
+            "name": "Content-Placeholder-15-8",
+            "position": {
+              "left": 41.33,
+              "top": 231.82
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 272.54
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 148.62
+              }
+            },
+            "intrinsicSize": {
+              "width": 272.54,
+              "height": 148.62
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 231.82,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 231.82,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "children": [],
+            "text": "问题驱动\n从报警和异常出发，而非从目录出发。",
+            "transform": "none",
+            "element": {
+              "aid": "sh/rmxwfqho",
+              "id": "7",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.7",
+            "kind": "text",
+            "name": "Text-Placeholder-16-9",
+            "position": {
+              "left": 350.13,
+              "top": 231.82
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 272.54
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 148.62
+              }
+            },
+            "intrinsicSize": {
+              "width": 272.54,
+              "height": 148.62
+            },
+            "frame": {
+              "left": 350.13,
+              "top": 231.82,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "snappedFrame": {
+              "left": 350.13,
+              "top": 231.82,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "children": [],
+            "text": "真实流程\n直接服务工程资料查询与异常处理。",
+            "transform": "none",
+            "element": {
+              "aid": "sh/4jmx4vid",
+              "id": "8",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.8",
+            "kind": "text",
+            "name": "Content-Placeholder-17-10",
+            "position": {
+              "left": 657.68,
+              "top": 231.82
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 272.54
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 148.62
+              }
+            },
+            "intrinsicSize": {
+              "width": 272.54,
+              "height": 148.62
+            },
+            "frame": {
+              "left": 657.68,
+              "top": 231.82,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "snappedFrame": {
+              "left": 657.68,
+              "top": 231.82,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "children": [],
+            "text": "多格式连接\n汇集Excel、PPT等分散资料。",
+            "transform": "none",
+            "element": {
+              "aid": "sh/pkved0zi",
+              "id": "9",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.9",
+            "kind": "text",
+            "name": "Text-Placeholder-18-11",
+            "position": {
+              "left": 966.48,
+              "top": 231.82
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 272.54
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 148.62
+              }
+            },
+            "intrinsicSize": {
+              "width": 272.54,
+              "height": 148.62
+            },
+            "frame": {
+              "left": 966.48,
+              "top": 231.82,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "snappedFrame": {
+              "left": 966.48,
+              "top": 231.82,
+              "width": 272.54,
+              "height": 148.62
+            },
+            "children": [],
+            "text": "统一入口\n降低文件名和路径记忆门槛。",
+            "transform": "none",
+            "element": {
+              "aid": "sh/h83q5o7u",
+              "id": "10",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 41.33,
+              "top": 436.86,
+              "width": 272.54,
+              "height": 148.62
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 350.13,
+              "top": 436.86,
+              "width": 272.54,
+              "height": 148.62
+            }
+          },
+          {
+            "path": "0.4",
+            "frame": {
+              "left": 657.68,
+              "top": 436.86,
+              "width": 272.54,
+              "height": 148.62
+            }
+          },
+          {
+            "path": "0.5",
+            "frame": {
+              "left": 966.48,
+              "top": 436.86,
+              "width": 272.54,
+              "height": 148.62
+            }
+          },
+          {
+            "path": "0.6",
+            "frame": {
+              "left": 41.33,
+              "top": 231.82,
+              "width": 272.54,
+              "height": 148.62
+            }
+          },
+          {
+            "path": "0.7",
+            "frame": {
+              "left": 350.13,
+              "top": 231.82,
+              "width": 272.54,
+              "height": 148.62
+            }
+          },
+          {
+            "path": "0.8",
+            "frame": {
+              "left": 657.68,
+              "top": 231.82,
+              "width": 272.54,
+              "height": 148.62
+            }
+          },
+          {
+            "path": "0.9",
+            "frame": {
+              "left": 966.48,
+              "top": 231.82,
+              "width": 272.54,
+              "height": 148.62
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

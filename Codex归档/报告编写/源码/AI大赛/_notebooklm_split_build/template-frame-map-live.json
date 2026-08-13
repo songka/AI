@@ -1,0 +1,13 @@
+{
+  "outputSlides": [
+    {"outputSlide":1,"sourceSlide":1,"narrativeRole":"封面与团队身份","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":2,"sourceSlide":5,"narrativeRole":"设计理念与人机边界","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":3,"sourceSlide":2,"narrativeRole":"AI占比与开发流程覆盖","reuseMode":"duplicate-slide","editTargets":[{"sourceElementId":"nt/hwbqtkby","action":"rewrite","reason":"加入播放视频的现场衔接语"}]},
+    {"outputSlide":4,"sourceSlide":18,"narrativeRole":"视频后的综合成果与效益","reuseMode":"duplicate-slide","editTargets":[{"sourceElementId":"nt/y5wne50z","action":"rewrite","reason":"加入视频结束后的现场衔接语"}]},
+    {"outputSlide":5,"sourceSlide":13,"narrativeRole":"可扩展性","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":6,"sourceSlide":20,"narrativeRole":"最终结论","reuseMode":"duplicate-slide","editTargets":[]}
+  ],
+  "omittedSourceSlides": [
+    {"sourceSlide":3,"reason":"中段视频素材"},{"sourceSlide":4,"reason":"中段视频素材"},{"sourceSlide":6,"reason":"避免重复成果转场"},{"sourceSlide":7,"reason":"中段视频素材"},{"sourceSlide":8,"reason":"中段视频素材"},{"sourceSlide":9,"reason":"中段视频素材"},{"sourceSlide":10,"reason":"中段视频素材"},{"sourceSlide":11,"reason":"中段视频素材"},{"sourceSlide":12,"reason":"中段视频素材"},{"sourceSlide":14,"reason":"中段视频素材"},{"sourceSlide":15,"reason":"中段视频素材"},{"sourceSlide":16,"reason":"中段视频素材"},{"sourceSlide":17,"reason":"中段视频素材"},{"sourceSlide":19,"reason":"结论页已收束方法"}
+  ]
+}

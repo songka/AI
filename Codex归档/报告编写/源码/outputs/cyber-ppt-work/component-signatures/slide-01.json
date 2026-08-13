@@ -1,0 +1,59 @@
+{
+  "schema": "cyberppt.blueprint_component_signature.v1",
+  "slide": 1,
+  "locked": true,
+  "blueprint_path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\outputs\\cyber-ppt-work\\blueprints\\slide-01.png",
+  "blueprint_sha256": "91dffe9f40421b23f7b536cc12328a40716261d2773872079ad21a8a5bfa39bb",
+  "content_lock_path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\outputs\\cyber-ppt-work\\slide_content_lock.json",
+  "content_lock_sha256": "b199661dc2875c54081fccb8ec7a287f18414664d7bee6916df511c9069d59da",
+  "component_annotation_path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\outputs\\cyber-ppt-work\\components\\slide-01-components.json",
+  "component_annotation_sha256": "9117a1a9969dd86cb760aab0b08039a7423d6271ba1a9d92854ef6b0469d4f0b",
+  "components": [
+    {
+      "id": "cover_brand_frame",
+      "type": "template_chrome",
+      "priority": "P0",
+      "must_preserve_type": true,
+      "required_subcomponents": [
+        "original company cover background",
+        "VISION panel",
+        "MPT logo",
+        "copyright footer"
+      ],
+      "structure": "original company cover background, VISION panel, logo and copyright",
+      "content_lock_refs": [
+        "slides[0].required_components"
+      ]
+    },
+    {
+      "id": "cover_title",
+      "type": "editable_text",
+      "priority": "P0",
+      "must_preserve_type": true,
+      "required_subcomponents": [
+        "single-line title"
+      ],
+      "structure": "single-line cover title",
+      "content_lock_refs": [
+        "slides[0].title"
+      ]
+    },
+    {
+      "id": "cover_context",
+      "type": "editable_text_group",
+      "priority": "P1",
+      "must_preserve_type": true,
+      "required_subcomponents": [
+        "context statement 1",
+        "context statement 2",
+        "context statement 3"
+      ],
+      "structure": "three concise statements in inherited context placeholder",
+      "content_lock_refs": [
+        "slides[0].subtitle",
+        "slides[0].context"
+      ]
+    }
+  ],
+  "validation_failures": []
+}

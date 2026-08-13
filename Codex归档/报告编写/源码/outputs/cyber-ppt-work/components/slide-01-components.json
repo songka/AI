@@ -1,0 +1,7 @@
+{
+  "components": [
+    {"id":"cover_brand_frame","type":"template_chrome","priority":"P0","must_preserve_type":true,"required_subcomponents":["original company cover background","VISION panel","MPT logo","copyright footer"],"structure":"original company cover background, VISION panel, logo and copyright","content_lock_refs":["slides[0].required_components"]},
+    {"id":"cover_title","type":"editable_text","priority":"P0","must_preserve_type":true,"required_subcomponents":["single-line title"],"structure":"single-line cover title","content_lock_refs":["slides[0].title"]},
+    {"id":"cover_context","type":"editable_text_group","priority":"P1","must_preserve_type":true,"required_subcomponents":["context statement 1","context statement 2","context statement 3"],"structure":"three concise statements in inherited context placeholder","content_lock_refs":["slides[0].subtitle","slides[0].context"]}
+  ]
+}

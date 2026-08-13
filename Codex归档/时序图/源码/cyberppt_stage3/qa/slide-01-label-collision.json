@@ -1,0 +1,13 @@
+{
+  "slide": 1,
+  "passed": true,
+  "checked_regions": [
+    "cover-title-stack",
+    "timing-ai-visual",
+    "version-block",
+    "footer"
+  ],
+  "collisions": [],
+  "allowed_text_overlaps": [],
+  "evidence_render": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage3/renders/slide-01.png"
+}

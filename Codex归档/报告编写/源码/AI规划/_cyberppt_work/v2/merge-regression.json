@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "page": "slide-01.png",
+      "mean_abs_diff": 2.278,
+      "threshold": 6.0
+    },
+    {
+      "page": "slide-02.png",
+      "mean_abs_diff": 2.231,
+      "threshold": 6.0
+    },
+    {
+      "page": "slide-03.png",
+      "mean_abs_diff": 4.84,
+      "threshold": 6.0
+    },
+    {
+      "page": "slide-04.png",
+      "mean_abs_diff": 4.695,
+      "threshold": 6.0
+    },
+    {
+      "page": "slide-05.png",
+      "mean_abs_diff": 3.139,
+      "threshold": 6.0
+    },
+    {
+      "page": "slide-06.png",
+      "mean_abs_diff": 5.944,
+      "threshold": 6.0
+    },
+    {
+      "page": "slide-07.png",
+      "mean_abs_diff": 5.179,
+      "threshold": 6.0
+    }
+  ],
+  "failures": []
+}

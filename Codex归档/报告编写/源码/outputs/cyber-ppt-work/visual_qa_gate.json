@@ -1,0 +1,39 @@
+{
+  "slides":[
+    {
+      "slide":1,
+      "blueprint_render_path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/blueprints/slide-01.png",
+      "ppt_render_path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/renders/slide-01.png",
+      "side_by_side_comparison_path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/qa/slide-01/overlay.png",
+      "local_overlay_artifacts":["C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/qa/slide-01/overlay.png"],
+      "measurement_evidence_path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/visual-element-registries/slide-01.json",
+      "spatial_numeric_check_path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/qa/slide-01/bbox-pixel-diff.json",
+      "component_signature_check_path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/component-signatures/slide-01.json",
+      "visual_element_registry_path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/visual-element-registries/slide-01.json",
+      "bbox_delta_report_path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/qa/slide-01/bbox-pixel-diff.json",
+      "overlay_comparison_path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/qa/slide-01/overlay.png",
+      "pixel_diff_report_path":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/qa/slide-01/bbox-pixel-diff.json",
+      "local_crop_comparisons":[],
+      "visual_differences":[
+        {"severity":"High","element":"cover_date","difference":"approved blueprint includes 2026年7月; inherited original cover has no dedicated date placeholder","resolution":"awaiting user decision; original template preserved"},
+        {"severity":"Medium","element":"cover_title/context typography","difference":"ImageGen blueprint typography is not pixel-identical to inherited original template","resolution":"original template typography retained per user instruction"}
+      ],
+      "evidence":{"surface_system_match":"original inherited template","main_chart_semantics_match":"not applicable","visual_semantics_preserved":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/renders/slide-01.png","editable_information_layer_pass":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/slide_manifest.json","spatial_registration_pass":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/qa/slide-01/bbox-pixel-diff.json","curve_fidelity_pass":{"not_applicable":true},"label_collision_pass":{"passed":true},"text_overflow_pass":{"passed":true},"container_overflow_pass":{"passed":true},"continuous_text_flow_pass":{"passed":true},"table_semantic_typography_pass":{"not_applicable":true},"table_density_pass":{"not_applicable":true},"blueprint_background_not_used":"C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/slide_manifest.json"},
+      "surface_system_match":true,
+      "main_chart_semantics_match":true,
+      "visual_semantics_preserved":true,
+      "editable_information_layer_pass":true,
+      "spatial_registration_pass":false,
+      "curve_fidelity_pass":true,
+      "label_collision_pass":true,
+      "text_overflow_pass":true,
+      "container_overflow_pass":true,
+      "continuous_text_flow_pass":true,
+      "table_semantic_typography_pass":true,
+      "table_density_pass":true,
+      "blueprint_background_not_used":true,
+      "deliverable_allowed":false,
+      "notes":["Waiting for user confirmation of exact original-template cover and omitted date line."]
+    }
+  ]
+}

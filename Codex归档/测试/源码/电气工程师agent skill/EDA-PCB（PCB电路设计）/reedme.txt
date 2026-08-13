@@ -1,0 +1,214 @@
+PCB布局与布线。组件布置、走线布线、铜浇注、设计规则配置以及制造性布局优化。
+EDA印刷电路板技能
+印刷电路板布局、元件布置和布线。
+
+自动激活触发器
+该技能在以下情况下激活：
+
+用户要求“布局PCB”、“放置元件”、“布线走线”
+用户正在处理文件.kicad_pcb
+用户询问布置、布线、铜管浇注、通孔等问题
+项目有电路图，但没有PCB布局
+用户提到DFM、走线宽度或间隙
+上下文要求
+要求：
+
+hardware/*.kicad_sch- 带网表的完成电路图
+docs/component-selections.md- 组件详情
+docs/design-constraints.json- 板材尺寸、层数等
+datasheets/- 关于布置/布线建议
+产出：
+
+hardware/*.kicad_pcb- KiCad PCB文件
+docs/pcb-status.md- 布局进度跟踪
+工作流程
+1. 加载上下文
+@docs/design-constraints.json
+@docs/component-selections.md
+@docs/schematic-status.md
+@datasheets/ (for placement guidance)
+1.5 布局前验证
+开始布局前，请确认：
+
+检查	资料来源	失踪时的行动
+原理图ERC清理	schematic-status.md	先看完整示意图
+层数已定	design-constraints.json	参见LAYER-COUNT-DECISION.md
+已选定堆叠	design-constraints.json	参见STACKUP-DECISION.md
+棋盘尺寸	design-constraints.json	定义约束
+关键接口	design-constraints.json	USB、SPI速度等。
+热预算	design-constraints.json	已知功率耗散
+提取关键约束：
+
+{
+  "board": {
+    "layers": 4,
+    "thickness": 1.6,
+    "dimensions": {"width": 50, "height": 40}
+  },
+  "dfmTargets": {
+    "manufacturer": "JLCPCB",
+    "minTraceWidth": 0.15,
+    "minClearance": 0.15,
+    "impedanceControl": true
+  },
+  "interfaces": {
+    "usb": true,
+    "highSpeedSpi": false
+  },
+  "thermal": {
+    "maxPowerDissipation": 2.5
+  }
+}
+架构验证警告：
+
+状况	警告
+USB + 2层电路板	无法达到90Ω阻抗
+降压转换器+无地平面	EMI问题很可能
+WiFi/BLE + 2 层	天线性能下降
+高速SPI（>20MHz）+长线路	信号完整性风险
+无热量计划 + >1瓦耗散	很可能是散热问题
+2. 初始化PCB
+创建PCB文件或打开已有文件
+从原理图导入网表
+根据约束设置板框
+配置层叠加
+套装设计规则
+3. 配置设计规则
+制定适合制造商的规则：
+
+JLCPCB standard:
+- Min trace width: 0.127mm (5mil)
+- Min clearance: 0.127mm (5mil)
+- Min via drill: 0.3mm
+- Min via annular ring: 0.13mm
+4. 地点组成部分
+优先顺序：
+
+固定位置物品——连接器（边缘）、安装孔
+MCU/主集成电路 - 中央位置
+晶体/振荡器 - 距离MCU不到5毫米
+电源元件——近距离输入，热量考虑
+解耦电容——邻近集成电路电源引脚
+灵敏模拟——远离嘈杂的数字信号
+剩余组件——按功能分组
+详见详细指南。reference/PLACEMENT-STRATEGY.md
+
+5. 优先处理路线关键信号
+优先级：
+
+动力输出（宽线，倒水）
+晶体/振荡器（短，有保护）
+USB差动对（90Ω阻抗）
+高速信号（长度匹配）
+灵敏的模拟（远离数字）
+一般信号
+请参见走量宽度和间隙指南。reference/ROUTING-RULES.md
+
+6. 制作铜浇
+GND浇注在底层（两层）
+或者GND在第2层，通电在第3层（4层）
+刹车垫上的热缓解
+平面连续性用缝孔
+7. 路线剩余信号
+遵循示意图分组
+最小化通孔
+避免锐角（使用45°角）
+保持线路长度合理
+8. DRC检查
+运行设计规则检查
+修复违规
+记录有意的例外
+9. 视觉评论
+生成板子图像
+检查丝印可读性
+验证组件方向标记
+制造问题审查
+10. 预生产评审
+订购前的验证清单：
+
+类别	检查	参考文献
+刚果民主共和国	0个错误，0个警告	DRC-VIOLATIONS-GUIDE.md
+清理	满足制造商最低要求	DFM-RULES.md
+通路尺寸	钻头≥ 0.3毫米（JLCPCB标准）	DFM-RULES.md
+环形环	≥ 0.13毫米（1盎司铜）	DFM-RULES.md
+走线宽度	电流尺寸的电力线路	ROUTING-RULES.md
+USB线路	90Ω阻抗，长度匹配	HIGH-SPEED-ROUTING.md
+丝印	不在平板上，是可读的	视觉检查
+董事会大纲	封闭形状，适当间隙	DFM-RULES.md
+热验证：
+
+动力元件具有热缓解功能
+QFN/导热垫下的热过孔
+连接铜浇注的散热区
+没有热瓶颈（高电流时用窄线）
+信号完整性验证：
+
+实地高速信号
+未被分裂切断的返回路径
+水晶区戒备森严，无踪迹穿越
+天线阻挡权尊重（如适用）
+输出格式
+pcb-status.md
+# PCB Layout Status
+
+Project: [name]
+Updated: [date]
+
+## Board Specifications
+- Size: X × Y mm
+- Layers: N
+- Thickness: 1.6mm
+
+## Progress
+- [x] Board outline defined
+- [x] Mounting holes placed
+- [x] Critical components placed
+- [x] All components placed
+- [ ] Power routing complete
+- [ ] Signal routing complete
+- [ ] Copper pours added
+- [ ] DRC clean
+
+## Layer Usage
+| Layer | Usage |
+|-------|-------|
+| F.Cu | Signals, components |
+| B.Cu | GND pour, some signals |
+
+## DRC Status
+- Errors: X
+- Warnings: Y
+- Unrouted nets: Z
+
+## Design Rules
+- Trace width: 0.2mm (signals), 0.5mm (power)
+- Clearance: 0.2mm
+- Via: 0.3mm drill, 0.6mm pad
+
+## Notes
+- [Any special considerations]
+
+## Next Steps
+- [What remains to be done]
+指导方针
+一定要查看数据手册中的推荐布局
+保持高电流路径短且宽
+在敏感信号下保持地平面完整性
+尽早考虑热管理
+在布局时经常使用DRC
+参考文献
+文件	目的
+reference/PLACEMENT-STRATEGY.md	组件布置指南
+reference/ROUTING-RULES.md	走线宽度与路由规则
+reference/EMI-CONSIDERATIONS.md	EMI/EMC 最佳实践
+reference/DFM-RULES.md	制造规则设计
+reference/DRC-VIOLATIONS-GUIDE.md	常见的DRC错误与修复
+reference/STACKUP-DECISION.md	层叠选
+reference/HIGH-SPEED-ROUTING.md	USB、SPI、I2C、天线路由
+上游文档：
+
+文件	提取内容
+LAYER-COUNT-DECISION.md（EDA建筑师）	层数原理
+THERMAL-BUDGET.md（EDA建筑师）	功率耗散极限
+DECOUPLING-STRATEGY.md（EDA-研究）	电容值与位置
+SCHEMATIC-REVIEW-CHECKLIST.md（EDA示意图）	布局前验证

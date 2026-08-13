@@ -1,0 +1,16 @@
+permissions:
+  quotation.create: {name: 建立报价, category: quotation, description: 允许建立新报价}
+  quotation.view: {name: 查看报价, category: quotation, description: 允许查看报价}
+  quotation.view_cost: {name: 查看成本明细, category: quotation, description: 允许查看成本}
+  quotation.export: {name: 导出报价, category: quotation, description: 允许导出报价}
+  quotation.delete: {name: 删除报价, category: quotation, description: 允许删除报价}
+  rule.view: {name: 查看规则, category: rule, description: 允许查看报价规则}
+  rule.modify: {name: 修改规则, category: rule, description: 允许提交规则修改申请}
+  rule.approve: {name: 审核发布, category: rule, description: 允许审核并发布变更}
+  price.view_cost: {name: 查看成本价格, category: price, description: 允许查看成本价格}
+  price.modify: {name: 修改价格, category: price, description: 允许提交价格修改申请}
+  user.manage: {name: 管理用户, category: user, description: 允许管理用户}
+  user.view: {name: 查看用户, category: user, description: 允许查看用户列表}
+  system.audit_log: {name: 查看审计日志, category: system, description: 允许查看审计日志}
+  system.config: {name: 系统配置, category: system, description: 允许修改系统配置}
+  skill.debug.view: {name: 查看 Skill 调试, category: system, description: 允许查看内置及外接 Skill 的实际输入、输出和验收信息}

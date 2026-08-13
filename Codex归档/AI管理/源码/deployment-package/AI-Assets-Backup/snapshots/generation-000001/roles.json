@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "defaultRole": "user",
+  "roles": {
+    "administrator": {
+      "description": "维护账户映射、策略、紧急恢复和审计；拥有全部管理动作。",
+      "accounts": [
+        "GETACAD\\lfaf-test",
+        "lfaf-test\\lfaf-test"
+      ],
+      "actions": [
+        "catalog.manage",
+        "accounts.manage",
+        "candidate.review",
+        "release.publish",
+        "repository.mirror",
+        "repository.recover",
+        "audit.read",
+        "asset.list",
+        "asset.install",
+        "asset.activate",
+        "candidate.submit"
+      ]
+    },
+    "reviewer": {
+      "description": "检查候选版本、依赖、制品和试点结果，只作审核决定。",
+      "accounts": [],
+      "actions": [
+        "candidate.review",
+        "audit.read",
+        "asset.list",
+        "asset.install",
+        "asset.activate",
+        "candidate.submit"
+      ]
+    },
+    "publisher": {
+      "description": "发布已通过审核的版本、签名并从备份槽单向同步到公开槽。",
+      "accounts": [],
+      "actions": [
+        "release.publish",
+        "repository.mirror",
+        "audit.read",
+        "asset.list",
+        "asset.install",
+        "asset.activate",
+        "candidate.submit"
+      ]
+    },
+    "user": {
+      "description": "查询、安装、切换统一版本，并提交自己的候选更新。",
+      "accounts": [],
+      "actions": [
+        "asset.list",
+        "asset.install",
+        "asset.activate",
+        "candidate.submit"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slide": 1,
+  "blueprint_path": "C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/blueprints/slide-01.png",
+  "canvas_size": {"blueprint_px":{"w":1672,"h":941},"ppt_px":{"w":1280,"h":720},"aspect_ratio":"16:9"},
+  "background_color_sample": "original company cover raster",
+  "surface_system": "original MPT section-header layout, preserved without redraw",
+  "layout_regions": ["left VISION brand panel","right title","right context statements","bottom copyright","bottom-right MPT logo"],
+  "header_footer_system": "original copyright and logo retained from inherited template",
+  "so_what_region": "not applicable on cover",
+  "main_chart_semantics": "not applicable on cover",
+  "density_targets": "low-density cover; one title and three context statements",
+  "anchor_targets": ["VISION center","title baseline","context left edge","MPT logo","copyright baseline"],
+  "native_rebuild_targets": ["cover title","context statements"],
+  "allowed_visual_assets": [{"region":"company cover background and MPT logo","reason":"authentic inherited template assets","editable_information_sacrificed":false}],
+  "complex_visual_scan": {"completed":true,"complex_visual_candidates":["original company cover background","authentic MPT logo"],"triggered_gates":["template-fidelity","spatial-registration"],"native_only_rationale":null,"pictures_zero_is_not_goal":true},
+  "template_rule": "preserve original company cover, logo and footer exactly",
+  "language_metadata": {"target_language":"简体中文","language_source":"conversation","effective_language":"简体中文","language_overrides":[],"allowed_foreign_terms":["VISION","MPT"]}
+}

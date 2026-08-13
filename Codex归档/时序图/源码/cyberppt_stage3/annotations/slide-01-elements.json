@@ -1,0 +1,148 @@
+{
+  "elements": [
+    {
+      "element_id": "s01_bg",
+      "priority": "P0",
+      "element_type": "background",
+      "source_component_id": "s01_surface_system",
+      "blueprint_bbox_px": {"x": 0, "y": 0, "w": 1672, "h": 941},
+      "measurement_mode": "individual_bbox",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_top_accent",
+      "priority": "P2",
+      "element_type": "decorative_rule",
+      "source_component_id": "s01_surface_system",
+      "blueprint_bbox_px": {"x": 74, "y": 84, "w": 91, "h": 8},
+      "measurement_mode": "decoration_group",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_title",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "s01_cover_title",
+      "blueprint_bbox_px": {"x": 78, "y": 177, "w": 900, "h": 179},
+      "measurement_mode": "individual_bbox",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_title_rule",
+      "priority": "P1",
+      "element_type": "divider_line",
+      "source_component_id": "s01_cover_title",
+      "blueprint_bbox_px": {"x": 78, "y": 397, "w": 742, "h": 3},
+      "measurement_mode": "individual_bbox",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_subtitle",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "s01_cover_title",
+      "blueprint_bbox_px": {"x": 80, "y": 451, "w": 737, "h": 44},
+      "measurement_mode": "individual_bbox",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_supporting_line",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "s01_cover_title",
+      "blueprint_bbox_px": {"x": 79, "y": 521, "w": 725, "h": 33},
+      "measurement_mode": "individual_bbox",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_version_icon",
+      "priority": "P1",
+      "element_type": "outline_icon",
+      "source_component_id": "s01_version_block",
+      "blueprint_bbox_px": {"x": 80, "y": 700, "w": 54, "h": 54},
+      "measurement_mode": "individual_bbox",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_version_divider",
+      "priority": "P2",
+      "element_type": "divider_line",
+      "source_component_id": "s01_version_block",
+      "blueprint_bbox_px": {"x": 162, "y": 697, "w": 3, "h": 75},
+      "measurement_mode": "decoration_group",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_version_label",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "s01_version_block",
+      "blueprint_bbox_px": {"x": 191, "y": 703, "w": 203, "h": 33},
+      "measurement_mode": "individual_bbox",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_date",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "s01_version_block",
+      "blueprint_bbox_px": {"x": 191, "y": 747, "w": 120, "h": 31},
+      "measurement_mode": "individual_bbox",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_visual_group",
+      "priority": "P0",
+      "element_type": "diagram_group",
+      "source_component_id": "s01_timing_ai_visual",
+      "blueprint_bbox_px": {"x": 988, "y": 292, "w": 612, "h": 474},
+      "measurement_mode": "group_with_child_anchors",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_visual_left_icons",
+      "priority": "P1",
+      "element_type": "icon_column",
+      "source_component_id": "s01_timing_ai_visual",
+      "blueprint_bbox_px": {"x": 990, "y": 383, "w": 49, "h": 375},
+      "measurement_mode": "group_with_child_anchors",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_timing_rows",
+      "priority": "P0",
+      "element_type": "timing_trace_group",
+      "source_component_id": "s01_timing_ai_visual",
+      "blueprint_bbox_px": {"x": 1049, "y": 389, "w": 543, "h": 357},
+      "measurement_mode": "group_with_child_anchors",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_ai_core",
+      "priority": "P0",
+      "element_type": "ai_core_target",
+      "source_component_id": "s01_timing_ai_visual",
+      "blueprint_bbox_px": {"x": 1436, "y": 542, "w": 167, "h": 177},
+      "measurement_mode": "individual_bbox",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_footer_rule",
+      "priority": "P0",
+      "element_type": "footer_rule",
+      "source_component_id": "s01_footer",
+      "blueprint_bbox_px": {"x": 46, "y": 866, "w": 1582, "h": 3},
+      "measurement_mode": "individual_bbox",
+      "must_reproduce": true
+    },
+    {
+      "element_id": "s01_page_badge",
+      "priority": "P0",
+      "element_type": "page_badge",
+      "source_component_id": "s01_footer",
+      "blueprint_bbox_px": {"x": 1572, "y": 884, "w": 60, "h": 38},
+      "measurement_mode": "individual_bbox",
+      "must_reproduce": true
+    }
+  ]
+}

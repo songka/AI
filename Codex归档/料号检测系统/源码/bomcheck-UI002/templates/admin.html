@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card">
+    <h2>配置</h2>
+    <form action="/admin/config/save" method="post" class="form-grid">
+        <label>失效料号库</label>
+        <input type="text" name="invalid_part_db" value="{{ config.invalid_part_db }}">
+        <label>绑定库</label>
+        <input type="text" name="binding_library" value="{{ config.binding_library }}">
+        <label>重要物料</label>
+        <input type="text" name="important_materials" value="{{ config.important_materials }}">
+        <label>屏蔽申请人</label>
+        <input type="text" name="blocked_applicants" value="{{ config.blocked_applicants }}">
+        <label>系统料号文件</label>
+        <input type="text" name="system_part_db" value="{{ config.system_part_db }}">
+        <label>资源目录</label>
+        <input type="text" name="part_asset_dir" value="{{ config.part_asset_dir }}">
+        <button type="submit">保存配置</button>
+    </form>
+</section>
+
+<section class="card">
+    <h2>数据文件</h2>
+    <div class="grid-cols">
+        <div class="card nested">
+            <h3>失效料号库</h3>
+            <form action="/admin/data/upload/invalid" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" accept=".xlsx,.xlsm" required>
+                <button type="submit">上传</button>
+            </form>
+            <a href="/admin/data/download/invalid" class="button">下载</a>
+        </div>
+        <div class="card nested">
+            <h3>绑定库</h3>
+            <form action="/admin/data/upload/binding" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" accept=".json,.js" required>
+                <button type="submit">上传</button>
+            </form>
+            <a href="/admin/data/download/binding" class="button">下载</a>
+        </div>
+        <div class="card nested">
+            <h3>重要物料</h3>
+            <form action="/admin/data/upload/important" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" accept=".txt" required>
+                <button type="submit">上传</button>
+            </form>
+            <a href="/admin/data/download/important" class="button">下载</a>
+        </div>
+        <div class="card nested">
+            <h3>屏蔽申请人</h3>
+            <form action="/admin/data/upload/blocked" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" accept=".txt,.json" required>
+                <button type="submit">上传</button>
+            </form>
+            <a href="/admin/data/download/blocked" class="button">下载</a>
+        </div>
+        <div class="card nested">
+            <h3>系统料号文件</h3>
+            <form action="/admin/data/upload/system" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" accept=".tsv,.txt,.xlsx,.xlsm" required>
+                <button type="submit">上传</button>
+            </form>
+            <a href="/admin/data/download/system" class="button">下载</a>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,37 @@
+# Test rules for unit tests — isolated from production current-version-pointer.json
+version: "1.0-TEST"
+status: "PUBLISHED"
+note: "Test rules only. NOT for production."
+
+material:
+  S50C:
+    price: 9
+    unit: kg
+  A6061-T6:
+    price: 38
+    unit: kg
+  SUS304:
+    price: 28
+    unit: kg
+  SPCC:
+    price: 8
+    unit: kg
+  鋁型材40x40:
+    price: 30
+    unit: m
+
+process:
+  CNC:
+    rate: 80
+    unit: hour
+  鉗工:
+    rate: 88
+    unit: hour
+
+surface:
+  鍍鉻:
+    price: 5
+    unit: kg
+  熱處理:
+    price: 11
+    unit: kg

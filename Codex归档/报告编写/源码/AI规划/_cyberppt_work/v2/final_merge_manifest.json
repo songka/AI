@@ -1,0 +1,19 @@
+{
+  "method": "merge_imported_single_page_pptx",
+  "source_single_page_pptx": [
+    "C:\\Users\\lfaf-test\\Documents\\报告编写\\AI规划\\_cyberppt_work\\v2\\pages\\slide-01\\slide-01.pptx",
+    "C:\\Users\\lfaf-test\\Documents\\报告编写\\AI规划\\_cyberppt_work\\v2\\pages\\slide-02\\slide-02.pptx",
+    "C:\\Users\\lfaf-test\\Documents\\报告编写\\AI规划\\_cyberppt_work\\v2\\pages\\slide-03\\slide-03.pptx",
+    "C:\\Users\\lfaf-test\\Documents\\报告编写\\AI规划\\_cyberppt_work\\v2\\pages\\slide-04\\slide-04.pptx",
+    "C:\\Users\\lfaf-test\\Documents\\报告编写\\AI规划\\_cyberppt_work\\v2\\pages\\slide-05\\slide-05.pptx",
+    "C:\\Users\\lfaf-test\\Documents\\报告编写\\AI规划\\_cyberppt_work\\v2\\pages\\slide-06\\slide-06.pptx",
+    "C:\\Users\\lfaf-test\\Documents\\报告编写\\AI规划\\_cyberppt_work\\v2\\pages\\slide-07\\slide-07.pptx"
+  ],
+  "regenerated_pages": false,
+  "merged_slide_count": 7,
+  "merge_regression_rendered": true,
+  "merge_regression_pass": true,
+  "merge_regression_threshold": 6.0,
+  "merge_regression_report": "C:/Users/lfaf-test/Documents/报告编写/AI规划/_cyberppt_work/v2/merge-regression.json",
+  "output": "C:/Users/lfaf-test/Documents/报告编写/AI规划/内部AI框架与五类Skill建设规划_老板汇报精简版.pptx"
+}

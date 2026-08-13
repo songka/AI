@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-08-06T11:02:47.101544",
+  "root": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\dist\\MechanicalQuotation",
+  "summary": {
+    "passed": 14,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "程式根目錄",
+      "ok": true,
+      "detail": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\dist\\MechanicalQuotation"
+    },
+    {
+      "name": "正式價格版本指標",
+      "ok": true,
+      "detail": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\dist\\MechanicalQuotation\\data\\current-version-pointer.json"
+    },
+    {
+      "name": "正式价格表",
+      "ok": true,
+      "detail": "R01-COMPANY-PRICE-V1.1"
+    },
+    {
+      "name": "价格表完整性校验",
+      "ok": true,
+      "detail": "15d5ada623b3a2106129c7dbbc278fc5b722da821d323a31b5809d176cd10ae3"
+    },
+    {
+      "name": "DeepSeek 密钥外置文件路径",
+      "ok": true,
+      "detail": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\dist\\MechanicalQuotation\\runtime\\secrets\\deepseek_api_key.txt"
+    },
+    {
+      "name": "DeepSeek AI 配置",
+      "ok": true,
+      "detail": "密钥已配置且不会写入软件设置或清单"
+    },
+    {
+      "name": "外接 Skill 协议",
+      "ok": true,
+      "detail": "支持 HTTP、本地文件夹和 SMB 公共槽文件夹"
+    },
+    {
+      "name": "设置目录",
+      "ok": true,
+      "detail": "密钥与非敏感设置分离"
+    },
+    {
+      "name": "输出目录",
+      "ok": true,
+      "detail": "C:\\Users\\lfaf-test\\Documents\\报价系统\\MechanicalQuotation\\dist\\MechanicalQuotation\\exports"
+    },
+    {
+      "name": "DWG 转换器",
+      "ok": true,
+      "detail": "包内 ODA 已配置（仅限获授权电脑）"
+    },
+    {
+      "name": "正式价格加载器",
+      "ok": true,
+      "detail": "R01-COMPANY-PRICE-V1.1"
+    },
+    {
+      "name": "桌面界面",
+      "ok": true,
+      "detail": "可载入"
+    },
+    {
+      "name": "接口服务",
+      "ok": true,
+      "detail": "接口文档可生成"
+    },
+    {
+      "name": "扫描 PDF 本地识别",
+      "ok": true,
+      "detail": "PyMuPDF、RapidOCR 与 ONNX Runtime 可载入"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "bom_item": "UC1004001887",
+  "bounding_box": {
+    "length_min": 714.6,
+    "length_max": 873.4000000000001,
+    "width_min": 180.0,
+    "width_max": 220.00000000000003,
+    "height_min": 13.5,
+    "height_max": 16.5
+  },
+  "material": {
+    "text_contains": [
+      "SPCC"
+    ],
+    "source": "DRAWING_TEXT",
+    "confidence_min": 0.5
+  },
+  "surface_treatment": {
+    "present": true,
+    "source": "DRAWING_TEXT"
+  },
+  "holes": {
+    "count_min": 2
+  },
+  "threads": {
+    "present": false
+  }
+}

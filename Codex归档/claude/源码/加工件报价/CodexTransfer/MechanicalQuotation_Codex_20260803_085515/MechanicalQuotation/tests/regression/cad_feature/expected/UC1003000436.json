@@ -1,0 +1,29 @@
+{
+  "bom_item": "UC1003000436",
+  "bounding_box": {
+    "length_min": 1260.0,
+    "length_max": 1540.0000000000002,
+    "width_min": 1170.0,
+    "width_max": 1430.0000000000002,
+    "height_min": 706.5,
+    "height_max": 863.5000000000001
+  },
+  "material": {
+    "text_contains": [
+      "普通鋼"
+    ],
+    "source": "DRAWING_TEXT",
+    "confidence_min": 0.5
+  },
+  "surface_treatment": {
+    "present": true,
+    "source": "DRAWING_TEXT"
+  },
+  "holes": {
+    "count_min": 8
+  },
+  "threads": {
+    "present": true,
+    "spec_contains": "M8"
+  }
+}

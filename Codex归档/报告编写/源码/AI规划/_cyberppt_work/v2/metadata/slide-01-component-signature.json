@@ -1,0 +1,78 @@
+{
+  "schema": "cyberppt.blueprint_component_signature.v1",
+  "slide": 1,
+  "locked": true,
+  "blueprint_path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\AI规划\\_cyberppt_work\\v2\\blueprints\\slide-01.png",
+  "blueprint_sha256": "6ce41f34f73ffe1383fb54be67606b28948a271e469529f27d81346967cec612",
+  "content_lock_path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\AI规划\\_cyberppt_work\\v2\\slide_content_lock_v2.json",
+  "content_lock_sha256": "13029a84a57bc110b6be8b10160bb12c8da368dcc427c314228d5e2f1c17ab14",
+  "component_annotation_path": "C:\\Users\\lfaf-test\\Documents\\报告编写\\AI规划\\_cyberppt_work\\v2\\metadata\\slide-01-components.json",
+  "component_annotation_sha256": "bc7d1474e95c59117936a232d0f79a8c40406b27893b80ab99e1d1402ca45c75",
+  "components": [
+    {
+      "id": "header",
+      "type": "header-band",
+      "priority": "P1",
+      "must_preserve_type": true,
+      "required_subcomponents": [
+        "left-eyebrow",
+        "right-tagline",
+        "divider"
+      ]
+    },
+    {
+      "id": "title-block",
+      "type": "native-text-group",
+      "priority": "P0",
+      "must_preserve_type": true,
+      "required_subcomponents": [
+        "title-line-1",
+        "title-line-2",
+        "subtitle-line-1",
+        "subtitle-line-2",
+        "accent-rule",
+        "report-date"
+      ]
+    },
+    {
+      "id": "framework-hero",
+      "type": "native-architecture-illustration",
+      "priority": "P0",
+      "must_preserve_type": true,
+      "required_subcomponents": [
+        "pc-1",
+        "pc-2",
+        "pc-3",
+        "connectors",
+        "deepseek-core",
+        "smb-share",
+        "share-node"
+      ]
+    },
+    {
+      "id": "technical-decoration",
+      "type": "decorative-linework",
+      "priority": "P2",
+      "must_preserve_type": true,
+      "required_subcomponents": [
+        "orbit",
+        "robot-arm",
+        "plc",
+        "gears",
+        "construction-lines"
+      ]
+    },
+    {
+      "id": "footer",
+      "type": "footer-band",
+      "priority": "P1",
+      "must_preserve_type": true,
+      "required_subcomponents": [
+        "footer-rule",
+        "source",
+        "page-number"
+      ]
+    }
+  ],
+  "validation_failures": []
+}

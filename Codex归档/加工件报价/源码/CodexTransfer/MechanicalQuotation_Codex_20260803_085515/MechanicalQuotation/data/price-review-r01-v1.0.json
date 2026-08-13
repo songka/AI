@@ -1,0 +1,2763 @@
+{
+  "generated_at": "2026-08-01T06:32:41.463432+00:00",
+  "source_package": "rules\\imports\\r01-v1.0",
+  "package_sha256": "d4b6943a5c9f8329d45154035573a531ef0c08effcde003eed273cd2ce0b2bf8",
+  "company_price_candidates": [
+    {
+      "canonical_material_code": "40Cr",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-1D72A7B117DC40",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 15.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K23",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-C1992F48A1B3FC",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 32.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L23",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "4Cr13",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 4,
+      "candidate_sources": [
+        {
+          "record_id": "PR-28C25E1F4954F8",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 28.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K21",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-A43694B0C00F72",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 30.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L21",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-13700F3147034B",
+          "supplier_id": null,
+          "supplier_name": null,
+          "source_price_book": "WS1_INTERNAL_MATERIAL_UNTAXED",
+          "unit_price": 28.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F227",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "H"
+        },
+        {
+          "record_id": "PR-F1556115F39265",
+          "supplier_id": "SUP-JMD",
+          "supplier_name": "捷密達",
+          "source_price_book": "WS1_JMD_MATERIAL_UNTAXED",
+          "unit_price": 13.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F243",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "738",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-31EB3AC31FEF73",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 55.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K16",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-16374D68F93819",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 15.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L16",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "A6061-T6",
+      "material_spec": "T6",
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 3,
+      "candidate_sources": [
+        {
+          "record_id": "PR-49BE7B84595EC0",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 28.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K4",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-C90183A065826E",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 35.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L4",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-A887EEADE5DB73",
+          "supplier_id": "SUP-WENDI",
+          "supplier_name": "穩迪",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 25.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "O4",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "ACRYLIC",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 3,
+      "candidate_sources": [
+        {
+          "record_id": "PR-96801FD03DF55A",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 30.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L29",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-624F6B0AA38ED6",
+          "supplier_id": null,
+          "supplier_name": null,
+          "source_price_book": "WS1_INTERNAL_MATERIAL_UNTAXED",
+          "unit_price": 28.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F228",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "H"
+        },
+        {
+          "record_id": "PR-B2C752AC10E2A4",
+          "supplier_id": "SUP-JMD",
+          "supplier_name": "捷密達",
+          "source_price_book": "WS1_JMD_MATERIAL_UNTAXED",
+          "unit_price": 25.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F245",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "ALUMINUM",
+      "material_spec": "5052",
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 1,
+      "candidate_sources": [
+        {
+          "record_id": "PR-6849C2037705E5",
+          "supplier_id": "SUP-JMD",
+          "supplier_name": "捷密達",
+          "source_price_book": "WS1_JMD_MATERIAL_UNTAXED",
+          "unit_price": 25.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F235",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "ALUMINUM",
+      "material_spec": "A6061T6",
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-B4224C37BC3576",
+          "supplier_id": null,
+          "supplier_name": null,
+          "source_price_book": "WS1_INTERNAL_MATERIAL_UNTAXED",
+          "unit_price": 33.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F220",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "H"
+        },
+        {
+          "record_id": "PR-E64F3B10625C20",
+          "supplier_id": "SUP-JMD",
+          "supplier_name": "捷密達",
+          "source_price_book": "WS1_JMD_MATERIAL_UNTAXED",
+          "unit_price": 25.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F236",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "ALUMINUM",
+      "material_spec": "普通",
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 1,
+      "candidate_sources": [
+        {
+          "record_id": "PR-4128C216919F98",
+          "supplier_id": null,
+          "supplier_name": null,
+          "source_price_book": "WS1_INTERNAL_MATERIAL_UNTAXED",
+          "unit_price": 25.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F219",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "H"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "ANGLE_STEEL",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-3585623C1A957E",
+          "supplier_id": "SUP-GUANGZHICHENG",
+          "supplier_name": "廣致誠",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 4.8,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "N13",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-ABA7F4EFE22326",
+          "supplier_id": "SUP-WENDI",
+          "supplier_name": "穩迪",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 8.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "O13",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "BAKELITE",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-A8A22550C4F5D9",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 25.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K6",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-75211798F4A851",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 27.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L6",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "BAKELITE",
+      "material_spec": "A級",
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-32043E753DF7E0",
+          "supplier_id": null,
+          "supplier_name": null,
+          "source_price_book": "WS1_INTERNAL_MATERIAL_UNTAXED",
+          "unit_price": 22.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F216",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "H"
+        },
+        {
+          "record_id": "PR-41BBE8E6AAAFB4",
+          "supplier_id": "SUP-JMD",
+          "supplier_name": "捷密達",
+          "source_price_book": "WS1_JMD_MATERIAL_UNTAXED",
+          "unit_price": 16.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F232",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "BAKELITE",
+      "material_spec": "B級",
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-973375F198E285",
+          "supplier_id": null,
+          "supplier_name": null,
+          "source_price_book": "WS1_INTERNAL_MATERIAL_UNTAXED",
+          "unit_price": 18.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F217",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "H"
+        },
+        {
+          "record_id": "PR-80FB1174BA5E50",
+          "supplier_id": "SUP-JMD",
+          "supplier_name": "捷密達",
+          "source_price_book": "WS1_JMD_MATERIAL_UNTAXED",
+          "unit_price": null,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F233",
+          "status": "UNKNOWN_PRICE",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "BAKELITE",
+      "material_spec": "C級",
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-61A7DC9A93F448",
+          "supplier_id": null,
+          "supplier_name": null,
+          "source_price_book": "WS1_INTERNAL_MATERIAL_UNTAXED",
+          "unit_price": null,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F218",
+          "status": "UNKNOWN_PRICE",
+          "price_source": "H"
+        },
+        {
+          "record_id": "PR-52E0080E97FC32",
+          "supplier_id": "SUP-JMD",
+          "supplier_name": "捷密達",
+          "source_price_book": "WS1_JMD_MATERIAL_UNTAXED",
+          "unit_price": null,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F234",
+          "status": "UNKNOWN_PRICE",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "BERYLLIUM_COPPER",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 4,
+      "candidate_sources": [
+        {
+          "record_id": "PR-4A3A2353CCBE53",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 180.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K26",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-8D828700C32293",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 130.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L26",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-C3FD7FA34BDC35",
+          "supplier_id": null,
+          "supplier_name": null,
+          "source_price_book": "WS1_INTERNAL_MATERIAL_UNTAXED",
+          "unit_price": 220.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F222",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "H"
+        },
+        {
+          "record_id": "PR-CDF11C509924CF",
+          "supplier_id": "SUP-JMD",
+          "supplier_name": "捷密達",
+          "source_price_book": "WS1_JMD_MATERIAL_UNTAXED",
+          "unit_price": 170.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F238",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "BRASS",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 4,
+      "candidate_sources": [
+        {
+          "record_id": "PR-1378290DF7C377",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 55.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K27",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-E3EFD094692663",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 48.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L27",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-85375E448538B9",
+          "supplier_id": null,
+          "supplier_name": null,
+          "source_price_book": "WS1_INTERNAL_MATERIAL_UNTAXED",
+          "unit_price": 50.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F221",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "H"
+        },
+        {
+          "record_id": "PR-6075D0BBC94607",
+          "supplier_id": "SUP-JMD",
+          "supplier_name": "捷密達",
+          "source_price_book": "WS1_JMD_MATERIAL_UNTAXED",
+          "unit_price": 40.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F237",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "GRANITE",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 1,
+      "candidate_sources": [
+        {
+          "record_id": "PR-5FDE7C71FA7AB6",
+          "supplier_id": null,
+          "supplier_name": null,
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": null,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "J28",
+          "status": "UNKNOWN_PRICE",
+          "price_source": "U"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "H13",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-CCF7EC808E5BA3",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 55.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K18",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-D8B22C8735AAFF",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 40.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L18",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "INSULATION_BOARD",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 1,
+      "candidate_sources": [
+        {
+          "record_id": "PR-979E6F89D2494C",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 650.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L30",
+          "status": "UNIT_CONFLICT",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "IRON_STEEL_GENERIC",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 1,
+      "candidate_sources": [
+        {
+          "record_id": "PR-D5272679E47F42",
+          "supplier_id": null,
+          "supplier_name": null,
+          "source_price_book": "WS1_INTERNAL_MATERIAL_UNTAXED",
+          "unit_price": 7.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F226",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "H"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "IRON_STEEL_GENERIC",
+      "material_spec": "S50C/S45C",
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 1,
+      "candidate_sources": [
+        {
+          "record_id": "PR-24FDDFCB758F6E",
+          "supplier_id": "SUP-JMD",
+          "supplier_name": "捷密達",
+          "source_price_book": "WS1_JMD_MATERIAL_UNTAXED",
+          "unit_price": 5.5,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F242",
+          "status": "AMBIGUOUS_MATERIAL_SPEC",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "NAK80",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-B3D3B2CA1DB808",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 55.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K17",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-870593770EC408",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 46.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L17",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "P20",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-C4137E0A56420A",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 25.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K19",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-AFB5F9DA639921",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 15.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L19",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "PC",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 1,
+      "candidate_sources": [
+        {
+          "record_id": "PR-C1F25DAA79A17A",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 60.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L7",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "POM",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 3,
+      "candidate_sources": [
+        {
+          "record_id": "PR-D77EFBC15768AC",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 35.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K8",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-B2E3AF1F4A8622",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 40.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L8",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-A6C46BB02E817F",
+          "supplier_id": "SUP-JMD",
+          "supplier_name": "捷密達",
+          "source_price_book": "WS1_JMD_MATERIAL_UNTAXED",
+          "unit_price": 28.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F244",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "PTFE",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-4ECC2EF9923007",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 90.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K10",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-4EA58C96D028D2",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 100.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L10",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "RED_COPPER",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-06ABE4F4E81BB4",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 65.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K25",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-122F8CE22BBE85",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 65.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L25",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "S50C",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-B3D59928F064FF",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 10.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K5",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-9F2A5A282976DD",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 8.5,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L5",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "SKD11",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-B6700D88BB57D4",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 55.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K15",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-4F10A9761D0BAC",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 40.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L15",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "SKD61",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-B36B874FF5C4C2",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 55.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K14",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-1B31365CB13213",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 45.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L14",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "SPCC",
+      "material_spec": "2mm",
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-9F7963E5615230",
+          "supplier_id": "SUP-GUANGZHICHENG",
+          "supplier_name": "廣致誠",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 6.8,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "N11",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-296965972CDBE8",
+          "supplier_id": "SUP-WENDI",
+          "supplier_name": "穩迪",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 9.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "O11",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "SQUARE_TUBE",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-136542602E2865",
+          "supplier_id": "SUP-GUANGZHICHENG",
+          "supplier_name": "廣致誠",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 5.2,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "N12",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-C70B69FDF0FB35",
+          "supplier_id": "SUP-WENDI",
+          "supplier_name": "穩迪",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 8.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "O12",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "STEEL",
+      "material_spec": "136",
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 1,
+      "candidate_sources": [
+        {
+          "record_id": "PR-684CA496FA8C24",
+          "supplier_id": null,
+          "supplier_name": null,
+          "source_price_book": "WS1_INTERNAL_MATERIAL_UNTAXED",
+          "unit_price": 65.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F225",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "H"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "STEEL",
+      "material_spec": "136H",
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 1,
+      "candidate_sources": [
+        {
+          "record_id": "PR-A54AC0975EC2EE",
+          "supplier_id": null,
+          "supplier_name": null,
+          "source_price_book": "WS1_INTERNAL_MATERIAL_UNTAXED",
+          "unit_price": 110.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F224",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "H"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "STEEL",
+      "material_spec": "H13",
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-73F5226A62D988",
+          "supplier_id": null,
+          "supplier_name": null,
+          "source_price_book": "WS1_INTERNAL_MATERIAL_UNTAXED",
+          "unit_price": 40.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F223",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "H"
+        },
+        {
+          "record_id": "PR-95C9DE6B84B449",
+          "supplier_id": "SUP-JMD",
+          "supplier_name": "捷密達",
+          "source_price_book": "WS1_JMD_MATERIAL_UNTAXED",
+          "unit_price": 17.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F239",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "STEEL",
+      "material_spec": "S136",
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 1,
+      "candidate_sources": [
+        {
+          "record_id": "PR-3133777083F3AB",
+          "supplier_id": "SUP-JMD",
+          "supplier_name": "捷密達",
+          "source_price_book": "WS1_JMD_MATERIAL_UNTAXED",
+          "unit_price": 55.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F241",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "STEEL",
+      "material_spec": "S136H",
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 1,
+      "candidate_sources": [
+        {
+          "record_id": "PR-8EB9EE5B819E73",
+          "supplier_id": "SUP-JMD",
+          "supplier_name": "捷密達",
+          "source_price_book": "WS1_JMD_MATERIAL_UNTAXED",
+          "unit_price": 135.0,
+          "tax_inclusion_status": "EXCLUDED",
+          "effective_from": null,
+          "source_cell": "F240",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "SUJ2",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 4,
+      "candidate_sources": [
+        {
+          "record_id": "PR-848611E89C2EC0",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 25.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K20",
+          "status": "CONFLICT",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-AF3B3AC412E696",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 22.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L20",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-0FB6FD528813CD",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 15.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K22",
+          "status": "CONFLICT",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-548FB3866A9746",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 22.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L22",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "SUS304",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 3,
+      "candidate_sources": [
+        {
+          "record_id": "PR-3E1DFA36AAD026",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 28.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K24",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-7970CDBFC48CCE",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 28.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L24",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-6957EA8AA0188B",
+          "supplier_id": "SUP-WENDI",
+          "supplier_name": "穩迪",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 30.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "O24",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    },
+    {
+      "canonical_material_code": "URETHANE_RUBBER",
+      "material_spec": null,
+      "normalized_unit": "kg",
+      "currency": "CNY",
+      "source_count": 2,
+      "candidate_sources": [
+        {
+          "record_id": "PR-3A0EFE48FFE80A",
+          "supplier_id": "SUP-TONGRUI",
+          "supplier_name": "通瑞",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 35.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "K9",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        },
+        {
+          "record_id": "PR-8BAC38E1750DA3",
+          "supplier_id": "SUP-LIANGWEI",
+          "supplier_name": "良伟",
+          "source_price_book": "WS2_SUPPLIER_MATERIAL_R01",
+          "unit_price": 38.0,
+          "tax_inclusion_status": "UNKNOWN",
+          "effective_from": null,
+          "source_cell": "L9",
+          "status": "PARSED_PENDING_REVIEW",
+          "price_source": "S"
+        }
+      ],
+      "admin_fields": {
+        "publish_as_company_default": false,
+        "selected_origin_record_id": null,
+        "company_unit_price": null,
+        "company_price_basis": null,
+        "effective_from": null,
+        "effective_to": null,
+        "approval_reason": null,
+        "approver": null,
+        "review_note": null
+      }
+    }
+  ],
+  "process_rate_candidates": [
+    {
+      "process_code": "車床",
+      "source_organization": "ORG-WS2-PROCESS",
+      "unit_price": 40.0,
+      "unit": "hour",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "T3",
+      "admin_selection": null
+    },
+    {
+      "process_code": "銑床",
+      "source_organization": "ORG-WS2-PROCESS",
+      "unit_price": 40.0,
+      "unit": "hour",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "T4",
+      "admin_selection": null
+    },
+    {
+      "process_code": "磨床",
+      "source_organization": "ORG-WS2-PROCESS",
+      "unit_price": 55.0,
+      "unit": "hour",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "T5",
+      "admin_selection": null
+    },
+    {
+      "process_code": "鉗工",
+      "source_organization": "ORG-WS2-PROCESS",
+      "unit_price": 88.0,
+      "unit": "hour",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "T6",
+      "admin_selection": null
+    },
+    {
+      "process_code": "其它",
+      "source_organization": "ORG-WS2-PROCESS",
+      "unit_price": null,
+      "unit": "hour",
+      "status": "UNKNOWN_PRICE",
+      "source_cell": "T7",
+      "admin_selection": null
+    },
+    {
+      "process_code": "放電",
+      "source_organization": "ORG-WS2-PROCESS",
+      "unit_price": 30.0,
+      "unit": "hour",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "T8",
+      "admin_selection": null
+    },
+    {
+      "process_code": "快絲",
+      "source_organization": "ORG-WS2-PROCESS",
+      "unit_price": 30.0,
+      "unit": "hour",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "T9",
+      "admin_selection": null
+    },
+    {
+      "process_code": "慢絲",
+      "source_organization": "ORG-WS2-PROCESS",
+      "unit_price": 100.0,
+      "unit": "hour",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "T10",
+      "admin_selection": null
+    },
+    {
+      "process_code": "夾頭",
+      "source_organization": "ORG-WS2-PROCESS",
+      "unit_price": null,
+      "unit": "hour",
+      "status": "UNKNOWN_PRICE",
+      "source_cell": "T11",
+      "admin_selection": null
+    },
+    {
+      "process_code": "CNC",
+      "source_organization": "ORG-WS2-PROCESS",
+      "unit_price": 80.0,
+      "unit": "hour",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "T12",
+      "admin_selection": null
+    }
+  ],
+  "surface_rate_candidates": [
+    {
+      "surface_code": "鍍鉻",
+      "source_organization": "ORG-WS2-SURFACE",
+      "unit_price": 5.0,
+      "unit": "kg",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "T18",
+      "admin_selection": null
+    },
+    {
+      "surface_code": "熱處理",
+      "source_organization": "ORG-WS2-SURFACE",
+      "unit_price": 11.0,
+      "unit": "kg",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "T19",
+      "admin_selection": null
+    },
+    {
+      "surface_code": "陽極",
+      "source_organization": "ORG-WS2-SURFACE",
+      "unit_price": 20.0,
+      "unit": "kg",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "T20",
+      "admin_selection": null
+    },
+    {
+      "surface_code": "發黑",
+      "source_organization": "ORG-WS2-SURFACE",
+      "unit_price": 2.5,
+      "unit": "kg",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "T21",
+      "admin_selection": null
+    }
+  ],
+  "supplier_prices": [
+    {
+      "record_id": "PR-49BE7B84595EC0",
+      "supplier_name": "通瑞",
+      "material": "A6061-T6",
+      "spec": "T6",
+      "unit_price": 28.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K4"
+    },
+    {
+      "record_id": "PR-C90183A065826E",
+      "supplier_name": "良伟",
+      "material": "A6061-T6",
+      "spec": "T6",
+      "unit_price": 35.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L4"
+    },
+    {
+      "record_id": "PR-A887EEADE5DB73",
+      "supplier_name": "穩迪",
+      "material": "A6061-T6",
+      "spec": "T6",
+      "unit_price": 25.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "O4"
+    },
+    {
+      "record_id": "PR-B3D59928F064FF",
+      "supplier_name": "通瑞",
+      "material": "S50C",
+      "spec": null,
+      "unit_price": 10.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K5"
+    },
+    {
+      "record_id": "PR-9F2A5A282976DD",
+      "supplier_name": "良伟",
+      "material": "S50C",
+      "spec": null,
+      "unit_price": 8.5,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L5"
+    },
+    {
+      "record_id": "PR-A8A22550C4F5D9",
+      "supplier_name": "通瑞",
+      "material": "BAKELITE",
+      "spec": null,
+      "unit_price": 25.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K6"
+    },
+    {
+      "record_id": "PR-75211798F4A851",
+      "supplier_name": "良伟",
+      "material": "BAKELITE",
+      "spec": null,
+      "unit_price": 27.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L6"
+    },
+    {
+      "record_id": "PR-C1F25DAA79A17A",
+      "supplier_name": "良伟",
+      "material": "PC",
+      "spec": null,
+      "unit_price": 60.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L7"
+    },
+    {
+      "record_id": "PR-D77EFBC15768AC",
+      "supplier_name": "通瑞",
+      "material": "POM",
+      "spec": null,
+      "unit_price": 35.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K8"
+    },
+    {
+      "record_id": "PR-B2E3AF1F4A8622",
+      "supplier_name": "良伟",
+      "material": "POM",
+      "spec": null,
+      "unit_price": 40.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L8"
+    },
+    {
+      "record_id": "PR-3A0EFE48FFE80A",
+      "supplier_name": "通瑞",
+      "material": "URETHANE_RUBBER",
+      "spec": null,
+      "unit_price": 35.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K9"
+    },
+    {
+      "record_id": "PR-8BAC38E1750DA3",
+      "supplier_name": "良伟",
+      "material": "URETHANE_RUBBER",
+      "spec": null,
+      "unit_price": 38.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L9"
+    },
+    {
+      "record_id": "PR-4ECC2EF9923007",
+      "supplier_name": "通瑞",
+      "material": "PTFE",
+      "spec": null,
+      "unit_price": 90.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K10"
+    },
+    {
+      "record_id": "PR-4EA58C96D028D2",
+      "supplier_name": "良伟",
+      "material": "PTFE",
+      "spec": null,
+      "unit_price": 100.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L10"
+    },
+    {
+      "record_id": "PR-9F7963E5615230",
+      "supplier_name": "廣致誠",
+      "material": "SPCC",
+      "spec": "2mm",
+      "unit_price": 6.8,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "N11"
+    },
+    {
+      "record_id": "PR-296965972CDBE8",
+      "supplier_name": "穩迪",
+      "material": "SPCC",
+      "spec": "2mm",
+      "unit_price": 9.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "O11"
+    },
+    {
+      "record_id": "PR-136542602E2865",
+      "supplier_name": "廣致誠",
+      "material": "SQUARE_TUBE",
+      "spec": null,
+      "unit_price": 5.2,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "N12"
+    },
+    {
+      "record_id": "PR-C70B69FDF0FB35",
+      "supplier_name": "穩迪",
+      "material": "SQUARE_TUBE",
+      "spec": null,
+      "unit_price": 8.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "O12"
+    },
+    {
+      "record_id": "PR-3585623C1A957E",
+      "supplier_name": "廣致誠",
+      "material": "ANGLE_STEEL",
+      "spec": null,
+      "unit_price": 4.8,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "N13"
+    },
+    {
+      "record_id": "PR-ABA7F4EFE22326",
+      "supplier_name": "穩迪",
+      "material": "ANGLE_STEEL",
+      "spec": null,
+      "unit_price": 8.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "O13"
+    },
+    {
+      "record_id": "PR-B36B874FF5C4C2",
+      "supplier_name": "通瑞",
+      "material": "SKD61",
+      "spec": null,
+      "unit_price": 55.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K14"
+    },
+    {
+      "record_id": "PR-1B31365CB13213",
+      "supplier_name": "良伟",
+      "material": "SKD61",
+      "spec": null,
+      "unit_price": 45.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L14"
+    },
+    {
+      "record_id": "PR-B6700D88BB57D4",
+      "supplier_name": "通瑞",
+      "material": "SKD11",
+      "spec": null,
+      "unit_price": 55.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K15"
+    },
+    {
+      "record_id": "PR-4F10A9761D0BAC",
+      "supplier_name": "良伟",
+      "material": "SKD11",
+      "spec": null,
+      "unit_price": 40.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L15"
+    },
+    {
+      "record_id": "PR-31EB3AC31FEF73",
+      "supplier_name": "通瑞",
+      "material": "738",
+      "spec": null,
+      "unit_price": 55.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K16"
+    },
+    {
+      "record_id": "PR-16374D68F93819",
+      "supplier_name": "良伟",
+      "material": "738",
+      "spec": null,
+      "unit_price": 15.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L16"
+    },
+    {
+      "record_id": "PR-B3D3B2CA1DB808",
+      "supplier_name": "通瑞",
+      "material": "NAK80",
+      "spec": null,
+      "unit_price": 55.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K17"
+    },
+    {
+      "record_id": "PR-870593770EC408",
+      "supplier_name": "良伟",
+      "material": "NAK80",
+      "spec": null,
+      "unit_price": 46.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L17"
+    },
+    {
+      "record_id": "PR-CCF7EC808E5BA3",
+      "supplier_name": "通瑞",
+      "material": "H13",
+      "spec": null,
+      "unit_price": 55.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K18"
+    },
+    {
+      "record_id": "PR-D8B22C8735AAFF",
+      "supplier_name": "良伟",
+      "material": "H13",
+      "spec": null,
+      "unit_price": 40.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L18"
+    },
+    {
+      "record_id": "PR-C4137E0A56420A",
+      "supplier_name": "通瑞",
+      "material": "P20",
+      "spec": null,
+      "unit_price": 25.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K19"
+    },
+    {
+      "record_id": "PR-AFB5F9DA639921",
+      "supplier_name": "良伟",
+      "material": "P20",
+      "spec": null,
+      "unit_price": 15.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L19"
+    },
+    {
+      "record_id": "PR-848611E89C2EC0",
+      "supplier_name": "通瑞",
+      "material": "SUJ2",
+      "spec": null,
+      "unit_price": 25.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "CONFLICT",
+      "source_cell": "K20"
+    },
+    {
+      "record_id": "PR-AF3B3AC412E696",
+      "supplier_name": "良伟",
+      "material": "SUJ2",
+      "spec": null,
+      "unit_price": 22.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L20"
+    },
+    {
+      "record_id": "PR-28C25E1F4954F8",
+      "supplier_name": "通瑞",
+      "material": "4Cr13",
+      "spec": null,
+      "unit_price": 28.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K21"
+    },
+    {
+      "record_id": "PR-A43694B0C00F72",
+      "supplier_name": "良伟",
+      "material": "4Cr13",
+      "spec": null,
+      "unit_price": 30.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L21"
+    },
+    {
+      "record_id": "PR-0FB6FD528813CD",
+      "supplier_name": "通瑞",
+      "material": "SUJ2",
+      "spec": null,
+      "unit_price": 15.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "CONFLICT",
+      "source_cell": "K22"
+    },
+    {
+      "record_id": "PR-548FB3866A9746",
+      "supplier_name": "良伟",
+      "material": "SUJ2",
+      "spec": null,
+      "unit_price": 22.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L22"
+    },
+    {
+      "record_id": "PR-1D72A7B117DC40",
+      "supplier_name": "通瑞",
+      "material": "40Cr",
+      "spec": null,
+      "unit_price": 15.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K23"
+    },
+    {
+      "record_id": "PR-C1992F48A1B3FC",
+      "supplier_name": "良伟",
+      "material": "40Cr",
+      "spec": null,
+      "unit_price": 32.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L23"
+    },
+    {
+      "record_id": "PR-3E1DFA36AAD026",
+      "supplier_name": "通瑞",
+      "material": "SUS304",
+      "spec": null,
+      "unit_price": 28.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K24"
+    },
+    {
+      "record_id": "PR-7970CDBFC48CCE",
+      "supplier_name": "良伟",
+      "material": "SUS304",
+      "spec": null,
+      "unit_price": 28.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L24"
+    },
+    {
+      "record_id": "PR-6957EA8AA0188B",
+      "supplier_name": "穩迪",
+      "material": "SUS304",
+      "spec": null,
+      "unit_price": 30.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "O24"
+    },
+    {
+      "record_id": "PR-06ABE4F4E81BB4",
+      "supplier_name": "通瑞",
+      "material": "RED_COPPER",
+      "spec": null,
+      "unit_price": 65.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K25"
+    },
+    {
+      "record_id": "PR-122F8CE22BBE85",
+      "supplier_name": "良伟",
+      "material": "RED_COPPER",
+      "spec": null,
+      "unit_price": 65.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L25"
+    },
+    {
+      "record_id": "PR-4A3A2353CCBE53",
+      "supplier_name": "通瑞",
+      "material": "BERYLLIUM_COPPER",
+      "spec": null,
+      "unit_price": 180.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K26"
+    },
+    {
+      "record_id": "PR-8D828700C32293",
+      "supplier_name": "良伟",
+      "material": "BERYLLIUM_COPPER",
+      "spec": null,
+      "unit_price": 130.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L26"
+    },
+    {
+      "record_id": "PR-1378290DF7C377",
+      "supplier_name": "通瑞",
+      "material": "BRASS",
+      "spec": null,
+      "unit_price": 55.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "K27"
+    },
+    {
+      "record_id": "PR-E3EFD094692663",
+      "supplier_name": "良伟",
+      "material": "BRASS",
+      "spec": null,
+      "unit_price": 48.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L27"
+    },
+    {
+      "record_id": "PR-96801FD03DF55A",
+      "supplier_name": "良伟",
+      "material": "ACRYLIC",
+      "spec": null,
+      "unit_price": 30.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "L29"
+    },
+    {
+      "record_id": "PR-979E6F89D2494C",
+      "supplier_name": "良伟",
+      "material": "INSULATION_BOARD",
+      "spec": null,
+      "unit_price": 650.0,
+      "unit": "kg",
+      "tax": "UNKNOWN",
+      "status": "UNIT_CONFLICT",
+      "source_cell": "L30"
+    },
+    {
+      "record_id": "PR-820A0CE8B98500",
+      "supplier_name": "穩迪",
+      "material": "AL_PROFILE",
+      "spec": "30x30",
+      "unit_price": 30.0,
+      "unit": "m",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "O32"
+    },
+    {
+      "record_id": "PR-CB68B127106AF1",
+      "supplier_name": "穩迪",
+      "material": "AL_PROFILE",
+      "spec": "40x40",
+      "unit_price": 48.0,
+      "unit": "m",
+      "tax": "UNKNOWN",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "O33"
+    },
+    {
+      "record_id": "PR-41BBE8E6AAAFB4",
+      "supplier_name": "捷密達",
+      "material": "BAKELITE",
+      "spec": "A級",
+      "unit_price": 16.0,
+      "unit": "kg",
+      "tax": "EXCLUDED",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "F232"
+    },
+    {
+      "record_id": "PR-80FB1174BA5E50",
+      "supplier_name": "捷密達",
+      "material": "BAKELITE",
+      "spec": "B級",
+      "unit_price": null,
+      "unit": "kg",
+      "tax": "EXCLUDED",
+      "status": "UNKNOWN_PRICE",
+      "source_cell": "F233"
+    },
+    {
+      "record_id": "PR-52E0080E97FC32",
+      "supplier_name": "捷密達",
+      "material": "BAKELITE",
+      "spec": "C級",
+      "unit_price": null,
+      "unit": "kg",
+      "tax": "EXCLUDED",
+      "status": "UNKNOWN_PRICE",
+      "source_cell": "F234"
+    },
+    {
+      "record_id": "PR-6849C2037705E5",
+      "supplier_name": "捷密達",
+      "material": "ALUMINUM",
+      "spec": "5052",
+      "unit_price": 25.0,
+      "unit": "kg",
+      "tax": "EXCLUDED",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "F235"
+    },
+    {
+      "record_id": "PR-E64F3B10625C20",
+      "supplier_name": "捷密達",
+      "material": "ALUMINUM",
+      "spec": "A6061T6",
+      "unit_price": 25.0,
+      "unit": "kg",
+      "tax": "EXCLUDED",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "F236"
+    },
+    {
+      "record_id": "PR-6075D0BBC94607",
+      "supplier_name": "捷密達",
+      "material": "BRASS",
+      "spec": null,
+      "unit_price": 40.0,
+      "unit": "kg",
+      "tax": "EXCLUDED",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "F237"
+    },
+    {
+      "record_id": "PR-CDF11C509924CF",
+      "supplier_name": "捷密達",
+      "material": "BERYLLIUM_COPPER",
+      "spec": null,
+      "unit_price": 170.0,
+      "unit": "kg",
+      "tax": "EXCLUDED",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "F238"
+    },
+    {
+      "record_id": "PR-95C9DE6B84B449",
+      "supplier_name": "捷密達",
+      "material": "STEEL",
+      "spec": "H13",
+      "unit_price": 17.0,
+      "unit": "kg",
+      "tax": "EXCLUDED",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "F239"
+    },
+    {
+      "record_id": "PR-8EB9EE5B819E73",
+      "supplier_name": "捷密達",
+      "material": "STEEL",
+      "spec": "S136H",
+      "unit_price": 135.0,
+      "unit": "kg",
+      "tax": "EXCLUDED",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "F240"
+    },
+    {
+      "record_id": "PR-3133777083F3AB",
+      "supplier_name": "捷密達",
+      "material": "STEEL",
+      "spec": "S136",
+      "unit_price": 55.0,
+      "unit": "kg",
+      "tax": "EXCLUDED",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "F241"
+    },
+    {
+      "record_id": "PR-24FDDFCB758F6E",
+      "supplier_name": "捷密達",
+      "material": "IRON_STEEL_GENERIC",
+      "spec": "S50C/S45C",
+      "unit_price": 5.5,
+      "unit": "kg",
+      "tax": "EXCLUDED",
+      "status": "AMBIGUOUS_MATERIAL_SPEC",
+      "source_cell": "F242"
+    },
+    {
+      "record_id": "PR-F1556115F39265",
+      "supplier_name": "捷密達",
+      "material": "4Cr13",
+      "spec": null,
+      "unit_price": 13.0,
+      "unit": "kg",
+      "tax": "EXCLUDED",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "F243"
+    },
+    {
+      "record_id": "PR-A6C46BB02E817F",
+      "supplier_name": "捷密達",
+      "material": "POM",
+      "spec": null,
+      "unit_price": 28.0,
+      "unit": "kg",
+      "tax": "EXCLUDED",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "F244"
+    },
+    {
+      "record_id": "PR-B2C752AC10E2A4",
+      "supplier_name": "捷密達",
+      "material": "ACRYLIC",
+      "spec": null,
+      "unit_price": 25.0,
+      "unit": "kg",
+      "tax": "EXCLUDED",
+      "status": "PARSED_PENDING_REVIEW",
+      "source_cell": "F245"
+    }
+  ],
+  "exceptions": [
+    {
+      "record_id": "PR-848611E89C2EC0",
+      "status": "CONFLICT",
+      "material": "SUJ2",
+      "supplier": "通瑞",
+      "issue": "同一供應商通瑞於K20=25與K22=15存在衝突。",
+      "source_cell": "K20",
+      "publish_allowed": false,
+      "admin_resolution": null
+    },
+    {
+      "record_id": "PR-0FB6FD528813CD",
+      "status": "CONFLICT",
+      "material": "SUJ2",
+      "supplier": "通瑞",
+      "issue": "同一供應商通瑞於K20=25與K22=15存在衝突。",
+      "source_cell": "K22",
+      "publish_allowed": false,
+      "admin_resolution": null
+    },
+    {
+      "record_id": "PR-5FDE7C71FA7AB6",
+      "status": "UNKNOWN_PRICE",
+      "material": "GRANITE",
+      "supplier": null,
+      "issue": "大理石沒有任何供應商價格。",
+      "source_cell": "J28",
+      "publish_allowed": false,
+      "admin_resolution": null
+    },
+    {
+      "record_id": "PR-979E6F89D2494C",
+      "status": "UNIT_CONFLICT",
+      "material": "INSULATION_BOARD",
+      "supplier": "良伟",
+      "issue": "價格文字為650/平方，但單位欄P30為公斤。",
+      "source_cell": "L30",
+      "publish_allowed": false,
+      "admin_resolution": null
+    },
+    {
+      "record_id": "PR-44BB3115B2C471",
+      "status": "UNKNOWN_PRICE",
+      "material": "AL_PROFILE",
+      "supplier": null,
+      "issue": "鋁型材20*30沒有任何供應商價格。",
+      "source_cell": "J31",
+      "publish_allowed": false,
+      "admin_resolution": null
+    },
+    {
+      "record_id": "PR-8A9BA8B1CE3CA7",
+      "status": "UNKNOWN_PRICE",
+      "material": "其它",
+      "supplier": null,
+      "issue": "其它加工費為空。",
+      "source_cell": "T7",
+      "publish_allowed": false,
+      "admin_resolution": null
+    },
+    {
+      "record_id": "PR-B3E6937EA48092",
+      "status": "UNKNOWN_PRICE",
+      "material": "夾頭",
+      "supplier": null,
+      "issue": "夾頭加工費為空。",
+      "source_cell": "T11",
+      "publish_allowed": false,
+      "admin_resolution": null
+    },
+    {
+      "record_id": "PR-61A7DC9A93F448",
+      "status": "UNKNOWN_PRICE",
+      "material": "BAKELITE",
+      "supplier": null,
+      "issue": "原始價格為「無」。",
+      "source_cell": "F218",
+      "publish_allowed": false,
+      "admin_resolution": null
+    },
+    {
+      "record_id": "PR-80FB1174BA5E50",
+      "status": "UNKNOWN_PRICE",
+      "material": "BAKELITE",
+      "supplier": "捷密達",
+      "issue": "原始價格為「無」。",
+      "source_cell": "F233",
+      "publish_allowed": false,
+      "admin_resolution": null
+    },
+    {
+      "record_id": "PR-52E0080E97FC32",
+      "status": "UNKNOWN_PRICE",
+      "material": "BAKELITE",
+      "supplier": "捷密達",
+      "issue": "原始價格為「無」。",
+      "source_cell": "F234",
+      "publish_allowed": false,
+      "admin_resolution": null
+    },
+    {
+      "record_id": "PR-24FDDFCB758F6E",
+      "status": "AMBIGUOUS_MATERIAL_SPEC",
+      "material": "IRON_STEEL_GENERIC",
+      "supplier": "捷密達",
+      "issue": "規格S50C/S45C同時指向兩種材料，不可直接發布為單一公司價格。",
+      "source_cell": "F242",
+      "publish_allowed": false,
+      "admin_resolution": null
+    },
+    {
+      "material": "隔熱板",
+      "supplier": "SUP-LIANGWEI",
+      "status": "UNIT_CONFLICT",
+      "issue": "650/m2 vs kg unit",
+      "publish_allowed": false,
+      "admin_resolution": null
+    },
+    {
+      "material": "鋁型材20x30",
+      "supplier": null,
+      "status": "UNKNOWN_PRICE",
+      "issue": "No supplier price",
+      "publish_allowed": false,
+      "admin_resolution": null
+    },
+    {
+      "material": "S50C/S45C",
+      "supplier": "SUP-JMD",
+      "status": "AMBIGUOUS_MATERIAL_SPEC",
+      "issue": "Combined spec",
+      "publish_allowed": false,
+      "admin_resolution": null
+    },
+    {
+      "material": "大理石",
+      "supplier": null,
+      "status": "UNKNOWN_PRICE",
+      "issue": "No supplier price",
+      "publish_allowed": false,
+      "admin_resolution": null
+    }
+  ],
+  "publication_summary": {
+    "price_version_id": "R01-COMPANY-PRICE-V1.0-DRAFT",
+    "version": "1.0.0-draft",
+    "status": "DRAFT",
+    "total_candidates": 39,
+    "total_process": 10,
+    "total_surface": 4,
+    "total_supplier_prices": 67,
+    "total_exceptions": 15,
+    "publishable_count": 0,
+    "blocked_count": 15,
+    "generated_at": "2026-08-01T06:32:41.463432+00:00",
+    "source_package_sha256": "d4b6943a5c9f8329d45154035573a531ef0c08effcde003eed273cd2ce0b2bf8",
+    "notes": "All 96 records pending admin review. No effective dates. No auto-selection."
+  }
+}

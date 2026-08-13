@@ -1,0 +1,35 @@
+{
+  "schema": "cyberppt.component_signature_check.v1",
+  "slide": 2,
+  "passed": true,
+  "signature_path": "C:/Users/lfaf-test/Documents/时序图/cyberppt_stage3/frozen/slide-02-component-signature.json",
+  "signature_sha256": "F2463163E9B5F3A35298AC713E066CAB2DAFE27A0E0F5E07311AAF361E605F40",
+  "checked_components": [
+    {
+      "id": "s02_title_stack",
+      "status": "passed",
+      "native_reconstruction": true
+    },
+    {
+      "id": "s02_fragmented_chain",
+      "status": "passed",
+      "native_reconstruction": true
+    },
+    {
+      "id": "s02_root_causes",
+      "status": "passed",
+      "native_reconstruction": true
+    },
+    {
+      "id": "s02_conclusion",
+      "status": "passed",
+      "native_reconstruction": true
+    },
+    {
+      "id": "s02_footer",
+      "status": "passed",
+      "native_reconstruction": true
+    }
+  ],
+  "failures": []
+}

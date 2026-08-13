@@ -1,0 +1,49 @@
+{
+  "lockVersion": 1,
+  "catalogVersion": 1,
+  "installOrder": [
+    "cli/codex",
+    "skill/ai-assets-manager",
+    "skill/code-review",
+    "skill/release-note"
+  ],
+  "assets": {
+    "cli/codex": {
+      "version": "1.3.0",
+      "source": {
+        "type": "npm",
+        "location": "@openai/codex"
+      },
+      "dependencies": {}
+    },
+    "skill/ai-assets-manager": {
+      "version": "1.0.6",
+      "source": {
+        "type": "internal",
+        "location": "AI-Assets/artifacts/skill/ai-assets-manager"
+      },
+      "dependencies": {}
+    },
+    "skill/code-review": {
+      "version": "1.1.0",
+      "source": {
+        "type": "git",
+        "location": "https://example.invalid/ai-assets/code-review-skill.git"
+      },
+      "dependencies": {
+        "cli/codex": "1.3.0"
+      }
+    },
+    "skill/release-note": {
+      "version": "2.0.1",
+      "source": {
+        "type": "git",
+        "location": "https://example.invalid/ai-assets/release-note-skill.git"
+      },
+      "dependencies": {
+        "skill/code-review": "1.1.0",
+        "cli/codex": "1.3.0"
+      }
+    }
+  }
+}

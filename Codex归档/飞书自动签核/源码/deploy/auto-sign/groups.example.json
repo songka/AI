@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "user_groups": {
+    "常用申请人": [
+      "张三",
+      "李四"
+    ]
+  },
+  "content_groups": {
+    "常规料号": [
+      "半成品;軟體",
+      "原材料;電控外購件"
+    ]
+  },
+  "legacy_migrations": {}
+}

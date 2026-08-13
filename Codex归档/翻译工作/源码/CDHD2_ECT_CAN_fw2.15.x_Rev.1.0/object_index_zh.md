@@ -1,0 +1,497 @@
+# CDHD2 ????????
+
+> ?????? PDF ??????????????? PDF??????????????????????
+
+- p95 `9 Communication Segment` - 9 ???
+- p95 `1000h: Device Type` - 1000h: ????
+- p96 `1001h: Error Register` - 1001h: ?????
+- p97 `1002h: Manufacturer Status Register (CAN only)` - 1002h: ???????? ?? CAN?
+- p97 `1003h: Predefined Error Field (CAN only)` - 1003h: ??????? ?? CAN?
+- p98 `1005h: COB-ID SYNC (CAN only)` - 1005h: COB-ID SYNC ?? CAN?
+- p99 `1006h: Communication Cycle Period (CAN only)` - 1006h: ???? ?? CAN?
+- p99 `1007h: Synchronous Window Length` - 1007h: ??????
+- p100 `1008h: Manufacturer Device Name (CAN only)` - 1008h: ??????? ?? CAN?
+- p100 `1009h: Manufacturer Hardware Version (CAN only)` - 1009h: ??????? ?? CAN?
+- p101 `100Ah: Manufacturer Software Version (CAN only)` - 100Ah: ??????? ?? CAN?
+- p101 `100Ch: Guard Time (CAN only)` - 100Ch: ???? ?? CAN?
+- p102 `100Dh: Life Time Factor (CAN only)` - 100Dh: ?????? ?? CAN?
+- p103 `1010h: Store Parameter Field` - 1010h: ??????
+- p104 `1011h: Restore Default Parameters (CAN only)` - 1011h: ?????? ?? CAN?
+- p105 `1014h: COB-ID EMCY (CAN only)` - 1014h: COB-ID EMCY ?? CAN?
+- p105 `1015h: Inhibit Time Emergency (CAN only)` - 1015h: Inhibit Time Emergency ?? CAN?
+- p106 `1016h: Heartbeat Consumer Entries (CAN only)` - 1016h: ??????? ?? CAN?
+- p108 `1017h: Producer Heartbeat Time (CAN only)` - 1017h: ??????? ?? CAN?
+- p109 `1018h: Identity Object` - 1018h: ????
+- p111 `1019h: Synchronous Counter Overflow Value (CAN only)` - 1019h: Synchronous Counter Overflow Value ?? CAN?
+- p112 `1029h: Error Behavior (CAN only)` - 1029h: ???? ?? CAN?
+- p113 `1200h: Server SDO Parameter 1 (CAN only)` - 1200h: Server SDO Parameter 1 ?? CAN?
+- p114 `1201h: Server SDO Parameter 2 (CAN only)` - 1201h: Server SDO Parameter 2 ?? CAN?
+- p116 `1400h: Receive PDO Communication Parameter 1 (CAN only)` - 1400h: ?? PDO ???? 1 ?? CAN?
+- p118 `1401h: Receive PDO Communication Parameter 2 (CAN only)` - 1401h: ?? PDO ???? 2 ?? CAN?
+- p120 `1402h: Receive PDO Communication Parameter 3 (CAN only)` - 1402h: ?? PDO ???? 3 ?? CAN?
+- p122 `1403h: Receive PDO Communication Parameter 4 (CAN only)` - 1403h: ?? PDO ???? 4 ?? CAN?
+- p124 `1600h: Receive PDO Mapping Parameter 1 ` - 1600h: ?? PDO ???? 1 
+- p127 `1601h: Receive PDO Mapping Parameter 2` - 1601h: ?? PDO ???? 2
+- p130 `1602h: Receive PDO Mapping Parameter 3` - 1602h: ?? PDO ???? 3
+- p133 `1603h: Receive PDO Mapping Parameter 4 ` - 1603h: ?? PDO ???? 4 
+- p136 `1800h: Transmit PDO Communication Parameter 1` - 1800h: ?? PDO ???? 1
+- p139 `1801h: Transmit PDO Communication Parameter 2` - 1801h: ?? PDO ???? 2
+- p142 `1802h: Transmit PDO Communication Parameter 3` - 1802h: ?? PDO ???? 3
+- p145 `1803h: Transmit PDO Communication Parameter 4` - 1803h: ?? PDO ???? 4
+- p148 `1A00h: Transmit PDO Mapping Parameter 1` - 1A00h: ?? PDO ???? 1
+- p151 `1A01h: Transmit PDO Mapping Parameter 2` - 1A01h: ?? PDO ???? 2
+- p154 `1A02h: Transmit PDO Mapping Parameter 3` - 1A02h: ?? PDO ???? 3
+- p157 `1A03h: Transmit PDO Mapping Parameter 4` - 1A03h: ?? PDO ???? 4
+- p160 `1C00h: Sync Manager Communication Type (ECT only)` - 1C00h: ????????? ?? ECT?
+- p162 `1C10h: Sync Manager 0 PDO Assignment (ECT only)` - 1C10h: Sync Manager 0 PDO ?? ?? ECT?
+- p162 `1C11h: Sync Manager 1 PDO Assignment (ECT only)` - 1C11h: Sync Manager 1 PDO ?? ?? ECT?
+- p162 `1C12h: Sync Manager 2 PDO Assignment (ECT only)` - 1C12h: Sync Manager 2 PDO ?? ?? ECT?
+- p164 `1C13h: Sync Manager 3 PDO Assignment (ECT only)` - 1C13h: Sync Manager 3 PDO ?? ?? ECT?
+- p166 `10 Manufacturer-Specific Object` - 10 ???????
+- p166 `2002h: Configuration Command` - 2002h: ????
+- p166 `2003h: Current BEMF Compensation Gain` - 2003h: Current BEMF Compensation Gain
+- p167 `2006h: Current KI Gain` - 2006h: Current KI Gain
+- p167 `2007h: Current KP Gain` - 2007h: Current KP Gain
+- p168 `200Ah: HD Anti-Vibration 2 Filter – Gain` - 200Ah: HD Anti-Vibration 2 Filter – Gain
+- p168 `200Bh: HD Anti-Vibration 1 Filter - Sharpness` - 200Bh: HD Anti-Vibration 1 Filter - Sharpness
+- p169 `200Ch: HD Anti-Vibration 1 Filter - Gain` - 200Ch: HD Anti-Vibration 1 Filter - Gain
+- p169 `200Eh: Automatic Homing Mode` - 200Eh: Automatic Homing Mode
+- p170 `200Fh: Fieldbus Unit Scaling` - 200Fh: Fieldbus Unit Scaling
+- p170 `2010h: Velocity Loop Bandwidth for Pole Placement` - 2010h: Velocity Loop Bandwidth for Pole Placement
+- p171 `2011h: Warning Bits ` - 2011h: ??? 
+- p172 `2013h: Voltage Command D Component` - 2013h: Voltage Command D Component
+- p173 `2014h: Voltage Command Q Component` - 2014h: Voltage Command Q Component
+- p173 `2015h: Drive Name (CAN only)` - 2015h: ????? ?? CAN?
+- p174 `2016h: Electrical Position` - 2016h: Electrical Position
+- p174 `2017h: HD Derivative Gain` - 2017h: HD Derivative Gain
+- p175 `2018h: HD Integral Gain` - 2018h: HD Integral Gain
+- p175 `2019h: HD Derivative-Integral Gain` - 2019h: HD Derivative-Integral Gain
+- p176 `201Ah: HD Proportional Gain` - 201Ah: HD Proportional Gain
+- p176 `201Bh: HD Global Gain` - 201Bh: HD Global Gain
+- p177 `201Ch: Position Acceleration Feedforward to Current` - 201Ch: Position Acceleration Feedforward to Current
+- p177 `201Dh: Position Acceleration Feedforward` - 201Dh: Position Acceleration Feedforward
+- p178 `201Eh: Position Derivative Gain` - 201Eh: Position Derivative Gain
+- p178 `201Fh: Position Proportional Adaptive Gain` - 201Fh: Position Proportional Adaptive Gain
+- p179 `2020h: Position Integral Gain` - 2020h: Position Integral Gain
+- p179 `2021h: Position Integral Saturation Output` - 2021h: Position Integral Saturation Output
+- p180 `2022h: Position Proportional Gain` - 2022h: Position Proportional Gain
+- p180 `2023h: Position Velocity Feedforward` - 2023h: Position Velocity Feedforward
+- p181 `2024h: Motor Type` - 2024h: ????
+- p181 `2025h: Velocity Feedforward Ratio` - 2025h: Velocity Feedforward Ratio
+- p182 `2026h: Velocity Integral Gain` - 2026h: Velocity Integral Gain
+- p182 `2027h: Velocity Proportional Gain` - 2027h: Velocity Proportional Gain
+- p183 `2028h: Mechanical Angle` - 2028h: Mechanical Angle
+- p183 `2029h: Motor Encoder Type` - 2029h: ???????
+- p184 `202Ah: Motor Encoder Index Position` - 202Ah: Motor Encoder Index Position
+- p184 `202Bh: Motor and Feedback Direction` - 202Bh: Motor and Feedback Direction
+- p185 `202Ch: Position Command Move Low Pass Filter` - 202Ch: Position Command Move Low Pass Filter
+- p185 `202Dh: Motor Feedback Mode` - 202Dh: Motor Feedback Mode
+- p186 `202Eh: Motor Foldback Status` - 202Eh: Motor Foldback Status
+- p186 `202Fh: Motor Foldback Delay Time` - 202Fh: Motor Foldback Delay Time
+- p187 `2030h: Motor Foldback Disable` - 2030h: Motor Foldback Disable
+- p187 `2031h: Motor Foldback Recovery Time` - 2031h: Motor Foldback Recovery Time
+- p188 `2032h: Motor Foldback Time Constant` - 2032h: Motor Foldback Time Constant
+- p188 `2033h: Motor Foldback Current` - 2033h: Motor Foldback Current
+- p189 `2034h: Motor Foldback Fault Threshold` - 2034h: Motor Foldback Fault Threshold
+- p189 `2035h: Motor Foldback Warning Threshold` - 2035h: Motor Foldback Warning Threshold
+- p190 `2036h: Motor Peak Current` - 2036h: Motor Peak Current
+- p190 `2037h: Rotor Inertia` - 2037h: Rotor Inertia
+- p191 `2038h: Force Constant for Linear Motor` - 2038h: Force Constant for Linear Motor
+- p191 `2039h: Torque Constant` - 2039h: Torque Constant
+- p192 `203Ah: Motor Inductance` - 203Ah: Motor Inductance
+- p192 `203Bh: Adaptive Gain at Continuous Motor Current` - 203Bh: Adaptive Gain at Continuous Motor Current
+- p193 `203Ch: Adaptive Gain at Peak Motor Current` - 203Ch: Adaptive Gain at Peak Motor Current
+- p193 `203Dh: Mass of Linear Motor Without Load` - 203Dh: Mass of Linear Motor Without Load
+- p194 `203Eh: Motor Commutation Type` - 203Eh: Motor Commutation Type
+- p194 `203Fh: Motor Name` - 203Fh: Motor Name
+- p195 `2041h: Motor Setup` - 2041h: Motor Setup
+- p195 `2042h: Motor Setup Status` - 2042h: Motor Setup Status
+- p196 `2043h: Commutation Offset` - 2043h: Commutation Offset
+- p197 `2044h: Drive Temperature` - 2044h: Drive Temperature
+- p198 `2045h: Feedback Direction` - 2045h: Feedback Direction
+- p199 `2046h: Disabling Mode` - 2046h: Disabling Mode
+- p199 `2049h: Quick Stop Deceleration Time` - 2049h: ??????? Time
+- p200 `204Ah: Active Disable Speed Threshold` - 204Ah: Active Disable Speed Threshold
+- p200 `204Bh: Active Disable Time` - 204Bh: Active Disable Time
+- p201 `204Ch: Factory Restore` - 204Ch: Factory Restore
+- p201 `204Dh: Feedback Type` - 204Dh: Feedback Type
+- p202 `204Eh: Velocity Loop Output Filter Parameter 1` - 204Eh: Velocity Loop Output Filter Parameter 1
+- p202 `204Fh: Velocity Loop Output Filter Parameter 2` - 204Fh: Velocity Loop Output Filter Parameter 2
+- p203 `2050h: Velocity Loop Output Filter Mode` - 2050h: Velocity Loop Output Filter Mode
+- p203 `2051h: Foldback Status` - 2051h: Foldback Status
+- p204 `2052h: Friction Compensation Negative Current` - 2052h: Friction Compensation Negative Current
+- p204 `2053h: Friction Compensation Positive Current` - 2053h: Friction Compensation Positive Current
+- p205 `2054h: Friction Compensation Negative Velocity Hysteresis` - 2054h: Friction Compensation Negative Velocity Hysteresis
+- p205 `2055h: Friction Compensation Positive Velocity Hysteresis` - 2055h: Friction Compensation Positive Velocity Hysteresis
+- p206 `2056h: Halls State` - 2056h: Halls State
+- p208 `2057h: Invert Hall Signals` - 2057h: Invert Hall Signals
+- p210 `2058h: Hall Signals Type` - 2058h: Hall Signals Type
+- p210 `205Ah: Harmonic Correction Feedback Parameter 1` - 205Ah: Harmonic Correction Feedback Parameter 1
+- p212 `205Bh: Harmonic Correction Feedback Parameter 2` - 205Bh: Harmonic Correction Feedback Parameter 2
+- p214 `205Dh: Harmonic Current ICMD Parameter 1` - 205Dh: Harmonic Current ICMD Parameter 1
+- p216 `205Eh: Harmonic Current ICMD Parameter 2` - 205Eh: Harmonic Current ICMD Parameter 2
+- p218 `205Fh: HD Current Filter - LPF Rise Time` - 205Fh: HD Current Filter - LPF Rise Time
+- p219 `2060h: HD Current Filter - Damping` - 2060h: HD Current Filter - Damping
+- p219 `2061h: HD Current Filter - Notch Filter Center` - 2061h: HD Current Filter - Notch Filter Center
+- p220 `2062h: HD Current Filter - Notch Filter Bandwidth` - 2062h: HD Current Filter - Notch Filter Bandwidth
+- p220 `2063h: Hold Position Command` - 2063h: Hold Position Command
+- p221 `2064h: Hardware Position External` - 2064h: Hardware Position External
+- p221 `2065h: Hardware Position (CAN only)` - 2065h: Hardware Position ?? CAN?
+- p222 `2066h: Current D Axis` - 2066h: Current D Axis
+- p222 `2067h: Current Q Axis` - 2067h: Current Q Axis
+- p223 `2068h: Current Feedforward Low Pass Filter` - 2068h: Current Feedforward Low Pass Filter
+- p223 `2069h: Drive Foldback Current Limit` - 2069h: Drive Foldback Current Limit
+- p224 `206Ah: Drive Foldback Fault Threshold` - 206Ah: Drive Foldback Fault Threshold
+- p224 `206Bh: Drive Foldback Warning Threshold` - 206Bh: Drive Foldback Warning Threshold
+- p225 `206Ch: Gravity Compensation` - 206Ch: Gravity Compensation
+- p225 `206Fh: Encoder Index Position Feedback` - 206Fh: Encoder Index Position Feedback
+- p226 `2070h: Input Inversion` - 2070h: Input Inversion
+- p227 `2071h: Dynanic Brake Current` - 2071h: Dynanic Brake Current
+- p228 `2072h: Phase U Actual Current` - 2072h: Phase U Actual Current
+- p228 `2073h: Phase U Current Offset` - 2073h: Phase U Current Offset
+- p229 `2074h: Phase V Actual Current` - 2074h: Phase V Actual Current
+- p229 `2075h: Phase V Current Offset` - 2075h: Phase V Current Offset
+- p230 `2076h: Zero Procedure Current` - 2076h: Zero Procedure Current
+- p230 `2077h: Position Integral Saturation Input` - 2077h: Position Integral Saturation Input
+- p231 `2078h: Limit Switch Negative Status` - 2078h: Limit Switch Negative Status
+- p231 `2079h: Limit Switch Positive Status` - 2079h: Limit Switch Positive Status
+- p232 `207Ah: Load to Motor Inertia Ratio` - 207Ah: Load to Motor Inertia Ratio
+- p232 `207Bh: Drive Peak Current` - 207Bh: Drive Peak Current
+- p233 `207Ch: Drive Continuous Current` - 207Ch: Drive Continuous Current
+- p233 `207Dh: Motor Pitch` - 207Dh: Motor Pitch
+- p234 `207Eh: Motor Poles` - 207Eh: Motor Poles
+- p234 `207Fh: Motor Resistance` - 207Fh: Motor Resistance
+- p235 `2080h: Motor Resolver Poles` - 2080h: Motor Resolver Poles
+- p235 `2081h: Motor Rated Torque` - 2081h: Motor Rated Torque
+- p236 `2082h: Current KFF Gain` - 2082h: Current KFF Gain
+- p236 `2083h: Torque Commutation Angle Advance at Motor Continuous Current` - 2083h: Torque Commutation Angle Advance at Motor Continuous Current
+- p237 `2084h: Torque Commutation Angle Advance at Motor Peak Current` - 2084h: Torque Commutation Angle Advance at Motor Peak Current
+- p237 `2085h: Velocity Commutation Angle Advance at Motor Maximum Speed` - 2085h: Velocity Commutation Angle Advance at Motor Maximum Speed
+- p238 `2086h: Velocity Commutation Angle Advance at Motor Maximum Speed/2` - 2086h: Velocity Commutation Angle Advance at Motor Maximum Speed/2
+- p238 `2087h: HD Spring Filter` - 2087h: HD Spring Filter
+- p239 `2088h: Position Backup` - 2088h: Position Backup
+- p239 `2089h: Position Backup Mode` - 2089h: Position Backup Mode
+- p240 `208Ah: HD Maximum Adaptive Gain` - 208Ah: HD Maximum Adaptive Gain
+- p240 `208Bh: HD Current Filter - Second Notch Filter Bandwidth` - 208Bh: HD Current Filter - Second Notch Filter Bandwidth
+- p241 `208Ch: HD Current Filter - Second Notch Filter Center` - 208Ch: HD Current Filter - Second Notch Filter Center
+- p241 `208Dh: Emergency or Controlled Stop Current Limit` - 208Dh: Emergency or Controlled Stop Current Limit
+- p242 `208Eh: Position Command` - 208Eh: Position Command
+- p242 `208Fh: HD Flexibility Compensation` - 208Fh: HD Flexibility Compensation
+- p243 `2090h: Homing Status` - 2090h: Homing Status
+- p243 `2091h: HD Acceleration/Deceleration Spring Filter Gain` - 2091h: HD Acceleration/Deceleration Spring Filter Gain
+- p244 `2095h: Position Offset` - 2095h: Position Offset
+- p244 `2096h: HD Anti-Vibration 1 Filter - Center Frequency` - 2096h: HD Anti-Vibration 1 Filter - Center Frequency
+- p245 `2097h: HD Anti-Vibration 2 Filter - Center Frequency` - 2097h: HD Anti-Vibration 2 Filter - Center Frequency
+- p245 `2099h: Current Level 1 for Digital Output Definition` - 2099h: Current Level 1 for Digital Output Definition
+- p246 `209Ah: Current Level 2 for Digital Output Definition` - 209Ah: Current Level 2 for Digital Output Definition
+- p247 `209Bh: Output Inversion` - 209Bh: Output Inversion
+- p249 `209Ch: Output Mode` - 209Ch: Output Mode
+- p251 `209Dh: Position Level 1 for Digital Output Definition` - 209Dh: Position Level 1 for Digital Output Definition
+- p251 `209Eh: Position Level 2 for Digital Output Definition` - 209Eh: Position Level 2 for Digital Output Definition
+- p252 `209Fh: Velocity Level 1 for Digital Output Definition` - 209Fh: Velocity Level 1 for Digital Output Definition
+- p252 `20A0h: Velocity Level 2 for Digital Output Definition` - 20A0h: Velocity Level 2 for Digital Output Definition
+- p253 `20A1h: Over-Voltage Threshold` - 20A1h: Over-Voltage Threshold
+- p253 `20A2h: Software Enable Status` - 20A2h: Software Enable Status
+- p254 `20A3h: Position Loop Position Error` - 20A3h: Position Loop Position Error
+- p254 `20A4h: Phase Find Command` - 20A4h: Phase Find Command
+- p255 `20A5h: Forced Electrical Position` - 20A5h: Forced Electrical Position
+- p255 `20A6h: Phase Find Gain` - 20A6h: Phase Find Gain
+- p256 `20A7h: Phase Find Current` - 20A7h: Phase Find Current
+- p257 `20A8h: Phase Find Mode` - 20A8h: Phase Find Mode
+- p258 `20A9h: Phase Find Status` - 20A9h: Phase Find Status
+- p258 `20AAh: Phase Find Duration` - 20AAh: Phase Find Duration
+- p259 `20ABh: Position Loop Controller Mode` - 20ABh: Position Loop Controller Mode
+- p259 `20ACh: Position Limiting Mode` - 20ACh: Position Limiting Mode
+- p260 `20ADh: PRB Generator Frequency` - 20ADh: PRB Generator Frequency
+- p261 `20AEh: PRB Generator Mode` - 20AEh: PRB Generator Mode
+- p262 `20AFh: PRB Generator Configuration` - 20AFh: PRB Generator Configuration
+- p264 `20B0h: Position Command Generator Target Error` - 20B0h: Position Command Generator Target Error
+- p265 `20B1h: Position Command Generator Velocity` - 20B1h: Position Command Generator Velocity
+- p265 `20B2h: PWM Frequency` - 20B2h: PWM Frequency
+- p266 `20B3h: Gearing Mode` - 20B3h: Gearing Mode
+- p266 `20B4h: PWM Saturation Ratio` - 20B4h: PWM Saturation Ratio
+- p267 `20B5h: In Position Indication` - 20B5h: In Position Indication
+- p267 `20B6h: Hardware Position External (DSP)` - 20B6h: Hardware Position External (DSP)
+- p268 `20B8h: Fault Relay Status` - 20B8h: Fault Relay Status
+- p268 `20B9h: Fault Relay Mode` - 20B9h: Fault Relay Mode
+- p269 `20BAh: Remote Hardware Enable Status` - 20BAh: Remote Hardware Enable Status
+- p269 `20BBh: Resolver Amplitude Range` - 20BBh: Resolver Amplitude Range
+- p270 `20BCh: Resolver Conversion Bandwidth` - 20BCh: Resolver Conversion Bandwidth
+- p270 `20BDh: Save/Load Status` - 20BDh: Save/Load Status
+- p271 `20BEh: Sine/Cosine Calibration Command` - 20BEh: Sine/Cosine Calibration Command
+- p271 `20BFh: Sine/Cosine Calibration Mode` - 20BFh: Sine/Cosine Calibration Mode
+- p272 `20C0h: Sine/Cosine Calibration Status` - 20C0h: Sine/Cosine Calibration Status
+- p272 `20C1h: Sine/Cosine Calibration Parameters (CAN only)` - 20C1h: Sine/Cosine Calibration Parameters ?? CAN?
+- p273 `20C2h: Synchronization Mode` - 20C2h: Synchronization Mode
+- p274 `20C3h: Tracking Factor` - 20C3h: Tracking Factor
+- p274 `20C4h: Motor Over-Temperature` - 20C4h: Motor Over-Temperature
+- p275 `20C5h: Motor Over-Temperature Clear Fault Level` - 20C5h: Motor Over-Temperature Clear Fault Level
+- p275 `20C6h: Motor Over-Temperature Mode` - 20C6h: Motor Over-Temperature Mode
+- p276 `20C7h: Motor Temperature` - 20C7h: Motor Temperature
+- p276 `20C8h: Motor Over-Temperature Time` - 20C8h: Motor Over-Temperature Time
+- p277 `20C9h: Motor Over-Temperature Fault Level` - 20C9h: Motor Over-Temperature Fault Level
+- p277 `20CAh: Motor Over-Temperature Type` - 20CAh: Motor Over-Temperature Type
+- p278 `20CBh: Tamagawa Multi-Turn Reset` - 20CBh: Tamagawa Multi-Turn Reset
+- p278 `20CCh: Run Time (CAN only)` - 20CCh: Run Time ?? CAN?
+- p279 `20CDh: Under-Voltage Mode` - 20CDh: Under-Voltage Mode
+- p280 `20CEh: Under-Voltage Recovery Mode` - 20CEh: Under-Voltage Recovery Mode
+- p280 `20CFh: Under-Voltage Threshold 64` - 20CFh: Under-Voltage Threshold 64
+- p281 `20D0h: Under-Voltage Time` - 20D0h: Under-Voltage Time
+- p281 `20D1h: Bus Voltage (DC)` - 20D1h: Bus Voltage (DC)
+- p282 `20D3h: Velocity Error` - 20D3h: Velocity Error
+- p282 `20D4h: Velocity Loop Controller` - 20D4h: Velocity Loop Controller
+- p283 `20D5h: Velocity Design Conversion (CAN only)` - 20D5h: Velocity Design Conversion ?? CAN?
+- p283 `20D6h: Velocity Filter Mode` - 20D6h: Velocity Filter Mode
+- p284 `20D7h: Drive Version (CAN only)` - 20D7h: Drive Version ?? CAN?
+- p284 `20D8h: Velocity Loop Output Filter` - 20D8h: Velocity Loop Output Filter
+- p288 `20D9h: Velocity Loop Input Filter` - 20D9h: Velocity Loop Input Filter
+- p291 `20DAh: Advanced Pole Placement H Polynomial` - 20DAh: Advanced Pole Placement H Polynomial
+- p296 `20DBh: Advanced Pole Placement R Polynomial` - 20DBh: Advanced Pole Placement R Polynomial
+- p300 `20DCh: Wake No Shake Status (CAN only)` - 20DCh: Wake No Shake Status ?? CAN?
+- p301 `20DDh: Display Warnings (CAN only)` - 20DDh: Display Warnings ?? CAN?
+- p301 `20DEh: External Encoder Resolution` - 20DEh: External Encoder Resolution
+- p302 `20DFh: Zeroing Command` - 20DFh: Zeroing Command
+- p303 `20E0h: Input Mode` - 20E0h: Input Mode
+- p306 `20E1h: Rotary Address Switch` - 20E1h: Rotary Address Switch
+- p306 `20E2h: Test Digital Display` - 20E2h: Test Digital Display
+- p307 `20E3h: Encoder Simulation Mode` - 20E3h: Encoder Simulation Mode
+- p307 `20E4h: Encoder Simulation Line Resolution` - 20E4h: Encoder Simulation Line Resolution
+- p308 `20E5h: Encoder Simulation Index Position` - 20E5h: Encoder Simulation Index Position
+- p308 `20E6h: Recording Done` - 20E6h: Recording Done
+- p309 `20E7h: Get Recorded Data (CAN only)` - 20E7h: Get Recorded Data ?? CAN?
+- p312 `20E8h: Trigger Recording (CAN only)` - 20E8h: Trigger Recording ?? CAN?
+- p314 `20E9h: Stop Recording (CAN only)` - 20E9h: Stop Recording ?? CAN?
+- p315 `20EAh: Record Command (CAN only)` - 20EAh: Record Command ?? CAN?
+- p318 `20EBh: Recording Status` - 20EBh: Recording Status
+- p319 `20ECh: Ready to Record` - 20ECh: Ready to Record
+- p319 `20EEh: Maximum Velocity for Drive and Motor` - 20EEh: Maximum Velocity for Drive and Motor
+- p320 `20EFh: Dead Time Compensation Minimal Level` - 20EFh: Dead Time Compensation Minimal Level
+- p320 `20F0h: Maximum Current for Drive and Motor` - 20F0h: Maximum Current for Drive and Motor
+- p321 `20F2h: Analog Input 1` - 20F2h: Analog Input 1
+- p321 `20F3h: Analog Input 1 Deadband` - 20F3h: Analog Input 1 Deadband
+- p322 `20F4h: Analog Input 1 Current Scaling` - 20F4h: Analog Input 1 Current Scaling
+- p322 `20F5h: Analog Input 1 Low Pass Filter` - 20F5h: Analog Input 1 Low Pass Filter
+- p323 `20F6h: Analog Input 1 Offset` - 20F6h: Analog Input 1 Offset
+- p323 `20F7h: Analog Input 1 Velocity Scaling` - 20F7h: Analog Input 1 Velocity Scaling
+- p324 `20F8h: Analog Input 1 Zeroing` - 20F8h: Analog Input 1 Zeroing
+- p324 `20F9h: Analog Input 2` - 20F9h: Analog Input 2
+- p325 `20FAh: Analog Input 2 Deadband` - 20FAh: Analog Input 2 Deadband
+- p325 `20FBh: Analog Input 2 Current Scaling` - 20FBh: Analog Input 2 Current Scaling
+- p326 `20FCh: Analog Input 2 Low Pass Filter` - 20FCh: Analog Input 2 Low Pass Filter
+- p326 `20FDh: Analog Input 2 Offset` - 20FDh: Analog Input 2 Offset
+- p327 `20FFh: Analog Input 2 Zeroing` - 20FFh: Analog Input 2 Zeroing
+- p328 `2100h: Analog Input 2 Mode` - 2100h: Analog Input 2 Mode
+- p329 `2103h: Homing Command` - 2103h: Homing Command
+- p329 `2104h: Current Level for Homing on Hard Stop` - 2104h: Current Level for Homing on Hard Stop
+- p330 `2106h: Current Loop Compatibility Mode` - 2106h: Current Loop Compatibility Mode
+- p330 `2108h: Position Command Moving Average Filter` - 2108h: Position Command Moving Average Filter
+- p331 `2109h: Position Command Smoothing Mode` - 2109h: Position Command Smoothing Mode
+- p331 `210Bh: HD Anti-Vibration - Load to Motor Inertia Ratio` - 210Bh: HD Anti-Vibration - Load to Motor Inertia Ratio
+- p332 `210Ch: HD Anti-Vibration Filter - Divider` - 210Ch: HD Anti-Vibration Filter - Divider
+- p332 `210Dh: HD Current Filter Low Pass Filter Rise Time` - 210Dh: HD Current Filter Low Pass Filter Rise Time
+- p333 `2113h: Drive Ready` - 2113h: Drive Ready
+- p333 `2114h: Drive Status (CAN only)` - 2114h: Drive Status ?? CAN?
+- p335 `2115h: Step Command` - 2115h: Step Command
+- p338 `2116h: Position Motion Ended` - 2116h: Position Motion Ended
+- p338 `2117h: Units Linear Acc/Dec` - 2117h: Units Linear Acc/Dec
+- p339 `2118h: Units Linear Position` - 2118h: Units Linear Position
+- p339 `2119h: Units Linear Velocity` - 2119h: Units Linear Velocity
+- p340 `211Ah: Units Rotary Acc/Dec` - 211Ah: Units Rotary Acc/Dec
+- p340 `211Bh: Units Rotary Position` - 211Bh: Units Rotary Position
+- p341 `211Ch: Units Rotary Velocity` - 211Ch: Units Rotary Velocity
+- p341 `211Dh: Velocity Filter Pole Frequency` - 211Dh: Velocity Filter Pole Frequency
+- p342 `211Eh: Gear` - 211Eh: Gear
+- p342 `2120h: Gear Acceleration Threshold` - 2120h: Gear Acceleration Threshold
+- p343 `2121h: Gear Filter Acceleration Feedforward` - 2121h: Gear Filter Acceleration Feedforward
+- p343 `2122h: Gear Filter Mode` - 2122h: Gear Filter Mode
+- p344 `2123h: Gear Filter Depth` - 2123h: Gear Filter Depth
+- p344 `2124h: Gear Filter Velocity and Acceleration Depth` - 2124h: Gear Filter Velocity and Acceleration Depth
+- p345 `2125h: Gear Filter Velocity Feedforward` - 2125h: Gear Filter Velocity Feedforward
+- p345 `2126h: Gear Ratio Numerator` - 2126h: Gear Ratio Numerator
+- p346 `2127h: Gearing Input Interpolation` - 2127h: Gearing Input Interpolation
+- p346 `2128h: Gear Following Limits Mode` - 2128h: Gear Following Limits Mode
+- p347 `2129h: Gear Ratio Denominator` - 2129h: Gear Ratio Denominator
+- p347 `212Ah: Drive Info (CAN only)` - 212Ah: Drive Info ?? CAN?
+- p348 `212Bh: Torque Window` - 212Bh: Torque Window
+- p349 `212Ch: Block Controlword` - 212Ch: Block ???
+- p349 `212Dh: HD Anti-Vibration 2 Filter - Sharpness` - 212Dh: HD Anti-Vibration 2 Filter - Sharpness
+- p350 `212Eh: HD KIDV Gain` - 212Eh: HD KIDV Gain
+- p350 `212Fh: HD KPI Gain` - 212Fh: HD KPI Gain
+- p351 `2130h: Torque Slope Enable` - 2130h: ???? Enable
+- p351 `2131h: Touch Probe Event Counter` - 2131h: Touch Probe Event Counter
+- p352 `2133h: Analog Output Value` - 2133h: Analog Output Value
+- p352 `2134h: Analog Output Command` - 2134h: Analog Output Command
+- p353 `2135h: Analog Output Current Scaling` - 2135h: Analog Output Current Scaling
+- p353 `2136h: Analog Output Voltage Limit` - 2136h: Analog Output Voltage Limit
+- p354 `2137h: Analog Output Mode` - 2137h: Analog Output Mode
+- p355 `2138h: Analog Output Velocity Scaling` - 2138h: Analog Output Velocity Scaling
+- p355 `2139h: Secondary Feedback Mode` - 2139h: Secondary Feedback Mode
+- p356 `213Ah: Secondary Feedback Type` - 213Ah: Secondary Feedback Type
+- p356 `213Bh: Secondary Feedback Scaling Numerator ` - 213Bh: Secondary Feedback Scaling Numerator 
+- p357 `213Ch: Secondary Feedback Scaling Denominator` - 213Ch: Secondary Feedback Scaling Denominator
+- p357 `213Dh: Motor to Load Scaling Numerator` - 213Dh: Motor to Load Scaling Numerator
+- p358 `213Eh: Motor to Load Scaling Denominator` - 213Eh: Motor to Load Scaling Denominator
+- p358 `213Fh: Secondary Feedback Offset` - 213Fh: Secondary Feedback Offset
+- p359 `2140h: Secondary Feedback Position Actual Value` - 2140h: Secondary Feedback ?????
+- p359 `2141h: Secondary Feedback Load Velocity` - 2141h: Secondary Feedback Load Velocity
+- p360 `2142h: Primary Position Actual Value` - 2142h: Primary ?????
+- p360 `2143h: Motor Velocity` - 2143h: Motor Velocity
+- p361 `2144h: Secondary Feedback Position Error Max` - 2144h: Secondary Feedback Position Error Max
+- p361 `2145h: Secondary Feedback Position Error Threshold` - 2145h: Secondary Feedback Position Error Threshold
+- p362 `2147h: Touch Probe Sampled Data Rising` - 2147h: Touch Probe Sampled Data Rising
+- p364 `2148h: Touch Probe Sampled Data Falling` - 2148h: Touch Probe Sampled Data Falling
+- p366 `2149h: Touch Probe Variables` - 2149h: Touch Probe Variables
+- p366 `214Ah: Software Position Limit Switch Hysteresis Value` - 214Ah: ?????? Switch Hysteresis Value
+- p367 `214Bh: Touch Probe 1 Stable Input Level Duration` - 214Bh: Touch Probe 1 Stable Input Level Duration
+- p367 `214Ch: sensAR Encoder Info (CAN only)` - 214Ch: sensAR Encoder Info ?? CAN?
+- p369 `214Eh: Position Modulo Mode` - 214Eh: Position Modulo Mode
+- p369 `214Fh: Position Modulo Range` - 214Fh: Position Modulo Range
+- p370 `2150h: Counts Per Revolution` - 2150h: Counts Per Revolution
+- p371 `2158h: Force Digital Output State on Fault` - 2158h: Force Digital Output State on Fault
+- p372 `2159h: Heartbeat Tolerance` - 2159h: Heartbeat Tolerance
+- p373 `215Ah: Sankyo Multi-Turn Reset` - 215Ah: Sankyo Multi-Turn Reset
+- p373 `215Bh: Voltage State` - 215Bh: Voltage State
+- p374 `215Ch: Voltage Non-Volatile State` - 215Ch: Voltage Non-Volatile State
+- p374 `2161h: Secondary Feedback Position` - 2161h: Secondary Feedback Position
+- p375 `2162h: Secondary Feedback Offset - User Units` - 2162h: Secondary Feedback Offset - User Units
+- p375 `2168h: Secondary Feedback Position Error` - 2168h: Secondary Feedback Position Error
+- p376 `216Bh: Touch Probe 2 Stable Input Level Duration` - 216Bh: Touch Probe 2 Stable Input Level Duration
+- p376 `216Ch: CANopen Manufacturer Specific SDO Abort Code (CAN only)` - 216Ch: CANopen Manufacturer Specific SDO Abort Code ?? CAN?
+- p377 `216Dh: Analog Input 2 Voltage in User Units` - 216Dh: Analog Input 2 Voltage in User Units
+- p378 `216Eh: Analog Input 2 Value Conversion - Denominator` - 216Eh: Analog Input 2 Value Conversion - Denominator
+- p379 `216Fh: Analog Input 2 Value Conversion - Numerator` - 216Fh: Analog Input 2 Value Conversion - Numerator
+- p379 `2170h: Analog Input 2 Value Conversion - Offset` - 2170h: Analog Input 2 Value Conversion - Offset
+- p380 `2173h: Motor Pitch High Resolution` - 2173h: Motor Pitch High Resolution
+- p380 `2176h: BiSS-C Protocol Properties` - 2176h: BiSS-C Protocol Properties
+- p382 `2179h: Halls-Only Commutation Mode` - 2179h: Halls-Only Commutation Mode
+- p383 `217Ah: Debug Position Command` - 217Ah: Debug Position Command
+- p383 `217Bh: Zeroing MPHASE Value` - 217Bh: Zeroing MPHASE Value
+- p384 `217Ch: Reference Offset Value` - 217Ch: Reference Offset Value
+- p384 `217Dh: Hardware Version` - 217Dh: Hardware Version
+- p386 `2182h: Hardware Position External (FPGA)` - 2182h: Hardware Position External (FPGA)
+- p386 `2183h: Touch Probe 2 Event Counter (CAN only)` - 2183h: Touch Probe 2 Event Counter ?? CAN?
+- p387 `2184h: Touch Probe 2 Sampled Data Rising (CAN only)` - 2184h: Touch Probe 2 Sampled Data Rising ?? CAN?
+- p389 `2185h: Touch Probe 2 Sampled Data Falling (CAN only)` - 2185h: Touch Probe 2 Sampled Data Falling ?? CAN?
+- p391 `2186h: Multi-turn Encoder Reset (CAN only)` - 2186h: Multi-turn Encoder Reset ?? CAN?
+- p391 `2187h: Ignore Absolute Encoder Battery Fault (CAN only)` - 2187h: Ignore Absolute Encoder Battery Fault ?? CAN?
+- p392 `2188h: Advanced Pole Placement D Polynomial` - 2188h: Advanced Pole Placement D Polynomial
+- p395 `2189h: Advanced Pole Placement Global Gain` - 2189h: Advanced Pole Placement Global Gain
+- p396 `218Ah: PRB Current Command` - 218Ah: PRB Current Command
+- p396 `218Bh: PRB Hold Mode` - 218Bh: PRB Hold Mode
+- p397 `218Dh: Delayed Position Error` - 218Dh: Delayed Position Error
+- p398 `218Eh: Delay for Delayed Position Error` - 218Eh: Delay for Delayed Position Error
+- p398 `218Fh: KPP Change Mode` - 218Fh: KPP Change Mode
+- p399 `2191h: PCOM 1 Controlword` - 2191h: PCOM 1 ???
+- p399 `2192h: PCOM 2 Controlword` - 2192h: PCOM 2 ???
+- p400 `2193h: PCOM 1 Statusword` - 2193h: PCOM 1 ???
+- p400 `2194h: PCOM 2 Statusword` - 2194h: PCOM 2 ???
+- p401 `2195h: PCOM 1 Direction` - 2195h: PCOM 1 Direction
+- p401 `2196h: PCOM 2 Direction` - 2196h: PCOM 2 Direction
+- p402 `2197h: PCOM 1 Table Length` - 2197h: PCOM 1 Table Length
+- p402 `2198h: PCOM 2 Table Length` - 2198h: PCOM 2 Table Length
+- p403 `2199h: PCOM 1 Output Pulse Width` - 2199h: PCOM 1 Output Pulse Width
+- p403 `219Ah: PCOM 2 Output Pulse Width` - 219Ah: PCOM 2 Output Pulse Width
+- p404 `219Bh: PCOM 1 Periodic Start` - 219Bh: PCOM 1 Periodic Start
+- p404 `219Ch: PCOM 2 Periodic Start` - 219Ch: PCOM 2 Periodic Start
+- p405 `219Dh: PCOM 1 Periodic End` - 219Dh: PCOM 1 Periodic End
+- p405 `219Eh: PCOM 2 Periodic End` - 219Eh: PCOM 2 Periodic End
+- p406 `219Fh: PCOM 1 Periodic Interval` - 219Fh: PCOM 1 Periodic Interval
+- p406 `21A0h: PCOM 2 Periodic Interval` - 21A0h: PCOM 2 Periodic Interval
+- p407 `21A1h: PCOM 1 Table Entry` - 21A1h: PCOM 1 Table Entry
+- p409 `21A2h: PCOM 2 Table Entry` - 21A2h: PCOM 2 Table Entry
+- p411 `21A3h: Differential Port Mode` - 21A3h: Differential Port Mode
+- p412 `21A4h: Seconday Feedback Direction` - 21A4h: Seconday Feedback Direction
+- p413 `21A5h: Secondary Feedback Type AqB Encoder` - 21A5h: Secondary Feedback Type AqB Encoder
+- p413 `21A6h: Secondary Feedback Resolution` - 21A6h: Secondary Feedback Resolution
+- p414 `21A8h: Motor Acceleration` - 21A8h: Motor Acceleration
+- p415 `21A9h: Seconday Feedback Acceleration` - 21A9h: Seconday Feedback Acceleration
+- p416 `21AAh: Motor Deceleration` - 21AAh: Motor Deceleration
+- p417 `21ABh: Seconday Feedback Deceleration` - 21ABh: Seconday Feedback Deceleration
+- p417 `21ACh: User Parameter` - 21ACh: User Parameter
+- p418 `21ADh: Parameters Over FOE Results` - 21ADh: Parameters Over FOE Results
+- p420 `2200h: Gantry Settings` - 2200h: Gantry Settings
+- p423 `2201h: Gantry Position Feedback` - 2201h: Gantry Position Feedback
+- p425 `2202h: Gantry Velocity Feedback` - 2202h: Gantry Velocity Feedback
+- p426 `2203h: Gantry Position Controllers Current Commands` - 2203h: Gantry Position Controllers Current Commands
+- p428 `2204h: Gantry Indicators` - 2204h: Gantry Indicators
+- p429 `220Ah: Gear Filter Depth` - 220Ah: Gear Filter Depth
+- p430 `11 Standard Servo Drive Objects` - 11 ?????????
+- p430 `603Fh: Error Code` - 603Fh: ????
+- p431 `6040h: Controlword` - 6040h: ???
+- p432 `6041h: Statusword` - 6041h: ???
+- p433 `605Bh: Shutdown Option Code` - 605Bh: Shutdown Option Code
+- p434 `605Ch: Disable Operation Option Code` - 605Ch: Disable Operation Option Code
+- p435 `605Dh: Halt Option Code` - 605Dh: Halt Option Code
+- p436 `605Eh: Fault Response Options` - 605Eh: Fault Response Options
+- p437 `6060h: Modes of Operation` - 6060h: ????
+- p438 `6061h: Modes of Operation Display` - 6061h: ??????
+- p439 `6062h: Position Demand Value` - 6062h: Position Demand Value
+- p439 `6063h: Position Actual Internal Value` - 6063h: Position Actual Internal Value
+- p440 `6064h: Position Actual Value` - 6064h: ?????
+- p441 `6065h: Following Error Window` - 6065h: Following Error Window
+- p442 `6066h: Following Error Time Out` - 6066h: Following Error Time Out
+- p443 `6067h: Position Window` - 6067h: Position Window
+- p444 `6068h: Position Window Time` - 6068h: Position Window Time
+- p444 `606Bh: Velocity Demand Value` - 606Bh: Velocity Demand Value
+- p445 `606Ch: Velocity Actual Value` - 606Ch: Velocity Actual Value
+- p445 `606Dh: Velocity Window` - 606Dh: Velocity Window
+- p446 `606Eh: Velocity Window Time` - 606Eh: Velocity Window Time
+- p446 `606Fh: Velocity Threshold` - 606Fh: Velocity Threshold
+- p447 `6070h: Velocity Threshold Time` - 6070h: Velocity Threshold Time
+- p447 `6071h: Target Torque` - 6071h: ????
+- p448 `6073h: Maximum Current` - 6073h: Maximum Current
+- p449 `6074h: Torque Demand Value` - 6074h: Torque Demand Value
+- p449 `6075h: Motor Rated Current` - 6075h: Motor Rated Current
+- p450 `6076h: Motor Rated Torque` - 6076h: Motor Rated Torque
+- p450 `6077h: Torque Actual Value` - 6077h: Torque Actual Value
+- p451 `6078h: Current Actual Value` - 6078h: Current Actual Value
+- p451 `6079h: DC Link Circuit Voltage` - 6079h: DC Link Circuit Voltage
+- p452 `607Ah: Target Position` - 607Ah: ????
+- p453 `607Ch: Home Offset` - 607Ch: Home Offset
+- p454 `607Dh: Software Position Limit` - 607Dh: ??????
+- p455 `607Eh: Polarity` - 607Eh: ??
+- p456 `607Fh: Maximum Profile Velocity` - 607Fh: Maximum ????
+- p456 `6080h: Motor Maximum Speed` - 6080h: Motor Maximum Speed
+- p457 `6081h: Profile Velocity in Profile Position Mode` - 6081h: ???? in Profile Position Mode
+- p457 `6083h: Profile Acceleration` - 6083h: ?????
+- p458 `6084h: Profile Deceleration` - 6084h: ?????
+- p459 `6085h: Quick Stop Deceleration` - 6085h: ???????
+- p459 `6087h: Torque Slope` - 6087h: ????
+- p460 `608Fh: Position Encoder Resolution` - 608Fh: Position Encoder Resolution
+- p461 `6091h: Fieldbus Gear Ratio` - 6091h: ???????
+- p463 `6092h: Feed Constant` - 6092h: ????
+- p464 `6098h: Homing Method` - 6098h: ????
+- p465 `6099h: Homing Speeds` - 6099h: ????
+- p466 `609Ah: Homing Acceleration` - 609Ah: ?????
+- p467 `60B0h: Position Offset` - 60B0h: Position Offset
+- p468 `60B1h: Velocity Offset` - 60B1h: Velocity Offset
+- p469 `60B2h: Torque Offset` - 60B2h: Torque Offset
+- p470 `60B8h: Touch Probe Function` - 60B8h: ??????
+- p472 `60B9h: Touch Probe Status` - 60B9h: ??????
+- p473 `60BAh: Touch Probe 1 Position Positive Value` - 60BAh: Touch Probe 1 Position Positive Value
+- p473 `60BBh: Touch Probe 1 Position Negative Value` - 60BBh: Touch Probe 1 Position Negative Value
+- p474 `60BCh: Touch Probe 2 Position Positive Value (CAN only)` - 60BCh: Touch Probe 2 Position Positive Value ?? CAN?
+- p474 `60BDh: Touch Probe 2 Position Negative Value (CAN only)` - 60BDh: Touch Probe 2 Position Negative Value ?? CAN?
+- p475 `60C0h: Interpolation Submode` - 60C0h: Interpolation Submode
+- p476 `60C1h: Interpolation Data Record` - 60C1h: ??????
+- p478 `60C2h: Fieldbus Interpolation Time` - 60C2h: ????????
+- p480 `60C4h: Interpolation Data Configuration` - 60C4h: Interpolation Data Configuration
+- p483 `60C5h: Maximum Acceleration` - 60C5h: ?????
+- p483 `60C6h: Maximum Deceleration` - 60C6h: ?????
+- p484 `60D0h: Touch Probe Source (CAN only)` - 60D0h: Touch Probe Source ?? CAN?
+- p485 `60D5h: Touch Probe 1 Positive Edge Counter` - 60D5h: Touch Probe 1 Positive Edge Counter
+- p486 `60D6h: Touch Probe 1 Negative Edge Counter` - 60D6h: Touch Probe 1 Negative Edge Counter
+- p486 `60D7h: Touch Probe 2 Positive Edge Counter` - 60D7h: Touch Probe 2 Positive Edge Counter
+- p487 `60D8h: Touch Probe 2 Negative Edge Counter` - 60D8h: Touch Probe 2 Negative Edge Counter
+- p488 `60F2h: Positioning Option Code` - 60F2h: Positioning Option Code
+- p489 `60F4h: Following Error Actual Value` - 60F4h: Following Error Actual Value
+- p489 `60FCh: Position Demand Internal Value` - 60FCh: Position Demand Internal Value
+- p489 `60FDh: Digital Inputs` - 60FDh: Digital Inputs
+- p491 `60FEh: Digital Outputs` - 60FEh: Digital Outputs
+- p493 `60FFh: Target Velocity` - 60FFh: ????
+- p494 `6502h: Supported Drive Modes` - 6502h: Supported Drive Modes
+- p495 `12 CANopen and EtherCAT Troubleshooting` - 12 CANopen and EtherCAT Troubleshooting
+- p495 `1.1 Warning Codes` - 1.1 Warning Codes
+- p495 `1.2 Error Codes` - 1.2 ????s
+- p496 `1.3 Emergency Error (Fault) Codes ` - 1.3 Emergency Error (Fault) Codes 
+- p497 `12.1 Common Communication Problems` - 12.1 Common Communication Problems

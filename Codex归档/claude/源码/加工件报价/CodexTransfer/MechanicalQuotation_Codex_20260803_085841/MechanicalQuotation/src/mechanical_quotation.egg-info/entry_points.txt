@@ -1,0 +1,2 @@
+[console_scripts]
+quotation = quotation.cli.main:cli

@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-08-01 17:19:49",
+  "results": [
+    {
+      "項目": "Python 執行環境",
+      "狀態": "正常",
+      "詳情": "Python 3.14.6"
+    },
+    {
+      "項目": "規則文件",
+      "狀態": "正常",
+      "詳情": "D:\\claude\\加工件报价\\MechanicalQuotation\\rules\\quotation-rules.yaml"
+    },
+    {
+      "項目": "已發布公司價格表",
+      "狀態": "正常",
+      "詳情": "D:\\claude\\加工件报价\\MechanicalQuotation\\data\\company-pricebook-r01-v1.0-snapshot.json"
+    },
+    {
+      "項目": "當前版本指針",
+      "狀態": "正常",
+      "詳情": "D:\\claude\\加工件报价\\MechanicalQuotation\\data\\current-version-pointer.json"
+    },
+    {
+      "項目": "Snapshot SHA256",
+      "狀態": "正常",
+      "詳情": "SHA256=ad2c27821d733c48..."
+    },
+    {
+      "項目": "Excel 輸出目錄",
+      "狀態": "正常",
+      "詳情": "D:\\claude\\加工件报价\\MechanicalQuotation\\runtime\\exports"
+    },
+    {
+      "項目": "SQLite 資料庫",
+      "狀態": "正常",
+      "詳情": "D:\\claude\\加工件报价\\MechanicalQuotation\\runtime\\data\\quotation_history.db"
+    },
+    {
+      "項目": "API 端口 8000",
+      "狀態": "正常",
+      "詳情": "可用"
+    },
+    {
+      "項目": "DeepSeek Key 配置",
+      "狀態": "正常",
+      "詳情": "已配置"
+    },
+    {
+      "項目": "DeepSeek 連線",
+      "狀態": "正常",
+      "詳情": "延遲 77.8ms"
+    },
+    {
+      "項目": "Tkinter 可用",
+      "狀態": "正常",
+      "詳情": "OK"
+    },
+    {
+      "項目": "DXF Parser",
+      "狀態": "正常",
+      "詳情": "就緒"
+    },
+    {
+      "項目": "稅率配置",
+      "狀態": "正常",
+      "詳情": "17% 增值稅(未稅基準)"
+    }
+  ],
+  "summary": {
+    "正常": 13,
+    "警告": 0,
+    "失敗": 0
+  }
+}

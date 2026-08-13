@@ -1,0 +1,218 @@
+{
+  "price_version_id": "GCS-FEATURE-CALIBRATION-V1.0",
+  "status": "ACTIVE_REVIEW_REQUIRED",
+  "model_type": "RIDGE_LOG_PRICE_FROM_DRAWING_FEATURES",
+  "production_matching_fields": [
+    "material",
+    "overall_dimensions",
+    "surface_treatment_family"
+  ],
+  "prohibited_matching_fields": [
+    "part_number",
+    "drawing_number",
+    "file_name"
+  ],
+  "source_type": "BOM_PRICE_CALIBRATION_BENCHMARK",
+  "source_file": "GCS-双滑台打磨设备-BOM.xlsx",
+  "source_sha256": "DC60ACC9C86B65887D8E1CF55BAD71A9510380A190D878E950F5FBD2406C65E7",
+  "source_modified_at": "2026-07-29T06:29:50.907644+00:00",
+  "trained_at": "2026-08-03T08:24:37.205150+00:00",
+  "training_count": 62,
+  "excluded_source_rows": [
+    26,
+    57,
+    192,
+    213
+  ],
+  "source_rows": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    53,
+    54,
+    55,
+    56,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    172,
+    173,
+    190,
+    191,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    275,
+    276
+  ],
+  "price_basis": "BOM_UNIT_COST_BASIS_UNSPECIFIED",
+  "model": {
+    "ridge_alpha": 0.01,
+    "feature_names": [
+      "intercept",
+      "log_dimension_1",
+      "log_dimension_2",
+      "log_dimension_3",
+      "log_volume",
+      "log_face_area",
+      "material=S50C",
+      "material=SPCC",
+      "material=SUS304",
+      "material=方通",
+      "surface=chrome",
+      "surface=none",
+      "surface=paint"
+    ],
+    "material_categories": [
+      "A6061-T6",
+      "S50C",
+      "SPCC",
+      "SUS304",
+      "方通"
+    ],
+    "surface_categories": [
+      "anodize",
+      "chrome",
+      "none",
+      "paint"
+    ],
+    "coefficients": [
+      -1.104719942935,
+      2.715293860128,
+      2.61613657392,
+      3.041105296306,
+      -2.462409133943,
+      0.233520043375,
+      0.191573152757,
+      -1.357859086402,
+      -0.893739694585,
+      0.566817649542,
+      0.191573152757,
+      -0.893739694585,
+      -0.791041436858
+    ]
+  },
+  "material_dimension_domains": {
+    "A6061-T6": {
+      "sample_count": 23,
+      "minimum": [
+        40.0,
+        15.0,
+        1.0
+      ],
+      "maximum": [
+        308.5,
+        220.0,
+        34.5
+      ]
+    },
+    "S50C": {
+      "sample_count": 8,
+      "minimum": [
+        50.0,
+        23.0,
+        15.0
+      ],
+      "maximum": [
+        1400.0,
+        796.0,
+        29.0
+      ]
+    },
+    "SPCC": {
+      "sample_count": 18,
+      "minimum": [
+        56.0,
+        50.0,
+        2.0
+      ],
+      "maximum": [
+        1300.0,
+        200.3,
+        88.0
+      ]
+    },
+    "SUS304": {
+      "sample_count": 11,
+      "minimum": [
+        35.0,
+        26.0,
+        2.0
+      ],
+      "maximum": [
+        980.0,
+        330.0,
+        133.0
+      ]
+    },
+    "方通": {
+      "sample_count": 2,
+      "minimum": [
+        258.0,
+        220.0,
+        130.0
+      ],
+      "maximum": [
+        1400.0,
+        1300.0,
+        785.0
+      ]
+    }
+  },
+  "validation": {
+    "method": "LEAVE_ONE_OUT_CROSS_VALIDATION",
+    "case_count": 62,
+    "leave_one_out_wape_pct": 15.78,
+    "leave_one_out_mean_ape_pct": 26.27,
+    "leave_one_out_mae_cny": 42.41,
+    "buckets": {
+      "<=10%": 16,
+      "10-20%": 9,
+      "20-30%": 8,
+      ">30%": 29
+    }
+  }
+}

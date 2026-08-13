@@ -1,0 +1,23 @@
+{
+  "elements": [
+    {"id":"header-left","kind":"text","priority":"P1","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":42,"y":33,"w":329,"h":25}},
+    {"id":"header-right","kind":"text","priority":"P1","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":1378,"y":31,"w":258,"h":25}},
+    {"id":"header-rule","kind":"line","priority":"P2","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":43,"y":61,"w":1593,"h":2}},
+    {"id":"main-title","kind":"text","priority":"P0","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":88,"y":300,"w":715,"h":183}},
+    {"id":"subtitle","kind":"text","priority":"P0","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":91,"y":528,"w":614,"h":83}},
+    {"id":"accent-rule","kind":"line","priority":"P1","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":94,"y":650,"w":89,"h":5}},
+    {"id":"report-date","kind":"text","priority":"P1","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":93,"y":694,"w":272,"h":28}},
+    {"id":"pc-1","kind":"node","priority":"P1","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":857,"y":241,"w":148,"h":138}},
+    {"id":"pc-2","kind":"node","priority":"P1","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":857,"y":393,"w":148,"h":138}},
+    {"id":"pc-3","kind":"node","priority":"P1","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":857,"y":548,"w":148,"h":138}},
+    {"id":"pc-connectors","kind":"connectors","priority":"P1","measurement_mode":"group_with_child_anchors","must_reproduce":true,"blueprint_bbox_px":{"x":982,"y":301,"w":152,"h":323}},
+    {"id":"deepseek-core","kind":"node","priority":"P0","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":1103,"y":368,"w":213,"h":213}},
+    {"id":"smb-share","kind":"node","priority":"P0","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":1373,"y":339,"w":248,"h":238}},
+    {"id":"framework-orbit","kind":"decorative-geometry","priority":"P2","measurement_mode":"decorative_group","must_reproduce":true,"blueprint_bbox_px":{"x":962,"y":190,"w":516,"h":549}},
+    {"id":"robot-arm","kind":"decorative-icon","priority":"P2","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":1438,"y":145,"w":153,"h":140}},
+    {"id":"plc-gears","kind":"decorative-icon-group","priority":"P2","measurement_mode":"decorative_group","must_reproduce":true,"blueprint_bbox_px":{"x":1354,"y":628,"w":232,"h":164}},
+    {"id":"footer-rule","kind":"line","priority":"P2","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":44,"y":867,"w":1588,"h":2}},
+    {"id":"footer-source","kind":"text","priority":"P1","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":44,"y":886,"w":369,"h":23}},
+    {"id":"page-number","kind":"page-number","priority":"P1","measurement_mode":"individual_bbox","must_reproduce":true,"blueprint_bbox_px":{"x":1535,"y":879,"w":88,"h":34}}
+  ]
+}

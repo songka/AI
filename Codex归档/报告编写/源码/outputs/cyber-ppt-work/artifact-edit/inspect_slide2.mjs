@@ -1,0 +1,21 @@
+import fs from 'node:fs/promises';
+import { FileBlob, PresentationFile } from '@oai/artifact-tool';
+
+const input = 'C:/Users/lfaf-test/Documents/报告编写/outputs/视觉无序抓取_电气技术汇报_完整评审稿_R004.pptx';
+const p = await PresentationFile.importPptx(await FileBlob.load(input));
+console.log('slides', p.slides.items.length);
+const s = p.slides.items[1];
+console.log('slide keys', Object.keys(s));
+console.log('shape collection keys', Object.keys(s.shapes));
+console.log('shape count', s.shapes.items?.length);
+console.log('image count', s.images.items?.length);
+console.log('shape proto', Object.getOwnPropertyNames(Object.getPrototypeOf(s.shapes)));
+console.log('image proto', Object.getOwnPropertyNames(Object.getPrototypeOf(s.images)));
+console.log('slide proto', Object.getOwnPropertyNames(Object.getPrototypeOf(s)));
+console.log('first shape proto', Object.getOwnPropertyNames(Object.getPrototypeOf(s.shapes.items[0])));
+console.log('first shapes direct', s.shapes.items.slice(0,8).map(x=>({id:x.id,pos:x.position,snap:x.toSnapshot?.()})));
+const inspect = await p.inspect({ kind:'slide,textbox,shape,image,layout', maxChars:30000 });
+await fs.writeFile('C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/artifact-edit/inspect.ndjson', inspect.ndjson);
+const layout = await s.export({format:'layout'});
+await fs.writeFile('C:/Users/lfaf-test/Documents/报告编写/outputs/cyber-ppt-work/artifact-edit/slide2.layout.json', await layout.text());
+console.log(inspect.ndjson.slice(0,3000));
