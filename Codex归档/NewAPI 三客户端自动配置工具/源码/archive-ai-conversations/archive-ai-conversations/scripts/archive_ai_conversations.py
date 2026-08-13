@@ -245,12 +245,19 @@ def main() -> int:
         if project:
             copied, skipped = copy_source(project, folder / "源码", args.preview); source_copied += copied; source_skipped += skipped
         for session in group:
-            content = session_markdown(session)
-            if not content: continue
             stamp = re.sub(r"\D", "", session.updated_at)[:8] or "unknown"
             stem = f"{stamp}-{safe_name(session.title)}-{session.session_id[:8]}"
+            dialogue_dir = folder / "对话"
+            existing = list(dialogue_dir.glob(f"{stem}-*.md")) if dialogue_dir.is_dir() else []
+            try:
+                if existing and min(item.stat().st_mtime_ns for item in existing) >= session.path.stat().st_mtime_ns:
+                    continue
+            except OSError:
+                pass
+            content = session_markdown(session)
+            if not content: continue
             for index, offset in enumerate(range(0, len(content), MAX_PART_CHARS), 1):
-                target = folder / "对话" / f"{stem}-{index:03d}.md"; part = content[offset:offset + MAX_PART_CHARS]
+                target = dialogue_dir / f"{stem}-{index:03d}.md"; part = content[offset:offset + MAX_PART_CHARS]
                 if args.preview: changed += int(not target.exists() or target.read_text(encoding="utf-8", errors="replace") != part)
                 else: transcript_written += write_if_changed(target, part)
         manifest.append({"product": product, "project_id": project_id, "sessions": len(group)})
