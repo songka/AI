@@ -168,14 +168,16 @@ def markdown_for_session(session: Session) -> str:
 
 def write_parts(destination: Path, stem: str, content: str) -> list[Path]:
     destination.mkdir(parents=True, exist_ok=True)
-    for obsolete in destination.glob(f"{stem}-*.md"):
-        obsolete.unlink()
     chunks = [content[offset:offset + MAX_PART_CHARS] for offset in range(0, len(content), MAX_PART_CHARS)] or [content]
     paths: list[Path] = []
     for number, chunk in enumerate(chunks, start=1):
         path = destination / f"{stem}-{number:03d}.md"
-        path.write_text(chunk, encoding="utf-8")
+        if not path.exists() or path.read_text(encoding="utf-8", errors="replace") != chunk:
+            path.write_text(chunk, encoding="utf-8")
         paths.append(path)
+    for obsolete in destination.glob(f"{stem}-*.md"):
+        if obsolete not in paths:
+            obsolete.unlink()
     return paths
 
 
@@ -220,9 +222,16 @@ def copy_project(source: Path, destination: Path) -> int:
         for filename in files:
             path = root_path / filename
             relative = path.relative_to(source)
-            if not should_copy(relative) or contains_secret(path):
+            if not should_copy(relative):
                 continue
             target = destination / relative
+            try:
+                if target.exists() and target.stat().st_size == path.stat().st_size and target.stat().st_mtime_ns >= path.stat().st_mtime_ns:
+                    continue
+            except OSError:
+                pass
+            if contains_secret(path):
+                continue
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(path, target)
             copied += 1
@@ -284,6 +293,12 @@ def main() -> int:
         for session in group:
             timestamp = re.sub(r"[^0-9]", "", session.updated_at)[:8] or "unknown-date"
             stem = f"{timestamp}-{safe_name(session.title)}-{session.session_id[:8]}"
+            existing_parts = list(conversations.glob(f"{stem}-*.md")) if conversations.exists() else []
+            try:
+                if existing_parts and min(part.stat().st_mtime_ns for part in existing_parts) >= session.path.stat().st_mtime_ns:
+                    continue
+            except OSError:
+                pass
             write_parts(conversations, stem, markdown_for_session(session))
         project_manifest.append({"project": project_name, "session_count": len(group), "source_files": source_count})
 

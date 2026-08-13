@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 对话安全归档"
+  short_description: "脱敏归档 Codex、Claude Code 与 OpenCode 对话和源码"
+  default_prompt: "使用 $archive-ai-conversations 将本机 AI 编程对话和源码脱敏同步到我的 Git 仓库。"

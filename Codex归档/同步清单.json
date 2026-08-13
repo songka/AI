@@ -3,22 +3,22 @@
     {
       "project": "加工件报价",
       "session_count": 4,
-      "source_files": 1056
+      "source_files": 0
     },
     {
       "project": "自动签核",
       "session_count": 2,
-      "source_files": 38
+      "source_files": 0
     },
     {
       "project": "claude",
       "session_count": 3,
-      "source_files": 1121
+      "source_files": 0
     },
     {
       "project": "測試",
       "session_count": 26,
-      "source_files": 2
+      "source_files": 0
     },
     {
       "project": "ce",
@@ -28,62 +28,62 @@
     {
       "project": "飞书自动签核",
       "session_count": 18,
-      "source_files": 64
+      "source_files": 0
     },
     {
       "project": "象棋",
       "session_count": 3,
-      "source_files": 33
+      "source_files": 0
     },
     {
       "project": "翻译工作",
       "session_count": 7,
-      "source_files": 66
+      "source_files": 0
     },
     {
       "project": "测试",
       "session_count": 18,
-      "source_files": 383
+      "source_files": 0
     },
     {
       "project": "时序图",
       "session_count": 13,
-      "source_files": 87
+      "source_files": 0
     },
     {
       "project": "料号检测系统",
       "session_count": 11,
-      "source_files": 546
+      "source_files": 0
     },
     {
       "project": "料号查找",
       "session_count": 29,
-      "source_files": 115
+      "source_files": 0
     },
     {
       "project": "报告编写",
       "session_count": 28,
-      "source_files": 557
+      "source_files": 0
     },
     {
       "project": "报价系统",
       "session_count": 14,
-      "source_files": 7630
+      "source_files": 0
     },
     {
       "project": "meili-2",
       "session_count": 3,
-      "source_files": 27
+      "source_files": 0
     },
     {
       "project": "meili",
       "session_count": 4,
-      "source_files": 3
+      "source_files": 0
     },
     {
       "project": "PLC-Programming(PLC编程开发综合)",
       "session_count": 4,
-      "source_files": 86
+      "source_files": 0
     },
     {
       "project": "wo",
@@ -98,7 +98,7 @@
     {
       "project": "sites-plugin-sites-openai-bundled",
       "session_count": 2,
-      "source_files": 25
+      "source_files": 0
     },
     {
       "project": "ce",
@@ -108,17 +108,17 @@
     {
       "project": "AI管理",
       "session_count": 4,
-      "source_files": 162
+      "source_files": 0
     },
     {
       "project": "AI 编程助手会话迁移与归档工具",
       "session_count": 12,
-      "source_files": 291
+      "source_files": 0
     },
     {
       "project": "NewAPI 三客户端自动配置工具",
       "session_count": 15,
-      "source_files": 30
+      "source_files": 7
     }
   ]
 }
