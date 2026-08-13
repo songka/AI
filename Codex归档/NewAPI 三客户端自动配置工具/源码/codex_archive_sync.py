@@ -29,7 +29,8 @@ ARCHIVE_ROOT_NAME = "Codex归档"
 MAX_PART_CHARS = 200_000
 MAX_SOURCE_FILE_BYTES = 10 * 1024 * 1024
 EXCLUDED_DIRECTORY_NAMES = {
-    ".git", ".idea", ".vscode", ".venv", "venv", "node_modules", "__pycache__",
+    ".git", ".idea", ".vscode", ".codex", ".claude", ".opencode",
+    ".venv", "venv", "node_modules", "__pycache__",
     "build", "dist", ".next", ".nuxt", ".pytest_cache", ".mypy_cache", ".tox",
     "coverage", "target", "bin", "obj", "site-packages", "__pypackages__",
     ".launcher-payload", ".launcher-payload-fast-test-v7", "packages",
@@ -263,19 +264,21 @@ def main() -> int:
     project_manifest: list[dict[str, Any]] = []
     for project_path, group in projects.items():
         project_name = safe_name(project_path.name if project_path else "未关联项目")
+        project_key = hashlib.sha256(str(project_path or "").encode("utf-8")).hexdigest()[:16]
         # Preserve distinct same-name projects without leaking full local paths.
         folder = archive / project_name
         if folder.exists() and (folder / "project.json").exists():
             try:
                 known = json.loads((folder / "project.json").read_text(encoding="utf-8"))
-                if known.get("local_path") != str(project_path or ""):
-                    identifier = hashlib.sha256(str(project_path).encode("utf-8")).hexdigest()[:8]
+                if known.get("project_key") != project_key:
+                    identifier = project_key[:8]
                     folder = archive / f"{project_name}-{identifier}"
             except (OSError, ValueError):
                 pass
         folder.mkdir(parents=True, exist_ok=True)
-        project_key = hashlib.sha256(str(project_path or "").encode("utf-8")).hexdigest()[:16]
-        (folder / "project.json").write_text(json.dumps({"name": project_name, "project_key": project_key, "last_synced_at": datetime.now(timezone.utc).isoformat()}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        # Keep this metadata stable so a run with no real content changes does
+        # not create a pointless Git commit.  The local path is never stored.
+        (folder / "project.json").write_text(json.dumps({"name": project_name, "project_key": project_key}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         source_count = copy_project(project_path, folder / "源码") if project_path else 0
         conversations = folder / "对话"
         for session in group:
@@ -285,7 +288,7 @@ def main() -> int:
         project_manifest.append({"project": project_name, "session_count": len(group), "source_files": source_count})
 
     (archive / "README.md").write_text("# Codex 自动归档\n\n本目录由 `codex_archive_sync.py` 自动生成。对话已做常见凭据脱敏；每个项目独立目录，长对话自动分段。\n", encoding="utf-8")
-    (archive / "同步清单.json").write_text(json.dumps({"synced_at": datetime.now(timezone.utc).isoformat(), "projects": project_manifest}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (archive / "同步清单.json").write_text(json.dumps({"projects": project_manifest}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     git(repo, "add", ARCHIVE_ROOT_NAME)
     status = git(repo, "status", "--porcelain")
@@ -296,7 +299,10 @@ def main() -> int:
     if commit.returncode:
         raise SystemExit(commit.stderr or commit.stdout)
     if not args.no_push:
-        push = git(repo, "push", "origin", "main")
+        # `HEAD:main` also works from a linked/detached worktree and always
+        # pushes the commit that was just created, rather than another local
+        # branch that may be checked out elsewhere.
+        push = git(repo, "push", "origin", "HEAD:main")
         if push.returncode:
             raise SystemExit(push.stderr or push.stdout)
     print(f"已归档 {len(sessions)} 个会话、{len(project_manifest)} 个项目。")

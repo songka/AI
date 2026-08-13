@@ -1,20 +1,19 @@
 {
-  "synced_at": "2026-08-13T07:24:59.184423+00:00",
   "projects": [
     {
       "project": "加工件报价",
       "session_count": 4,
-      "source_files": 1057
+      "source_files": 1056
     },
     {
       "project": "自动签核",
       "session_count": 2,
-      "source_files": 53
+      "source_files": 38
     },
     {
       "project": "claude",
       "session_count": 3,
-      "source_files": 1138
+      "source_files": 1121
     },
     {
       "project": "測試",
@@ -59,12 +58,12 @@
     {
       "project": "料号查找",
       "session_count": 29,
-      "source_files": 121
+      "source_files": 115
     },
     {
       "project": "报告编写",
       "session_count": 28,
-      "source_files": 562
+      "source_files": 557
     },
     {
       "project": "报价系统",
@@ -114,11 +113,11 @@
     {
       "project": "AI 编程助手会话迁移与归档工具",
       "session_count": 12,
-      "source_files": 328
+      "source_files": 291
     },
     {
       "project": "NewAPI 三客户端自动配置工具",
-      "session_count": 6,
+      "session_count": 9,
       "source_files": 21
     }
   ]
