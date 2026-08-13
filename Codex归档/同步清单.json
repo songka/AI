@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "project": "加工件报价",
-      "session_count": 4,
+      "project": "claude",
+      "session_count": 3,
       "source_files": 0
     },
     {
@@ -11,8 +11,8 @@
       "source_files": 0
     },
     {
-      "project": "claude",
-      "session_count": 3,
+      "project": "加工件报价",
+      "session_count": 4,
       "source_files": 0
     },
     {
@@ -117,8 +117,8 @@
     },
     {
       "project": "NewAPI 三客户端自动配置工具",
-      "session_count": 17,
-      "source_files": 3
+      "session_count": 18,
+      "source_files": 1
     }
   ]
 }
