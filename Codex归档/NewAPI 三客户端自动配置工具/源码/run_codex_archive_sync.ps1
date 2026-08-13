@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'
 $scriptRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $pythonExe = 'C:\Users\lfaf-120-2\AppData\Local\Python\pythoncore-3.14-64\python.exe'
-$archiveRepo = Join-Path $scriptRoot 'codex-archive-repo\codex-archive-safe-final'
+$archiveRepo = Join-Path $scriptRoot 'codex-archive-repo\codex-archive-stable'
 
 if (-not (Test-Path -LiteralPath $pythonExe)) {
     throw "未找到 Python：$pythonExe"

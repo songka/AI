@@ -20,7 +20,7 @@ internal sealed class ModelScanner
         Action<string> log,
         CancellationToken cancellationToken)
     {
-        using var gateway = new NewApiGateway(baseUrl, token);
+        await using var gateway = new NewApiGateway(baseUrl, token);
         var results = new ModelCapability[modelIds.Count];
         var gate = new SemaphoreSlim(Math.Max(1, Math.Min(concurrency, 8)));
         var completed = 0;
@@ -60,7 +60,7 @@ internal sealed class ModelScanner
 
     public async Task<IReadOnlyList<string>> ListModelsAsync(string baseUrl, string token, CancellationToken cancellationToken)
     {
-        using var gateway = new NewApiGateway(baseUrl, token);
+        await using var gateway = new NewApiGateway(baseUrl, token);
         return await gateway.ListModelsAsync(cancellationToken).ConfigureAwait(false);
     }
 
@@ -299,7 +299,7 @@ internal sealed class ModelScanner
         }
 
         var accepted = capability.ReasoningControl.Where(pair => pair.Value == ProbeStatus.Confirmed).Select(pair => pair.Key).ToList();
-        log($"{modelId}: reasoning control accepted {string.Join(", ", accepted) or "none"}");
+        log($"{modelId}: reasoning control accepted {(accepted.Count > 0 ? string.Join(", ", accepted) : "none")}");
         return field;
     }
 
