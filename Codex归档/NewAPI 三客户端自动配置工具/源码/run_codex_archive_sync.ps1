@@ -68,9 +68,16 @@ $pushOk = $false
 
 for ($attempt = 1; $attempt -le $maxAttempts; $attempt++) {
     Write-Host "[sync] push attempt $attempt/$maxAttempts"
+    # git writes progress ("To https://...") to stderr; under PS 5.1 the 2>&1
+    # merge would turn that into a terminating error when EAP=Stop, so relax
+    # EAP for the native call and rely on $LASTEXITCODE instead.
+    $output = $null
+    $ErrorActionPreference = 'Continue'
     $output = & git -C $archiveRepo push origin HEAD:main 2>&1
-    if ($LASTEXITCODE -eq 0) { $pushOk = $true; break }
-    Write-Host "[sync] push attempt $attempt failed: $($output | Out-String)"
+    $pushExit = $LASTEXITCODE
+    $ErrorActionPreference = 'Stop'
+    if ($pushExit -eq 0) { $pushOk = $true; break }
+    Write-Host "[sync] push attempt $attempt failed (exit $pushExit): $($output | Out-String)"
     if ($attempt -lt $maxAttempts) {
         Start-Sleep -Seconds $delaySeconds
         $delaySeconds *= 2
