@@ -15,3 +15,6 @@ powershell -ExecutionPolicy Bypass -File review\run-round.ps1 -Round 1
 
 每轮输出写入 `review/round-XX/<agent>.md`。主 agent 根据发现的问题修复代码后，
 进入下一轮（共 5 轮），最后执行 Release 发布打包。
+
+> 注意：若外部 `codex exec` 子进程在沙箱环境中被中断（aborted/超时），
+> 可改为主对话内多角色审核（架构/安全/WPF UX/QA），等效完成 5 轮迭代。
