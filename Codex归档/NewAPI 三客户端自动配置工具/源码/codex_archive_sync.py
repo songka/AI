@@ -239,7 +239,7 @@ def copy_project(source: Path, destination: Path) -> int:
 
 
 def git(repo: Path, *args: str) -> subprocess.CompletedProcess[str]:
-    return subprocess.run(["git", "-C", str(repo), "-c", f"safe.directory={repo}", "-c", "http.version=HTTP/1.1", *args], text=True, capture_output=True, check=False)
+    return subprocess.run(["git", "-C", str(repo), "-c", f"safe.directory={repo}", "-c", "http.version=HTTP/1.1", *args], text=True, capture_output=True, encoding="utf-8", errors="replace", check=False)
 
 
 def main() -> int:
